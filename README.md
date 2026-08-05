@@ -1,7 +1,7 @@
 # ADP rankings aren't wrong.
 ### They're just not using the right variables.
 
-> **[Live Report](https://jbattohokson.github.io/Fantasy_Football_Draft_Analysis/Fantasy_Football_Analysis.html)** | [GitHub Repo](https://github.com/jbattohokson/Fantasy_Football_Draft_Analysis)
+> **[Live Report](https://jbattohokson.github.io/Fantasy_Football_Draft_Analysis/Fantasy_Football_Analysis.html)** | **[Tableau Dashboard](https://public.tableau.com/app/profile/julian.batto.hokson/viz/FF_PPR_Player_Production_Analysis_V2/Dashboard4)** | [GitHub Repo](https://github.com/jbattohokson/Fantasy_Football_Draft_Analysis)
 
 ---
 
