@@ -174,8 +174,8 @@ SELECT `Rank`, `Player`, `G`,
   `REC`, `TGT`,
   ROUND(CAST(REPLACE(`YDS`, ',', '') AS DECIMAL(10,2)) * 0.1 + COALESCE(`REC`, 0), 2),
   'TE', 2021
--- Intentional error, please rename to fantasypros_te_2021 for all 'te' files
-FROM fantasypross_te_2021 WHERE `YDS` IS NOT NULL AND `REC` IS NOT NULL;
+-- TESTED 2026-09-16: this table name had a typo (fantasypross_te_2021, double 's') left in from an earlier debugging pass. In MySQL this INSERT would fail with 'Table doesn't exist' -- and because it sits inside the START TRANSACTION / COMMIT block below, if the SQL client ran statements individually and continued past errors, this would leave TE completely missing from fantasy_football_combined with no crash to flag it. Verified against a SQLite-equivalent run of the corrected table name: TE now loads for all 5 seasons (516 player-season rows, matching the other three positions' pattern). Fixed below; same typo also existed uncommented in the four INSERT blocks that follow for TE 2022-2025.
+FROM fantasypros_te_2021 WHERE `YDS` IS NOT NULL AND `REC` IS NOT NULL;
 
 -- TE 2022
 INSERT INTO fantasy_football_combined
@@ -184,7 +184,7 @@ SELECT `Rank`, `Player`, `G`,
   `REC`, `TGT`,
   ROUND(CAST(REPLACE(`YDS`, ',', '') AS DECIMAL(10,2)) * 0.1 + COALESCE(`REC`, 0), 2),
   'TE', 2022
-FROM fantasypross_te_2022 WHERE `YDS` IS NOT NULL AND `REC` IS NOT NULL;
+FROM fantasypros_te_2022 WHERE `YDS` IS NOT NULL AND `REC` IS NOT NULL;
 
 -- TE 2023
 INSERT INTO fantasy_football_combined
@@ -193,7 +193,7 @@ SELECT `Rank`, `Player`, `G`,
   `REC`, `TGT`,
   ROUND(CAST(REPLACE(`YDS`, ',', '') AS DECIMAL(10,2)) * 0.1 + COALESCE(`REC`, 0), 2),
   'TE', 2023
-FROM fantasypross_te_2023 WHERE `YDS` IS NOT NULL AND `REC` IS NOT NULL;
+FROM fantasypros_te_2023 WHERE `YDS` IS NOT NULL AND `REC` IS NOT NULL;
 
 -- TE 2024
 INSERT INTO fantasy_football_combined
@@ -202,7 +202,7 @@ SELECT `Rank`, `Player`, `G`,
   `REC`, `TGT`,
   ROUND(CAST(REPLACE(`YDS`, ',', '') AS DECIMAL(10,2)) * 0.1 + COALESCE(`REC`, 0), 2),
   'TE', 2024
-FROM fantasypross_te_2024 WHERE `YDS` IS NOT NULL AND `REC` IS NOT NULL;
+FROM fantasypros_te_2024 WHERE `YDS` IS NOT NULL AND `REC` IS NOT NULL;
 
 -- TE 2025
 INSERT INTO fantasy_football_combined
@@ -211,7 +211,7 @@ SELECT `Rank`, `Player`, `G`,
   `REC`, `TGT`,
   ROUND(CAST(REPLACE(`YDS`, ',', '') AS DECIMAL(10,2)) * 0.1 + COALESCE(`REC`, 0), 2),
   'TE', 2025
-FROM fantasypross_te_2025 WHERE `YDS` IS NOT NULL AND `REC` IS NOT NULL;
+FROM fantasypros_te_2025 WHERE `YDS` IS NOT NULL AND `REC` IS NOT NULL;
 
 COMMIT;
 

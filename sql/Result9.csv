@@ -1,0 +1,5 @@
+pos,mean_pts,std_dev,cv,predictability
+WR,74.28,67.09,90.32,"Low Predictability"
+TE,52.29,49.34,94.37,"Low Predictability"
+QB,65.80,64.55,98.09,"Low Predictability"
+RB,32.40,41.24,127.28,"Low Predictability"

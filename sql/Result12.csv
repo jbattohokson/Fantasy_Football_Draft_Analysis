@@ -1,0 +1,2663 @@
+pos,player_name,pts,draft_rank,yr,tier_rank,tier
+QB,"Tom Brady (FA)",222.84,3,2021,1,"Elite (Top 3)"
+QB,"Patrick Mahomes II (KC)",220.60,1,2022,2,"Elite (Top 3)"
+QB,"Justin Herbert (LAC)",210.46,2,2021,3,"Elite (Top 3)"
+QB,"Joe Burrow (CIN)",207.52,3,2024,4,"High Tier (4-10)"
+QB,"Matthew Stafford (LAR)",205.94,5,2021,5,"High Tier (4-10)"
+QB,"Patrick Mahomes II (KC)",203.12,4,2021,6,"High Tier (4-10)"
+QB,"Derek Carr (FA)",201.56,13,2021,7,"High Tier (4-10)"
+QB,"Matthew Stafford (LAR)",199.08,3,2025,8,"High Tier (4-10)"
+QB,"Justin Herbert (LAC)",199.06,11,2022,9,"High Tier (4-10)"
+QB,"Tom Brady (FA)",196.96,12,2022,10,"High Tier (4-10)"
+QB,"Jared Goff (DET)",196.56,6,2024,11,"Mid Tier (11-20)"
+QB,"Joe Burrow (CIN)",195.14,8,2021,12,"Mid Tier (11-20)"
+QB,"Tua Tagovailoa (ATL)",195.06,9,2023,13,"Mid Tier (11-20)"
+QB,"Jared Goff (DET)",193.16,8,2025,14,"Mid Tier (11-20)"
+QB,"Jared Goff (DET)",192.90,7,2023,15,"Mid Tier (11-20)"
+QB,"Dak Prescott (DAL)",192.08,5,2025,16,"Mid Tier (11-20)"
+QB,"Joe Burrow (CIN)",191.58,4,2022,17,"Mid Tier (11-20)"
+QB,"Kirk Cousins (ATL)",191.18,7,2022,18,"Mid Tier (11-20)"
+QB,"Dak Prescott (DAL)",191.04,3,2023,19,"Mid Tier (11-20)"
+QB,"Baker Mayfield (TB)",190.60,4,2024,20,"Mid Tier (11-20)"
+QB,"Dak Prescott (DAL)",188.46,7,2021,21,"Low Tier (21-30)"
+QB,"Jared Goff (DET)",187.32,10,2022,22,"Low Tier (21-30)"
+QB,"Drake Maye (NE)",187.26,2,2025,23,"Low Tier (21-30)"
+QB,"Josh Allen (BUF)",185.48,1,2021,24,"Low Tier (21-30)"
+QB,"Sam Darnold (SEA)",183.06,9,2024,25,"Low Tier (21-30)"
+QB,"Brock Purdy (SF)",182.40,6,2023,26,"Low Tier (21-30)"
+QB,"Geno Smith (NYJ)",182.20,13,2024,27,"Low Tier (21-30)"
+QB,"Josh Allen (BUF)",182.04,2,2022,28,"Low Tier (21-30)"
+QB,"Geno Smith (NYJ)",181.48,5,2022,29,"Low Tier (21-30)"
+QB,"Josh Allen (BUF)",181.44,1,2023,30,"Low Tier (21-30)"
+QB,"Kirk Cousins (ATL)",179.04,11,2021,31,Bench/Flex
+QB,"Lamar Jackson (BAL)",178.88,1,2024,32,Bench/Flex
+QB,"Patrick Mahomes II (KC)",176.62,8,2023,33,Bench/Flex
+QB,"Jordan Love (GB)",176.16,5,2023,34,Bench/Flex
+QB,"Aaron Rodgers (FA)",175.90,6,2021,35,Bench/Flex
+QB,"C.J. Stroud (HOU)",174.32,11,2023,36,Bench/Flex
+QB,"Trevor Lawrence (JAC)",173.92,8,2022,37,Bench/Flex
+QB,"Sam Darnold (SEA)",172.02,13,2025,38,Bench/Flex
+QB,"Baker Mayfield (TB)",171.26,10,2023,39,Bench/Flex
+QB,"Trevor Lawrence (JAC)",169.64,13,2023,40,Bench/Flex
+QB,"Trevor Lawrence (JAC)",169.38,4,2025,41,Bench/Flex
+QB,"Matthew Stafford (LAR)",167.90,15,2023,42,Bench/Flex
+QB,"Matt Ryan (FA)",167.52,20,2021,43,Bench/Flex
+QB,"Caleb Williams (CHI)",166.68,6,2025,44,Bench/Flex
+QB,"Patrick Mahomes II (KC)",166.32,11,2024,45,Bench/Flex
+QB,"Bo Nix (DEN)",166.04,7,2025,46,Bench/Flex
+QB,"Sam Howell (FA)",165.34,12,2023,47,Bench/Flex
+QB,"Derek Carr (FA)",165.12,16,2023,48,Bench/Flex
+QB,"Aaron Rodgers (FA)",165.08,15,2024,49,Bench/Flex
+QB,"Justin Herbert (LAC)",165.00,12,2024,50,Bench/Flex
+QB,"Brock Purdy (SF)",164.16,14,2024,51,Bench/Flex
+QB,"Kyler Murray (FA)",163.54,10,2024,52,Bench/Flex
+QB,"Jalen Hurts (PHI)",163.12,2,2023,53,Bench/Flex
+QB,"Jimmy Garoppolo (LAR)",162.50,17,2021,54,Bench/Flex
+QB,"Kyler Murray (FA)",161.78,10,2021,55,Bench/Flex
+QB,"Mac Jones (SF)",161.44,18,2021,56,Bench/Flex
+QB,"Bo Nix (DEN)",160.30,7,2024,57,Bench/Flex
+QB,"Matthew Stafford (LAR)",159.88,19,2024,58,Bench/Flex
+QB,"Josh Allen (BUF)",158.94,2,2024,59,Bench/Flex
+QB,"Ryan Tannehill (FA)",158.56,12,2021,60,Bench/Flex
+QB,"Ben Roethlisberger (FA)",158.50,21,2021,61,Bench/Flex
+QB,"Justin Herbert (LAC)",158.48,10,2025,62,Bench/Flex
+QB,"Jalen Hurts (PHI)",158.14,3,2022,63,Bench/Flex
+QB,"C.J. Stroud (HOU)",157.88,18,2024,64,Bench/Flex
+QB,"Lamar Jackson (BAL)",157.32,4,2023,65,Bench/Flex
+QB,"Aaron Rodgers (FA)",157.20,13,2022,66,Bench/Flex
+QB,"Baker Mayfield (TB)",156.72,12,2025,67,Bench/Flex
+QB,"Josh Allen (BUF)",156.22,1,2025,68,Bench/Flex
+QB,"Geno Smith (NYJ)",154.06,19,2023,69,Bench/Flex
+QB,"Trevor Lawrence (JAC)",152.94,22,2021,70,Bench/Flex
+QB,"Patrick Mahomes II (KC)",152.48,11,2025,71,Bench/Flex
+QB,"Jayden Daniels (WAS)",152.42,5,2024,72,Bench/Flex
+QB,"Tua Tagovailoa (ATL)",152.22,15,2022,73,Bench/Flex
+QB,"Carson Wentz (FA)",152.02,14,2021,74,Bench/Flex
+QB,"Caleb Williams (CHI)",150.44,16,2024,75,Bench/Flex
+QB,"Russell Wilson (FA)",149.56,16,2022,76,Bench/Flex
+QB,"Derek Carr (FA)",149.28,17,2022,77,Bench/Flex
+QB,"Kirk Cousins (ATL)",149.22,21,2024,78,Bench/Flex
+QB,"Taylor Heinicke (FA)",145.36,19,2021,79,Bench/Flex
+QB,"Jordan Love (GB)",145.34,15,2025,80,Bench/Flex
+QB,"Jordan Love (GB)",145.26,17,2024,81,Bench/Flex
+QB,"Jacoby Brissett (ARI)",143.04,16,2025,82,Bench/Flex
+QB,"Aaron Rodgers (FA)",142.38,18,2025,83,Bench/Flex
+QB,"Gardner Minshew II (ARI)",140.80,21,2023,84,Bench/Flex
+QB,"Jared Goff (DET)",139.10,24,2021,85,Bench/Flex
+QB,"Jalen Hurts (PHI)",138.96,9,2025,86,Bench/Flex
+QB,"Daniel Jones (IND)",137.70,9,2022,87,Bench/Flex
+QB,"Cam Ward (TEN)",134.96,22,2025,88,Bench/Flex
+QB,"Russell Wilson (FA)",134.92,16,2021,89,Bench/Flex
+QB,"Jalen Hurts (PHI)",134.46,9,2021,90,Bench/Flex
+QB,"Justin Herbert (LAC)",134.26,17,2023,91,Bench/Flex
+QB,"Daniel Jones (IND)",134.04,17,2025,92,Bench/Flex
+QB,"Davis Mills (HOU)",132.62,21,2022,93,Bench/Flex
+QB,"Russell Wilson (FA)",132.50,14,2023,94,Bench/Flex
+QB,"Teddy Bridgewater (FA)",131.58,23,2021,95,Bench/Flex
+QB,"C.J. Stroud (HOU)",131.04,21,2025,96,Bench/Flex
+QB,"Matt Ryan (FA)",130.58,26,2022,97,Bench/Flex
+QB,"Geno Smith (NYJ)",129.70,23,2025,98,Bench/Flex
+QB,"Bryce Young (CAR)",129.04,19,2025,99,Bench/Flex
+QB,"Baker Mayfield (TB)",128.90,25,2021,100,Bench/Flex
+QB,"Mac Jones (SF)",127.98,23,2022,101,Bench/Flex
+QB,"Jalen Hurts (PHI)",126.32,8,2024,102,Bench/Flex
+QB,"Tua Tagovailoa (ATL)",124.68,22,2024,103,Bench/Flex
+QB,"Andy Dalton (CAR)",124.34,22,2022,104,Bench/Flex
+QB,"Lamar Jackson (BAL)",123.78,15,2021,105,Bench/Flex
+QB,"Dak Prescott (DAL)",123.70,18,2022,106,Bench/Flex
+QB,"Bryce Young (CAR)",122.48,23,2023,107,Bench/Flex
+QB,"Desmond Ridder (GB)",121.64,22,2023,108,Bench/Flex
+QB,"Davis Mills (HOU)",115.36,29,2021,109,Bench/Flex
+QB,"Tua Tagovailoa (ATL)",115.10,25,2025,110,Bench/Flex
+QB,"Tua Tagovailoa (ATL)",114.72,26,2021,111,Bench/Flex
+QB,"Lamar Jackson (BAL)",112.26,20,2025,112,Bench/Flex
+QB,"Jacoby Brissett (ARI)",111.82,24,2022,113,Bench/Flex
+QB,"Justin Fields (NYJ)",110.88,18,2023,114,Bench/Flex
+QB,"Ryan Tannehill (FA)",110.74,27,2022,115,Bench/Flex
+QB,"Russell Wilson (FA)",108.88,24,2024,116,Bench/Flex
+QB,"Sam Darnold (SEA)",108.18,28,2021,117,Bench/Flex
+QB,"Jimmy Garoppolo (LAR)",107.68,25,2022,118,Bench/Flex
+QB,"Joshua Dobbs (NE)",106.66,20,2023,119,Bench/Flex
+QB,"Joe Flacco (FA)",106.36,27,2025,120,Bench/Flex
+QB,"Daniel Jones (IND)",105.72,27,2021,121,Bench/Flex
+QB,"Bryce Young (CAR)",104.32,20,2024,122,Bench/Flex
+QB,"Tyler Shough (NO)",104.06,26,2025,123,Bench/Flex
+QB,"Kenny Pickett (CAR)",103.76,28,2022,124,Bench/Flex
+QB,"Kyler Murray (FA)",103.72,19,2022,125,Bench/Flex
+QB,"Kirk Cousins (ATL)",103.54,24,2023,126,Bench/Flex
+QB,"Joe Burrow (CIN)",101.46,25,2023,127,Bench/Flex
+QB,"Zach Wilson (FA)",100.46,30,2021,128,Bench/Flex
+QB,"Drake Maye (NE)",99.14,23,2024,129,Bench/Flex
+QB,"Lamar Jackson (BAL)",98.58,14,2022,130,Bench/Flex
+QB,"Jaxson Dart (NYG)",98.58,14,2025,131,Bench/Flex
+QB,"Zach Wilson (FA)",98.24,29,2023,132,Bench/Flex
+QB,"Justin Fields (NYJ)",97.98,6,2022,133,Bench/Flex
+QB,"Marcus Mariota (WAS)",97.76,20,2022,134,Bench/Flex
+QB,"Aidan O'Connell (LV)",97.02,28,2023,135,Bench/Flex
+QB,"Brock Purdy (SF)",96.68,24,2025,136,Bench/Flex
+QB,"Derek Carr (FA)",96.10,26,2024,137,Bench/Flex
+QB,"Baker Mayfield (TB)",94.52,29,2022,138,Bench/Flex
+QB,"Mac Jones (SF)",93.04,31,2025,139,Bench/Flex
+QB,"Matthew Stafford (LAR)",92.58,32,2022,140,Bench/Flex
+QB,"Mac Jones (SF)",92.00,30,2023,141,Bench/Flex
+QB,"Will Levis (TEN)",91.94,30,2024,142,Bench/Flex
+QB,"Jameis Winston (NYG)",91.74,28,2024,143,Bench/Flex
+QB,"Kenny Pickett (CAR)",91.00,31,2023,144,Bench/Flex
+QB,"Daniel Jones (IND)",91.00,29,2024,145,Bench/Flex
+QB,"Trevor Lawrence (JAC)",90.00,27,2024,146,Bench/Flex
+QB,"Gardner Minshew II (ARI)",88.62,34,2024,147,Bench/Flex
+QB,"Michael Penix Jr. (ATL)",88.28,33,2025,148,Bench/Flex
+QB,"Dak Prescott (DAL)",87.82,31,2024,149,Bench/Flex
+QB,"Jake Browning (FA)",86.74,27,2023,150,Bench/Flex
+QB,"Taylor Heinicke (FA)",83.36,30,2022,151,Bench/Flex
+QB,"Joe Burrow (CIN)",82.56,29,2025,152,Bench/Flex
+QB,"Justin Fields (NYJ)",81.90,31,2021,153,Bench/Flex
+QB,"Kyler Murray (FA)",80.96,26,2023,154,Bench/Flex
+QB,"Cooper Rush (BAL)",80.86,33,2024,155,Bench/Flex
+QB,"Will Levis (TEN)",80.72,33,2023,156,Bench/Flex
+QB,"Anthony Richardson Sr. (IND)",79.46,25,2024,157,Bench/Flex
+QB,"Joe Flacco (FA)",79.34,35,2024,158,Bench/Flex
+QB,"Carson Wentz (FA)",78.30,31,2022,159,Bench/Flex
+QB,"Kirk Cousins (ATL)",77.04,35,2025,160,Bench/Flex
+QB,"Mac Jones (SF)",74.88,37,2024,161,Bench/Flex
+QB,"Zach Wilson (FA)",74.82,34,2022,162,Bench/Flex
+QB,"Marcus Mariota (WAS)",74.60,32,2025,163,Bench/Flex
+QB,"Joe Flacco (FA)",73.84,32,2023,164,Bench/Flex
+QB,"Aidan O'Connell (LV)",72.88,38,2024,165,Bench/Flex
+QB,"J.J. McCarthy (MIN)",72.68,30,2025,166,Bench/Flex
+QB,"Ryan Tannehill (FA)",72.54,37,2023,167,Bench/Flex
+QB,"Spencer Rattler (NO)",71.64,36,2025,168,Bench/Flex
+QB,"Mason Rudolph (PIT)",69.40,36,2024,169,Bench/Flex
+QB,"Andy Dalton (CAR)",69.10,33,2021,170,Bench/Flex
+QB,"Brock Purdy (SF)",62.96,33,2022,171,Bench/Flex
+QB,"Shedeur Sanders (CLE)",62.60,37,2025,172,Bench/Flex
+QB,"Tyrod Taylor (FA)",61.44,36,2023,173,Bench/Flex
+QB,"Nick Mullens (JAC)",61.14,39,2023,174,Bench/Flex
+QB,"Spencer Rattler (NO)",59.78,41,2024,175,Bench/Flex
+QB,"Jayden Daniels (WAS)",59.08,34,2025,176,Bench/Flex
+QB,"Mitchell Trubisky (TEN)",58.48,37,2022,177,Bench/Flex
+QB,"Justin Fields (NYJ)",58.46,28,2025,178,Bench/Flex
+QB,"Carson Wentz (FA)",57.64,39,2025,179,Bench/Flex
+QB,"Bailey Zappe (NYJ)",57.08,38,2023,180,Bench/Flex
+QB,"Jacoby Brissett (ARI)",56.72,38,2021,181,Bench/Flex
+QB,"Jameis Winston (NYG)",56.60,32,2021,182,Bench/Flex
+QB,"Mike White (FA)",56.08,38,2022,183,Bench/Flex
+QB,"Jimmy Garoppolo (LAR)",55.40,41,2023,184,Bench/Flex
+QB,"Trevor Siemian (FA)",55.16,34,2021,185,Bench/Flex
+QB,"Sam Darnold (SEA)",54.52,36,2022,186,Bench/Flex
+QB,"Deshaun Watson (CLE)",54.02,40,2024,187,Bench/Flex
+QB,"Easton Stick (FA)",53.86,43,2023,188,Bench/Flex
+QB,"Deshaun Watson (CLE)",52.08,35,2022,189,Bench/Flex
+QB,"Deshaun Watson (CLE)",52.00,35,2023,190,Bench/Flex
+QB,"Tommy DeVito (NE)",51.74,34,2023,191,Bench/Flex
+QB,"Drew Lock (SEA)",50.54,39,2024,192,Bench/Flex
+QB,"Justin Fields (NYJ)",50.24,32,2024,193,Bench/Flex
+QB,"Cooper Rush (BAL)",49.74,39,2022,194,Bench/Flex
+QB,"Tyler Huntley (BAL)",49.44,37,2021,195,Bench/Flex
+QB,"Joe Flacco (FA)",49.04,41,2022,196,Bench/Flex
+QB,"Kyler Murray (FA)",47.48,38,2025,197,Bench/Flex
+QB,"Andy Dalton (CAR)",46.76,42,2024,198,Bench/Flex
+QB,"Tyrod Taylor (FA)",46.54,36,2021,199,Bench/Flex
+QB,"Mike White (FA)",46.32,42,2021,200,Bench/Flex
+QB,"Dillon Gabriel (CLE)",44.88,40,2025,201,Bench/Flex
+QB,"Davis Mills (HOU)",44.10,41,2025,202,Bench/Flex
+QB,"Taylor Heinicke (FA)",43.30,42,2023,203,Bench/Flex
+QB,"Daniel Jones (IND)",43.06,44,2023,204,Bench/Flex
+QB,"Jameis Winston (NYG)",42.52,42,2022,205,Bench/Flex
+QB,"Tyson Bagent (CHI)",41.46,45,2023,206,Bench/Flex
+QB,"Tyler Huntley (BAL)",41.46,43,2024,207,Bench/Flex
+QB,"Bailey Zappe (NYJ)",41.04,46,2022,208,Bench/Flex
+QB,"Russell Wilson (FA)",40.44,44,2025,209,Bench/Flex
+QB,"Jacoby Brissett (ARI)",40.34,46,2024,210,Bench/Flex
+QB,"Michael Penix Jr. (ATL)",39.40,45,2024,211,Bench/Flex
+QB,"Mason Rudolph (PIT)",39.26,47,2023,212,Bench/Flex
+QB,"Drew Lock (SEA)",39.08,41,2021,213,Bench/Flex
+QB,"Jake Browning (FA)",38.84,43,2025,214,Bench/Flex
+QB,"Colt McCoy (FA)",38.60,50,2022,215,Bench/Flex
+QB,"Geno Smith (NYJ)",38.08,40,2021,216,Bench/Flex
+QB,"Tyrod Taylor (FA)",37.66,42,2025,217,Bench/Flex
+QB,"P.J. Walker (FA)",37.04,44,2022,218,Bench/Flex
+QB,"Desmond Ridder (GB)",36.92,48,2022,219,Bench/Flex
+QB,"Mike Glennon (FA)",36.40,45,2021,220,Bench/Flex
+QB,"Brady Cook (NYJ)",35.16,48,2025,221,Bench/Flex
+QB,"Jarrett Stidham (DEN)",34.94,43,2022,222,Bench/Flex
+QB,"Trevor Siemian (FA)",34.66,49,2023,223,Bench/Flex
+QB,"Tyler Huntley (BAL)",34.22,40,2022,224,Bench/Flex
+QB,"Teddy Bridgewater (FA)",34.22,45,2022,225,Bench/Flex
+QB,"Colt McCoy (FA)",34.20,44,2021,226,Bench/Flex
+QB,"Quinn Ewers (MIA)",33.58,49,2025,227,Bench/Flex
+QB,"Gardner Minshew II (ARI)",33.02,47,2022,228,Bench/Flex
+QB,"Mitchell Trubisky (TEN)",32.58,46,2023,229,Bench/Flex
+QB,"Cam Newton (FA)",32.46,35,2021,230,Bench/Flex
+QB,"Josh Johnson (FA)",32.12,43,2021,231,Bench/Flex
+QB,"P.J. Walker (FA)",32.06,54,2023,232,Bench/Flex
+QB,"Anthony Richardson Sr. (IND)",31.88,40,2023,233,Bench/Flex
+QB,"Malik Willis (MIA)",31.20,44,2024,234,Bench/Flex
+QB,"Trey Lance (LAC)",31.12,39,2021,235,Bench/Flex
+QB,"Sam Ehlinger (DEN)",30.92,49,2022,236,Bench/Flex
+QB,"Philip Rivers (IND)",29.66,50,2025,237,Bench/Flex
+QB,"Jameis Winston (NYG)",29.48,46,2025,238,Bench/Flex
+QB,"Malik Willis (MIA)",29.18,45,2025,239,Bench/Flex
+QB,"Drew Lock (SEA)",28.32,48,2023,240,Bench/Flex
+QB,"Cooper Rush (BAL)",27.88,49,2021,241,Bench/Flex
+QB,"Gardner Minshew II (ARI)",27.66,46,2021,242,Bench/Flex
+QB,"Skylar Thompson (FA)",27.56,56,2022,243,Bench/Flex
+QB,"Joe Flacco (FA)",26.52,51,2021,244,Bench/Flex
+QB,"Desmond Ridder (GB)",25.92,51,2024,245,Bench/Flex
+QB,"Jarrett Stidham (DEN)",25.74,50,2023,246,Bench/Flex
+QB,"Tanner McKee (PHI)",25.72,49,2024,247,Bench/Flex
+QB,"Tim Boyle (FA)",25.54,47,2021,248,Bench/Flex
+QB,"Brett Rypien (FA)",25.22,53,2022,249,Bench/Flex
+QB,"Marcus Mariota (WAS)",25.06,47,2024,250,Bench/Flex
+QB,"Tyler Huntley (BAL)",24.94,47,2025,251,Bench/Flex
+QB,"Case Keenum (CHI)",24.88,48,2021,252,Bench/Flex
+QB,"David Blough (FA)",24.58,55,2022,253,Bench/Flex
+QB,"Joshua Dobbs (NE)",23.94,51,2022,254,Bench/Flex
+QB,"Dorian Thompson-Robinson (FA)",23.30,52,2023,255,Bench/Flex
+QB,"Jacoby Brissett (ARI)",23.06,57,2023,256,Bench/Flex
+QB,"Jimmy Garoppolo (LAR)",23.06,53,2024,257,Bench/Flex
+QB,"John Wolford (FA)",21.80,59,2022,258,Bench/Flex
+QB,"Dorian Thompson-Robinson (FA)",21.70,52,2024,259,Bench/Flex
+QB,"Jordan Love (GB)",21.44,50,2021,260,Bench/Flex
+QB,"Riley Leonard (IND)",21.30,51,2025,261,Bench/Flex
+QB,"Joe Milton III (DAL)",20.74,55,2024,262,Bench/Flex
+QB,"Trace McSorley (FA)",20.68,62,2022,263,Bench/Flex
+QB,"Joshua Dobbs (NE)",20.64,48,2024,264,Bench/Flex
+QB,"Kyle Allen (BUF)",20.64,57,2022,265,Bench/Flex
+QB,"C.J. Beathard (FA)",20.26,58,2023,266,Bench/Flex
+QB,"Mitchell Trubisky (TEN)",20.12,52,2025,267,Bench/Flex
+QB,"Nick Foles (FA)",19.90,53,2021,268,Bench/Flex
+QB,"P.J. Walker (FA)",19.58,54,2021,269,Bench/Flex
+QB,"Tim Boyle (FA)",19.40,62,2023,270,Bench/Flex
+QB,"Max Brosmer (MIN)",19.32,61,2025,271,Bench/Flex
+QB,"Andy Dalton (CAR)",19.32,59,2025,272,Bench/Flex
+QB,"Nick Mullens (JAC)",19.06,64,2022,273,Bench/Flex
+QB,"Josh Johnson (FA)",18.78,53,2025,274,Bench/Flex
+QB,"Mason Rudolph (PIT)",18.30,54,2025,275,Bench/Flex
+QB,"Mason Rudolph (PIT)",18.28,52,2021,276,Bench/Flex
+QB,"Tim Boyle (FA)",18.04,57,2024,277,Bench/Flex
+QB,"Anthony Brown Jr. (FA)",17.68,71,2022,278,Bench/Flex
+QB,"Jordan Love (GB)",17.60,66,2022,279,Bench/Flex
+QB,"Tyrod Taylor (FA)",17.46,54,2024,280,Bench/Flex
+QB,"Kenny Pickett (CAR)",17.44,50,2024,281,Bench/Flex
+QB,"Andy Dalton (CAR)",17.34,56,2023,282,Bench/Flex
+QB,"Chris Oladokun (KC)",17.30,58,2025,283,Bench/Flex
+QB,"Case Keenum (CHI)",17.24,64,2023,284,Bench/Flex
+QB,"Brian Hoyer (FA)",16.88,59,2021,285,Bench/Flex
+QB,"Trey Lance (LAC)",16.84,56,2025,286,Bench/Flex
+QB,"Cooper Rush (BAL)",16.62,62,2025,287,Bench/Flex
+QB,"Carson Wentz (FA)",16.52,51,2023,288,Bench/Flex
+QB,"Tyler Huntley (BAL)",16.12,53,2023,289,Bench/Flex
+QB,"Tommy DeVito (NE)",15.98,60,2024,290,Bench/Flex
+QB,"Garrett Gilbert (FA)",15.96,63,2021,291,Bench/Flex
+QB,"Sean Mannion (FA)",15.96,58,2021,292,Bench/Flex
+QB,"Brian Hoyer (FA)",15.84,67,2023,293,Bench/Flex
+QB,"Sam Darnold (SEA)",15.78,55,2023,294,Bench/Flex
+QB,"Joe Milton III (DAL)",15.62,57,2025,295,Bench/Flex
+QB,"Tanner McKee (PHI)",15.46,55,2025,296,Bench/Flex
+QB,"Trevor Siemian (FA)",15.46,67,2022,297,Bench/Flex
+QB,"Trey Lance (LAC)",15.44,59,2024,298,Bench/Flex
+QB,"Davis Mills (HOU)",15.38,61,2024,299,Bench/Flex
+QB,"Malik Willis (MIA)",15.34,52,2022,300,Bench/Flex
+QB,"Skylar Thompson (FA)",15.28,64,2024,301,Bench/Flex
+QB,"Sam Howell (FA)",15.06,58,2022,302,Bench/Flex
+QB,"Nick Mullens (JAC)",14.78,60,2021,303,Bench/Flex
+QB,"Jaren Hall (FA)",14.72,70,2023,304,Bench/Flex
+QB,"Marcus Mariota (WAS)",14.66,63,2023,305,Bench/Flex
+QB,"Kyle Allen (BUF)",14.40,62,2021,306,Bench/Flex
+QB,"Davis Webb (FA)",14.32,54,2022,307,Bench/Flex
+QB,"Kenny Pickett (CAR)",14.22,60,2025,308,Bench/Flex
+QB,"Jameis Winston (NYG)",14.06,61,2023,309,Bench/Flex
+QB,"Carson Wentz (FA)",13.92,65,2024,310,Bench/Flex
+QB,"Blaine Gabbert (FA)",13.06,73,2022,311,Bench/Flex
+QB,"Jeff Driskel (WAS)",13.04,60,2023,312,Bench/Flex
+QB,"Nick Foles (FA)",12.96,72,2022,313,Bench/Flex
+QB,"Jake Haener (KC)",12.94,58,2024,314,Bench/Flex
+QB,"Brandon Allen (FA)",12.86,57,2021,315,Bench/Flex
+QB,"Jake Fromm (FA)",12.80,56,2021,316,Bench/Flex
+QB,"Trey Lance (LAC)",12.76,63,2022,317,Bench/Flex
+QB,"Kyle Allen (BUF)",12.66,72,2024,318,Bench/Flex
+QB,"Mitchell Trubisky (TEN)",12.46,56,2024,319,Bench/Flex
+QB,"Cooper Rush (BAL)",12.46,69,2023,320,Bench/Flex
+QB,"Davis Mills (HOU)",12.22,59,2023,321,Bench/Flex
+QB,"Brett Rypien (FA)",12.18,68,2023,322,Bench/Flex
+QB,"Bailey Zappe (NYJ)",12.00,62,2024,323,Bench/Flex
+QB,"Chris Streveler (FA)",11.90,69,2022,324,Bench/Flex
+QB,"Blaine Gabbert (FA)",11.90,66,2023,325,Bench/Flex
+QB,"Joshua Dobbs (NE)",11.10,68,2025,326,Bench/Flex
+QB,"Hendon Hooker (NYJ)",11.08,67,2024,327,Bench/Flex
+QB,"Nathan Peterman (FA)",11.06,68,2022,328,Bench/Flex
+QB,"Jeff Driskel (WAS)",10.82,61,2022,329,Bench/Flex
+QB,"Chase Daniel (FA)",10.78,70,2022,330,Bench/Flex
+QB,"Brian Hoyer (FA)",10.68,74,2022,331,Bench/Flex
+QB,"Brandon Allen (FA)",10.58,77,2022,332,Bench/Flex
+QB,"Brandon Allen (FA)",10.56,63,2024,333,Bench/Flex
+QB,"Shane Buechele (BUF)",10.52,64,2025,334,Bench/Flex
+QB,"Bryce Perkins (FA)",10.34,60,2022,335,Bench/Flex
+QB,"Aidan O'Connell (LV)",9.98,63,2025,336,Bench/Flex
+QB,"Ian Book (FA)",9.50,64,2021,337,Bench/Flex
+QB,"Tyson Bagent (CHI)",8.98,67,2025,338,Bench/Flex
+QB,"AJ McCarron (FA)",8.96,74,2023,339,Bench/Flex
+QB,"Malik Willis (MIA)",8.86,71,2023,340,Bench/Flex
+QB,"Blaine Gabbert (FA)",8.78,67,2021,341,Bench/Flex
+QB,"Jacob Eason (FA)",8.56,75,2022,342,Bench/Flex
+QB,"Mike White (FA)",8.26,72,2023,343,Bench/Flex
+QB,"Mitchell Trubisky (TEN)",8.22,61,2021,344,Bench/Flex
+QB,"Brandon Allen (FA)",7.68,69,2025,345,Bench/Flex
+QB,"Nick Mullens (JAC)",7.42,68,2024,346,Bench/Flex
+QB,"Sean Clifford (CIN)",7.38,73,2023,347,Bench/Flex
+QB,"Tyrod Taylor (FA)",7.32,65,2022,348,Bench/Flex
+QB,"C.J. Beathard (FA)",7.22,68,2021,349,Bench/Flex
+QB,"Taylor Heinicke (FA)",7.12,66,2024,350,Bench/Flex
+QB,"Josh Johnson (FA)",6.90,78,2022,351,Bench/Flex
+QB,"Logan Woodside (FA)",6.38,75,2023,352,Bench/Flex
+QB,"Ryan Fitzpatrick (FA)",6.12,70,2021,353,Bench/Flex
+QB,"Zach Wilson (FA)",5.98,70,2025,354,Bench/Flex
+QB,"Kedon Slovis (ARI)",5.82,81,2025,355,Bench/Flex
+QB,"Chad Henne (FA)",5.28,65,2021,356,Bench/Flex
+QB,"Chris Streveler (FA)",5.14,66,2021,357,Bench/Flex
+QB,"Kyle Trask (FA)",5.12,76,2022,358,Bench/Flex
+QB,"Mike White (FA)",5.12,70,2024,359,Bench/Flex
+QB,"Tyson Bagent (CHI)",4.94,87,2024,360,Bench/Flex
+QB,"Case Keenum (CHI)",4.72,79,2022,361,Bench/Flex
+QB,"Clayton Tune (FA)",4.68,65,2025,362,Bench/Flex
+QB,"Josh Johnson (FA)",4.58,71,2024,363,Bench/Flex
+QB,"Nick Mullens (JAC)",4.36,80,2025,364,Bench/Flex
+QB,"Teddy Bridgewater (FA)",4.08,66,2025,365,Bench/Flex
+QB,"Brett Rypien (FA)",4.00,74,2021,366,Bench/Flex
+QB,"Aaron Rodgers (FA)",4.00,76,2023,367,Bench/Flex
+QB,"C.J. Beathard (FA)",3.90,84,2022,368,Bench/Flex
+QB,"Clayton Tune (FA)",3.78,65,2023,369,Bench/Flex
+QB,"Kellen Mond (FA)",3.70,72,2021,370,Bench/Flex
+QB,"Anthony Richardson Sr. (IND)",3.46,71,2025,371,Bench/Flex
+QB,"Gardner Minshew II (ARI)",3.38,72,2025,372,Bench/Flex
+QB,"John Wolford (FA)",3.00,82,2021,373,Bench/Flex
+QB,"Jacob Eason (FA)",2.70,76,2021,374,Bench/Flex
+QB,"Sam Howell (FA)",2.46,75,2024,375,Bench/Flex
+QB,"Kyle Trask (FA)",2.40,86,2024,376,Bench/Flex
+QB,"Drew Lock (SEA)",2.20,75,2025,377,Bench/Flex
+QB,"Josh Rosen (FA)",2.16,83,2021,378,Bench/Flex
+QB,"Kyle Trask (FA)",2.00,82,2023,379,Bench/Flex
+QB,"Marcus Mariota (WAS)",1.96,55,2021,380,Bench/Flex
+QB,"Tim Boyle (FA)",1.82,88,2022,381,Bench/Flex
+QB,"Clayton Tune (FA)",1.72,88,2024,382,Bench/Flex
+QB,"Chad Henne (FA)",1.30,87,2022,383,Bench/Flex
+QB,"Kyle Allen (BUF)",1.00,84,2025,384,Bench/Flex
+QB,"Davis Cheek (FA)",0.00,85,2022,385,Bench/Flex
+QB,"Jalen Milroe (SEA)",0.00,86,2025,386,Bench/Flex
+QB,"Jake Browning (FA)",0.00,85,2024,387,Bench/Flex
+QB,"Nate Sudfeld (FA)",0.00,86,2022,388,Bench/Flex
+QB,"Jeff Driskel (WAS)",0.00,84,2024,389,Bench/Flex
+QB,"Sam Hartman (WAS)",0.00,83,2024,390,Bench/Flex
+QB,"Jaren Hall (FA)",0.00,82,2024,391,Bench/Flex
+QB,"Jordan Travis (FA)",0.00,81,2024,392,Bench/Flex
+QB,"Trevor Siemian (FA)",0.00,80,2024,393,Bench/Flex
+QB,"Austin Reed (FA)",0.00,79,2024,394,Bench/Flex
+QB,"Jake Luton (FA)",0.00,78,2024,395,Bench/Flex
+QB,"C.J. Beathard (FA)",0.00,77,2024,396,Bench/Flex
+QB,"Emory Jones (FA)",0.00,76,2024,397,Bench/Flex
+QB,"Jarrett Stidham (DEN)",0.00,74,2024,398,Bench/Flex
+QB,"Chris Oladokun (KC)",0.00,73,2024,399,Bench/Flex
+QB,"Feleipe Franks (FA)",0.00,69,2024,400,Bench/Flex
+QB,"Trace McSorley (FA)",0.00,75,2021,401,Bench/Flex
+QB,"Kurt Benkert (FA)",0.00,77,2021,402,Bench/Flex
+QB,"Chase Daniel (FA)",0.00,78,2021,403,Bench/Flex
+QB,"Davis Webb (FA)",0.00,79,2021,404,Bench/Flex
+QB,"Feleipe Franks (FA)",0.00,80,2021,405,Bench/Flex
+QB,"Logan Woodside (FA)",0.00,81,2021,406,Bench/Flex
+QB,"Sam Ehlinger (DEN)",0.00,69,2021,407,Bench/Flex
+QB,"Kyle Allen (BUF)",0.00,86,2023,408,Bench/Flex
+QB,"Nathan Peterman (FA)",0.00,85,2023,409,Bench/Flex
+QB,"Matt Barkley (FA)",0.00,84,2023,410,Bench/Flex
+QB,"Teddy Bridgewater (FA)",0.00,83,2023,411,Bench/Flex
+QB,"Skylar Thompson (FA)",0.00,81,2023,412,Bench/Flex
+QB,"Chris Oladokun (KC)",0.00,80,2023,413,Bench/Flex
+QB,"Malik Cunningham (DET)",0.00,79,2023,414,Bench/Flex
+QB,"Max Duggan (FA)",0.00,78,2023,415,Bench/Flex
+QB,"Jacob Eason (FA)",0.00,77,2023,416,Bench/Flex
+QB,"Feleipe Franks (FA)",0.00,80,2022,417,Bench/Flex
+QB,"Feleipe Franks (FA)",0.00,73,2025,418,Bench/Flex
+QB,"Malik Cunningham (DET)",0.00,74,2025,419,Bench/Flex
+QB,"Matt Barkley (FA)",0.00,81,2022,420,Bench/Flex
+QB,"Stetson Bennett IV (LAR)",0.00,76,2025,421,Bench/Flex
+QB,"Brett Rypien (FA)",0.00,77,2025,422,Bench/Flex
+QB,"Will Grier (DAL)",0.00,78,2025,423,Bench/Flex
+QB,"Logan Woodside (FA)",0.00,79,2025,424,Bench/Flex
+QB,"Logan Woodside (FA)",0.00,82,2022,425,Bench/Flex
+QB,"Matt Corral (FA)",0.00,83,2022,426,Bench/Flex
+QB,"Adrian Martinez (SF)",0.00,82,2025,427,Bench/Flex
+QB,"Jarrett Stidham (DEN)",0.00,83,2025,428,Bench/Flex
+QB,"David Blough (FA)",0.00,71,2021,429,Bench/Flex
+QB,"Jimmy Garoppolo (LAR)",0.00,85,2025,430,Bench/Flex
+QB,"Nathan Peterman (FA)",0.00,73,2021,431,Bench/Flex
+RB,"Christian McCaffrey (SF)",221.00,2,2022,1,"Elite (Top 3)"
+RB,"Najee Harris (LAC)",219.00,4,2021,2,"Elite (Top 3)"
+RB,"Christian McCaffrey (SF)",212.00,2,2025,3,"Elite (Top 3)"
+RB,"Breece Hall (NYJ)",209.00,7,2023,4,"High Tier (4-10)"
+RB,"Bijan Robinson (ATL)",209.00,3,2025,5,"High Tier (4-10)"
+RB,"James Conner (ARI)",204.00,10,2024,6,"High Tier (4-10)"
+RB,"Leonard Fournette (FA)",198.00,20,2022,7,"High Tier (4-10)"
+RB,"Breece Hall (NYJ)",189.00,18,2024,8,"High Tier (4-10)"
+RB,"Austin Ekeler (FA)",180.00,4,2022,9,"High Tier (4-10)"
+RB,"Jaylen Warren (PIT)",179.00,17,2025,10,"High Tier (4-10)"
+RB,"Bucky Irving (TB)",178.00,14,2024,11,"Mid Tier (11-20)"
+RB,"Austin Ekeler (FA)",172.00,2,2021,12,"Mid Tier (11-20)"
+RB,"Cordarrelle Patterson (FA)",170.00,12,2021,13,"Mid Tier (11-20)"
+RB,"Samaje Perine (CIN)",165.00,49,2023,14,"Mid Tier (11-20)"
+RB,"Leonard Fournette (FA)",163.00,11,2021,15,"Mid Tier (11-20)"
+RB,"Ashton Jeanty (LV)",148.00,15,2025,16,"Mid Tier (11-20)"
+RB,"Kenneth Walker III (KC)",146.00,16,2023,17,"Mid Tier (11-20)"
+RB,"Travis Etienne Jr. (NO)",145.00,3,2023,18,"Mid Tier (11-20)"
+RB,"James Conner (ARI)",145.00,5,2021,19,"Mid Tier (11-20)"
+RB,"Austin Ekeler (FA)",145.00,36,2024,20,"Mid Tier (11-20)"
+RB,"Josh Jacobs (GB)",142.00,5,2024,21,"Low Tier (21-30)"
+RB,"Austin Ekeler (FA)",140.00,31,2023,22,"Low Tier (21-30)"
+RB,"Alvin Kamara (NO)",138.00,24,2023,23,"Low Tier (21-30)"
+RB,"Joe Mixon (FA)",133.00,6,2023,24,"Low Tier (21-30)"
+RB,"David Montgomery (HOU)",132.00,17,2024,25,"Low Tier (21-30)"
+RB,"Antonio Gibson (FA)",131.00,10,2021,26,"Low Tier (21-30)"
+RB,"Saquon Barkley (PHI)",130.00,1,2024,27,"Low Tier (21-30)"
+RB,"Tyjae Spears (TEN)",127.00,39,2023,28,"Low Tier (21-30)"
+RB,"Rachaad White (FA)",125.00,24,2024,29,"Low Tier (21-30)"
+RB,"Bijan Robinson (ATL)",125.00,4,2024,30,"Low Tier (21-30)"
+RB,"Chase Brown (CIN)",124.00,10,2025,31,Bench/Flex
+RB,"Alvin Kamara (NO)",123.00,18,2022,32,Bench/Flex
+RB,"D'Andre Swift (CHI)",122.00,23,2021,33,Bench/Flex
+RB,"Travis Etienne Jr. (NO)",121.00,9,2025,34,Bench/Flex
+RB,"Rachaad White (FA)",119.00,8,2023,35,Bench/Flex
+RB,"RJ Harvey (DEN)",119.00,22,2025,36,Bench/Flex
+RB,"Alvin Kamara (NO)",118.00,15,2024,37,Bench/Flex
+RB,"Rhamondre Stevenson (NE)",115.00,14,2022,38,Bench/Flex
+RB,"Joe Mixon (FA)",114.00,13,2022,39,Bench/Flex
+RB,"Brian Robinson Jr. (FA)",112.00,22,2023,40,Bench/Flex
+RB,"De'Von Achane (MIA)",112.00,9,2024,41,Bench/Flex
+RB,"David Montgomery (HOU)",112.00,21,2022,42,Bench/Flex
+RB,"A.J. Dillon (FA)",111.00,21,2021,43,Bench/Flex
+RB,"Tyjae Spears (TEN)",111.00,54,2025,44,Bench/Flex
+RB,"Joe Mixon (FA)",110.00,11,2024,45,Bench/Flex
+RB,"Brandon Bolden (FA)",109.00,51,2021,46,Bench/Flex
+RB,"Ezekiel Elliott (FA)",109.00,33,2023,47,Bench/Flex
+RB,"Ty Johnson (BUF)",108.00,52,2021,48,Bench/Flex
+RB,"De'Von Achane (MIA)",108.00,7,2025,49,Bench/Flex
+RB,"Ty Johnson (BUF)",107.00,49,2025,50,Bench/Flex
+RB,"A.J. Dillon (FA)",106.00,40,2023,51,Bench/Flex
+RB,"Travis Etienne Jr. (NO)",105.00,39,2024,52,Bench/Flex
+RB,"Alexander Mattison (FA)",105.00,34,2024,53,Bench/Flex
+RB,"Michael Carter (FA)",103.00,30,2021,54,Bench/Flex
+RB,"Clyde Edwards-Helaire (FA)",103.00,59,2023,55,Bench/Flex
+RB,"Jonathan Taylor (IND)",103.00,1,2025,56,Bench/Flex
+RB,"James Cook III (BUF)",103.00,11,2023,57,Bench/Flex
+RB,"Chase Brown (CIN)",102.00,12,2024,58,Bench/Flex
+RB,"Tony Pollard (TEN)",101.00,29,2021,59,Bench/Flex
+RB,"Josh Jacobs (GB)",101.00,12,2025,60,Bench/Flex
+RB,"D'Andre Swift (CHI)",100.00,19,2024,61,Bench/Flex
+RB,"Bijan Robinson (ATL)",100.00,12,2023,62,Bench/Flex
+RB,"Kenneth Gainwell (TB)",100.00,24,2025,63,Bench/Flex
+RB,"Christian McCaffrey (SF)",99.00,44,2021,64,Bench/Flex
+RB,"James Cook III (BUF)",98.00,5,2025,65,Bench/Flex
+RB,"Tyjae Spears (TEN)",97.00,44,2024,66,Bench/Flex
+RB,"Jaylen Warren (PIT)",97.00,30,2023,67,Bench/Flex
+RB,"Breece Hall (NYJ)",96.00,18,2025,68,Bench/Flex
+RB,"Kenneth Walker III (KC)",96.00,29,2024,69,Bench/Flex
+RB,"Justice Hill (BAL)",95.00,42,2024,70,Bench/Flex
+RB,"Mike Davis (FA)",95.00,39,2021,71,Bench/Flex
+RB,"Josh Jacobs (GB)",93.00,16,2021,72,Bench/Flex
+RB,"Jonathan Taylor (IND)",93.00,1,2021,73,Bench/Flex
+RB,"Najee Harris (LAC)",93.00,20,2024,74,Bench/Flex
+RB,"Javonte Williams (DAL)",93.00,32,2024,75,Bench/Flex
+RB,"Tony Pollard (TEN)",92.00,18,2023,76,Bench/Flex
+RB,"Javonte Williams (DAL)",91.00,18,2021,77,Bench/Flex
+RB,"Antonio Gibson (FA)",90.00,45,2023,78,Bench/Flex
+RB,"Aaron Jones Sr. (FA)",90.00,13,2021,79,Bench/Flex
+RB,"Kareem Hunt (FA)",88.00,30,2024,80,Bench/Flex
+RB,"Jahmyr Gibbs (DET)",88.00,3,2024,81,Bench/Flex
+RB,"Jerome Ford (FA)",88.00,19,2023,82,Bench/Flex
+RB,"Alvin Kamara (NO)",87.00,9,2021,83,Bench/Flex
+RB,"Saquon Barkley (PHI)",86.00,6,2022,84,Bench/Flex
+RB,"Derrick Henry (BAL)",85.00,2,2024,85,Bench/Flex
+RB,"Josh Jacobs (GB)",84.00,25,2023,86,Bench/Flex
+RB,"Jaleel McLaughlin (DEN)",83.00,46,2023,87,Bench/Flex
+RB,"Jaylen Warren (PIT)",83.00,40,2024,88,Bench/Flex
+RB,"James Conner (ARI)",83.00,19,2022,89,Bench/Flex
+RB,"De'Von Achane (MIA)",83.00,21,2023,90,Bench/Flex
+RB,"Raheem Mostert (LV)",82.00,27,2022,91,Bench/Flex
+RB,"Aaron Jones Sr. (FA)",82.00,16,2024,92,Bench/Flex
+RB,"Darrel Williams (FA)",81.00,22,2021,93,Bench/Flex
+RB,"Samaje Perine (CIN)",80.00,38,2022,94,Bench/Flex
+RB,"Michael Carter (FA)",80.00,55,2025,95,Bench/Flex
+RB,"Chuba Hubbard (CAR)",79.00,42,2025,96,Bench/Flex
+RB,"James Conner (ARI)",79.00,15,2023,97,Bench/Flex
+RB,"Devontae Booker (FA)",78.00,35,2021,98,Bench/Flex
+RB,"Saquon Barkley (PHI)",78.00,13,2025,99,Bench/Flex
+RB,"Jahmyr Gibbs (DET)",77.00,4,2025,100,Bench/Flex
+RB,"Samaje Perine (CIN)",77.00,58,2024,101,Bench/Flex
+RB,"Nyheim Miller-Hines (FA)",77.00,56,2021,102,Bench/Flex
+RB,"Zach Charbonnet (SEA)",76.00,25,2024,103,Bench/Flex
+RB,"Jaylen Warren (PIT)",75.00,52,2022,104,Bench/Flex
+RB,"Christian McCaffrey (SF)",74.00,1,2023,105,Bench/Flex
+RB,"Jahmyr Gibbs (DET)",73.00,10,2023,106,Bench/Flex
+RB,"Devin Singletary (NYG)",73.00,43,2025,107,Bench/Flex
+RB,"Rachaad White (FA)",73.00,40,2025,108,Bench/Flex
+RB,"D'Andre Swift (CHI)",73.00,23,2022,109,Bench/Flex
+RB,"Kimani Vidal (LAC)",72.00,41,2025,110,Bench/Flex
+RB,"Aaron Jones Sr. (FA)",71.00,11,2022,111,Bench/Flex
+RB,"Jerome Ford (FA)",71.00,37,2024,112,Bench/Flex
+RB,"D'Andre Swift (CHI)",71.00,23,2023,113,Bench/Flex
+RB,"Rico Dowdle (PIT)",71.00,23,2024,114,Bench/Flex
+RB,"Jeremy McNichols (FA)",71.00,62,2025,115,Bench/Flex
+RB,"Jerick McKinnon (FA)",70.00,24,2022,116,Bench/Flex
+RB,"Ameer Abdullah (FA)",69.00,41,2024,117,Bench/Flex
+RB,"Devin Singletary (NYG)",69.00,19,2021,118,Bench/Flex
+RB,"Tyrone Tracy Jr. (NYG)",69.00,26,2024,119,Bench/Flex
+RB,"David Johnson (FA)",69.00,67,2021,120,Bench/Flex
+RB,"Dylan Sampson (CLE)",68.00,57,2025,121,Bench/Flex
+RB,"Kenneth Walker III (KC)",67.00,21,2025,122,Bench/Flex
+RB,"Miles Sanders (FA)",67.00,43,2021,123,Bench/Flex
+RB,"Ameer Abdullah (FA)",67.00,66,2021,124,Bench/Flex
+RB,"Roschon Johnson (CHI)",67.00,51,2023,125,Bench/Flex
+RB,"Kenyan Drake (FA)",66.00,57,2021,126,Bench/Flex
+RB,"Chuba Hubbard (CAR)",66.00,26,2023,127,Bench/Flex
+RB,"Rico Dowdle (PIT)",66.00,16,2025,128,Bench/Flex
+RB,"Myles Gaskin (FA)",66.00,28,2021,129,Bench/Flex
+RB,"Jeremy McNichols (FA)",66.00,71,2021,130,Bench/Flex
+RB,"Ezekiel Elliott (FA)",66.00,6,2021,131,Bench/Flex
+RB,"Rachaad White (FA)",65.00,42,2022,132,Bench/Flex
+RB,"Rhamondre Stevenson (NE)",65.00,35,2023,133,Bench/Flex
+RB,"Deon Jackson (FA)",65.00,60,2022,134,Bench/Flex
+RB,"Tyrone Tracy Jr. (NYG)",65.00,32,2025,135,Bench/Flex
+RB,"D'Andre Swift (CHI)",65.00,14,2025,136,Bench/Flex
+RB,"Demetric Felton Jr. (FA)",64.00,88,2021,137,Bench/Flex
+RB,"Tony Pollard (TEN)",62.00,23,2025,138,Bench/Flex
+RB,"Alexander Mattison (FA)",62.00,40,2021,139,Bench/Flex
+RB,"Chase Edmonds (WAS)",61.00,37,2021,140,Bench/Flex
+RB,"Najee Harris (LAC)",61.00,12,2022,141,Bench/Flex
+RB,"Josh Jacobs (GB)",61.00,1,2022,142,Bench/Flex
+RB,"Raheem Mostert (LV)",61.00,2,2023,143,Bench/Flex
+RB,"Bucky Irving (TB)",60.00,36,2025,144,Bench/Flex
+RB,"Zack Moss (FA)",60.00,27,2023,145,Bench/Flex
+RB,"Dalvin Cook (FA)",60.00,9,2022,146,Bench/Flex
+RB,"Tony Pollard (TEN)",60.00,22,2024,147,Bench/Flex
+RB,"Javonte Williams (DAL)",59.00,32,2023,148,Bench/Flex
+RB,"Zack Moss (FA)",58.00,53,2021,149,Bench/Flex
+RB,"Brian Robinson Jr. (FA)",58.00,28,2024,150,Bench/Flex
+RB,"Kyle Juszczyk (SF)",58.00,72,2022,151,Bench/Flex
+RB,"Travis Homer (FA)",58.00,70,2021,152,Bench/Flex
+RB,"Kareem Hunt (FA)",58.00,41,2022,153,Bench/Flex
+RB,"Jonathan Taylor (IND)",58.00,8,2024,154,Bench/Flex
+RB,"Rhamondre Stevenson (NE)",58.00,27,2024,155,Bench/Flex
+RB,"Derrick Henry (BAL)",57.00,6,2025,156,Bench/Flex
+RB,"Zach Charbonnet (SEA)",57.00,48,2023,157,Bench/Flex
+RB,"Derrick Henry (BAL)",57.00,5,2023,158,Bench/Flex
+RB,"Brashard Smith (KC)",57.00,70,2025,159,Bench/Flex
+RB,"Joe Mixon (FA)",55.00,3,2021,160,Bench/Flex
+RB,"James Robinson (FA)",55.00,25,2021,161,Bench/Flex
+RB,"Nick Chubb (FA)",55.00,5,2022,162,Bench/Flex
+RB,"Nyheim Miller-Hines (FA)",55.00,62,2022,163,Bench/Flex
+RB,"A.J. Dillon (FA)",55.00,26,2022,164,Bench/Flex
+RB,"Omarion Hampton (LAC)",54.00,39,2025,165,Bench/Flex
+RB,"Cam Skattebo (NYG)",54.00,38,2025,166,Bench/Flex
+RB,"Justin Jackson (FA)",54.00,60,2021,167,Bench/Flex
+RB,"Saquon Barkley (PHI)",54.00,34,2021,168,Bench/Flex
+RB,"Eno Benjamin (FA)",53.00,54,2022,169,Bench/Flex
+RB,"Kenneth Gainwell (TB)",53.00,45,2021,170,Bench/Flex
+RB,"Dalvin Cook (FA)",53.00,15,2021,171,Bench/Flex
+RB,"Justice Hill (BAL)",53.00,66,2025,172,Bench/Flex
+RB,"Kyren Williams (LAR)",53.00,6,2024,173,Bench/Flex
+RB,"Elijah Mitchell (NE)",52.00,24,2021,174,Bench/Flex
+RB,"David Montgomery (HOU)",52.00,20,2021,175,Bench/Flex
+RB,"Clyde Edwards-Helaire (FA)",52.00,46,2022,176,Bench/Flex
+RB,"Kyle Juszczyk (SF)",52.00,74,2021,177,Bench/Flex
+RB,"Nick Chubb (FA)",52.00,7,2021,178,Bench/Flex
+RB,"Sony Michel (FA)",52.00,27,2021,179,Bench/Flex
+RB,"Antonio Gibson (FA)",51.00,35,2022,180,Bench/Flex
+RB,"Justice Hill (BAL)",51.00,42,2023,181,Bench/Flex
+RB,"Tyler Allgeier (ARI)",51.00,22,2022,182,Bench/Flex
+RB,"Miles Sanders (FA)",51.00,55,2023,183,Bench/Flex
+RB,"Dameon Pierce (FA)",51.00,29,2022,184,Bench/Flex
+RB,"Chuba Hubbard (CAR)",50.00,50,2022,185,Bench/Flex
+RB,"Najee Harris (LAC)",49.00,20,2023,186,Bench/Flex
+RB,"David Montgomery (HOU)",49.00,27,2025,187,Bench/Flex
+RB,"Braelon Allen (NYJ)",49.00,51,2024,188,Bench/Flex
+RB,"Emanuel Wilson (FA)",48.00,47,2025,189,Bench/Flex
+RB,"Aaron Jones Sr. (FA)",48.00,36,2023,190,Bench/Flex
+RB,"Kyren Williams (LAR)",47.00,4,2023,191,Bench/Flex
+RB,"Devin Singletary (NYG)",47.00,25,2022,192,Bench/Flex
+RB,"D'Ernest Johnson (FA)",47.00,48,2021,193,Bench/Flex
+RB,"Zamir White (LV)",47.00,57,2023,194,Bench/Flex
+RB,"TreVeyon Henderson (NE)",46.00,19,2025,195,Bench/Flex
+RB,"Devin Neal (NO)",46.00,68,2025,196,Bench/Flex
+RB,"Derrick Henry (BAL)",46.00,3,2022,197,Bench/Flex
+RB,"Jonathan Taylor (IND)",46.00,36,2022,198,Bench/Flex
+RB,"Javonte Williams (DAL)",46.00,11,2025,199,Bench/Flex
+RB,"Devonta Freeman (FA)",45.00,32,2021,200,Bench/Flex
+RB,"Rhamondre Stevenson (NE)",45.00,36,2021,201,Bench/Flex
+RB,"Woody Marks (HOU)",45.00,31,2025,202,Bench/Flex
+RB,"James Cook III (BUF)",43.00,7,2024,203,Bench/Flex
+RB,"Chuba Hubbard (CAR)",43.00,13,2024,204,Bench/Flex
+RB,"Chase Brown (CIN)",43.00,65,2023,205,Bench/Flex
+RB,"Isiah Pacheco (KC)",42.00,17,2023,206,Bench/Flex
+RB,"Darrell Henderson Jr. (FA)",42.00,26,2021,207,Bench/Flex
+RB,"Rhamondre Stevenson (NE)",42.00,25,2025,208,Bench/Flex
+RB,"Kenneth Gainwell (TB)",42.00,52,2023,209,Bench/Flex
+RB,"Breece Hall (NYJ)",42.00,40,2022,210,Bench/Flex
+RB,"Ty Chandler (FA)",41.00,44,2023,211,Bench/Flex
+RB,"Antonio Gibson (FA)",41.00,45,2024,212,Bench/Flex
+RB,"Aaron Jones Sr. (FA)",41.00,44,2025,213,Bench/Flex
+RB,"Samaje Perine (CIN)",41.00,63,2021,214,Bench/Flex
+RB,"Rex Burkhead (FA)",40.00,55,2021,215,Bench/Flex
+RB,"Tony Pollard (TEN)",39.00,8,2022,216,Bench/Flex
+RB,"Kyle Monangai (CHI)",39.00,29,2025,217,Bench/Flex
+RB,"Emanuel Wilson (FA)",39.00,43,2024,218,Bench/Flex
+RB,"Devin Singletary (NYG)",39.00,29,2023,219,Bench/Flex
+RB,"Latavius Murray (FA)",39.00,53,2023,220,Bench/Flex
+RB,"D'Ernest Johnson (FA)",39.00,85,2024,221,Bench/Flex
+RB,"J.D. McKissic (FA)",39.00,50,2021,222,Bench/Flex
+RB,"Kenneth Gainwell (TB)",38.00,61,2024,223,Bench/Flex
+RB,"Marlon Mack (FA)",38.00,78,2022,224,Bench/Flex
+RB,"Saquon Barkley (PHI)",38.00,13,2023,225,Bench/Flex
+RB,"Chris Evans (FA)",37.00,83,2021,226,Bench/Flex
+RB,"Cam Akers (SEA)",36.00,31,2022,227,Bench/Flex
+RB,"Melvin Gordon III (FA)",36.00,17,2021,228,Bench/Flex
+RB,"Tyler Allgeier (ARI)",35.00,38,2024,229,Bench/Flex
+RB,"Tyler Allgeier (ARI)",35.00,34,2023,230,Bench/Flex
+RB,"Quinshon Judkins (CLE)",35.00,26,2025,231,Bench/Flex
+RB,"Mark Ingram II (FA)",35.00,54,2021,232,Bench/Flex
+RB,"Kyren Williams (LAR)",35.00,8,2025,233,Bench/Flex
+RB,"Audric Estime (NO)",34.00,71,2025,234,Bench/Flex
+RB,"Clyde Edwards-Helaire (FA)",34.00,38,2021,235,Bench/Flex
+RB,"JaMycal Hasty (FA)",34.00,64,2022,236,Bench/Flex
+RB,"Zack Moss (FA)",34.00,55,2024,237,Bench/Flex
+RB,"Cam Akers (SEA)",34.00,68,2023,238,Bench/Flex
+RB,"Roschon Johnson (CHI)",34.00,52,2024,239,Bench/Flex
+RB,"Javonte Williams (DAL)",34.00,86,2022,240,Bench/Flex
+RB,"Darrell Henderson Jr. (FA)",33.00,70,2023,241,Bench/Flex
+RB,"Samaje Perine (CIN)",33.00,56,2025,242,Bench/Flex
+RB,"Ameer Abdullah (FA)",33.00,81,2022,243,Bench/Flex
+RB,"Kenneth Walker III (KC)",32.00,15,2022,244,Bench/Flex
+RB,"Sean Tucker (FA)",32.00,54,2024,245,Bench/Flex
+RB,"Zach Charbonnet (SEA)",32.00,20,2025,246,Bench/Flex
+RB,"Pierre Strong Jr. (GB)",32.00,66,2023,247,Bench/Flex
+RB,"Zavier Scott (MIN)",32.00,76,2025,248,Bench/Flex
+RB,"Ty Johnson (BUF)",31.00,49,2024,249,Bench/Flex
+RB,"Giovani Bernard (FA)",31.00,81,2021,250,Bench/Flex
+RB,"Jerick McKinnon (FA)",31.00,95,2021,251,Bench/Flex
+RB,"Alexander Mattison (FA)",31.00,38,2023,252,Bench/Flex
+RB,"Duke Johnson Jr. (FA)",30.00,64,2021,253,Bench/Flex
+RB,"Kenneth Gainwell (TB)",30.00,53,2022,254,Bench/Flex
+RB,"David Montgomery (HOU)",30.00,9,2023,255,Bench/Flex
+RB,"Travis Etienne Jr. (NO)",30.00,16,2022,256,Bench/Flex
+RB,"Jeff Wilson Jr. (FA)",30.00,28,2022,257,Bench/Flex
+RB,"Isiah Pacheco (KC)",30.00,34,2022,258,Bench/Flex
+RB,"Kareem Hunt (FA)",30.00,30,2025,259,Bench/Flex
+RB,"Damien Williams (FA)",30.00,72,2021,260,Bench/Flex
+RB,"Michael Carter (FA)",30.00,45,2022,261,Bench/Flex
+RB,"Damien Harris (FA)",30.00,49,2022,262,Bench/Flex
+RB,"Rico Dowdle (PIT)",30.00,47,2023,263,Bench/Flex
+RB,"Chris Brooks (GB)",30.00,74,2024,264,Bench/Flex
+RB,"Christian McCaffrey (SF)",29.00,73,2024,265,Bench/Flex
+RB,"Chuba Hubbard (CAR)",29.00,33,2021,266,Bench/Flex
+RB,"Bhayshul Tuten (JAC)",29.00,48,2025,267,Bench/Flex
+RB,"Devin Singletary (NYG)",29.00,48,2024,268,Bench/Flex
+RB,"Jonathan Taylor (IND)",29.00,28,2023,269,Bench/Flex
+RB,"Michael Carter (FA)",29.00,83,2024,270,Bench/Flex
+RB,"Rashaad Penny (FA)",29.00,31,2021,271,Bench/Flex
+RB,"JaMycal Hasty (FA)",28.00,92,2021,272,Bench/Flex
+RB,"Bam Knight (ARI)",28.00,51,2025,273,Bench/Flex
+RB,"Dare Ogunbowale (FA)",28.00,70,2024,274,Bench/Flex
+RB,"Tyler Badie (DEN)",28.00,90,2025,275,Bench/Flex
+RB,"J.K. Dobbins (DEN)",28.00,21,2024,276,Bench/Flex
+RB,"Tank Bigsby (PHI)",28.00,60,2025,277,Bench/Flex
+RB,"Kyle Juszczyk (SF)",28.00,68,2024,278,Bench/Flex
+RB,"Jerick McKinnon (FA)",28.00,56,2023,279,Bench/Flex
+RB,"Raheem Blackshear (FA)",28.00,75,2022,280,Bench/Flex
+RB,"Tyler Goodson (IND)",27.00,72,2024,281,Bench/Flex
+RB,"Khalil Herbert (FA)",27.00,59,2021,282,Bench/Flex
+RB,"Patrick Ricard (BAL)",27.00,115,2022,283,Bench/Flex
+RB,"Raheem Mostert (LV)",27.00,60,2024,284,Bench/Flex
+RB,"Hunter Luepke (DAL)",27.00,77,2025,285,Bench/Flex
+RB,"C.J. Ham (MIN)",26.00,106,2021,286,Bench/Flex
+RB,"Craig Reynolds (FA)",26.00,96,2024,287,Bench/Flex
+RB,"Jordan Mason (MIN)",26.00,33,2024,288,Bench/Flex
+RB,"Khalil Herbert (FA)",26.00,41,2023,289,Bench/Flex
+RB,"Derrick Henry (BAL)",26.00,14,2021,290,Bench/Flex
+RB,"Kyren Williams (LAR)",25.00,90,2022,291,Bench/Flex
+RB,"D'Ernest Johnson (FA)",25.00,80,2023,292,Bench/Flex
+RB,"Eno Benjamin (FA)",25.00,98,2021,293,Bench/Flex
+RB,"Chris Brooks (GB)",25.00,83,2025,294,Bench/Flex
+RB,"Rasheen Ali (BAL)",25.00,91,2025,295,Bench/Flex
+RB,"Chase Edmonds (WAS)",25.00,57,2022,296,Bench/Flex
+RB,"Alec Ingold (LAC)",25.00,88,2022,297,Bench/Flex
+RB,"Jamaal Williams (FA)",25.00,7,2022,298,Bench/Flex
+RB,"Isaac Guerendo (SF)",25.00,46,2024,299,Bench/Flex
+RB,"Miles Sanders (FA)",25.00,59,2024,300,Bench/Flex
+RB,"Jerome Ford (FA)",24.00,87,2025,301,Bench/Flex
+RB,"Alexander Mattison (FA)",24.00,51,2022,302,Bench/Flex
+RB,"Jaleel McLaughlin (DEN)",24.00,50,2024,303,Bench/Flex
+RB,"Justin Jackson (FA)",24.00,71,2022,304,Bench/Flex
+RB,"Isaiah Davis (NYJ)",24.00,61,2025,305,Bench/Flex
+RB,"Jaret Patterson (LAC)",24.00,69,2021,306,Bench/Flex
+RB,"Salvon Ahmed (FA)",23.00,75,2023,307,Bench/Flex
+RB,"James Conner (ARI)",23.00,75,2025,308,Bench/Flex
+RB,"Alec Ingold (LAC)",23.00,110,2021,309,Bench/Flex
+RB,"Kareem Hunt (FA)",23.00,37,2023,310,Bench/Flex
+RB,"DeeJay Dallas (JAC)",23.00,79,2021,311,Bench/Flex
+RB,"Kyle Juszczyk (SF)",23.00,72,2025,312,Bench/Flex
+RB,"Derrick Gore (FA)",23.00,68,2021,313,Bench/Flex
+RB,"Alvin Kamara (NO)",23.00,53,2025,314,Bench/Flex
+RB,"James White (FA)",23.00,101,2021,315,Bench/Flex
+RB,"Kendre Miller (NO)",23.00,71,2023,316,Bench/Flex
+RB,"Travis Homer (FA)",22.00,85,2022,317,Bench/Flex
+RB,"D'Onta Foreman (FA)",22.00,49,2021,318,Bench/Flex
+RB,"Pierre Strong Jr. (GB)",22.00,90,2024,319,Bench/Flex
+RB,"Salvon Ahmed (FA)",22.00,91,2021,320,Bench/Flex
+RB,"Ezekiel Elliott (FA)",22.00,17,2022,321,Bench/Flex
+RB,"Ameer Abdullah (FA)",21.00,84,2023,322,Bench/Flex
+RB,"JaMycal Hasty (FA)",21.00,94,2024,323,Bench/Flex
+RB,"Gary Brightwell (CIN)",21.00,111,2023,324,Bench/Flex
+RB,"Darrell Henderson Jr. (FA)",21.00,58,2022,325,Bench/Flex
+RB,"Keaontay Ingram (KC)",21.00,106,2022,326,Bench/Flex
+RB,"Jaylen Wright (MIA)",21.00,67,2025,327,Bench/Flex
+RB,"Jonathon Brooks (CAR)",21.00,115,2024,328,Bench/Flex
+RB,"Bam Knight (ARI)",21.00,66,2022,329,Bench/Flex
+RB,"Trey Sermon (FA)",21.00,69,2024,330,Bench/Flex
+RB,"Dontrell Hilliard (FA)",20.00,65,2021,331,Bench/Flex
+RB,"Tyler Allgeier (ARI)",20.00,35,2025,332,Bench/Flex
+RB,"Latavius Murray (FA)",20.00,42,2021,333,Bench/Flex
+RB,"Isaiah Davis (NYJ)",20.00,71,2024,334,Bench/Flex
+RB,"Ameer Abdullah (FA)",20.00,82,2025,335,Bench/Flex
+RB,"Elijhaa Penny (FA)",20.00,90,2021,336,Bench/Flex
+RB,"Matt Breida (FA)",20.00,82,2021,337,Bench/Flex
+RB,"Craig Reynolds (FA)",19.00,89,2021,338,Bench/Flex
+RB,"Melvin Gordon III (FA)",19.00,55,2022,339,Bench/Flex
+RB,"Ezekiel Elliott (FA)",19.00,62,2024,340,Bench/Flex
+RB,"Michael Carter (FA)",19.00,69,2023,341,Bench/Flex
+RB,"Cam Akers (SEA)",19.00,47,2024,342,Bench/Flex
+RB,"Damien Harris (FA)",19.00,8,2021,343,Bench/Flex
+RB,"Hassan Haskins (LAC)",19.00,105,2022,344,Bench/Flex
+RB,"Dontrell Hilliard (FA)",19.00,59,2022,345,Bench/Flex
+RB,"Carlos Hyde (FA)",19.00,84,2021,346,Bench/Flex
+RB,"Gus Edwards (FA)",18.00,14,2023,347,Bench/Flex
+RB,"Jalen Richard (FA)",18.00,118,2021,348,Bench/Flex
+RB,"Ty Montgomery II (FA)",18.00,113,2021,349,Bench/Flex
+RB,"D'Onta Foreman (FA)",18.00,43,2023,350,Bench/Flex
+RB,"Jamaal Williams (FA)",18.00,41,2021,351,Bench/Flex
+RB,"Jordan Mason (MIN)",17.00,33,2025,352,Bench/Flex
+RB,"Hunter Luepke (DAL)",17.00,99,2024,353,Bench/Flex
+RB,"Eric Gray (NYG)",17.00,109,2024,354,Bench/Flex
+RB,"Corey Clement (FA)",17.00,100,2022,355,Bench/Flex
+RB,"Miles Sanders (FA)",17.00,10,2022,356,Bench/Flex
+RB,"Craig Reynolds (FA)",17.00,89,2022,357,Bench/Flex
+RB,"J.D. McKissic (FA)",17.00,82,2022,358,Bench/Flex
+RB,"Zamir White (LV)",17.00,87,2024,359,Bench/Flex
+RB,"Jamaal Williams (FA)",17.00,62,2023,360,Bench/Flex
+RB,"Keith Smith (FA)",17.00,125,2021,361,Bench/Flex
+RB,"Will Shipley (PHI)",16.00,102,2024,362,Bench/Flex
+RB,"Patrick Ricard (BAL)",16.00,114,2021,363,Bench/Flex
+RB,"D'Onta Foreman (FA)",16.00,80,2024,364,Bench/Flex
+RB,"Trey Benson (ARI)",16.00,66,2024,365,Bench/Flex
+RB,"Tevin Coleman (FA)",16.00,77,2021,366,Bench/Flex
+RB,"Kareem Hunt (FA)",16.00,46,2021,367,Bench/Flex
+RB,"Latavius Murray (FA)",16.00,32,2022,368,Bench/Flex
+RB,"Ray Davis (BUF)",16.00,35,2024,369,Bench/Flex
+RB,"Dalvin Cook (FA)",16.00,78,2023,370,Bench/Flex
+RB,"Zack Moss (FA)",15.00,61,2022,371,Bench/Flex
+RB,"Mark Ingram II (FA)",15.00,74,2022,372,Bench/Flex
+RB,"Raheem Mostert (LV)",15.00,88,2025,373,Bench/Flex
+RB,"LeQuint Allen Jr. (JAC)",15.00,92,2025,374,Bench/Flex
+RB,"Raheem Blackshear (FA)",15.00,97,2023,375,Bench/Flex
+RB,"Kendre Miller (NO)",15.00,73,2025,376,Bench/Flex
+RB,"Ollie Gordon II (MIA)",15.00,63,2025,377,Bench/Flex
+RB,"Dare Ogunbowale (FA)",15.00,83,2022,378,Bench/Flex
+RB,"Isiah Pacheco (KC)",15.00,63,2024,379,Bench/Flex
+RB,"Matt Breida (FA)",15.00,70,2022,380,Bench/Flex
+RB,"Khalil Herbert (FA)",15.00,89,2024,381,Bench/Flex
+RB,"Jordan Mims (FA)",15.00,100,2024,382,Bench/Flex
+RB,"D'Onta Foreman (FA)",14.00,33,2022,383,Bench/Flex
+RB,"Miles Sanders (FA)",14.00,86,2025,384,Bench/Flex
+RB,"Alex Collins (FA)",14.00,62,2021,385,Bench/Flex
+RB,"Emari Demercado (FA)",14.00,60,2023,386,Bench/Flex
+RB,"Jamaal Williams (FA)",14.00,77,2024,387,Bench/Flex
+RB,"Peyton Barber (FA)",14.00,78,2021,388,Bench/Flex
+RB,"Cordarrelle Patterson (FA)",14.00,82,2024,389,Bench/Flex
+RB,"Jaleel McLaughlin (DEN)",14.00,74,2025,390,Bench/Flex
+RB,"J.K. Dobbins (DEN)",13.00,104,2023,391,Bench/Flex
+RB,"DeeJay Dallas (JAC)",13.00,79,2022,392,Bench/Flex
+RB,"Brian Robinson Jr. (FA)",13.00,39,2022,393,Bench/Flex
+RB,"Blake Corum (LAR)",13.00,81,2024,394,Bench/Flex
+RB,"Michael Burton (FA)",13.00,93,2024,395,Bench/Flex
+RB,"Trayveon Williams (FA)",13.00,101,2025,396,Bench/Flex
+RB,"Dameon Pierce (FA)",13.00,50,2023,397,Bench/Flex
+RB,"Nick Chubb (FA)",13.00,50,2025,398,Bench/Flex
+RB,"Keaton Mitchell (BAL)",12.00,54,2023,399,Bench/Flex
+RB,"Darrynton Evans (FA)",12.00,113,2022,400,Bench/Flex
+RB,"Darrynton Evans (FA)",12.00,83,2023,401,Bench/Flex
+RB,"Alec Ingold (LAC)",12.00,98,2024,402,Bench/Flex
+RB,"Isiah Pacheco (KC)",12.00,52,2025,403,Bench/Flex
+RB,"Joshua Kelley (FA)",12.00,116,2021,404,Bench/Flex
+RB,"Mike Boone (FA)",12.00,94,2022,405,Bench/Flex
+RB,"Trey Benson (ARI)",12.00,80,2025,406,Bench/Flex
+RB,"Rex Burkhead (FA)",12.00,73,2022,407,Bench/Flex
+RB,"Austin Ekeler (FA)",12.00,106,2025,408,Bench/Flex
+RB,"James Cook III (BUF)",12.00,44,2022,409,Bench/Flex
+RB,"Alec Ingold (LAC)",12.00,95,2023,410,Bench/Flex
+RB,"Ty'Son Williams (FA)",11.00,86,2021,411,Bench/Flex
+RB,"Deuce Vaughn (DEN)",11.00,108,2023,412,Bench/Flex
+RB,"Ray Davis (BUF)",11.00,59,2025,413,Bench/Flex
+RB,"Khalil Herbert (FA)",11.00,37,2022,414,Bench/Flex
+RB,"Brandon Bolden (FA)",11.00,97,2022,415,Bench/Flex
+RB,"Benny Snell Jr. (FA)",11.00,101,2022,416,Bench/Flex
+RB,"Sony Michel (FA)",11.00,102,2022,417,Bench/Flex
+RB,"Ronnie Rivers (LAR)",11.00,130,2022,418,Bench/Flex
+RB,"Boston Scott (FA)",11.00,47,2021,419,Bench/Flex
+RB,"Dylan Laube (LV)",11.00,135,2025,420,Bench/Flex
+RB,"Ty Johnson (BUF)",11.00,77,2023,421,Bench/Flex
+RB,"Tyler Goodson (IND)",11.00,94,2023,422,Bench/Flex
+RB,"Malik Davis (DAL)",10.00,84,2022,423,Bench/Flex
+RB,"Matt Breida (FA)",10.00,72,2023,424,Bench/Flex
+RB,"Joshua Kelley (FA)",10.00,63,2022,425,Bench/Flex
+RB,"Chris Carson (FA)",10.00,75,2021,426,Bench/Flex
+RB,"Isaiah Spiller (FA)",10.00,93,2023,427,Bench/Flex
+RB,"Tank Bigsby (PHI)",10.00,31,2024,428,Bench/Flex
+RB,"Cordarrelle Patterson (FA)",10.00,73,2023,429,Bench/Flex
+RB,"Myles Gaskin (FA)",10.00,126,2022,430,Bench/Flex
+RB,"Julius Chestnut (FA)",10.00,128,2022,431,Bench/Flex
+RB,"Ty Montgomery II (FA)",10.00,114,2023,432,Bench/Flex
+RB,"Jeff Wilson Jr. (FA)",10.00,74,2023,433,Bench/Flex
+RB,"Dare Ogunbowale (FA)",10.00,80,2021,434,Bench/Flex
+RB,"Le'Veon Bell (FA)",10.00,85,2021,435,Bench/Flex
+RB,"Alec Ingold (LAC)",10.00,111,2025,436,Bench/Flex
+RB,"Kenyan Drake (FA)",10.00,134,2023,437,Bench/Flex
+RB,"C.J. Ham (MIN)",10.00,91,2022,438,Bench/Flex
+RB,"Gary Brightwell (CIN)",10.00,87,2022,439,Bench/Flex
+RB,"Craig Reynolds (FA)",10.00,81,2023,440,Bench/Flex
+RB,"Emari Demercado (FA)",9.00,67,2024,441,Bench/Flex
+RB,"Justice Hill (BAL)",9.00,80,2022,442,Bench/Flex
+RB,"Israel Abanikanda (DAL)",9.00,105,2023,443,Bench/Flex
+RB,"Carson Steele (PHI)",9.00,97,2024,444,Bench/Flex
+RB,"Clyde Edwards-Helaire (FA)",9.00,110,2024,445,Bench/Flex
+RB,"Godwin Igwebuike (FA)",9.00,112,2021,446,Bench/Flex
+RB,"Derek Watt (FA)",9.00,147,2021,447,Bench/Flex
+RB,"Dare Ogunbowale (FA)",9.00,94,2025,448,Bench/Flex
+RB,"Kevin Harris (FA)",9.00,88,2023,449,Bench/Flex
+RB,"Emari Demercado (FA)",9.00,65,2025,450,Bench/Flex
+RB,"Tyler Badie (DEN)",9.00,118,2022,451,Bench/Flex
+RB,"Tony Jones Jr. (FA)",8.00,79,2023,460,Bench/Flex
+RB,"Ronald Jones II (FA)",8.00,58,2021,453,Bench/Flex
+RB,"Jacory Croskey-Merritt (WAS)",8.00,28,2025,454,Bench/Flex
+RB,"Emanuel Wilson (FA)",8.00,100,2023,455,Bench/Flex
+RB,"Raheim Sanders (CLE)",8.00,89,2025,456,Bench/Flex
+RB,"Will Shipley (PHI)",8.00,105,2025,457,Bench/Flex
+RB,"Reggie Gilliam (NE)",8.00,138,2021,458,Bench/Flex
+RB,"Audric Estime (NO)",8.00,64,2024,459,Bench/Flex
+RB,"J.K. Dobbins (DEN)",8.00,48,2022,452,Bench/Flex
+RB,"Chase Edmonds (WAS)",8.00,76,2023,461,Bench/Flex
+RB,"Jordan Wilkins (FA)",7.00,117,2022,462,Bench/Flex
+RB,"Chris Rodriguez Jr. (WAS)",7.00,45,2025,463,Bench/Flex
+RB,"DeeJay Dallas (JAC)",7.00,124,2023,464,Bench/Flex
+RB,"Rashaad Penny (FA)",7.00,65,2022,465,Bench/Flex
+RB,"Keaton Mitchell (BAL)",7.00,64,2025,466,Bench/Flex
+RB,"Mike Boone (FA)",7.00,112,2023,467,Bench/Flex
+RB,"Braelon Allen (NYJ)",7.00,96,2025,468,Bench/Flex
+RB,"J.K. Dobbins (DEN)",7.00,37,2025,469,Bench/Flex
+RB,"Jaylen Samuels (FA)",7.00,140,2021,470,Bench/Flex
+RB,"Mike Boone (FA)",7.00,130,2021,471,Bench/Flex
+RB,"Austin Walter (FA)",7.00,104,2021,472,Bench/Flex
+RB,"La'Mical Perine (FA)",7.00,99,2023,473,Bench/Flex
+RB,"Hunter Luepke (DAL)",6.00,103,2023,474,Bench/Flex
+RB,"Jacob Kibodi (FA)",6.00,117,2024,475,Bench/Flex
+RB,"Phil Mafah (DAL)",6.00,102,2025,476,Bench/Flex
+RB,"Kenyan Drake (FA)",6.00,43,2022,477,Bench/Flex
+RB,"Nick Chubb (FA)",6.00,86,2023,478,Bench/Flex
+RB,"Patrick Laird (FA)",6.00,143,2021,479,Bench/Flex
+RB,"Ryquell Armstead (FA)",6.00,121,2021,480,Bench/Flex
+RB,"Sean Tucker (FA)",6.00,46,2025,481,Bench/Flex
+RB,"Avery Williams (FA)",6.00,92,2022,482,Bench/Flex
+RB,"Joshua Kelley (FA)",6.00,58,2023,483,Bench/Flex
+RB,"David Johnson (FA)",6.00,129,2022,484,Bench/Flex
+RB,"Damien Williams (FA)",6.00,113,2023,485,Bench/Flex
+RB,"Cordarrelle Patterson (FA)",6.00,30,2022,486,Bench/Flex
+RB,"Deuce Vaughn (DEN)",6.00,105,2024,487,Bench/Flex
+RB,"Brian Robinson Jr. (FA)",6.00,58,2025,488,Bench/Flex
+RB,"Sincere McCormick (FA)",6.00,91,2024,489,Bench/Flex
+RB,"Blake Corum (LAR)",6.00,34,2025,490,Bench/Flex
+RB,"Ty Chandler (FA)",6.00,88,2024,491,Bench/Flex
+RB,"J.J. Taylor (FA)",5.00,111,2021,492,Bench/Flex
+RB,"Ty Johnson (BUF)",5.00,77,2022,493,Bench/Flex
+RB,"Adam Prentice (DEN)",5.00,142,2022,494,Bench/Flex
+RB,"Nick Bawden (FA)",5.00,106,2023,495,Bench/Flex
+RB,"Keith Smith (FA)",5.00,146,2022,496,Bench/Flex
+RB,"Najee Harris (LAC)",5.00,104,2025,497,Bench/Flex
+RB,"Travis Homer (FA)",5.00,118,2024,498,Bench/Flex
+RB,"Melvin Gordon III (FA)",5.00,91,2023,499,Bench/Flex
+RB,"Jonathan Williams (FA)",5.00,105,2021,500,Bench/Flex
+RB,"Keaton Mitchell (BAL)",5.00,112,2024,501,Bench/Flex
+RB,"Jashaun Corbin (FA)",5.00,130,2023,502,Bench/Flex
+RB,"Elijah Mitchell (NE)",5.00,64,2023,503,Bench/Flex
+RB,"Kendre Miller (NO)",5.00,84,2024,504,Bench/Flex
+RB,"James Robinson (FA)",5.00,47,2022,505,Bench/Flex
+RB,"A.J. Dillon (FA)",5.00,112,2025,506,Bench/Flex
+RB,"Hassan Haskins (LAC)",5.00,113,2025,507,Bench/Flex
+RB,"Deon Jackson (FA)",5.00,139,2023,508,Bench/Flex
+RB,"Kimani Vidal (LAC)",5.00,78,2024,509,Bench/Flex
+RB,"Adam Prentice (DEN)",4.00,98,2025,510,Bench/Flex
+RB,"Phillip Lindsay (FA)",4.00,76,2021,511,Bench/Flex
+RB,"Keaontay Ingram (KC)",4.00,102,2023,512,Bench/Flex
+RB,"Nick Chubb (FA)",4.00,56,2024,513,Bench/Flex
+RB,"Clyde Edwards-Helaire (FA)",4.00,126,2025,514,Bench/Flex
+RB,"Adrian Peterson (FA)",4.00,97,2021,515,Bench/Flex
+RB,"Jermar Jefferson (FA)",4.00,99,2021,516,Bench/Flex
+RB,"Jonathan Ward (FA)",4.00,128,2021,517,Bench/Flex
+RB,"Blake Watson (TEN)",4.00,124,2024,518,Bench/Flex
+RB,"Jonathan Williams (FA)",4.00,95,2022,519,Bench/Flex
+RB,"Chris Rodriguez Jr. (WAS)",4.00,67,2023,520,Bench/Flex
+RB,"Tevin Coleman (FA)",4.00,96,2022,521,Bench/Flex
+RB,"Trayveon Williams (FA)",4.00,131,2021,522,Bench/Flex
+RB,"Kyle Juszczyk (SF)",4.00,82,2023,523,Bench/Flex
+RB,"C.J. Ham (MIN)",4.00,106,2024,524,Bench/Flex
+RB,"Gabe Nabers (FA)",4.00,139,2021,525,Bench/Flex
+RB,"Jeff Wilson Jr. (FA)",4.00,108,2024,526,Bench/Flex
+RB,"Ronnie Rivers (LAR)",4.00,92,2023,527,Bench/Flex
+RB,"Patrick Taylor Jr. (FA)",4.00,87,2023,528,Bench/Flex
+RB,"Eric Gray (NYG)",4.00,110,2023,529,Bench/Flex
+RB,"Sione Vaki (DET)",4.00,113,2024,530,Bench/Flex
+RB,"Darrel Williams (FA)",4.00,99,2022,531,Bench/Flex
+RB,"Royce Freeman (FA)",4.00,109,2022,532,Bench/Flex
+RB,"Ke'Shawn Vaughn (FA)",4.00,87,2021,533,Bench/Flex
+RB,"Trey Sermon (FA)",3.00,89,2023,534,Bench/Flex
+RB,"Julius Chestnut (FA)",3.00,104,2024,535,Bench/Flex
+RB,"Jonathan Ward (FA)",3.00,136,2022,536,Bench/Flex
+RB,"J.J. Taylor (FA)",3.00,144,2022,537,Bench/Flex
+RB,"Larry Rountree III (FA)",3.00,135,2022,538,Bench/Flex
+RB,"Jeremy McNichols (FA)",3.00,57,2024,539,Bench/Flex
+RB,"Anthony McFarland Jr. (FA)",3.00,134,2022,540,Bench/Flex
+RB,"Dwayne Washington (FA)",3.00,132,2022,541,Bench/Flex
+RB,"Jordan Howard (FA)",3.00,61,2021,542,Bench/Flex
+RB,"Trayveon Williams (FA)",3.00,123,2022,543,Bench/Flex
+RB,"Ty Montgomery II (FA)",3.00,120,2022,544,Bench/Flex
+RB,"Kene Nwangwu (FA)",3.00,114,2022,545,Bench/Flex
+RB,"Ronald Jones II (FA)",3.00,103,2022,546,Bench/Flex
+RB,"Jordan Mason (MIN)",3.00,63,2023,547,Bench/Flex
+RB,"Damien Harris (FA)",3.00,90,2023,548,Bench/Flex
+RB,"Boston Scott (FA)",3.00,68,2022,549,Bench/Flex
+RB,"Boston Scott (FA)",3.00,96,2023,550,Bench/Flex
+RB,"Dalvin Cook (FA)",3.00,123,2024,551,Bench/Flex
+RB,"DeeJay Dallas (JAC)",3.00,95,2024,552,Bench/Flex
+RB,"Zamir White (LV)",3.00,115,2025,553,Bench/Flex
+RB,"Antonio Gibson (FA)",3.00,81,2025,554,Bench/Flex
+RB,"Ty Chandler (FA)",3.00,114,2025,555,Bench/Flex
+RB,"Corey Clement (FA)",3.00,96,2021,556,Bench/Flex
+RB,"George Holani (SEA)",3.00,85,2025,557,Bench/Flex
+RB,"Ronnie Rivers (LAR)",3.00,101,2024,558,Bench/Flex
+RB,"Benny Snell Jr. (FA)",3.00,119,2021,559,Bench/Flex
+RB,"C.J. Ham (MIN)",3.00,95,2025,560,Bench/Flex
+RB,"Trevor Etienne (CAR)",3.00,103,2025,561,Bench/Flex
+RB,"Mike Davis (FA)",2.00,139,2022,562,Bench/Flex
+RB,"Pierre Strong Jr. (GB)",2.00,93,2022,563,Bench/Flex
+RB,"Qadree Ollison (FA)",2.00,107,2021,564,Bench/Flex
+RB,"Patrick Taylor Jr. (FA)",2.00,79,2024,565,Bench/Flex
+RB,"Rashaad Penny (FA)",2.00,117,2023,566,Bench/Flex
+RB,"C.J. Ham (MIN)",2.00,120,2023,567,Bench/Flex
+RB,"Michael Burton (FA)",2.00,117,2021,568,Bench/Flex
+RB,"Michael Burton (FA)",2.00,143,2022,569,Bench/Flex
+RB,"Trayveon Williams (FA)",2.00,109,2023,570,Bench/Flex
+RB,"Kene Nwangwu (FA)",2.00,102,2021,571,Bench/Flex
+RB,"Marlon Mack (FA)",2.00,120,2021,572,Bench/Flex
+RB,"Malcolm Brown (FA)",2.00,100,2021,573,Bench/Flex
+RB,"Chris Rodriguez Jr. (WAS)",2.00,75,2024,574,Bench/Flex
+RB,"Dameon Pierce (FA)",2.00,65,2024,575,Bench/Flex
+RB,"Kalen Ballage (FA)",2.00,134,2021,576,Bench/Flex
+RB,"Gus Edwards (FA)",2.00,53,2024,577,Bench/Flex
+RB,"Jermar Jefferson (FA)",2.00,121,2024,578,Bench/Flex
+RB,"Jawhar Jordan (HOU)",2.00,78,2025,579,Bench/Flex
+RB,"Elijah Dotson (FA)",2.00,128,2023,580,Bench/Flex
+RB,"Jaylen Wright (MIA)",2.00,86,2024,581,Bench/Flex
+RB,"Tyler Goodson (IND)",2.00,123,2025,582,Bench/Flex
+RB,"MarShawn Lloyd (GB)",2.00,126,2024,583,Bench/Flex
+RB,"Royce Freeman (FA)",2.00,61,2023,584,Bench/Flex
+RB,"Scottie Phillips (FA)",2.00,141,2021,585,Bench/Flex
+RB,"Adam Prentice (DEN)",2.00,142,2021,586,Bench/Flex
+RB,"Tank Bigsby (PHI)",2.00,85,2023,587,Bench/Flex
+RB,"Malik Davis (DAL)",2.00,69,2025,588,Bench/Flex
+RB,"D'Ernest Johnson (FA)",2.00,138,2022,589,Bench/Flex
+RB,"Elijah Mitchell (NE)",2.00,69,2022,590,Bench/Flex
+RB,"Trey Ragas (FA)",1.00,148,2021,591,Bench/Flex
+RB,"Khari Blasingame (FA)",1.00,163,2021,592,Bench/Flex
+RB,"Caleb Huntley (FA)",1.00,67,2022,593,Bench/Flex
+RB,"Kenny McIntosh (SEA)",1.00,92,2024,594,Bench/Flex
+RB,"Devine Ozigbo (FA)",1.00,159,2021,595,Bench/Flex
+RB,"Cam Akers (SEA)",1.00,150,2021,596,Bench/Flex
+RB,"Malcolm Brown (FA)",1.00,98,2022,597,Bench/Flex
+RB,"Evan Hull (NO)",1.00,117,2025,598,Bench/Flex
+RB,"Darrynton Evans (FA)",1.00,145,2021,599,Bench/Flex
+RB,"Tahj Brooks (CIN)",1.00,118,2025,600,Bench/Flex
+RB,"Dwayne Washington (FA)",1.00,137,2021,601,Bench/Flex
+RB,"Kylin Hill (FA)",1.00,136,2021,602,Bench/Flex
+RB,"Patrick Ricard (BAL)",1.00,132,2025,603,Bench/Flex
+RB,"Jeff Wilson Jr. (FA)",1.00,73,2021,604,Bench/Flex
+RB,"Demetric Felton Jr. (FA)",1.00,151,2022,605,Bench/Flex
+RB,"Khalil Herbert (FA)",1.00,116,2025,606,Bench/Flex
+RB,"Spencer Brown (FA)",1.00,127,2022,607,Bench/Flex
+RB,"Hassan Haskins (LAC)",1.00,76,2024,608,Bench/Flex
+RB,"Jaret Patterson (LAC)",1.00,79,2025,609,Bench/Flex
+RB,"Bam Knight (ARI)",1.00,126,2023,610,Bench/Flex
+RB,"Wendell Smallwood (FA)",1.00,133,2021,611,Bench/Flex
+RB,"Tony Jones Jr. (FA)",1.00,103,2021,612,Bench/Flex
+RB,"Michael Burton (FA)",1.00,118,2023,613,Bench/Flex
+RB,"Sean Tucker (FA)",1.00,119,2023,614,Bench/Flex
+RB,"Trenton Cannon (FA)",0.00,164,2021,615,Bench/Flex
+RB,"Nyheim Miller-Hines (FA)",0.00,143,2025,616,Bench/Flex
+RB,"Giovani Bernard (FA)",0.00,137,2022,617,Bench/Flex
+RB,"Trey Sermon (FA)",0.00,141,2022,618,Bench/Flex
+RB,"Jerome Ford (FA)",0.00,145,2022,619,Bench/Flex
+RB,"Reggie Bonnafon (FA)",0.00,147,2022,620,Bench/Flex
+RB,"Trestan Ebner (FA)",0.00,133,2022,621,Bench/Flex
+RB,"Godwin Igwebuike (FA)",0.00,148,2022,622,Bench/Flex
+RB,"Patrick Taylor Jr. (FA)",0.00,131,2022,623,Bench/Flex
+RB,"Kylin Hill (FA)",0.00,149,2022,624,Bench/Flex
+RB,"Isaiah Spiller (FA)",0.00,125,2022,625,Bench/Flex
+RB,"Tony Jones Jr. (FA)",0.00,124,2022,626,Bench/Flex
+RB,"Devine Ozigbo (FA)",0.00,150,2022,627,Bench/Flex
+RB,"Zamir White (LV)",0.00,122,2022,628,Bench/Flex
+RB,"Ke'Shawn Vaughn (FA)",0.00,121,2022,629,Bench/Flex
+RB,"Duke Johnson Jr. (FA)",0.00,152,2022,630,Bench/Flex
+RB,"Jaret Patterson (LAC)",0.00,119,2022,631,Bench/Flex
+RB,"Phillip Lindsay (FA)",0.00,116,2022,632,Bench/Flex
+RB,"Damien Williams (FA)",0.00,153,2022,633,Bench/Flex
+RB,"Tyrion Davis-Price (FA)",0.00,112,2022,634,Bench/Flex
+RB,"Snoop Conner (FA)",0.00,111,2022,635,Bench/Flex
+RB,"Kevin Harris (FA)",0.00,110,2022,636,Bench/Flex
+RB,"Salvon Ahmed (FA)",0.00,108,2022,637,Bench/Flex
+RB,"Zander Horvath (FA)",0.00,107,2022,638,Bench/Flex
+RB,"Derek Watt (FA)",0.00,104,2022,639,Bench/Flex
+RB,"Jordan Howard (FA)",0.00,154,2022,640,Bench/Flex
+RB,"Jonathan Williams (FA)",0.00,138,2023,641,Bench/Flex
+RB,"Dylan Laube (LV)",0.00,139,2024,642,Bench/Flex
+RB,"Jordan Mason (MIN)",0.00,76,2022,643,Bench/Flex
+RB,"British Brooks (HOU)",0.00,138,2024,644,Bench/Flex
+RB,"Joshua Kelley (FA)",0.00,137,2024,645,Bench/Flex
+RB,"Darrynton Evans (FA)",0.00,136,2024,646,Bench/Flex
+RB,"Gus Edwards (FA)",0.00,56,2022,647,Bench/Flex
+RB,"James Robinson (FA)",0.00,137,2023,648,Bench/Flex
+RB,"Ke'Shawn Vaughn (FA)",0.00,135,2024,649,Bench/Flex
+RB,"Nate McCrary (FA)",0.00,162,2021,650,Bench/Flex
+RB,"Kenjon Barner (FA)",0.00,161,2021,651,Bench/Flex
+RB,"Nathan Cottrell (FA)",0.00,160,2021,652,Bench/Flex
+RB,"Reggie Gilliam (NE)",0.00,134,2024,653,Bench/Flex
+RB,"Jake Funk (FA)",0.00,158,2021,654,Bench/Flex
+RB,"Damarea Crockett (FA)",0.00,157,2021,655,Bench/Flex
+RB,"Ryan Nall (FA)",0.00,156,2021,656,Bench/Flex
+RB,"Gary Brightwell (CIN)",0.00,155,2021,657,Bench/Flex
+RB,"Mekhi Sargent (FA)",0.00,154,2021,658,Bench/Flex
+RB,"Buddy Howell (FA)",0.00,153,2021,659,Bench/Flex
+RB,"Jacques Patrick (FA)",0.00,152,2021,660,Bench/Flex
+RB,"John Kelly Jr. (FA)",0.00,151,2021,661,Bench/Flex
+RB,"Tyrion Davis-Price (FA)",0.00,133,2024,662,Bench/Flex
+RB,"Anthony McFarland Jr. (FA)",0.00,149,2021,663,Bench/Flex
+RB,"Chris Collier (LV)",0.00,132,2024,664,Bench/Flex
+RB,"Cody Schrader (DEN)",0.00,131,2024,665,Bench/Flex
+RB,"Reggie Bonnafon (FA)",0.00,146,2021,666,Bench/Flex
+RB,"George Holani (SEA)",0.00,130,2024,667,Bench/Flex
+RB,"Raheem Mostert (LV)",0.00,144,2021,668,Bench/Flex
+RB,"Myles Gaskin (FA)",0.00,129,2024,669,Bench/Flex
+RB,"Tyreik McAllister (FA)",0.00,128,2024,670,Bench/Flex
+RB,"Aaron Shampklin (FA)",0.00,127,2024,671,Bench/Flex
+RB,"Jonathan Ward (FA)",0.00,125,2024,672,Bench/Flex
+RB,"La'Mical Perine (FA)",0.00,135,2021,673,Bench/Flex
+RB,"Rasheen Ali (BAL)",0.00,122,2024,674,Bench/Flex
+RB,"Jase McClellan (FA)",0.00,120,2024,675,Bench/Flex
+RB,"Terrell Jennings (NE)",0.00,119,2024,676,Bench/Flex
+RB,"Brandon Bolden (FA)",0.00,98,2023,677,Bench/Flex
+RB,"Chris Brooks (GB)",0.00,101,2023,678,Bench/Flex
+RB,"Jason Huntley (FA)",0.00,132,2021,679,Bench/Flex
+RB,"Jaydon Blue (DAL)",0.00,84,2025,680,Bench/Flex
+RB,"J.J. Taylor (FA)",0.00,116,2024,681,Bench/Flex
+RB,"Ito Smith (FA)",0.00,129,2021,682,Bench/Flex
+RB,"Johnny Stanton IV (FA)",0.00,127,2021,683,Bench/Flex
+RB,"Alex Armah Jr. (FA)",0.00,126,2021,684,Bench/Flex
+RB,"Andy Janovich (FA)",0.00,124,2021,685,Bench/Flex
+RB,"JaQuan Hardy (FA)",0.00,123,2021,686,Bench/Flex
+RB,"Deon Jackson (FA)",0.00,122,2021,687,Bench/Flex
+RB,"Ty Chandler (FA)",0.00,140,2022,688,Bench/Flex
+RB,"Terrell Jennings (NE)",0.00,93,2025,689,Bench/Flex
+RB,"Mike Boone (FA)",0.00,114,2024,690,Bench/Flex
+RB,"Ke'Shawn Vaughn (FA)",0.00,115,2023,691,Bench/Flex
+RB,"Tyler Badie (DEN)",0.00,111,2024,692,Bench/Flex
+RB,"Kene Nwangwu (FA)",0.00,97,2025,693,Bench/Flex
+RB,"Wayne Gallman Jr. (FA)",0.00,115,2021,694,Bench/Flex
+RB,"Brittain Brown (CHI)",0.00,99,2025,695,Bench/Flex
+RB,"DJ Giddens (IND)",0.00,100,2025,696,Bench/Flex
+RB,"Larry Rountree III (FA)",0.00,109,2021,697,Bench/Flex
+RB,"Patrick Taylor Jr. (FA)",0.00,108,2021,698,Bench/Flex
+RB,"Leonard Fournette (FA)",0.00,116,2023,699,Bench/Flex
+RB,"Raheem Blackshear (FA)",0.00,107,2024,700,Bench/Flex
+RB,"Tony Jones Jr. (FA)",0.00,103,2024,701,Bench/Flex
+RB,"Khari Blasingame (FA)",0.00,121,2023,702,Bench/Flex
+RB,"Kaleb Johnson (PIT)",0.00,107,2025,703,Bench/Flex
+RB,"British Brooks (HOU)",0.00,108,2025,704,Bench/Flex
+RB,"Corey Kiner (ARI)",0.00,109,2025,705,Bench/Flex
+RB,"Cam Akers (SEA)",0.00,110,2025,706,Bench/Flex
+RB,"Derrick Gore (FA)",0.00,122,2023,707,Bench/Flex
+RB,"Jake Funk (FA)",0.00,123,2023,708,Bench/Flex
+RB,"Royce Freeman (FA)",0.00,94,2021,709,Bench/Flex
+RB,"Tyrion Davis-Price (FA)",0.00,125,2023,710,Bench/Flex
+RB,"Zach Evans (FA)",0.00,127,2023,711,Bench/Flex
+RB,"Kene Nwangwu (FA)",0.00,129,2023,712,Bench/Flex
+RB,"Devine Ozigbo (FA)",0.00,131,2023,713,Bench/Flex
+RB,"Jonathan Ward (FA)",0.00,132,2023,714,Bench/Flex
+RB,"Ronnie Rivers (LAR)",0.00,119,2025,715,Bench/Flex
+RB,"Julius Chestnut (FA)",0.00,120,2025,716,Bench/Flex
+RB,"Nathan Carter (ATL)",0.00,121,2025,717,Bench/Flex
+RB,"Dameon Pierce (FA)",0.00,122,2025,718,Bench/Flex
+RB,"Chris Evans (FA)",0.00,133,2023,719,Bench/Flex
+RB,"Reggie Gilliam (NE)",0.00,124,2025,720,Bench/Flex
+RB,"D'Ernest Johnson (FA)",0.00,125,2025,721,Bench/Flex
+RB,"Trey Sermon (FA)",0.00,93,2021,722,Bench/Flex
+RB,"DeeJay Dallas (JAC)",0.00,127,2025,723,Bench/Flex
+RB,"Jacardia Wright (SEA)",0.00,128,2025,724,Bench/Flex
+RB,"Roschon Johnson (CHI)",0.00,129,2025,725,Bench/Flex
+RB,"Jacob Saylors (DET)",0.00,130,2025,726,Bench/Flex
+RB,"Josh Williams (TB)",0.00,131,2025,727,Bench/Flex
+RB,"Evan Hull (NO)",0.00,135,2023,728,Bench/Flex
+RB,"Amar Johnson (LAC)",0.00,133,2025,729,Bench/Flex
+RB,"Kalel Mullings (TEN)",0.00,134,2025,730,Bench/Flex
+RB,"Adam Prentice (DEN)",0.00,136,2023,731,Bench/Flex
+RB,"Owen Wright (TB)",0.00,136,2025,732,Bench/Flex
+RB,"Myles Gaskin (FA)",0.00,137,2025,733,Bench/Flex
+RB,"Sione Vaki (DET)",0.00,138,2025,734,Bench/Flex
+RB,"Craig Reynolds (FA)",0.00,139,2025,735,Bench/Flex
+RB,"Kendall Milton (CIN)",0.00,140,2025,736,Bench/Flex
+RB,"Ulysses Bentley IV (IND)",0.00,141,2025,737,Bench/Flex
+RB,"Travis Homer (FA)",0.00,142,2025,738,Bench/Flex
+RB,"Dare Ogunbowale (FA)",0.00,107,2023,739,Bench/Flex
+TE,"Trey McBride (ARI)",249.90,1,2025,1,"Elite (Top 3)"
+TE,"Travis Kelce (KC)",243.80,1,2022,2,"Elite (Top 3)"
+TE,"Mark Andrews (BAL)",243.10,1,2021,3,"Elite (Top 3)"
+TE,"Brock Bowers (LV)",231.40,2,2024,4,"High Tier (4-10)"
+TE,"Trey McBride (ARI)",225.60,3,2024,5,"High Tier (4-10)"
+TE,"Evan Engram (DEN)",210.30,6,2023,6,"High Tier (4-10)"
+TE,"Travis Kelce (KC)",204.50,2,2021,7,"High Tier (4-10)"
+TE,"Travis Kelce (KC)",191.40,3,2023,8,"High Tier (4-10)"
+TE,"T.J. Hockenson (MIN)",191.00,4,2023,9,"High Tier (4-10)"
+TE,"George Kittle (SF)",188.60,1,2024,10,"High Tier (4-10)"
+TE,"Kyle Pitts Sr. (ATL)",180.80,3,2025,11,"Mid Tier (11-20)"
+TE,"Travis Kelce (KC)",179.30,10,2024,12,"Mid Tier (11-20)"
+TE,"T.J. Hockenson (MIN)",177.40,4,2022,13,"Mid Tier (11-20)"
+TE,"Jonnu Smith (FA)",176.40,4,2024,14,"Mid Tier (11-20)"
+TE,"Sam LaPorta (DET)",174.90,1,2023,15,"Mid Tier (11-20)"
+TE,"Kyle Pitts Sr. (ATL)",170.60,9,2021,16,"Mid Tier (11-20)"
+TE,"David Njoku (FA)",169.20,5,2023,17,"Mid Tier (11-20)"
+TE,"George Kittle (SF)",167.00,2,2023,18,"Mid Tier (11-20)"
+TE,"Juwan Johnson (NO)",165.90,12,2025,19,"Mid Tier (11-20)"
+TE,"Trey McBride (ARI)",163.50,10,2023,20,"Mid Tier (11-20)"
+TE,"George Kittle (SF)",162.00,4,2021,21,"Low Tier (21-30)"
+TE,"Travis Kelce (KC)",161.10,5,2025,22,"Low Tier (21-30)"
+TE,"Dalton Schultz (HOU)",159.70,13,2025,23,"Low Tier (21-30)"
+TE,"Dalton Schultz (HOU)",158.80,3,2021,24,"Low Tier (21-30)"
+TE,"Tyler Warren (IND)",157.70,7,2025,25,"Low Tier (21-30)"
+TE,"Mark Andrews (BAL)",157.70,5,2022,26,"Low Tier (21-30)"
+TE,"Mike Gesicki (CIN)",151.00,11,2021,27,"Low Tier (21-30)"
+TE,"Zach Ertz (FA)",150.30,10,2021,28,"Low Tier (21-30)"
+TE,"Evan Engram (DEN)",149.60,6,2022,29,"Low Tier (21-30)"
+TE,"Jake Ferguson (DAL)",147.10,9,2023,30,"Low Tier (21-30)"
+TE,"Harold Fannin Jr. (CLE)",145.10,6,2025,31,Bench/Flex
+TE,"Cole Kmet (CHI)",144.90,8,2023,32,Bench/Flex
+TE,"Jake Ferguson (DAL)",142.00,10,2025,33,Bench/Flex
+TE,"Dalton Kincaid (BUF)",140.30,15,2023,34,Bench/Flex
+TE,"Dallas Goedert (FA)",139.00,8,2021,35,Bench/Flex
+TE,"Hunter Henry (NE)",136.80,4,2025,36,Bench/Flex
+TE,"George Kittle (SF)",136.50,2,2022,37,Bench/Flex
+TE,"Pat Freiermuth (PIT)",136.20,12,2022,38,Bench/Flex
+TE,"Rob Gronkowski (FA)",135.20,5,2021,39,Bench/Flex
+TE,"Noah Fant (NO)",135.00,13,2021,40,Bench/Flex
+TE,"Tyler Higbee (LAR)",134.00,15,2022,41,Bench/Flex
+TE,"Hunter Henry (NE)",133.40,16,2024,42,Bench/Flex
+TE,"Sam LaPorta (DET)",132.60,6,2024,43,Bench/Flex
+TE,"Brock Bowers (LV)",132.00,8,2025,44,Bench/Flex
+TE,"Mike Gesicki (CIN)",131.50,17,2024,45,Bench/Flex
+TE,"Zach Ertz (FA)",131.40,8,2024,46,Bench/Flex
+TE,"Pat Freiermuth (PIT)",130.30,9,2024,47,Bench/Flex
+TE,"Colston Loveland (CHI)",129.30,9,2025,48,Bench/Flex
+TE,"Dallas Goedert (FA)",125.20,10,2022,49,Bench/Flex
+TE,"Tyler Conklin (LAC)",123.10,21,2023,50,Bench/Flex
+TE,"Dalton Schultz (HOU)",122.50,11,2023,51,Bench/Flex
+TE,"Mark Andrews (BAL)",122.30,5,2024,52,Bench/Flex
+TE,"Darren Waller (FA)",121.50,18,2021,53,Bench/Flex
+TE,"Cole Kmet (CHI)",121.20,22,2021,54,Bench/Flex
+TE,"David Njoku (FA)",120.80,13,2022,55,Bench/Flex
+TE,"Tucker Kraft (GB)",120.70,7,2024,56,Bench/Flex
+TE,"Tyler Conklin (LAC)",120.30,19,2021,57,Bench/Flex
+TE,"George Kittle (SF)",119.80,11,2025,58,Bench/Flex
+TE,"T.J. Hockenson (MIN)",119.30,16,2021,59,Bench/Flex
+TE,"Dallas Goedert (FA)",119.10,2,2025,60,Bench/Flex
+TE,"Cade Otton (TB)",119.00,14,2024,61,Bench/Flex
+TE,"Dallas Goedert (FA)",118.20,16,2023,62,Bench/Flex
+TE,"Tyler Higbee (LAR)",117.00,14,2021,63,Bench/Flex
+TE,"Cade Otton (TB)",116.20,28,2025,64,Bench/Flex
+TE,"Oronde Gadsden II (LAC)",115.40,20,2025,65,Bench/Flex
+TE,"Dalton Schultz (HOU)",114.70,11,2022,66,Bench/Flex
+TE,"David Njoku (FA)",114.50,11,2024,67,Bench/Flex
+TE,"Gerald Everett (FA)",113.50,14,2022,68,Bench/Flex
+TE,"Tyler Conklin (LAC)",113.20,17,2022,69,Bench/Flex
+TE,"Chig Okonkwo (FA)",112.00,24,2025,70,Bench/Flex
+TE,"Hunter Henry (NE)",110.30,7,2021,71,Bench/Flex
+TE,"Pat Freiermuth (PIT)",109.70,12,2021,72,Bench/Flex
+TE,"Jake Ferguson (DAL)",108.40,34,2024,73,Bench/Flex
+TE,"Jonnu Smith (FA)",108.20,17,2023,74,Bench/Flex
+TE,"Dawson Knox (BUF)",107.70,6,2021,75,Bench/Flex
+TE,"Darren Waller (FA)",107.20,23,2023,76,Bench/Flex
+TE,"Kyle Pitts Sr. (ATL)",107.20,12,2024,77,Bench/Flex
+TE,"Chig Okonkwo (FA)",106.80,26,2023,78,Bench/Flex
+TE,"Dalton Schultz (HOU)",106.20,23,2024,79,Bench/Flex
+TE,"Juwan Johnson (NO)",104.80,20,2024,80,Bench/Flex
+TE,"Logan Thomas (FA)",104.60,18,2023,81,Bench/Flex
+TE,"Jared Cook (FA)",104.40,15,2021,82,Bench/Flex
+TE,"Cole Kmet (CHI)",104.40,7,2022,83,Bench/Flex
+TE,"AJ Barner (SEA)",103.90,14,2025,84,Bench/Flex
+TE,"Zach Ertz (FA)",100.40,21,2025,85,Bench/Flex
+TE,"Brenton Strange (JAC)",100.00,23,2025,86,Bench/Flex
+TE,"Robert Tonyan (FA)",100.00,23,2022,87,Bench/Flex
+TE,"Chig Okonkwo (FA)",99.90,26,2024,88,Bench/Flex
+TE,"Dawson Knox (BUF)",99.70,9,2022,89,Bench/Flex
+TE,"Mark Andrews (BAL)",99.40,12,2023,90,Bench/Flex
+TE,"Noah Fant (NO)",98.60,18,2022,91,Bench/Flex
+TE,"C.J. Uzomah (FA)",98.30,17,2021,92,Bench/Flex
+TE,"Will Dissly (FA)",98.10,27,2024,93,Bench/Flex
+TE,"Noah Fant (NO)",98.00,29,2024,94,Bench/Flex
+TE,"Hayden Hurst (FA)",97.90,26,2022,95,Bench/Flex
+TE,"Theo Johnson (NYG)",97.80,19,2025,96,Bench/Flex
+TE,"Tyler Higbee (LAR)",96.50,22,2023,97,Bench/Flex
+TE,"Evan Engram (DEN)",96.10,32,2025,98,Bench/Flex
+TE,"Dalton Kincaid (BUF)",96.10,15,2025,99,Bench/Flex
+TE,"Tyler Conklin (LAC)",95.90,22,2024,100,Bench/Flex
+TE,"Gerald Everett (FA)",95.80,21,2021,101,Bench/Flex
+TE,"T.J. Hockenson (MIN)",94.80,29,2025,102,Bench/Flex
+TE,"Cole Kmet (CHI)",94.40,18,2024,103,Bench/Flex
+TE,"Juwan Johnson (NO)",92.80,8,2022,104,Bench/Flex
+TE,"Austin Hooper (ATL)",92.60,24,2024,105,Bench/Flex
+TE,"Cade Otton (TB)",92.50,20,2023,106,Bench/Flex
+TE,"Gerald Everett (FA)",92.10,25,2023,107,Bench/Flex
+TE,"Hunter Henry (NE)",91.90,22,2022,108,Bench/Flex
+TE,"Dallas Goedert (FA)",91.60,25,2024,109,Bench/Flex
+TE,"Mark Andrews (BAL)",90.20,18,2025,110,Bench/Flex
+TE,"Isaiah Likely (NYG)",89.70,13,2024,111,Bench/Flex
+TE,"Pat Freiermuth (PIT)",89.60,22,2025,112,Bench/Flex
+TE,"Sam LaPorta (DET)",88.90,26,2025,113,Bench/Flex
+TE,"Dalton Kincaid (BUF)",88.80,28,2024,114,Bench/Flex
+TE,"Zach Ertz (FA)",87.60,19,2022,115,Bench/Flex
+TE,"Evan Engram (DEN)",86.80,23,2021,116,Bench/Flex
+TE,"Jordan Akins (FA)",86.50,16,2022,117,Bench/Flex
+TE,"T.J. Hockenson (MIN)",86.50,33,2024,118,Bench/Flex
+TE,"Austin Hooper (ATL)",85.40,25,2022,119,Bench/Flex
+TE,"Hunter Henry (NE)",83.90,14,2023,120,Bench/Flex
+TE,"Colby Parkinson (LAR)",83.80,16,2025,121,Bench/Flex
+TE,"Noah Gray (KC)",83.70,19,2024,122,Bench/Flex
+TE,"Evan Engram (DEN)",83.50,36,2024,123,Bench/Flex
+TE,"David Njoku (FA)",83.50,20,2021,124,Bench/Flex
+TE,"Cade Otton (TB)",81.10,31,2022,125,Bench/Flex
+TE,"Brenton Strange (JAC)",81.10,30,2024,126,Bench/Flex
+TE,"Mason Taylor (NYJ)",80.90,37,2025,127,Bench/Flex
+TE,"Tucker Kraft (GB)",80.90,17,2025,128,Bench/Flex
+TE,"Gunnar Helm (TEN)",79.70,34,2025,129,Bench/Flex
+TE,"Jordan Akins (FA)",79.00,31,2024,130,Bench/Flex
+TE,"Dawson Knox (BUF)",77.70,25,2025,131,Bench/Flex
+TE,"Chig Okonkwo (FA)",77.00,21,2022,132,Bench/Flex
+TE,"Dan Arnold (FA)",75.80,31,2021,133,Bench/Flex
+TE,"Foster Moreau (NO)",75.00,30,2022,134,Bench/Flex
+TE,"Tanner Hudson (CIN)",74.20,35,2023,135,Bench/Flex
+TE,"Greg Dulcich (MIA)",74.10,28,2022,136,Bench/Flex
+TE,"Juwan Johnson (NO)",73.80,24,2023,137,Bench/Flex
+TE,"Noah Fant (NO)",73.40,33,2023,138,Bench/Flex
+TE,"Foster Moreau (NO)",73.30,21,2024,139,Bench/Flex
+TE,"Isaiah Likely (NYG)",73.30,27,2022,140,Bench/Flex
+TE,"Austin Hooper (ATL)",72.50,26,2021,141,Bench/Flex
+TE,"Durham Smythe (FA)",71.60,39,2023,142,Bench/Flex
+TE,"Logan Thomas (FA)",71.30,39,2022,143,Bench/Flex
+TE,"Isaiah Likely (NYG)",71.10,19,2023,144,Bench/Flex
+TE,"Durham Smythe (FA)",69.70,43,2021,145,Bench/Flex
+TE,"Luke Musgrave (GB)",69.20,34,2023,146,Bench/Flex
+TE,"Will Dissly (FA)",68.90,29,2022,147,Bench/Flex
+TE,"Mike Gesicki (CIN)",68.20,20,2022,148,Bench/Flex
+TE,"Michael Mayer (LV)",67.80,44,2025,149,Bench/Flex
+TE,"Darnell Washington (PIT)",67.40,39,2025,150,Bench/Flex
+TE,"Foster Moreau (NO)",67.30,25,2021,151,Bench/Flex
+TE,"Ja'Tavion Sanders (CAR)",67.20,37,2024,152,Bench/Flex
+TE,"Kylen Granson (FA)",66.80,31,2023,153,Bench/Flex
+TE,"Darren Waller (FA)",66.80,24,2022,154,Bench/Flex
+TE,"Tucker Kraft (GB)",66.50,28,2023,155,Bench/Flex
+TE,"Albert Okwuegbunam Jr. (LV)",66.00,29,2021,156,Bench/Flex
+TE,"Cole Kmet (CHI)",64.70,33,2025,157,Bench/Flex
+TE,"Kyle Pitts Sr. (ATL)",63.60,33,2022,158,Bench/Flex
+TE,"Jake Tonges (SF)",63.30,30,2025,159,Bench/Flex
+TE,"Anthony Firkser (FA)",63.10,35,2021,160,Bench/Flex
+TE,"Noah Fant (NO)",62.80,41,2025,161,Bench/Flex
+TE,"Pat Freiermuth (PIT)",62.80,29,2023,162,Bench/Flex
+TE,"David Njoku (FA)",62.30,31,2025,163,Bench/Flex
+TE,"Taysom Hill (FA)",62.10,7,2023,164,Bench/Flex
+TE,"Theo Johnson (NYG)",62.10,38,2024,165,Bench/Flex
+TE,"Kylen Granson (FA)",61.20,46,2022,166,Bench/Flex
+TE,"Jonnu Smith (FA)",60.20,35,2025,167,Bench/Flex
+TE,"Elijah Higgins (ARI)",60.10,54,2025,168,Bench/Flex
+TE,"Greg Dulcich (MIA)",59.50,48,2025,169,Bench/Flex
+TE,"Colby Parkinson (LAR)",59.40,41,2024,170,Bench/Flex
+TE,"Jack Doyle (FA)",59.20,27,2021,171,Bench/Flex
+TE,"Mike Gesicki (CIN)",58.70,38,2025,172,Bench/Flex
+TE,"Noah Gray (KC)",58.50,32,2023,173,Bench/Flex
+TE,"Noah Gray (KC)",57.90,37,2022,174,Bench/Flex
+TE,"Isaiah Likely (NYG)",57.70,50,2025,175,Bench/Flex
+TE,"Michael Mayer (LV)",57.40,30,2023,176,Bench/Flex
+TE,"Jonnu Smith (FA)",57.40,33,2021,177,Bench/Flex
+TE,"Colby Parkinson (LAR)",57.20,36,2022,178,Bench/Flex
+TE,"Ricky Seals-Jones (FA)",57.10,34,2021,179,Bench/Flex
+TE,"Daniel Bellinger (TEN)",56.80,35,2022,180,Bench/Flex
+TE,"Jelani Woods (NYJ)",56.20,32,2022,181,Bench/Flex
+TE,"Mo Alie-Cox (FA)",55.60,24,2021,182,Bench/Flex
+TE,"Donald Parham Jr. (FA)",55.50,27,2023,183,Bench/Flex
+TE,"Trey McBride (ARI)",55.50,43,2022,184,Bench/Flex
+TE,"Harrison Bryant (FA)",54.90,44,2022,185,Bench/Flex
+TE,"AJ Barner (SEA)",54.50,32,2024,186,Bench/Flex
+TE,"Cameron Brate (FA)",54.50,28,2021,187,Bench/Flex
+TE,"Grant Calcaterra (PHI)",53.80,40,2024,188,Bench/Flex
+TE,"Mike Gesicki (CIN)",53.40,40,2023,189,Bench/Flex
+TE,"Adam Trautman (DEN)",53.30,42,2021,190,Bench/Flex
+TE,"Tyler Higbee (LAR)",53.10,36,2025,191,Bench/Flex
+TE,"Dawson Knox (BUF)",53.10,39,2024,192,Bench/Flex
+TE,"Ryan Griffin (FA)",53.10,38,2021,193,Bench/Flex
+TE,"Josh Whyle (GB)",52.80,43,2024,194,Bench/Flex
+TE,"Darren Waller (FA)",52.30,27,2025,195,Bench/Flex
+TE,"Geoff Swaim (FA)",52.00,36,2021,196,Bench/Flex
+TE,"Tommy Tremble (CAR)",51.90,47,2025,197,Bench/Flex
+TE,"Kyle Rudolph (FA)",51.70,47,2021,198,Bench/Flex
+TE,"Jonnu Smith (FA)",51.50,53,2022,199,Bench/Flex
+TE,"Luke Schoonmaker (DAL)",51.10,46,2024,200,Bench/Flex
+TE,"Daniel Bellinger (TEN)",50.50,49,2023,201,Bench/Flex
+TE,"Colby Parkinson (LAR)",49.70,38,2023,202,Bench/Flex
+TE,"Josiah Deguara (FA)",49.50,41,2021,203,Bench/Flex
+TE,"Luke Musgrave (GB)",49.20,57,2025,204,Bench/Flex
+TE,"James O'Shaughnessy (FA)",48.40,52,2021,205,Bench/Flex
+TE,"Austin Hooper (ATL)",48.40,55,2023,206,Bench/Flex
+TE,"Hayden Hurst (FA)",48.10,39,2021,207,Bench/Flex
+TE,"Ja'Tavion Sanders (CAR)",48.00,58,2025,208,Bench/Flex
+TE,"Josh Oliver (MIN)",47.80,35,2024,209,Bench/Flex
+TE,"Daniel Bellinger (TEN)",47.60,42,2025,210,Bench/Flex
+TE,"Austin Hooper (ATL)",47.30,46,2025,211,Bench/Flex
+TE,"Tommy Tremble (CAR)",46.40,42,2024,212,Bench/Flex
+TE,"Zach Ertz (FA)",45.70,53,2023,213,Bench/Flex
+TE,"Jordan Akins (FA)",45.40,63,2021,214,Bench/Flex
+TE,"John Bates (WAS)",44.90,50,2021,215,Bench/Flex
+TE,"Davis Allen (LAR)",44.80,45,2025,216,Bench/Flex
+TE,"Marcedes Lewis (FA)",44.40,58,2021,217,Bench/Flex
+TE,"Harrison Bryant (FA)",44.30,30,2021,218,Bench/Flex
+TE,"C.J. Uzomah (FA)",44.20,40,2022,219,Bench/Flex
+TE,"Will Dissly (FA)",44.10,51,2021,220,Bench/Flex
+TE,"Josh Oliver (MIN)",43.30,44,2023,221,Bench/Flex
+TE,"Irv Smith Jr. (FA)",43.20,45,2022,222,Bench/Flex
+TE,"Adam Trautman (DEN)",42.40,36,2023,223,Bench/Flex
+TE,"Tommy Tremble (CAR)",42.40,37,2023,224,Bench/Flex
+TE,"Taysom Hill (FA)",41.70,15,2024,225,Bench/Flex
+TE,"Jeremy Ruckert (NYJ)",40.90,60,2025,226,Bench/Flex
+TE,"Ian Thomas (LV)",40.70,63,2022,227,Bench/Flex
+TE,"Dawson Knox (BUF)",40.60,43,2023,228,Bench/Flex
+TE,"Foster Moreau (NO)",40.30,50,2023,229,Bench/Flex
+TE,"Pharaoh Brown (FA)",40.10,65,2021,230,Bench/Flex
+TE,"Connor Heyward (PIT)",39.70,63,2023,231,Bench/Flex
+TE,"Brock Wright (DET)",39.60,34,2022,232,Bench/Flex
+TE,"Adam Trautman (DEN)",39.50,56,2025,233,Bench/Flex
+TE,"Darnell Washington (PIT)",39.00,50,2024,234,Bench/Flex
+TE,"Donald Parham Jr. (FA)",39.00,37,2021,235,Bench/Flex
+TE,"Brevin Jordan (HOU)",38.90,42,2023,236,Bench/Flex
+TE,"Noah Gray (KC)",38.80,65,2025,237,Bench/Flex
+TE,"Adam Trautman (DEN)",38.70,51,2022,238,Bench/Flex
+TE,"Will Mallory (IND)",38.70,60,2023,239,Bench/Flex
+TE,"Robert Tonyan (FA)",38.40,49,2021,240,Bench/Flex
+TE,"Drew Sample (CIN)",38.30,45,2023,241,Bench/Flex
+TE,"Tommy Tremble (CAR)",38.00,48,2021,242,Bench/Flex
+TE,"Mo Alie-Cox (FA)",37.90,41,2022,243,Bench/Flex
+TE,"Brevin Jordan (HOU)",37.80,44,2021,244,Bench/Flex
+TE,"Logan Thomas (FA)",37.60,45,2021,245,Bench/Flex
+TE,"Cameron Brate (FA)",37.40,65,2022,246,Bench/Flex
+TE,"Elijah Higgins (ARI)",37.20,48,2024,247,Bench/Flex
+TE,"Stone Smartt (FA)",36.80,57,2024,248,Bench/Flex
+TE,"Ian Thomas (LV)",36.80,62,2021,249,Bench/Flex
+TE,"Michael Mayer (LV)",36.60,64,2024,250,Bench/Flex
+TE,"Hayden Hurst (FA)",36.40,54,2023,251,Bench/Flex
+TE,"Tommy Tremble (CAR)",36.40,42,2022,252,Bench/Flex
+TE,"Jake Ferguson (DAL)",36.40,48,2022,253,Bench/Flex
+TE,"Mitchell Evans (CAR)",36.10,52,2025,254,Bench/Flex
+TE,"Tanner Hudson (CIN)",35.80,53,2025,255,Bench/Flex
+TE,"Erick All Jr. (CIN)",35.80,62,2024,256,Bench/Flex
+TE,"Zach Gentry (FA)",35.70,64,2021,257,Bench/Flex
+TE,"Maxx Williams (FA)",35.30,53,2021,258,Bench/Flex
+TE,"Jackson Hawes (BUF)",34.70,49,2025,259,Bench/Flex
+TE,"Tanner Hudson (CIN)",34.40,54,2024,260,Bench/Flex
+TE,"Will Dissly (FA)",34.20,56,2023,261,Bench/Flex
+TE,"Johnny Mundt (FA)",34.20,57,2023,262,Bench/Flex
+TE,"Lucas Krull (DEN)",34.20,65,2024,263,Bench/Flex
+TE,"John Bates (WAS)",34.10,71,2023,264,Bench/Flex
+TE,"Terrance Ferguson (LAR)",34.10,40,2025,265,Bench/Flex
+TE,"Pharaoh Brown (FA)",33.80,52,2023,266,Bench/Flex
+TE,"Tyler Kroft (FA)",33.30,55,2021,267,Bench/Flex
+TE,"Johnny Mundt (FA)",33.20,49,2024,268,Bench/Flex
+TE,"Johnny Mundt (FA)",33.00,60,2022,269,Bench/Flex
+TE,"Elijah Arroyo (SEA)",32.90,62,2025,270,Bench/Flex
+TE,"Stephen Anderson (FA)",32.50,56,2021,271,Bench/Flex
+TE,"Zach Gentry (FA)",32.20,72,2022,272,Bench/Flex
+TE,"Kylen Granson (FA)",32.20,59,2024,273,Bench/Flex
+TE,"Adam Trautman (DEN)",31.80,45,2024,274,Bench/Flex
+TE,"Jeremy Ruckert (NYJ)",31.10,70,2023,275,Bench/Flex
+TE,"Josh Oliver (MIN)",31.00,43,2025,276,Bench/Flex
+TE,"MyCole Pruitt (FA)",31.00,38,2022,277,Bench/Flex
+TE,"Mitchell Wilcox (FA)",30.90,62,2022,278,Bench/Flex
+TE,"Drew Sample (CIN)",30.90,61,2024,279,Bench/Flex
+TE,"Jimmy Graham (FA)",30.70,40,2021,280,Bench/Flex
+TE,"Nick Vannett (LAR)",30.50,44,2024,281,Bench/Flex
+TE,"Elijah Higgins (ARI)",30.30,58,2023,282,Bench/Flex
+TE,"Eric Saubert (SEA)",29.80,57,2022,283,Bench/Flex
+TE,"Irv Smith Jr. (FA)",29.50,65,2023,284,Bench/Flex
+TE,"Mo Alie-Cox (FA)",29.10,41,2023,285,Bench/Flex
+TE,"Julian Hill (MIA)",29.00,71,2025,286,Bench/Flex
+TE,"Juwan Johnson (NO)",28.90,32,2021,287,Bench/Flex
+TE,"Josh Oliver (MIN)",28.90,50,2022,288,Bench/Flex
+TE,"MyCole Pruitt (FA)",28.50,46,2021,289,Bench/Flex
+TE,"Luke Farrell (SF)",28.50,67,2023,290,Bench/Flex
+TE,"Jeremy Ruckert (NYJ)",28.50,69,2024,291,Bench/Flex
+TE,"Cade Stover (HOU)",28.30,56,2024,292,Bench/Flex
+TE,"Jordan Akins (FA)",28.20,73,2023,293,Bench/Flex
+TE,"Durham Smythe (FA)",27.90,54,2022,294,Bench/Flex
+TE,"O.J. Howard (FA)",27.50,60,2021,295,Bench/Flex
+TE,"Luke Schoonmaker (DAL)",27.20,75,2025,296,Bench/Flex
+TE,"Connor Heyward (PIT)",27.10,55,2022,297,Bench/Flex
+TE,"Brevin Jordan (HOU)",26.80,74,2022,298,Bench/Flex
+TE,"Mo Alie-Cox (FA)",26.70,53,2024,299,Bench/Flex
+TE,"Stone Smartt (FA)",26.50,59,2023,300,Bench/Flex
+TE,"Daniel Bellinger (TEN)",26.50,66,2024,301,Bench/Flex
+TE,"Drew Sample (CIN)",25.60,69,2025,302,Bench/Flex
+TE,"Nate Adkins (DEN)",25.50,47,2024,303,Bench/Flex
+TE,"John Bates (WAS)",24.80,67,2022,304,Bench/Flex
+TE,"Brock Wright (DET)",24.80,61,2025,305,Bench/Flex
+TE,"Mo Alie-Cox (FA)",24.70,66,2025,306,Bench/Flex
+TE,"Stephen Sullivan (FA)",24.50,74,2023,307,Bench/Flex
+TE,"O.J. Howard (FA)",24.50,52,2022,308,Bench/Flex
+TE,"Ian Thomas (LV)",24.40,77,2025,309,Bench/Flex
+TE,"Josiah Deguara (FA)",24.40,80,2022,310,Bench/Flex
+TE,"Charlie Kolar (LAC)",24.20,55,2025,311,Bench/Flex
+TE,"Pharaoh Brown (FA)",23.70,79,2022,312,Bench/Flex
+TE,"Brock Wright (DET)",23.70,54,2021,313,Bench/Flex
+TE,"Drew Ogletree (FA)",23.70,48,2023,314,Bench/Flex
+TE,"Jack Stoll (NO)",23.30,77,2022,315,Bench/Flex
+TE,"Tanner Hudson (CIN)",23.20,73,2022,316,Bench/Flex
+TE,"Brock Wright (DET)",23.00,52,2024,317,Bench/Flex
+TE,"Cole Turner (MIA)",23.00,75,2023,318,Bench/Flex
+TE,"Adam Shaheen (FA)",23.00,71,2021,319,Bench/Flex
+TE,"Donald Parham Jr. (FA)",23.00,64,2022,320,Bench/Flex
+TE,"Payne Durham (TB)",22.50,51,2024,321,Bench/Flex
+TE,"Dan Arnold (FA)",22.50,71,2022,322,Bench/Flex
+TE,"Ben Sinnott (WAS)",22.40,67,2025,323,Bench/Flex
+TE,"James Mitchell (CAR)",22.30,66,2022,324,Bench/Flex
+TE,"Nick Vannett (LAR)",22.30,61,2021,325,Bench/Flex
+TE,"Robert Tonyan (FA)",22.20,77,2023,326,Bench/Flex
+TE,"Brock Wright (DET)",22.10,69,2023,327,Bench/Flex
+TE,"Charlie Kolar (LAC)",22.10,55,2024,328,Bench/Flex
+TE,"Julian Hill (MIA)",22.00,71,2024,329,Bench/Flex
+TE,"Kylen Granson (FA)",21.60,74,2021,330,Bench/Flex
+TE,"Peyton Hendershot (FA)",21.30,49,2022,331,Bench/Flex
+TE,"John Bates (WAS)",21.30,70,2025,332,Bench/Flex
+TE,"Harrison Bryant (FA)",21.10,51,2023,333,Bench/Flex
+TE,"Eric Saubert (SEA)",20.70,63,2024,334,Bench/Flex
+TE,"Will Dissly (FA)",20.70,82,2025,335,Bench/Flex
+TE,"Blake Jarwin (FA)",20.60,57,2021,336,Bench/Flex
+TE,"Hunter Long (JAC)",20.50,63,2025,337,Bench/Flex
+TE,"Eric Ebron (FA)",20.40,59,2021,338,Bench/Flex
+TE,"Johnny Mundt (FA)",20.10,78,2025,339,Bench/Flex
+TE,"Taysom Hill (FA)",20.10,51,2025,340,Bench/Flex
+TE,"MyCole Pruitt (FA)",20.00,62,2023,341,Bench/Flex
+TE,"Drew Ogletree (FA)",19.90,60,2024,342,Bench/Flex
+TE,"Jody Fortson Jr. (FA)",19.80,58,2022,343,Bench/Flex
+TE,"Cade Stover (HOU)",19.60,88,2025,344,Bench/Flex
+TE,"Luke Farrell (SF)",19.50,64,2025,345,Bench/Flex
+TE,"Albert Okwuegbunam Jr. (LV)",19.50,69,2022,346,Bench/Flex
+TE,"Davis Allen (LAR)",19.50,66,2023,347,Bench/Flex
+TE,"Geoff Swaim (FA)",19.40,79,2023,348,Bench/Flex
+TE,"John FitzPatrick (FA)",19.20,74,2025,349,Bench/Flex
+TE,"Drew Sample (CIN)",19.10,81,2021,350,Bench/Flex
+TE,"Anthony Firkser (FA)",19.00,83,2022,351,Bench/Flex
+TE,"Luke Farrell (SF)",18.70,80,2024,352,Bench/Flex
+TE,"Josh Whyle (GB)",18.40,68,2023,353,Bench/Flex
+TE,"Teagan Quitoriano (FA)",18.30,56,2022,354,Bench/Flex
+TE,"Tanner Conner (NYG)",18.10,84,2025,355,Bench/Flex
+TE,"Giovanni Ricci (FA)",18.00,82,2022,356,Bench/Flex
+TE,"Brevyn Spann-Ford (DAL)",18.00,72,2025,357,Bench/Flex
+TE,"Parker Hesse (FA)",17.90,85,2022,358,Bench/Flex
+TE,"Brycen Hopkins (FA)",17.90,81,2022,359,Bench/Flex
+TE,"Geoff Swaim (FA)",17.80,78,2022,360,Bench/Flex
+TE,"Brevyn Spann-Ford (DAL)",17.80,77,2024,361,Bench/Flex
+TE,"Blake Bell (FA)",17.70,77,2021,362,Bench/Flex
+TE,"Harrison Bryant (FA)",17.60,78,2024,363,Bench/Flex
+TE,"Lucas Krull (DEN)",17.50,64,2023,364,Bench/Flex
+TE,"Tre' McKitty (FA)",17.20,88,2022,365,Bench/Flex
+TE,"Tyler Conklin (LAC)",17.10,81,2025,366,Bench/Flex
+TE,"Shane Zylstra (FA)",17.00,47,2022,367,Bench/Flex
+TE,"Eric Tomlinson (FA)",16.90,61,2022,368,Bench/Flex
+TE,"Taysom Hill (FA)",16.70,3,2022,369,Bench/Flex
+TE,"Grant Calcaterra (PHI)",16.60,73,2025,370,Bench/Flex
+TE,"Andrew Beck (NYJ)",16.50,47,2023,371,Bench/Flex
+TE,"John Bates (WAS)",16.40,81,2024,372,Bench/Flex
+TE,"Quintin Morris (JAC)",16.40,76,2022,373,Bench/Flex
+TE,"Charlie Kolar (LAC)",15.70,72,2023,374,Bench/Flex
+TE,"Josh Oliver (MIN)",15.60,83,2021,375,Bench/Flex
+TE,"Lee Smith (FA)",15.50,67,2021,376,Bench/Flex
+TE,"Hayden Hurst (FA)",15.30,79,2024,377,Bench/Flex
+TE,"Ko Kieft (TB)",15.00,70,2022,378,Bench/Flex
+TE,"Mitchell Wilcox (FA)",14.60,89,2023,379,Bench/Flex
+TE,"Tyler Higbee (LAR)",14.60,58,2024,380,Bench/Flex
+TE,"Josiah Deguara (FA)",14.50,84,2023,381,Bench/Flex
+TE,"Luke Schoonmaker (DAL)",14.50,61,2023,382,Bench/Flex
+TE,"Jacob Hollister (FA)",14.50,69,2021,383,Bench/Flex
+TE,"Pharaoh Brown (FA)",14.50,86,2024,384,Bench/Flex
+TE,"Durham Smythe (FA)",14.30,83,2024,385,Bench/Flex
+TE,"Devin Culp (TB)",13.80,75,2024,386,Bench/Flex
+TE,"C.J. Uzomah (FA)",13.80,76,2023,387,Bench/Flex
+TE,"Chris Myarick (FA)",13.50,75,2022,388,Bench/Flex
+TE,"Ross Dwelley (FA)",13.50,68,2022,389,Bench/Flex
+TE,"Tommy Sweeney (FA)",13.40,75,2021,390,Bench/Flex
+TE,"Anthony Firkser (FA)",13.30,90,2025,391,Bench/Flex
+TE,"Jesse James (FA)",13.20,68,2021,392,Bench/Flex
+TE,"Grant Calcaterra (PHI)",13.10,87,2022,393,Bench/Flex
+TE,"Chris Manhertz (NYG)",13.10,66,2021,394,Bench/Flex
+TE,"Darnell Washington (PIT)",13.10,86,2023,395,Bench/Flex
+TE,"Hunter Long (JAC)",13.00,82,2024,396,Bench/Flex
+TE,"Foster Moreau (NO)",12.90,89,2025,397,Bench/Flex
+TE,"Charlie Woerner (ATL)",12.80,93,2025,398,Bench/Flex
+TE,"Brycen Hopkins (FA)",12.80,82,2023,399,Bench/Flex
+TE,"Eric Saubert (SEA)",12.70,72,2021,400,Bench/Flex
+TE,"Marcedes Lewis (FA)",12.60,59,2022,401,Bench/Flex
+TE,"Luke Farrell (SF)",12.60,84,2021,402,Bench/Flex
+TE,"Stone Smartt (FA)",12.20,91,2025,403,Bench/Flex
+TE,"Andrew Beck (NYJ)",11.90,89,2022,404,Bench/Flex
+TE,"Gerald Everett (FA)",11.60,92,2024,405,Bench/Flex
+TE,"Charlie Woerner (ATL)",11.60,85,2024,406,Bench/Flex
+TE,"Luke Musgrave (GB)",11.50,87,2024,407,Bench/Flex
+TE,"Quintin Morris (JAC)",11.50,76,2025,408,Bench/Flex
+TE,"Nick Vannett (LAR)",11.50,91,2022,409,Bench/Flex
+TE,"Armani Rogers (FA)",11.40,84,2022,410,Bench/Flex
+TE,"Blake Whiteheart (CLE)",11.10,67,2024,411,Bench/Flex
+TE,"Kylen Granson (FA)",11.00,95,2025,412,Bench/Flex
+TE,"Tucker Fisk (LAC)",10.90,90,2024,413,Bench/Flex
+TE,"Payne Durham (TB)",10.80,87,2023,414,Bench/Flex
+TE,"Nate Adkins (DEN)",10.80,79,2025,415,Bench/Flex
+TE,"Julian Hill (MIA)",10.80,95,2023,416,Bench/Flex
+TE,"Ian Thomas (LV)",10.60,88,2023,417,Bench/Flex
+TE,"Noah Gray (KC)",10.60,78,2021,418,Bench/Flex
+TE,"Jack Stoll (NO)",10.60,80,2025,419,Bench/Flex
+TE,"Tre' McKitty (FA)",10.50,86,2021,420,Bench/Flex
+TE,"Andrew Beck (NYJ)",10.50,68,2025,421,Bench/Flex
+TE,"Chris Manhertz (NYG)",10.20,95,2022,422,Bench/Flex
+TE,"Charlie Woerner (ATL)",10.20,85,2021,423,Bench/Flex
+TE,"Peyton Hendershot (FA)",10.10,84,2024,424,Bench/Flex
+TE,"Connor Heyward (PIT)",10.00,70,2024,425,Bench/Flex
+TE,"MyCole Pruitt (FA)",10.00,72,2024,426,Bench/Flex
+TE,"Jimmy Graham (FA)",9.90,46,2023,427,Bench/Flex
+TE,"Davis Allen (LAR)",9.90,89,2024,428,Bench/Flex
+TE,"Kenny Yeboah (FA)",9.70,68,2024,429,Bench/Flex
+TE,"Tyler Kroft (FA)",9.70,90,2022,430,Bench/Flex
+TE,"Tip Reiman (ARI)",9.70,91,2024,431,Bench/Flex
+TE,"Antony Auclair (FA)",9.70,73,2021,432,Bench/Flex
+TE,"Parker Hesse (FA)",9.30,88,2021,433,Bench/Flex
+TE,"Ross Dwelley (FA)",9.10,70,2021,434,Bench/Flex
+TE,"Charlie Kolar (LAC)",8.90,92,2022,435,Bench/Flex
+TE,"Jack Stoll (NO)",8.80,91,2023,436,Bench/Flex
+TE,"Brenden Bates (CLE)",8.80,94,2025,437,Bench/Flex
+TE,"Josh Whyle (GB)",8.60,83,2025,438,Bench/Flex
+TE,"Albert Okwuegbunam Jr. (LV)",8.60,96,2025,439,Bench/Flex
+TE,"Quintin Morris (JAC)",8.60,73,2024,440,Bench/Flex
+TE,"Brenton Strange (JAC)",8.50,78,2023,441,Bench/Flex
+TE,"Darren Fells (FA)",8.30,87,2021,442,Bench/Flex
+TE,"Colby Parkinson (LAR)",8.30,95,2021,443,Bench/Flex
+TE,"Ben Sims (MIN)",8.20,88,2024,444,Bench/Flex
+TE,"Luke Farrell (SF)",8.00,96,2022,445,Bench/Flex
+TE,"Chris Herndon IV (FA)",8.00,76,2021,446,Bench/Flex
+TE,"Garrett Griffin (FA)",7.90,89,2021,447,Bench/Flex
+TE,"Grant Calcaterra (PHI)",7.90,90,2023,448,Bench/Flex
+TE,"Cam Grandy (CIN)",7.80,95,2024,449,Bench/Flex
+TE,"Greg Dulcich (MIA)",7.80,94,2024,450,Bench/Flex
+TE,"Ben Sinnott (WAS)",7.80,76,2024,451,Bench/Flex
+TE,"Peyton Hendershot (FA)",7.80,92,2023,452,Bench/Flex
+TE,"Kendall Blanton (FA)",7.70,90,2021,453,Bench/Flex
+TE,"Blake Bell (FA)",7.60,83,2023,454,Bench/Flex
+TE,"Keleki Latu (BUF)",7.50,97,2025,455,Bench/Flex
+TE,"Tyler Davis (FA)",7.50,91,2021,456,Bench/Flex
+TE,"Eric Saubert (SEA)",7.10,92,2025,457,Bench/Flex
+TE,"David Martin-Robinson (TEN)",7.00,85,2025,458,Bench/Flex
+TE,"Will Mallory (IND)",6.90,93,2024,459,Bench/Flex
+TE,"Marcedes Lewis (FA)",6.90,80,2023,460,Bench/Flex
+TE,"Sean McKeon (IND)",6.70,79,2021,461,Bench/Flex
+TE,"Drew Ogletree (FA)",6.70,86,2025,462,Bench/Flex
+TE,"Tyler Davis (FA)",6.60,99,2022,463,Bench/Flex
+TE,"Ryan Griffin (FA)",6.60,97,2022,464,Bench/Flex
+TE,"Stephen Sullivan (FA)",6.60,93,2022,465,Bench/Flex
+TE,"Durham Smythe (FA)",6.50,100,2025,466,Bench/Flex
+TE,"Trevon Wesco (FA)",6.50,92,2021,467,Bench/Flex
+TE,"Shane Zylstra (FA)",6.40,93,2021,468,Bench/Flex
+TE,"Kaden Smith (FA)",6.30,96,2021,469,Bench/Flex
+TE,"Nate Adkins (DEN)",6.20,97,2023,470,Bench/Flex
+TE,"Charlie Woerner (ATL)",6.20,93,2023,471,Bench/Flex
+TE,"Jack Stoll (NO)",6.20,99,2021,472,Bench/Flex
+TE,"Tommy Hudson (FA)",6.10,98,2021,473,Bench/Flex
+TE,"Jeremy Sprinkle (FA)",6.10,97,2021,474,Bench/Flex
+TE,"Ben Sims (MIN)",6.10,81,2023,475,Bench/Flex
+TE,"Chris Manhertz (NYG)",6.00,74,2024,476,Bench/Flex
+TE,"Ben Sims (MIN)",6.00,98,2025,477,Bench/Flex
+TE,"James Mitchell (CAR)",5.80,99,2025,478,Bench/Flex
+TE,"Kyle Rudolph (FA)",5.80,86,2022,479,Bench/Flex
+TE,"Stone Smartt (FA)",5.70,103,2022,480,Bench/Flex
+TE,"Ben Ellefson (FA)",5.60,98,2022,481,Bench/Flex
+TE,"Greg Dulcich (MIA)",5.50,96,2023,482,Bench/Flex
+TE,"Dominique Dafney (FA)",5.40,94,2021,483,Bench/Flex
+TE,"Tyree Jackson (WAS)",5.20,80,2021,484,Bench/Flex
+TE,"Josiah Deguara (FA)",5.10,87,2025,485,Bench/Flex
+TE,"Dallin Holker (FA)",5.10,96,2024,486,Bench/Flex
+TE,"Connor Heyward (PIT)",5.10,59,2025,487,Bench/Flex
+TE,"Shane Zylstra (FA)",5.00,102,2025,488,Bench/Flex
+TE,"Jesper Horsted (FA)",4.90,101,2022,489,Bench/Flex
+TE,"Tip Reiman (ARI)",4.80,104,2025,490,Bench/Flex
+TE,"Kenny Yeboah (FA)",4.80,94,2023,491,Bench/Flex
+TE,"Maxx Williams (FA)",4.80,102,2022,492,Bench/Flex
+TE,"Chris Myarick (FA)",4.70,82,2021,493,Bench/Flex
+TE,"Trevon Wesco (FA)",4.60,94,2022,494,Bench/Flex
+TE,"Tanner Conner (NYG)",4.60,97,2024,495,Bench/Flex
+TE,"Mitchell Wilcox (FA)",4.60,100,2021,496,Bench/Flex
+TE,"Josiah Deguara (FA)",4.40,98,2024,497,Bench/Flex
+TE,"Cole Turner (MIA)",4.30,100,2022,498,Bench/Flex
+TE,"Eric Saubert (SEA)",4.20,99,2023,499,Bench/Flex
+TE,"Demetrius Harris (FA)",4.00,101,2021,500,Bench/Flex
+TE,"Stephen Anderson (FA)",3.90,104,2022,501,Bench/Flex
+TE,"Tucker Fisk (LAC)",3.90,103,2025,502,Bench/Flex
+TE,"Ian Thomas (LV)",3.70,100,2024,503,Bench/Flex
+TE,"Chris Manhertz (NYG)",3.60,98,2023,504,Bench/Flex
+TE,"Lucas Krull (DEN)",3.50,105,2025,505,Bench/Flex
+TE,"Sal Cannella (CLE)",3.10,106,2025,506,Bench/Flex
+TE,"Eric Tomlinson (FA)",2.90,99,2024,507,Bench/Flex
+TE,"Ross Dwelley (FA)",2.70,108,2025,508,Bench/Flex
+TE,"Harrison Bryant (FA)",2.70,109,2025,509,Bench/Flex
+TE,"Devin Asiasi (FA)",2.50,105,2022,510,Bench/Flex
+TE,"Blake Whiteheart (CLE)",2.40,110,2025,511,Bench/Flex
+TE,"Payne Durham (TB)",2.10,107,2025,512,Bench/Flex
+TE,"Jelani Woods (NYJ)",1.40,101,2025,513,Bench/Flex
+TE,"Richard Rodgers (FA)",1.40,106,2022,514,Bench/Flex
+TE,"Ko Kieft (TB)",1.20,85,2023,515,Bench/Flex
+TE,"Darrell Daniels (FA)",1.00,102,2021,516,Bench/Flex
+WR,"Cooper Kupp (SEA)",339.70,1,2021,1,"Elite (Top 3)"
+WR,"CeeDee Lamb (DAL)",309.90,1,2023,2,"Elite (Top 3)"
+WR,"Justin Jefferson (MIN)",308.90,1,2022,3,"Elite (Top 3)"
+WR,"Puka Nacua (LAR)",300.50,1,2025,4,"High Tier (4-10)"
+WR,"Tyreek Hill (FA)",298.90,2,2023,5,"High Tier (4-10)"
+WR,"Jaxon Smith-Njigba (SEA)",298.30,2,2025,6,"High Tier (4-10)"
+WR,"Ja'Marr Chase (CIN)",297.80,1,2024,7,"High Tier (4-10)"
+WR,"Tyreek Hill (FA)",290.00,3,2022,8,"High Tier (4-10)"
+WR,"Davante Adams (LAR)",278.30,5,2021,9,"High Tier (4-10)"
+WR,"Amon-Ra St. Brown (DET)",270.50,3,2023,10,"High Tier (4-10)"
+WR,"Justin Jefferson (MIN)",269.60,4,2021,11,"Mid Tier (11-20)"
+WR,"Ja'Marr Chase (CIN)",266.20,5,2025,12,"Mid Tier (11-20)"
+WR,"Amon-Ra St. Brown (DET)",257.10,3,2025,13,"Mid Tier (11-20)"
+WR,"Justin Jefferson (MIN)",256.30,2,2024,14,"Mid Tier (11-20)"
+WR,"Stefon Diggs (FA)",255.50,5,2022,15,"Mid Tier (11-20)"
+WR,"Puka Nacua (LAR)",253.60,5,2023,16,"Mid Tier (11-20)"
+WR,"Davante Adams (LAR)",251.60,2,2022,17,"Mid Tier (11-20)"
+WR,"A.J. Brown (PHI)",251.60,8,2023,18,"Mid Tier (11-20)"
+WR,"CeeDee Lamb (DAL)",242.90,6,2022,19,"Mid Tier (11-20)"
+WR,"Amon-Ra St. Brown (DET)",241.30,3,2024,20,"Mid Tier (11-20)"
+WR,"A.J. Brown (PHI)",237.60,4,2022,21,"Low Tier (21-30)"
+WR,"George Pickens (DAL)",235.90,4,2025,22,"Low Tier (21-30)"
+WR,"Tyreek Hill (FA)",234.90,7,2021,23,"Low Tier (21-30)"
+WR,"DJ Moore (BUF)",232.40,6,2023,24,"Low Tier (21-30)"
+WR,"Keenan Allen (LAC)",232.30,11,2023,25,"Low Tier (21-30)"
+WR,"Malik Nabers (NYG)",229.40,8,2024,26,"Low Tier (21-30)"
+WR,"Drake London (ATL)",227.10,6,2024,27,"Low Tier (21-30)"
+WR,"Ja'Marr Chase (CIN)",226.50,3,2021,28,"Low Tier (21-30)"
+WR,"Stefon Diggs (FA)",225.50,8,2021,29,"Low Tier (21-30)"
+WR,"Stefon Diggs (FA)",225.30,12,2023,30,"Low Tier (21-30)"
+WR,"Michael Pittman Jr. (PIT)",224.20,25,2023,31,Bench/Flex
+WR,"Diontae Johnson (FA)",223.10,12,2021,32,Bench/Flex
+WR,"Amon-Ra St. Brown (DET)",222.10,9,2022,33,Bench/Flex
+WR,"Ja'Marr Chase (CIN)",221.60,13,2023,34,Bench/Flex
+WR,"CeeDee Lamb (DAL)",220.40,9,2024,35,Bench/Flex
+WR,"Keenan Allen (LAC)",219.80,15,2021,36,Bench/Flex
+WR,"Deebo Samuel Sr. (FA)",217.50,2,2021,37,Bench/Flex
+WR,"Davante Adams (LAR)",217.40,14,2023,38,Bench/Flex
+WR,"Chris Olave (NO)",216.30,6,2025,39,Bench/Flex
+WR,"Brian Thomas Jr. (JAC)",215.20,4,2024,40,Bench/Flex
+WR,"DeVonta Smith (PHI)",214.60,10,2022,41,Bench/Flex
+WR,"Jaxon Smith-Njigba (SEA)",213.00,14,2024,42,Bench/Flex
+WR,"Jerry Jeudy (CLE)",212.90,15,2024,43,Bench/Flex
+WR,"Garrett Wilson (NYJ)",211.40,16,2024,44,Bench/Flex
+WR,"Jaylen Waddle (MIA)",210.60,7,2022,45,Bench/Flex
+WR,"Nico Collins (HOU)",209.70,9,2023,46,Bench/Flex
+WR,"Brandon Aiyuk (SF)",209.20,10,2023,47,Bench/Flex
+WR,"DJ Moore (BUF)",208.70,18,2021,48,Bench/Flex
+WR,"Chris Godwin Jr. (TB)",208.30,19,2021,49,Bench/Flex
+WR,"Zay Flowers (BAL)",207.10,8,2025,50,Bench/Flex
+WR,"Hunter Renfrow (FA)",206.80,13,2021,51,Bench/Flex
+WR,"Chris Godwin Jr. (TB)",206.30,26,2022,52,Bench/Flex
+WR,"Jaylen Waddle (MIA)",205.50,20,2021,53,Bench/Flex
+WR,"Mike Evans (SF)",204.50,4,2023,54,Bench/Flex
+WR,"Adam Thielen (FA)",204.40,31,2023,55,Bench/Flex
+WR,"Chris Olave (NO)",199.30,24,2023,56,Bench/Flex
+WR,"Garrett Wilson (NYJ)",199.20,36,2023,57,Bench/Flex
+WR,"Amari Cooper (FA)",197.00,16,2023,58,Bench/Flex
+WR,"Ladd McConkey (LAC)",196.90,11,2024,59,Bench/Flex
+WR,"Michael Pittman Jr. (PIT)",196.20,16,2021,60,Bench/Flex
+WR,"Terry McLaurin (WAS)",196.10,14,2022,61,Bench/Flex
+WR,"DK Metcalf (PIT)",194.80,19,2022,62,Bench/Flex
+WR,"Christian Kirk (FA)",194.80,11,2022,63,Bench/Flex
+WR,"DJ Moore (BUF)",194.60,22,2024,64,Bench/Flex
+WR,"Amari Cooper (FA)",194.00,8,2022,65,Bench/Flex
+WR,"Brandin Cooks (FA)",193.70,21,2021,66,Bench/Flex
+WR,"Wan'Dale Robinson (TEN)",193.40,22,2025,67,Bench/Flex
+WR,"Garrett Wilson (NYJ)",193.30,21,2022,68,Bench/Flex
+WR,"Hollywood Brown (FA)",191.80,25,2021,69,Bench/Flex
+WR,"Terry McLaurin (WAS)",191.60,5,2024,70,Bench/Flex
+WR,"Ja'Marr Chase (CIN)",191.60,12,2022,71,Bench/Flex
+WR,"Michael Pittman Jr. (PIT)",191.50,27,2022,72,Bench/Flex
+WR,"Davante Adams (LAR)",191.30,12,2024,73,Bench/Flex
+WR,"Mike Williams (FA)",190.60,9,2021,74,Bench/Flex
+WR,"Tyler Lockett (LV)",190.50,11,2021,75,Bench/Flex
+WR,"Jakobi Meyers (JAC)",189.70,29,2024,76,Bench/Flex
+WR,"Mike Evans (SF)",189.40,16,2022,77,Bench/Flex
+WR,"CeeDee Lamb (DAL)",189.20,14,2021,78,Bench/Flex
+WR,"Courtland Sutton (DEN)",189.10,10,2024,79,Bench/Flex
+WR,"Justin Jefferson (MIN)",188.80,30,2025,80,Bench/Flex
+WR,"DeVonta Smith (PHI)",187.60,22,2023,81,Bench/Flex
+WR,"Tyler Lockett (LV)",187.30,13,2022,82,Bench/Flex
+WR,"Darnell Mooney (FA)",186.50,22,2021,83,Bench/Flex
+WR,"Stefon Diggs (FA)",186.30,24,2025,84,Bench/Flex
+WR,"Chris Godwin Jr. (TB)",185.40,33,2023,85,Bench/Flex
+WR,"Tee Higgins (CIN)",183.10,17,2021,86,Bench/Flex
+WR,"CeeDee Lamb (DAL)",182.70,23,2025,87,Bench/Flex
+WR,"Nico Collins (HOU)",182.70,9,2025,88,Bench/Flex
+WR,"Terry McLaurin (WAS)",182.30,24,2021,89,Bench/Flex
+WR,"Amon-Ra St. Brown (DET)",181.20,23,2021,90,Bench/Flex
+WR,"DeAndre Hopkins (BAL)",180.70,20,2023,91,Bench/Flex
+WR,"Zay Flowers (BAL)",179.90,24,2024,92,Bench/Flex
+WR,"Brandon Aiyuk (SF)",179.50,15,2022,93,Bench/Flex
+WR,"Tee Higgins (CIN)",179.20,17,2022,94,Bench/Flex
+WR,"Terry McLaurin (WAS)",179.20,29,2023,95,Bench/Flex
+WR,"Michael Wilson (ARI)",178.60,13,2025,96,Bench/Flex
+WR,"A.J. Brown (PHI)",178.30,14,2025,97,Bench/Flex
+WR,"Puka Nacua (LAR)",178.00,33,2024,98,Bench/Flex
+WR,"DeVonta Smith (PHI)",177.80,25,2025,99,Bench/Flex
+WR,"Calvin Ridley (TEN)",177.60,17,2023,100,Bench/Flex
+WR,"Mike Evans (SF)",177.50,6,2021,101,Bench/Flex
+WR,"DK Metcalf (PIT)",177.40,15,2023,102,Bench/Flex
+WR,"George Pickens (DAL)",177.00,23,2023,103,Bench/Flex
+WR,"Tyreek Hill (FA)",176.90,23,2024,104,Bench/Flex
+WR,"Jameson Williams (DET)",176.70,10,2025,105,Bench/Flex
+WR,"Chris Olave (NO)",176.20,23,2022,106,Bench/Flex
+WR,"Courtland Sutton (DEN)",175.70,12,2025,107,Bench/Flex
+WR,"Justin Jefferson (MIN)",175.40,26,2023,108,Bench/Flex
+WR,"Christian Kirk (FA)",175.20,28,2021,109,Bench/Flex
+WR,"A.J. Brown (PHI)",174.90,17,2024,110,Bench/Flex
+WR,"Jauan Jennings (FA)",174.50,27,2024,111,Bench/Flex
+WR,"Mike Evans (SF)",174.40,7,2024,112,Bench/Flex
+WR,"Diontae Johnson (FA)",174.20,46,2022,113,Bench/Flex
+WR,"Jaylen Waddle (MIA)",173.40,32,2023,114,Bench/Flex
+WR,"Rashee Rice (KC)",172.80,27,2023,115,Bench/Flex
+WR,"DK Metcalf (PIT)",171.70,10,2021,116,Bench/Flex
+WR,"Tetairoa McMillan (CAR)",171.40,15,2025,117,Bench/Flex
+WR,"JuJu Smith-Schuster (FA)",171.30,37,2022,118,Bench/Flex
+WR,"Jakobi Meyers (JAC)",169.60,41,2021,119,Bench/Flex
+WR,"Nico Collins (HOU)",168.60,20,2024,120,Bench/Flex
+WR,"Tyler Lockett (LV)",168.40,34,2023,121,Bench/Flex
+WR,"Calvin Ridley (TEN)",165.70,25,2024,122,Bench/Flex
+WR,"DK Metcalf (PIT)",165.20,34,2024,123,Bench/Flex
+WR,"Zay Jones (FA)",164.30,29,2022,124,Bench/Flex
+WR,"Jerry Jeudy (CLE)",164.20,18,2022,125,Bench/Flex
+WR,"Tee Higgins (CIN)",164.10,19,2024,126,Bench/Flex
+WR,"Darnell Mooney (FA)",163.20,31,2024,127,Bench/Flex
+WR,"Wan'Dale Robinson (TEN)",162.90,53,2024,128,Bench/Flex
+WR,"Zay Flowers (BAL)",162.80,30,2023,129,Bench/Flex
+WR,"Jordan Addison (MIN)",161.10,19,2023,130,Bench/Flex
+WR,"Drake London (ATL)",159.90,17,2025,131,Bench/Flex
+WR,"Drake London (ATL)",159.50,42,2023,132,Bench/Flex
+WR,"Keenan Allen (LAC)",158.70,37,2025,133,Bench/Flex
+WR,"Drake London (ATL)",158.60,38,2022,134,Bench/Flex
+WR,"Jakobi Meyers (JAC)",158.50,38,2025,135,Bench/Flex
+WR,"Michael Pittman Jr. (PIT)",158.40,26,2025,136,Bench/Flex
+WR,"Khalil Shakir (BUF)",158.10,40,2024,137,Bench/Flex
+WR,"Jameson Williams (DET)",158.10,13,2024,138,Bench/Flex
+WR,"Emeka Egbuka (TB)",156.80,18,2025,139,Bench/Flex
+WR,"Marvin Jones Jr. (FA)",156.20,37,2021,140,Bench/Flex
+WR,"Cooper Kupp (SEA)",156.20,22,2022,141,Bench/Flex
+WR,"DeVonta Smith (PHI)",155.60,30,2021,142,Bench/Flex
+WR,"Jaylen Waddle (MIA)",155.00,19,2025,143,Bench/Flex
+WR,"Amari Cooper (FA)",154.50,26,2021,144,Bench/Flex
+WR,"Mike Williams (FA)",152.50,32,2022,145,Bench/Flex
+WR,"Josh Downs (IND)",152.30,38,2024,146,Bench/Flex
+WR,"DJ Moore (BUF)",151.80,20,2022,147,Bench/Flex
+WR,"Jakobi Meyers (JAC)",151.70,21,2023,148,Bench/Flex
+WR,"Cole Beasley (FA)",151.30,58,2021,149,Bench/Flex
+WR,"DeVonta Smith (PHI)",151.30,28,2024,150,Bench/Flex
+WR,"Jordan Addison (MIN)",150.50,18,2024,151,Bench/Flex
+WR,"Marvin Harrison Jr. (ARI)",150.50,26,2024,152,Bench/Flex
+WR,"A.J. Brown (PHI)",149.90,32,2021,153,Bench/Flex
+WR,"Tyler Boyd (FA)",149.80,33,2021,154,Bench/Flex
+WR,"Michael Pittman Jr. (PIT)",149.80,46,2024,155,Bench/Flex
+WR,"Deebo Samuel Sr. (FA)",149.20,7,2023,156,Bench/Flex
+WR,"George Pickens (DAL)",149.00,41,2024,157,Bench/Flex
+WR,"Joshua Palmer (BUF)",148.90,41,2022,158,Bench/Flex
+WR,"Jakobi Meyers (JAC)",147.40,33,2022,159,Bench/Flex
+WR,"Alec Pierce (IND)",147.30,16,2025,160,Bench/Flex
+WR,"Courtland Sutton (DEN)",146.90,45,2022,161,Bench/Flex
+WR,"Josh Downs (IND)",145.10,48,2023,162,Bench/Flex
+WR,"Chase Claypool (FA)",145.00,36,2021,163,Bench/Flex
+WR,"Ladd McConkey (LAC)",144.90,32,2025,164,Bench/Flex
+WR,"Donovan Peoples-Jones (FA)",144.90,39,2022,165,Bench/Flex
+WR,"Deebo Samuel Sr. (FA)",144.70,31,2025,166,Bench/Flex
+WR,"Keenan Allen (LAC)",144.40,37,2024,167,Bench/Flex
+WR,"DK Metcalf (PIT)",144.00,20,2025,168,Bench/Flex
+WR,"Khalil Shakir (BUF)",143.90,42,2025,169,Bench/Flex
+WR,"Tee Higgins (CIN)",143.60,11,2025,170,Bench/Flex
+WR,"Jayden Reed (GB)",143.30,18,2023,171,Bench/Flex
+WR,"Russell Gage Jr. (FA)",143.00,45,2021,172,Bench/Flex
+WR,"Parker Washington (JAC)",142.70,21,2025,173,Bench/Flex
+WR,"Adam Thielen (FA)",141.60,36,2022,174,Bench/Flex
+WR,"Keenan Allen (LAC)",141.20,40,2022,175,Bench/Flex
+WR,"Jayden Reed (GB)",140.70,21,2024,176,Bench/Flex
+WR,"Adam Thielen (FA)",139.60,27,2021,177,Bench/Flex
+WR,"Davante Adams (LAR)",138.90,7,2025,178,Bench/Flex
+WR,"Allen Lazard (FA)",138.80,30,2022,179,Bench/Flex
+WR,"A.J. Green (FA)",138.80,43,2021,180,Bench/Flex
+WR,"Brandon Aiyuk (SF)",138.60,34,2021,181,Bench/Flex
+WR,"Cooper Kupp (SEA)",138.00,39,2024,182,Bench/Flex
+WR,"Hollywood Brown (FA)",137.90,47,2022,183,Bench/Flex
+WR,"Tyler Boyd (FA)",136.60,28,2022,184,Bench/Flex
+WR,"Courtland Sutton (DEN)",136.20,28,2023,185,Bench/Flex
+WR,"Troy Franklin (DEN)",135.90,33,2025,186,Bench/Flex
+WR,"Christian Kirk (FA)",135.70,47,2023,187,Bench/Flex
+WR,"DeAndre Hopkins (BAL)",135.70,49,2022,188,Bench/Flex
+WR,"Courtland Sutton (DEN)",135.60,47,2021,189,Bench/Flex
+WR,"Kendrick Bourne (ARI)",135.00,29,2021,190,Bench/Flex
+WR,"Tyler Boyd (FA)",133.70,55,2023,191,Bench/Flex
+WR,"Cooper Kupp (SEA)",132.70,41,2023,192,Bench/Flex
+WR,"Jaylen Waddle (MIA)",132.40,48,2024,193,Bench/Flex
+WR,"George Pickens (DAL)",132.10,31,2022,194,Bench/Flex
+WR,"Gabe Davis (FA)",131.60,24,2022,195,Bench/Flex
+WR,"Ray-Ray McCloud III (FA)",130.60,65,2024,196,Bench/Flex
+WR,"Van Jefferson (FA)",130.20,31,2021,197,Bench/Flex
+WR,"Jerry Jeudy (CLE)",129.80,50,2023,198,Bench/Flex
+WR,"Curtis Samuel (FA)",129.60,35,2022,199,Bench/Flex
+WR,"Mecole Hardman Jr. (BUF)",128.30,55,2021,200,Bench/Flex
+WR,"DeMario Douglas (NE)",128.10,62,2024,201,Bench/Flex
+WR,"Rashid Shaheed (SEA)",127.70,39,2025,202,Bench/Flex
+WR,"Rome Odunze (CHI)",127.40,51,2024,203,Bench/Flex
+WR,"Romeo Doubs (NE)",127.40,34,2025,204,Bench/Flex
+WR,"Darius Slayton (NYG)",127.00,44,2023,205,Bench/Flex
+WR,"Brandin Cooks (FA)",126.90,48,2022,206,Bench/Flex
+WR,"Tre Tucker (LV)",126.60,35,2025,207,Bench/Flex
+WR,"Tim Patrick (FA)",126.40,40,2021,208,Bench/Flex
+WR,"Romeo Doubs (NE)",126.40,39,2023,209,Bench/Flex
+WR,"Quentin Johnston (LAC)",126.10,36,2024,210,Bench/Flex
+WR,"Mack Hollins (NE)",126.00,42,2022,211,Bench/Flex
+WR,"Jaxon Smith-Njigba (SEA)",125.80,51,2023,212,Bench/Flex
+WR,"Parris Campbell (DAL)",125.30,50,2022,213,Bench/Flex
+WR,"K.J. Osborn (FA)",125.00,43,2022,214,Bench/Flex
+WR,"Laviska Shenault Jr. (FA)",124.90,69,2021,215,Bench/Flex
+WR,"Quentin Johnston (LAC)",124.50,27,2025,216,Bench/Flex
+WR,"Curtis Samuel (FA)",123.30,46,2023,217,Bench/Flex
+WR,"Elijah Moore (FA)",123.00,62,2023,218,Bench/Flex
+WR,"Xavier Worthy (KC)",122.80,32,2024,219,Bench/Flex
+WR,"Diontae Johnson (FA)",122.70,43,2023,220,Bench/Flex
+WR,"Rashod Bateman (BAL)",120.60,30,2024,221,Bench/Flex
+WR,"Brandin Cooks (FA)",119.70,35,2023,222,Bench/Flex
+WR,"Gabe Davis (FA)",119.60,38,2023,223,Bench/Flex
+WR,"Alec Pierce (IND)",119.40,35,2024,224,Bench/Flex
+WR,"Jauan Jennings (FA)",119.30,29,2025,225,Bench/Flex
+WR,"Deebo Samuel Sr. (FA)",119.20,34,2022,226,Bench/Flex
+WR,"Brian Thomas Jr. (JAC)",118.70,45,2025,227,Bench/Flex
+WR,"Darius Slayton (NYG)",118.40,51,2022,228,Bench/Flex
+WR,"DJ Moore (BUF)",118.20,28,2025,229,Bench/Flex
+WR,"Deebo Samuel Sr. (FA)",118.00,44,2024,230,Bench/Flex
+WR,"Rashid Shaheed (SEA)",117.90,40,2023,231,Bench/Flex
+WR,"Tank Dell (HOU)",117.90,37,2023,232,Bench/Flex
+WR,"Tank Dell (HOU)",117.70,54,2024,233,Bench/Flex
+WR,"DeAndre Hopkins (BAL)",117.00,50,2024,234,Bench/Flex
+WR,"Marquez Callaway (FA)",115.80,38,2021,235,Bench/Flex
+WR,"K.J. Osborn (FA)",115.50,35,2021,236,Bench/Flex
+WR,"Elijah Moore (FA)",114.80,83,2024,237,Bench/Flex
+WR,"Josh Downs (IND)",114.60,50,2025,238,Bench/Flex
+WR,"Richie James Jr. (FA)",113.90,55,2022,239,Bench/Flex
+WR,"Wan'Dale Robinson (TEN)",112.50,61,2023,240,Bench/Flex
+WR,"Luther Burden III (CHI)",112.20,49,2025,241,Bench/Flex
+WR,"Marquez Valdes-Scantling (FA)",110.70,52,2022,242,Bench/Flex
+WR,"Jerry Jeudy (CLE)",110.20,56,2025,243,Bench/Flex
+WR,"Rome Odunze (CHI)",110.10,36,2025,244,Bench/Flex
+WR,"Rashee Rice (KC)",110.10,41,2025,245,Bench/Flex
+WR,"Jalen Tolbert (FA)",110.00,43,2024,246,Bench/Flex
+WR,"Adam Thielen (FA)",109.50,49,2024,247,Bench/Flex
+WR,"Jarvis Landry (FA)",109.00,56,2021,248,Bench/Flex
+WR,"Tyler Lockett (LV)",109.00,72,2024,249,Bench/Flex
+WR,"Kalif Raymond (CHI)",108.60,63,2022,250,Bench/Flex
+WR,"Hollywood Brown (FA)",108.40,52,2023,251,Bench/Flex
+WR,"Quez Watkins (PHI)",107.70,63,2021,252,Bench/Flex
+WR,"Hollywood Brown (FA)",107.70,46,2025,253,Bench/Flex
+WR,"Chris Godwin Jr. (TB)",107.60,56,2024,254,Bench/Flex
+WR,"Tee Higgins (CIN)",107.60,45,2023,255,Bench/Flex
+WR,"Cooper Kupp (SEA)",106.30,58,2025,256,Bench/Flex
+WR,"Romeo Doubs (NE)",106.10,57,2024,257,Bench/Flex
+WR,"Robert Woods (FA)",105.70,73,2022,258,Bench/Flex
+WR,"Kalif Raymond (CHI)",105.60,54,2021,259,Bench/Flex
+WR,"Cedrick Wilson Jr. (FA)",105.20,42,2021,260,Bench/Flex
+WR,"DeMario Douglas (NE)",105.10,73,2023,261,Bench/Flex
+WR,"Robbie Chosen (FA)",104.90,51,2021,262,Bench/Flex
+WR,"Emmanuel Sanders (FA)",104.60,50,2021,263,Bench/Flex
+WR,"Jordan Addison (MIN)",103.00,43,2025,264,Bench/Flex
+WR,"Chris Moore (FA)",102.80,66,2022,265,Bench/Flex
+WR,"Christian Watson (GB)",102.10,25,2022,266,Bench/Flex
+WR,"K.J. Osborn (FA)",102.00,64,2023,267,Bench/Flex
+WR,"Kayshon Boutte (NE)",101.90,63,2024,268,Bench/Flex
+WR,"Marvin Harrison Jr. (ARI)",101.80,48,2025,269,Bench/Flex
+WR,"Michael Wilson (ARI)",101.80,66,2024,270,Bench/Flex
+WR,"Zay Jones (FA)",101.60,76,2021,271,Bench/Flex
+WR,"Mack Hollins (NE)",101.00,60,2025,272,Bench/Flex
+WR,"Tre Tucker (LV)",100.90,61,2024,273,Bench/Flex
+WR,"Jahan Dotson (ATL)",100.80,57,2023,274,Bench/Flex
+WR,"Josh Reynolds (FA)",100.80,49,2023,275,Bench/Flex
+WR,"Robert Woods (FA)",100.60,48,2021,276,Bench/Flex
+WR,"Alec Pierce (IND)",100.30,60,2022,277,Bench/Flex
+WR,"Khalil Shakir (BUF)",100.10,58,2023,278,Bench/Flex
+WR,"DeAndre Carter (FA)",99.80,68,2022,279,Bench/Flex
+WR,"DeAndre Hopkins (BAL)",99.20,39,2021,280,Bench/Flex
+WR,"Marvin Jones Jr. (FA)",98.90,61,2022,281,Bench/Flex
+WR,"Byron Pringle (FA)",98.80,53,2021,282,Bench/Flex
+WR,"Amari Cooper (FA)",98.70,64,2024,283,Bench/Flex
+WR,"Xavier Legette (CAR)",98.70,68,2024,284,Bench/Flex
+WR,"Greg Dortch (FA)",98.70,75,2022,285,Bench/Flex
+WR,"Noah Brown (FA)",98.50,59,2022,286,Bench/Flex
+WR,"Tutu Atwell (FA)",98.20,86,2024,287,Bench/Flex
+WR,"Odell Beckham Jr. (FA)",97.70,52,2021,288,Bench/Flex
+WR,"Rashod Bateman (BAL)",97.50,80,2021,289,Bench/Flex
+WR,"Joshua Palmer (BUF)",97.40,75,2024,290,Bench/Flex
+WR,"Dontayvion Wicks (GB)",97.10,53,2023,291,Bench/Flex
+WR,"Elijah Moore (FA)",96.80,46,2021,292,Bench/Flex
+WR,"Stefon Diggs (FA)",96.60,70,2024,293,Bench/Flex
+WR,"Antonio Brown (FA)",96.50,57,2021,294,Bench/Flex
+WR,"Darius Slayton (NYG)",96.30,74,2024,295,Bench/Flex
+WR,"Terry McLaurin (WAS)",96.20,52,2025,296,Bench/Flex
+WR,"Christian Watson (GB)",96.10,40,2025,297,Bench/Flex
+WR,"Joshua Palmer (BUF)",96.10,65,2023,298,Bench/Flex
+WR,"Jamison Crowder (FA)",95.70,78,2021,299,Bench/Flex
+WR,"Olamide Zaccheaus (ATL)",95.60,77,2024,300,Bench/Flex
+WR,"Xavier Worthy (KC)",95.20,59,2025,301,Bench/Flex
+WR,"Michael Wilson (ARI)",94.50,56,2023,302,Bench/Flex
+WR,"Demarcus Robinson (SF)",93.80,80,2022,303,Bench/Flex
+WR,"Donovan Peoples-Jones (FA)",93.70,60,2021,304,Bench/Flex
+WR,"Russell Gage Jr. (FA)",93.60,56,2022,305,Bench/Flex
+WR,"Jayden Higgins (HOU)",93.50,47,2025,306,Bench/Flex
+WR,"Olamide Zaccheaus (ATL)",93.30,62,2022,307,Bench/Flex
+WR,"Deonte Harty (FA)",93.00,59,2021,308,Bench/Flex
+WR,"Elic Ayomanor (TEN)",92.50,53,2025,309,Bench/Flex
+WR,"Kendrick Bourne (ARI)",92.10,74,2025,310,Bench/Flex
+WR,"Odell Beckham Jr. (FA)",91.50,63,2023,311,Bench/Flex
+WR,"DeVante Parker (FA)",91.50,70,2021,312,Bench/Flex
+WR,"Allen Lazard (FA)",91.30,44,2021,313,Bench/Flex
+WR,"Chase Claypool (FA)",91.10,78,2022,314,Bench/Flex
+WR,"Bryan Edwards (FA)",91.10,61,2021,315,Bench/Flex
+WR,"Christian Watson (GB)",91.00,67,2024,316,Bench/Flex
+WR,"Calvin Austin III (FA)",90.80,59,2024,317,Bench/Flex
+WR,"Darius Slayton (NYG)",90.80,67,2025,318,Bench/Flex
+WR,"Chimere Dike (TEN)",90.30,51,2025,319,Bench/Flex
+WR,"Allen Lazard (FA)",90.00,55,2024,320,Bench/Flex
+WR,"Gabe Davis (FA)",89.90,49,2021,321,Bench/Flex
+WR,"Noah Brown (FA)",89.70,66,2023,322,Bench/Flex
+WR,"Darnell Mooney (FA)",89.30,74,2022,323,Bench/Flex
+WR,"Marvin Mims Jr. (DEN)",89.30,52,2024,324,Bench/Flex
+WR,"Braxton Berrios (FA)",89.10,62,2021,325,Bench/Flex
+WR,"Kenny Golladay (FA)",89.10,85,2021,326,Bench/Flex
+WR,"Ricky Pearsall (SF)",88.80,78,2025,327,Bench/Flex
+WR,"Devaughn Vele (NO)",88.50,78,2024,328,Bench/Flex
+WR,"Kayshon Boutte (NE)",88.10,44,2025,329,Bench/Flex
+WR,"Ryan Flournoy (DAL)",87.50,54,2025,330,Bench/Flex
+WR,"DJ Chark Jr. (FA)",87.50,54,2023,331,Bench/Flex
+WR,"Tutu Atwell (FA)",87.30,59,2023,332,Bench/Flex
+WR,"Jahan Dotson (ATL)",87.30,44,2022,333,Bench/Flex
+WR,"Josh Reynolds (FA)",85.90,69,2022,334,Bench/Flex
+WR,"Corey Davis (FA)",85.60,70,2022,335,Bench/Flex
+WR,"Nick Westbrook-Ikhine (FA)",85.60,65,2021,336,Bench/Flex
+WR,"Nico Collins (HOU)",85.10,76,2022,337,Bench/Flex
+WR,"DeVante Parker (FA)",84.90,58,2022,338,Bench/Flex
+WR,"Jonathan Mingo (DAL)",84.80,91,2023,339,Bench/Flex
+WR,"Jerry Jeudy (CLE)",84.70,94,2021,340,Bench/Flex
+WR,"Keon Coleman (BUF)",84.60,60,2024,341,Bench/Flex
+WR,"Romeo Doubs (NE)",84.50,77,2022,342,Bench/Flex
+WR,"Nelson Agholor (FA)",84.30,66,2021,343,Bench/Flex
+WR,"Isaiah McKenzie (FA)",84.30,54,2022,344,Bench/Flex
+WR,"Kalif Raymond (CHI)",83.90,69,2023,345,Bench/Flex
+WR,"Andrei Iosivas (CIN)",83.90,58,2024,346,Bench/Flex
+WR,"Michael Thomas (FA)",83.80,81,2023,347,Bench/Flex
+WR,"Alec Pierce (IND)",83.40,67,2023,348,Bench/Flex
+WR,"Corey Davis (FA)",83.20,64,2021,349,Bench/Flex
+WR,"Jalen McMillan (TB)",83.10,45,2024,350,Bench/Flex
+WR,"Robert Woods (FA)",82.60,82,2023,351,Bench/Flex
+WR,"Nick Westbrook-Ikhine (FA)",81.70,42,2024,352,Bench/Flex
+WR,"Elijah Moore (FA)",81.60,88,2022,353,Bench/Flex
+WR,"Demarcus Robinson (SF)",81.50,47,2024,354,Bench/Flex
+WR,"Michael Gallup (FA)",81.40,67,2022,355,Bench/Flex
+WR,"Quentin Johnston (LAC)",81.10,77,2023,356,Bench/Flex
+WR,"Kadarius Toney (FA)",81.00,101,2021,357,Bench/Flex
+WR,"Dontayvion Wicks (GB)",80.50,73,2024,358,Bench/Flex
+WR,"Noah Brown (FA)",80.30,91,2024,359,Bench/Flex
+WR,"DJ Chark Jr. (FA)",80.20,65,2022,360,Bench/Flex
+WR,"Jalen Coker (CAR)",79.80,82,2024,361,Bench/Flex
+WR,"Michael Gallup (FA)",79.50,81,2021,362,Bench/Flex
+WR,"Adam Humphries (FA)",79.30,109,2021,363,Bench/Flex
+WR,"Allen Robinson II (FA)",79.00,93,2021,364,Bench/Flex
+WR,"Kendrick Bourne (ARI)",78.40,85,2022,365,Bench/Flex
+WR,"Keon Coleman (BUF)",78.40,63,2025,366,Bench/Flex
+WR,"Adonai Mitchell (NYJ)",78.30,75,2025,367,Bench/Flex
+WR,"Tyler Boyd (FA)",78.00,100,2024,368,Bench/Flex
+WR,"Xavier Hutchinson (HOU)",77.80,65,2025,369,Bench/Flex
+WR,"Devin Duvernay (FA)",77.70,53,2022,370,Bench/Flex
+WR,"Malik Washington (MIA)",77.70,57,2025,371,Bench/Flex
+WR,"Nico Collins (HOU)",77.60,90,2021,372,Bench/Flex
+WR,"Kendrick Bourne (ARI)",77.60,68,2023,373,Bench/Flex
+WR,"Trey Palmer (NO)",77.50,75,2023,374,Bench/Flex
+WR,"Treylon Burks (FA)",77.40,81,2022,375,Bench/Flex
+WR,"Terrace Marshall Jr. (MIA)",77.00,82,2022,376,Bench/Flex
+WR,"Rashid Shaheed (SEA)",76.80,57,2022,377,Bench/Flex
+WR,"Jauan Jennings (FA)",76.60,92,2022,378,Bench/Flex
+WR,"Ben Skowronek (PIT)",76.60,96,2022,379,Bench/Flex
+WR,"Andrei Iosivas (CIN)",76.50,71,2025,380,Bench/Flex
+WR,"Laquon Treadwell (FA)",76.40,92,2021,381,Bench/Flex
+WR,"Zach Pascal (FA)",76.40,82,2021,382,Bench/Flex
+WR,"Darnell Mooney (FA)",76.30,80,2025,383,Bench/Flex
+WR,"Isaiah Hodgins (NYG)",76.20,72,2022,384,Bench/Flex
+WR,"Sterling Shepard (FA)",76.10,87,2025,385,Bench/Flex
+WR,"Jalen Guyton (FA)",75.80,67,2021,386,Bench/Flex
+WR,"Michael Gallup (FA)",75.80,79,2023,387,Bench/Flex
+WR,"DeMario Douglas (NE)",75.70,61,2025,388,Bench/Flex
+WR,"Randall Cobb (FA)",75.70,91,2022,389,Bench/Flex
+WR,"Garrett Wilson (NYJ)",75.50,64,2025,390,Bench/Flex
+WR,"Julio Jones (FA)",74.40,91,2021,391,Bench/Flex
+WR,"Jalen Nailor (LV)",73.40,55,2025,392,Bench/Flex
+WR,"Nelson Agholor (FA)",73.10,70,2023,393,Bench/Flex
+WR,"KaVontae Turpin (DAL)",73.00,71,2024,394,Bench/Flex
+WR,"Justin Watson (HOU)",73.00,71,2023,395,Bench/Flex
+WR,"Keelan Cole Sr. (FA)",72.90,89,2021,396,Bench/Flex
+WR,"Sterling Shepard (FA)",72.60,105,2021,397,Bench/Flex
+WR,"Darnell Mooney (FA)",72.40,85,2023,398,Bench/Flex
+WR,"Jalen Coker (CAR)",72.40,70,2025,399,Bench/Flex
+WR,"Tim Patrick (FA)",72.40,85,2024,400,Bench/Flex
+WR,"DeVante Parker (FA)",72.40,93,2023,401,Bench/Flex
+WR,"Tyler Johnson (FA)",72.00,112,2021,402,Bench/Flex
+WR,"Chris Olave (NO)",72.00,93,2024,403,Bench/Flex
+WR,"Trent Sherfield Sr. (FA)",71.70,84,2022,404,Bench/Flex
+WR,"Olamide Zaccheaus (ATL)",71.60,77,2021,405,Bench/Flex
+WR,"Xavier Legette (CAR)",71.30,77,2025,406,Bench/Flex
+WR,"Greg Dortch (FA)",71.20,88,2024,407,Bench/Flex
+WR,"Parker Washington (JAC)",71.00,80,2024,408,Bench/Flex
+WR,"Ricky Pearsall (SF)",71.00,81,2024,409,Bench/Flex
+WR,"Henry Ruggs III (FA)",70.90,74,2021,410,Bench/Flex
+WR,"Diontae Johnson (FA)",70.50,87,2024,411,Bench/Flex
+WR,"Olamide Zaccheaus (ATL)",70.30,84,2025,412,Bench/Flex
+WR,"Christian Watson (GB)",70.20,60,2023,413,Bench/Flex
+WR,"Tre'Quan Smith (FA)",69.70,84,2021,414,Bench/Flex
+WR,"Jalen Nailor (LV)",69.40,69,2024,415,Bench/Flex
+WR,"Marvin Mims Jr. (DEN)",69.20,72,2025,416,Bench/Flex
+WR,"Chris Godwin Jr. (TB)",69.00,81,2025,417,Bench/Flex
+WR,"Hunter Renfrow (FA)",69.00,103,2022,418,Bench/Flex
+WR,"Marquez Valdes-Scantling (FA)",69.00,73,2021,419,Bench/Flex
+WR,"Pat Bryant (DEN)",68.80,86,2025,420,Bench/Flex
+WR,"Mack Hollins (NE)",68.80,76,2024,421,Bench/Flex
+WR,"Rashod Bateman (BAL)",68.70,89,2023,422,Bench/Flex
+WR,"Josh Reynolds (FA)",68.60,87,2021,423,Bench/Flex
+WR,"Quez Watkins (PHI)",68.40,87,2022,424,Bench/Flex
+WR,"Joshua Palmer (BUF)",68.30,75,2021,425,Bench/Flex
+WR,"Calvin Austin III (FA)",68.20,73,2025,426,Bench/Flex
+WR,"JuJu Smith-Schuster (FA)",67.50,94,2025,427,Bench/Flex
+WR,"Nelson Agholor (FA)",67.20,99,2022,428,Bench/Flex
+WR,"David Moore (CAR)",67.10,89,2024,429,Bench/Flex
+WR,"Allen Robinson II (FA)",66.90,86,2022,430,Bench/Flex
+WR,"Mike Evans (SF)",66.80,76,2025,431,Bench/Flex
+WR,"Ray-Ray McCloud III (FA)",66.70,129,2021,432,Bench/Flex
+WR,"Sammy Watkins (FA)",66.40,100,2021,433,Bench/Flex
+WR,"Zay Jones (FA)",66.10,90,2023,434,Bench/Flex
+WR,"Marquise Goodwin (FA)",65.70,71,2022,435,Bench/Flex
+WR,"KaVontae Turpin (DAL)",65.60,69,2025,436,Bench/Flex
+WR,"Randall Cobb (FA)",65.50,68,2021,437,Bench/Flex
+WR,"Sterling Shepard (FA)",65.40,92,2024,438,Bench/Flex
+WR,"DeSean Jackson (FA)",65.40,83,2021,439,Bench/Flex
+WR,"Matthew Golden (GB)",65.10,93,2025,440,Bench/Flex
+WR,"Nick Westbrook-Ikhine (FA)",65.00,74,2023,441,Bench/Flex
+WR,"Christian Kirk (FA)",64.90,94,2024,442,Bench/Flex
+WR,"Nick Westbrook-Ikhine (FA)",64.70,79,2022,443,Bench/Flex
+WR,"Chris Moore (FA)",64.40,88,2023,444,Bench/Flex
+WR,"Van Jefferson (FA)",64.00,92,2025,445,Bench/Flex
+WR,"Dontayvion Wicks (GB)",63.20,83,2025,446,Bench/Flex
+WR,"Demarcus Robinson (SF)",63.10,72,2023,447,Bench/Flex
+WR,"Jalen Reagor (FA)",62.90,96,2021,448,Bench/Flex
+WR,"Cedric Tillman (CLE)",62.90,90,2024,449,Bench/Flex
+WR,"Tyquan Thornton (KC)",62.80,66,2025,450,Bench/Flex
+WR,"Brandon Aiyuk (SF)",62.40,103,2024,451,Bench/Flex
+WR,"Tre Harris (LAC)",62.40,96,2025,452,Bench/Flex
+WR,"Allen Robinson II (FA)",62.00,116,2023,453,Bench/Flex
+WR,"Brandon Powell (FA)",61.40,95,2023,454,Bench/Flex
+WR,"Tyler Lockett (LV)",61.10,91,2025,455,Bench/Flex
+WR,"Van Jefferson (FA)",60.90,83,2022,456,Bench/Flex
+WR,"Dyami Brown (FA)",60.80,102,2024,457,Bench/Flex
+WR,"John Metchie III (FA)",60.40,100,2025,458,Bench/Flex
+WR,"Lil'Jordan Humphrey (FA)",60.30,110,2024,459,Bench/Flex
+WR,"Jalin Hyatt (NYG)",60.30,99,2023,460,Bench/Flex
+WR,"Tez Johnson (TB)",60.20,62,2025,461,Bench/Flex
+WR,"Devin Duvernay (FA)",60.20,99,2021,462,Bench/Flex
+WR,"Marquez Valdes-Scantling (FA)",60.10,79,2024,463,Bench/Flex
+WR,"Chester Rogers (FA)",60.10,113,2021,464,Bench/Flex
+WR,"Darius Slayton (NYG)",59.90,103,2021,465,Bench/Flex
+WR,"Marvin Mims Jr. (DEN)",59.70,83,2023,466,Bench/Flex
+WR,"Jameson Williams (DET)",59.40,76,2023,467,Bench/Flex
+WR,"Freddie Swain (FA)",59.30,72,2021,468,Bench/Flex
+WR,"Calvin Ridley (TEN)",59.10,106,2021,469,Bench/Flex
+WR,"Damiere Byrd (FA)",58.90,107,2021,470,Bench/Flex
+WR,"Kendrick Bourne (ARI)",58.50,104,2024,471,Bench/Flex
+WR,"Travis Hunter (JAC)",57.80,105,2025,472,Bench/Flex
+WR,"Trenton Irwin (FA)",56.60,98,2023,473,Bench/Flex
+WR,"Curtis Samuel (FA)",56.30,111,2024,474,Bench/Flex
+WR,"T.Y. Hilton (FA)",56.10,88,2021,475,Bench/Flex
+WR,"Jaylin Noel (HOU)",55.20,89,2025,476,Bench/Flex
+WR,"Tyler Johnson (FA)",55.10,106,2024,477,Bench/Flex
+WR,"Kendall Hinton (FA)",55.10,113,2022,478,Bench/Flex
+WR,"DeAndre Hopkins (BAL)",55.00,85,2025,479,Bench/Flex
+WR,"JuJu Smith-Schuster (FA)",55.00,109,2023,480,Bench/Flex
+WR,"Rashid Shaheed (SEA)",54.90,84,2024,481,Bench/Flex
+WR,"Mecole Hardman Jr. (BUF)",54.70,64,2022,482,Bench/Flex
+WR,"Troy Franklin (DEN)",54.30,101,2024,483,Bench/Flex
+WR,"Devaughn Vele (NO)",54.30,90,2025,484,Bench/Flex
+WR,"Chris Conley (FA)",54.30,102,2021,485,Bench/Flex
+WR,"Adonai Mitchell (NYJ)",54.20,114,2024,486,Bench/Flex
+WR,"Laviska Shenault Jr. (FA)",54.20,95,2022,487,Bench/Flex
+WR,"Allen Lazard (FA)",54.10,100,2023,488,Bench/Flex
+WR,"Julio Jones (FA)",53.90,93,2022,489,Bench/Flex
+WR,"DeAndre Carter (FA)",53.60,71,2021,490,Bench/Flex
+WR,"Equanimeous St. Brown (FA)",53.30,101,2022,491,Bench/Flex
+WR,"Kalif Raymond (CHI)",52.90,88,2025,492,Bench/Flex
+WR,"Rashee Rice (KC)",52.80,97,2024,493,Bench/Flex
+WR,"Marquez Valdes-Scantling (FA)",52.50,104,2023,494,Bench/Flex
+WR,"James Washington (FA)",52.50,104,2021,495,Bench/Flex
+WR,"Joshua Palmer (BUF)",52.30,113,2025,496,Bench/Flex
+WR,"Jarvis Landry (FA)",52.20,110,2022,497,Bench/Flex
+WR,"Jauan Jennings (FA)",52.20,79,2021,498,Bench/Flex
+WR,"Tre Tucker (LV)",52.10,80,2023,499,Bench/Flex
+WR,"Greg Dortch (FA)",52.00,92,2023,500,Bench/Flex
+WR,"Brandin Cooks (FA)",51.90,120,2025,501,Bench/Flex
+WR,"Brandin Cooks (FA)",51.90,95,2024,502,Bench/Flex
+WR,"Christian Kirk (FA)",51.90,116,2025,503,Bench/Flex
+WR,"Isaiah Bond (CLE)",51.80,102,2025,504,Bench/Flex
+WR,"Van Jefferson (FA)",51.60,98,2024,505,Bench/Flex
+WR,"Cedrick Wilson Jr. (FA)",51.60,87,2023,506,Bench/Flex
+WR,"Shi Smith (FA)",51.60,106,2022,507,Bench/Flex
+WR,"Rashard Higgins (FA)",51.50,118,2021,508,Bench/Flex
+WR,"Demarcus Robinson (SF)",51.40,98,2021,509,Bench/Flex
+WR,"Jordan Whittington (LAR)",51.30,115,2024,510,Bench/Flex
+WR,"Marquise Goodwin (FA)",51.30,110,2021,511,Bench/Flex
+WR,"Justin Watson (HOU)",50.90,96,2024,512,Bench/Flex
+WR,"Braxton Berrios (FA)",50.80,111,2023,513,Bench/Flex
+WR,"Mike Williams (FA)",50.80,105,2024,514,Bench/Flex
+WR,"Hunter Renfrow (FA)",50.50,125,2023,515,Bench/Flex
+WR,"Demarcus Robinson (SF)",49.60,104,2025,516,Bench/Flex
+WR,"Greg Dortch (FA)",49.60,82,2025,517,Bench/Flex
+WR,"John Metchie III (FA)",49.40,112,2024,518,Bench/Flex
+WR,"Jalen Tolbert (FA)",48.80,101,2023,519,Bench/Flex
+WR,"Danny Amendola (FA)",48.80,97,2021,520,Bench/Flex
+WR,"Sammy Watkins (FA)",48.50,116,2022,521,Bench/Flex
+WR,"Xavier Smith (LAR)",48.30,115,2025,522,Bench/Flex
+WR,"Malik Washington (MIA)",48.30,117,2024,523,Bench/Flex
+WR,"Robbie Chosen (FA)",48.20,114,2022,524,Bench/Flex
+WR,"Cedric Tillman (CLE)",48.00,99,2025,525,Bench/Flex
+WR,"Tajae Sharpe (FA)",48.00,134,2021,526,Bench/Flex
+WR,"Tutu Atwell (FA)",47.80,97,2022,527,Bench/Flex
+WR,"A.J. Green (FA)",47.60,109,2022,528,Bench/Flex
+WR,"Tyreek Hill (FA)",47.50,108,2025,529,Bench/Flex
+WR,"Brandon Johnson (FA)",47.40,78,2023,530,Bench/Flex
+WR,"Calvin Ridley (TEN)",47.30,114,2025,531,Bench/Flex
+WR,"Skyy Moore (GB)",47.00,130,2022,532,Bench/Flex
+WR,"Jamal Agnew (FA)",46.90,86,2021,533,Bench/Flex
+WR,"Tre'Quan Smith (FA)",46.80,112,2022,534,Bench/Flex
+WR,"Tyquan Thornton (KC)",46.70,98,2022,535,Bench/Flex
+WR,"Justin Watson (HOU)",46.50,102,2022,536,Bench/Flex
+WR,"Albert Wilson (FA)",46.30,133,2021,537,Bench/Flex
+WR,"Phillip Dorsett II (LV)",45.70,115,2022,538,Bench/Flex
+WR,"Wan'Dale Robinson (TEN)",45.70,117,2022,539,Bench/Flex
+WR,"Jauan Jennings (FA)",45.50,108,2023,540,Bench/Flex
+WR,"David Bell (FA)",45.40,129,2022,541,Bench/Flex
+WR,"Skyy Moore (GB)",45.40,107,2023,542,Bench/Flex
+WR,"Isaiah Williams (NYJ)",45.30,107,2025,543,Bench/Flex
+WR,"Tavon Austin (FA)",45.30,127,2021,544,Bench/Flex
+WR,"Malik Nabers (NYG)",45.10,98,2025,545,Bench/Flex
+WR,"Jahan Dotson (ATL)",44.20,109,2025,546,Bench/Flex
+WR,"Isaiah Hodgins (NYG)",44.00,94,2023,547,Bench/Flex
+WR,"Mike Williams (FA)",43.90,110,2023,548,Bench/Flex
+WR,"Xavier Gipson (NYG)",43.90,97,2023,549,Bench/Flex
+WR,"Gabe Davis (FA)",43.90,109,2024,550,Bench/Flex
+WR,"Kadarius Toney (FA)",43.90,118,2023,551,Bench/Flex
+WR,"Chris Moore (FA)",43.70,114,2021,552,Bench/Flex
+WR,"Dante Pettis (NO)",43.50,94,2022,553,Bench/Flex
+WR,"Rashod Bateman (BAL)",43.50,108,2022,554,Bench/Flex
+WR,"Cedric Tillman (CLE)",43.40,126,2023,555,Bench/Flex
+WR,"Mack Hollins (NE)",43.10,120,2023,556,Bench/Flex
+WR,"Brandon Zylstra (FA)",43.00,122,2021,557,Bench/Flex
+WR,"Dyami Brown (FA)",42.70,117,2025,558,Bench/Flex
+WR,"Jack Bech (LV)",42.40,127,2025,559,Bench/Flex
+WR,"Jamal Agnew (FA)",41.70,89,2022,560,Bench/Flex
+WR,"Scotty Miller (FA)",41.50,134,2022,561,Bench/Flex
+WR,"Rashod Bateman (BAL)",41.40,103,2025,562,Bench/Flex
+WR,"JuJu Smith-Schuster (FA)",41.10,108,2024,563,Bench/Flex
+WR,"Cedrick Wilson Jr. (FA)",41.10,116,2024,564,Bench/Flex
+WR,"Van Jefferson (FA)",40.90,131,2023,565,Bench/Flex
+WR,"Jahan Dotson (ATL)",40.60,125,2024,566,Bench/Flex
+WR,"Robert Woods (FA)",40.30,130,2024,567,Bench/Flex
+WR,"Isaac TeSlaa (DET)",39.90,68,2025,568,Bench/Flex
+WR,"Damiere Byrd (FA)",39.80,107,2022,569,Bench/Flex
+WR,"Antoine Wesley (FA)",39.80,108,2021,570,Bench/Flex
+WR,"Jayden Reed (GB)",39.70,118,2025,571,Bench/Flex
+WR,"Brandon Powell (FA)",39.60,125,2022,572,Bench/Flex
+WR,"Tyrell Shavers (BUF)",39.50,112,2025,573,Bench/Flex
+WR,"Alex Erickson (FA)",39.20,113,2023,574,Bench/Flex
+WR,"Jake Bobo (SEA)",38.60,96,2023,575,Bench/Flex
+WR,"Jaylin Lane (WAS)",38.50,106,2025,576,Bench/Flex
+WR,"Kalif Raymond (CHI)",38.50,99,2024,577,Bench/Flex
+WR,"Jalen Tolbert (FA)",38.30,119,2025,578,Bench/Flex
+WR,"Ray-Ray McCloud III (FA)",38.30,100,2022,579,Bench/Flex
+WR,"Treylon Burks (FA)",38.10,124,2023,580,Bench/Flex
+WR,"Trenton Irwin (FA)",38.10,90,2022,581,Bench/Flex
+WR,"Lil'Jordan Humphrey (FA)",37.90,111,2021,582,Bench/Flex
+WR,"Isaiah McKenzie (FA)",37.80,120,2021,583,Bench/Flex
+WR,"Bo Melton (GB)",37.80,112,2023,584,Bench/Flex
+WR,"Adam Thielen (FA)",37.60,132,2025,585,Bench/Flex
+WR,"KhaDarel Hodge (FA)",37.20,128,2023,586,Bench/Flex
+WR,"Nelson Agholor (FA)",37.10,107,2024,587,Bench/Flex
+WR,"David Sills V (ATL)",37.10,111,2025,588,Bench/Flex
+WR,"A.T. Perry (PIT)",36.60,84,2023,589,Bench/Flex
+WR,"Jamal Agnew (FA)",36.50,117,2023,590,Bench/Flex
+WR,"Amari Rodgers (FA)",36.40,126,2022,591,Bench/Flex
+WR,"Mack Hollins (NE)",36.30,95,2021,592,Bench/Flex
+WR,"James Proche II (FA)",36.20,137,2021,593,Bench/Flex
+WR,"Cam Sims (FA)",36.10,117,2021,594,Bench/Flex
+WR,"Ashton Dulin (IND)",35.70,120,2022,595,Bench/Flex
+WR,"Quintez Cephus (FA)",35.40,116,2021,596,Bench/Flex
+WR,"Jordan Whittington (LAR)",35.10,140,2025,597,Bench/Flex
+WR,"Calvin Austin III (FA)",35.00,102,2023,598,Bench/Flex
+WR,"Luke McCaffrey (WAS)",34.80,134,2024,599,Bench/Flex
+WR,"Noah Brown (FA)",34.40,139,2021,600,Bench/Flex
+WR,"Tyler Scott (LAR)",33.80,135,2023,601,Bench/Flex
+WR,"Tim Patrick (FA)",33.70,101,2025,602,Bench/Flex
+WR,"Jonathan Mingo (DAL)",33.70,137,2024,603,Bench/Flex
+WR,"John Ross (FA)",33.40,123,2021,604,Bench/Flex
+WR,"KhaDarel Hodge (FA)",33.20,118,2022,605,Bench/Flex
+WR,"Michael Thomas (FA)",33.10,111,2022,606,Bench/Flex
+WR,"Kadarius Toney (FA)",33.10,104,2022,607,Bench/Flex
+WR,"Kyle Philips (FA)",33.10,142,2023,608,Bench/Flex
+WR,"Terrace Marshall Jr. (MIA)",32.90,150,2023,609,Bench/Flex
+WR,"Mohamed Sanu Sr. (FA)",32.70,142,2021,610,Bench/Flex
+WR,"Braxton Berrios (FA)",32.50,105,2022,611,Bench/Flex
+WR,"Kendall Hinton (FA)",32.50,131,2021,612,Bench/Flex
+WR,"Josh Reynolds (FA)",32.40,119,2024,613,Bench/Flex
+WR,"Jamison Crowder (FA)",31.90,134,2023,614,Bench/Flex
+WR,"DJ Turner (FA)",31.80,113,2024,615,Bench/Flex
+WR,"Marquez Callaway (FA)",31.80,128,2022,616,Bench/Flex
+WR,"John Metchie III (FA)",31.80,141,2023,617,Bench/Flex
+WR,"Tyler Johnson (FA)",31.70,123,2025,618,Bench/Flex
+WR,"Chris Moore (FA)",31.70,121,2025,619,Bench/Flex
+WR,"Luke McCaffrey (WAS)",31.30,95,2025,620,Bench/Flex
+WR,"Cyril Grayson Jr. (FA)",31.20,115,2021,621,Bench/Flex
+WR,"Kyle Williams (NE)",30.90,97,2025,622,Bench/Flex
+WR,"Terrace Marshall Jr. (MIA)",30.80,147,2021,623,Bench/Flex
+WR,"David Bell (FA)",30.70,105,2023,624,Bench/Flex
+WR,"Parris Campbell (DAL)",30.40,160,2023,625,Bench/Flex
+WR,"N'Keal Harry (FA)",30.40,143,2021,626,Bench/Flex
+WR,"Zay Jones (FA)",30.30,139,2025,627,Bench/Flex
+WR,"Tylan Wallace (BAL)",30.30,120,2024,628,Bench/Flex
+WR,"Ashton Dulin (IND)",30.30,121,2021,629,Bench/Flex
+WR,"Byron Pringle (FA)",30.10,148,2023,630,Bench/Flex
+WR,"Zach Pascal (FA)",30.00,132,2022,631,Bench/Flex
+WR,"Brycen Tremayne (CAR)",30.00,145,2025,632,Bench/Flex
+WR,"Deonte Harty (FA)",30.00,121,2023,633,Bench/Flex
+WR,"Jalen McMillan (TB)",29.80,142,2025,634,Bench/Flex
+WR,"Jalen Brooks (ARI)",29.70,123,2024,635,Bench/Flex
+WR,"Denzel Mims (FA)",29.60,137,2022,636,Bench/Flex
+WR,"Parker Washington (JAC)",29.20,127,2023,637,Bench/Flex
+WR,"Quez Watkins (PHI)",29.20,133,2023,638,Bench/Flex
+WR,"Lil'Jordan Humphrey (FA)",29.20,106,2023,639,Bench/Flex
+WR,"Trey Palmer (NO)",29.20,124,2024,640,Bench/Flex
+WR,"Tory Horton (SEA)",29.10,79,2025,641,Bench/Flex
+WR,"Dyami Brown (FA)",28.80,129,2023,642,Bench/Flex
+WR,"KhaDarel Hodge (FA)",28.70,141,2021,643,Bench/Flex
+WR,"Roman Wilson (PIT)",28.60,122,2025,644,Bench/Flex
+WR,"Lil'Jordan Humphrey (FA)",28.60,128,2025,645,Bench/Flex
+WR,"Dyami Brown (FA)",28.50,145,2021,646,Bench/Flex
+WR,"Donovan Peoples-Jones (FA)",28.50,143,2023,647,Bench/Flex
+WR,"Sterling Shepard (FA)",28.40,131,2022,648,Bench/Flex
+WR,"Isaiah Ford (FA)",28.10,125,2021,649,Bench/Flex
+WR,"JuJu Smith-Schuster (FA)",27.90,138,2021,650,Bench/Flex
+WR,"Breshad Perriman (FA)",27.70,135,2021,651,Bench/Flex
+WR,"Malik Heath (ATL)",27.50,137,2023,652,Bench/Flex
+WR,"Mecole Hardman Jr. (BUF)",27.40,159,2023,653,Bench/Flex
+WR,"Scotty Miller (FA)",27.10,115,2023,654,Bench/Flex
+WR,"Kevin Austin Jr. (NO)",27.00,134,2025,655,Bench/Flex
+WR,"Malik Turner (SF)",26.90,119,2021,656,Bench/Flex
+WR,"Jalen Nailor (LV)",26.90,124,2022,657,Bench/Flex
+WR,"Andrei Iosivas (CIN)",26.60,103,2023,658,Bench/Flex
+WR,"Olamide Zaccheaus (ATL)",26.40,114,2023,659,Bench/Flex
+WR,"Parris Campbell (DAL)",26.20,136,2021,660,Bench/Flex
+WR,"Khalil Shakir (BUF)",26.10,123,2022,661,Bench/Flex
+WR,"Kevin Austin Jr. (NO)",26.10,136,2024,662,Bench/Flex
+WR,"Marquez Valdes-Scantling (FA)",26.00,141,2025,663,Bench/Flex
+WR,"Cedrick Wilson Jr. (FA)",25.60,143,2022,664,Bench/Flex
+WR,"Ray-Ray McCloud III (FA)",25.50,140,2023,665,Bench/Flex
+WR,"Deven Thompkins (ATL)",25.30,139,2023,666,Bench/Flex
+WR,"Tutu Atwell (FA)",25.20,124,2025,667,Bench/Flex
+WR,"Marcus Johnson (FA)",25.00,146,2021,668,Bench/Flex
+WR,"Gabe Davis (FA)",24.90,138,2025,669,Bench/Flex
+WR,"Lawrence Cager (WAS)",24.80,138,2022,670,Bench/Flex
+WR,"Ryan Miller (NYG)",24.80,122,2024,671,Bench/Flex
+WR,"KaVontae Turpin (DAL)",24.70,86,2023,672,Bench/Flex
+WR,"Gunner Olszewski (NYG)",24.50,125,2025,673,Bench/Flex
+WR,"Steven Sims Jr. (FA)",24.40,140,2022,674,Bench/Flex
+WR,"DeSean Jackson (FA)",24.30,141,2022,675,Bench/Flex
+WR,"Ben Skowronek (PIT)",24.30,151,2021,676,Bench/Flex
+WR,"Jakeem Grant Sr. (FA)",24.20,124,2021,677,Bench/Flex
+WR,"Derius Davis (LAC)",24.20,118,2024,678,Bench/Flex
+WR,"Keelan Cole Sr. (FA)",24.10,133,2022,679,Bench/Flex
+WR,"Dante Pettis (NO)",24.00,129,2024,680,Bench/Flex
+WR,"Hunter Renfrow (FA)",23.90,129,2025,681,Bench/Flex
+WR,"Mason Tipton (NO)",23.90,146,2024,682,Bench/Flex
+WR,"Jake Bobo (SEA)",23.70,135,2024,683,Bench/Flex
+WR,"Xavier Hutchinson (HOU)",23.70,141,2024,684,Bench/Flex
+WR,"Anthony Schwartz (FA)",23.50,132,2021,685,Bench/Flex
+WR,"Dont'e Thornton Jr. (LV)",23.50,153,2025,686,Bench/Flex
+WR,"KJ Hamler (FA)",23.50,136,2022,687,Bench/Flex
+WR,"Byron Pringle (FA)",23.50,122,2022,688,Bench/Flex
+WR,"Treylon Burks (FA)",23.00,137,2025,689,Bench/Flex
+WR,"DJ Chark Jr. (FA)",22.40,128,2021,690,Bench/Flex
+WR,"Tom Kennedy (DET)",22.10,146,2022,691,Bench/Flex
+WR,"Tyquan Thornton (KC)",22.10,147,2023,692,Bench/Flex
+WR,"Jimmy Horn Jr. (CAR)",21.80,143,2025,693,Bench/Flex
+WR,"Dante Pettis (NO)",21.70,160,2025,694,Bench/Flex
+WR,"Derius Davis (LAC)",21.60,132,2023,695,Bench/Flex
+WR,"David Sills V (ATL)",21.60,152,2022,696,Bench/Flex
+WR,"Collin Johnson (FA)",21.50,159,2021,697,Bench/Flex
+WR,"Isaiah Hodgins (NYG)",21.50,144,2025,698,Bench/Flex
+WR,"Richie James Jr. (FA)",21.40,165,2023,699,Bench/Flex
+WR,"Rakim Jarrett (FA)",21.40,140,2024,700,Bench/Flex
+WR,"Jeff Smith (FA)",21.40,149,2022,701,Bench/Flex
+WR,"Denzel Mims (FA)",21.30,152,2021,702,Bench/Flex
+WR,"Josh Reynolds (FA)",21.10,156,2025,703,Bench/Flex
+WR,"River Cracraft (FA)",21.10,138,2023,704,Bench/Flex
+WR,"Mecole Hardman Jr. (BUF)",21.00,127,2024,705,Bench/Flex
+WR,"Bub Means (NO)",20.80,131,2024,706,Bench/Flex
+WR,"Jalen Reagor (FA)",20.80,130,2023,707,Bench/Flex
+WR,"Jamari Thrash (CLE)",20.70,159,2025,708,Bench/Flex
+WR,"Ja'Lynn Polk (NO)",20.70,128,2024,709,Bench/Flex
+WR,"Trinity Benson (FA)",20.30,160,2021,710,Bench/Flex
+WR,"Ryan Flournoy (DAL)",20.20,154,2024,711,Bench/Flex
+WR,"Elijah Moore (FA)",20.20,136,2025,712,Bench/Flex
+WR,"KhaDarel Hodge (FA)",20.10,121,2024,713,Bench/Flex
+WR,"Breshad Perriman (FA)",20.00,144,2022,714,Bench/Flex
+WR,"Theo Wease Jr. (MIA)",19.90,135,2025,715,Bench/Flex
+WR,"Nick Westbrook-Ikhine (FA)",19.90,168,2025,716,Bench/Flex
+WR,"Malik Heath (ATL)",19.70,126,2024,717,Bench/Flex
+WR,"Trent Sherfield Sr. (FA)",19.60,146,2023,718,Bench/Flex
+WR,"Devontez Walker (BAL)",19.60,110,2025,719,Bench/Flex
+WR,"Mitch Tinsley (CIN)",19.60,126,2025,720,Bench/Flex
+WR,"Dyami Brown (FA)",19.30,119,2022,721,Bench/Flex
+WR,"Lynn Bowden Jr. (FA)",19.30,158,2023,722,Bench/Flex
+WR,"Tim Jones (JAC)",19.30,166,2023,723,Bench/Flex
+WR,"Jeff Smith (FA)",19.30,156,2021,724,Bench/Flex
+WR,"River Cracraft (FA)",19.20,127,2022,725,Bench/Flex
+WR,"Konata Mumpfield (LAR)",19.20,147,2025,726,Bench/Flex
+WR,"Isaiah McKenzie (FA)",19.20,174,2023,727,Bench/Flex
+WR,"T.Y. Hilton (FA)",19.10,150,2022,728,Bench/Flex
+WR,"Marcus Johnson (FA)",18.90,153,2022,729,Bench/Flex
+WR,"Michael Bandy (DEN)",18.90,155,2022,730,Bench/Flex
+WR,"Malachi Corley (CLE)",18.90,131,2025,731,Bench/Flex
+WR,"Devin Duvernay (FA)",18.90,155,2024,732,Bench/Flex
+WR,"Jalen Guyton (FA)",18.90,145,2023,733,Bench/Flex
+WR,"Equanimeous St. Brown (FA)",18.80,155,2021,734,Bench/Flex
+WR,"Dante Pettis (NO)",18.70,148,2021,735,Bench/Flex
+WR,"Mason Tipton (NO)",18.60,164,2025,736,Bench/Flex
+WR,"N'Keal Harry (FA)",18.60,139,2022,737,Bench/Flex
+WR,"Julio Jones (FA)",18.40,119,2023,738,Bench/Flex
+WR,"Jalen Reagor (FA)",18.40,135,2022,739,Bench/Flex
+WR,"Darius Cooper (PHI)",18.20,166,2025,740,Bench/Flex
+WR,"Hollywood Brown (FA)",18.10,149,2024,741,Bench/Flex
+WR,"Phillip Dorsett II (LV)",18.00,157,2021,742,Bench/Flex
+WR,"Savion Williams (GB)",17.80,146,2025,743,Bench/Flex
+WR,"Trent Sherfield Sr. (FA)",17.70,149,2021,744,Bench/Flex
+WR,"Velus Jones Jr. (SEA)",17.70,121,2022,745,Bench/Flex
+WR,"Dax Milne (FA)",17.30,171,2021,746,Bench/Flex
+WR,"Bo Melton (GB)",17.10,138,2024,747,Bench/Flex
+WR,"Jalen Reagor (FA)",17.00,156,2024,748,Bench/Flex
+WR,"Allen Lazard (FA)",17.00,154,2025,749,Bench/Flex
+WR,"Xavier Hutchinson (HOU)",17.00,149,2023,750,Bench/Flex
+WR,"Cam Sims (FA)",16.90,156,2022,751,Bench/Flex
+WR,"Dede Westbrook (FA)",16.80,170,2021,752,Bench/Flex
+WR,"Simi Fehoko (FA)",16.60,145,2024,753,Bench/Flex
+WR,"Ihmir Smith-Marsette (ARI)",16.60,130,2021,754,Bench/Flex
+WR,"Robbie Chosen (FA)",16.60,136,2023,755,Bench/Flex
+WR,"Greg Ward (FA)",16.50,126,2021,756,Bench/Flex
+WR,"Zay Jones (FA)",16.40,153,2024,757,Bench/Flex
+WR,"Dee Eskridge (FA)",16.40,140,2021,758,Bench/Flex
+WR,"Shi Smith (FA)",16.40,162,2021,759,Bench/Flex
+WR,"Trent Sherfield Sr. (FA)",16.30,139,2024,760,Bench/Flex
+WR,"DeAndre Carter (FA)",16.20,167,2024,761,Bench/Flex
+WR,"Jamison Crowder (FA)",16.20,133,2024,762,Bench/Flex
+WR,"Laviska Shenault Jr. (FA)",16.00,157,2023,763,Bench/Flex
+WR,"Kyle Philips (FA)",15.80,176,2022,764,Bench/Flex
+WR,"Samori Toure (NO)",15.80,167,2023,765,Bench/Flex
+WR,"Chase Claypool (FA)",15.70,151,2023,766,Bench/Flex
+WR,"Sterling Shepard (FA)",15.70,161,2023,767,Bench/Flex
+WR,"Ashton Dulin (IND)",15.60,149,2025,768,Bench/Flex
+WR,"Bryce Oliver (TEN)",15.50,148,2024,769,Bench/Flex
+WR,"Casey Washington (ATL)",15.40,165,2025,770,Bench/Flex
+WR,"Scotty Miller (FA)",15.20,176,2025,771,Bench/Flex
+WR,"Curtis Samuel (FA)",15.10,150,2025,772,Bench/Flex
+WR,"Jahdae Walker (CHI)",14.70,130,2025,773,Bench/Flex
+WR,"Bo Melton (GB)",14.70,133,2025,774,Bench/Flex
+WR,"Jermaine Burton (FA)",14.70,143,2024,775,Bench/Flex
+WR,"Malik Heath (ATL)",14.60,169,2025,776,Bench/Flex
+WR,"Ben Skowronek (PIT)",14.60,153,2023,777,Bench/Flex
+WR,"Odell Beckham Jr. (FA)",14.50,166,2024,778,Bench/Flex
+WR,"David Moore (CAR)",14.40,144,2023,779,Bench/Flex
+WR,"James Proche II (FA)",14.20,170,2022,780,Bench/Flex
+WR,"Jalin Hyatt (NYG)",14.20,164,2024,781,Bench/Flex
+WR,"Brandon Powell (FA)",14.10,158,2024,782,Bench/Flex
+WR,"Kenny Golladay (FA)",14.10,147,2022,783,Bench/Flex
+WR,"Gage Larvadain (CLE)",14.10,177,2025,784,Bench/Flex
+WR,"Ray-Ray McCloud III (FA)",13.90,172,2025,785,Bench/Flex
+WR,"Juwann Winfree (FA)",13.80,185,2021,786,Bench/Flex
+WR,"Skyy Moore (GB)",13.70,162,2025,787,Bench/Flex
+WR,"Xavier Weaver (ARI)",13.70,173,2025,788,Bench/Flex
+WR,"Chris Conley (FA)",13.60,157,2024,789,Bench/Flex
+WR,"River Cracraft (FA)",13.60,162,2024,790,Bench/Flex
+WR,"Michael Woods II (FA)",13.50,163,2024,791,Bench/Flex
+WR,"Charlie Jones (CIN)",13.40,152,2023,792,Bench/Flex
+WR,"Noah Brown (FA)",13.30,171,2025,793,Bench/Flex
+WR,"Samori Toure (NO)",13.20,145,2022,794,Bench/Flex
+WR,"Ihmir Smith-Marsette (ARI)",13.10,123,2023,795,Bench/Flex
+WR,"Preston Williams (FA)",13.10,168,2021,796,Bench/Flex
+WR,"Penny Hart (FA)",12.90,173,2021,797,Bench/Flex
+WR,"Dee Eskridge (FA)",12.80,161,2022,798,Bench/Flex
+WR,"Ronnie Bell (NO)",12.80,122,2023,799,Bench/Flex
+WR,"Kenny Stills (FA)",12.80,153,2021,800,Bench/Flex
+WR,"K.J. Osborn (FA)",12.70,142,2024,801,Bench/Flex
+WR,"James Proche II (FA)",12.50,174,2025,802,Bench/Flex
+WR,"Jalen Brooks (ARI)",12.40,170,2023,803,Bench/Flex
+WR,"KJ Hamler (FA)",12.40,169,2021,804,Bench/Flex
+WR,"Arian Smith (NYJ)",12.20,175,2025,805,Bench/Flex
+WR,"Trent Taylor (FA)",12.20,168,2022,806,Bench/Flex
+WR,"Jamison Crowder (FA)",12.00,164,2022,807,Bench/Flex
+WR,"Cody White (SEA)",12.00,148,2025,808,Bench/Flex
+WR,"Jacob Cowing (SF)",12.00,161,2024,809,Bench/Flex
+WR,"Scotty Miller (FA)",11.90,159,2024,810,Bench/Flex
+WR,"Ben Skowronek (PIT)",11.90,160,2024,811,Bench/Flex
+WR,"Andre Baccellia (ARI)",11.50,172,2022,812,Bench/Flex
+WR,"Freddie Swain (FA)",11.40,158,2022,813,Bench/Flex
+WR,"Tom Kennedy (DET)",11.40,154,2021,814,Bench/Flex
+WR,"Justyn Ross (FA)",11.30,175,2023,815,Bench/Flex
+WR,"Dylan Drummond (ATL)",11.20,183,2025,816,Bench/Flex
+WR,"Equanimeous St. Brown (FA)",11.20,171,2023,817,Bench/Flex
+WR,"Ainias Smith (CAR)",11.10,144,2024,818,Bench/Flex
+WR,"Ben Skowronek (PIT)",10.90,155,2025,819,Bench/Flex
+WR,"Marquise Goodwin (FA)",10.70,162,2023,820,Bench/Flex
+WR,"Jason Brownlee (KC)",10.60,155,2023,821,Bench/Flex
+WR,"Efton Chism III (NE)",10.50,152,2025,822,Bench/Flex
+WR,"Britain Covey (PHI)",10.40,175,2024,823,Bench/Flex
+WR,"Jake Kumerow (FA)",10.40,162,2022,824,Bench/Flex
+WR,"Ja'Marcus Bradley (FA)",10.40,172,2021,825,Bench/Flex
+WR,"Kameron Johnson (TB)",10.40,151,2025,826,Bench/Flex
+WR,"Gunner Olszewski (NYG)",10.30,160,2022,827,Bench/Flex
+WR,"Jaelon Darden (FA)",10.30,178,2021,828,Bench/Flex
+WR,"Robbie Chosen (FA)",10.30,178,2025,829,Bench/Flex
+WR,"Brandon Johnson (FA)",10.20,157,2022,830,Bench/Flex
+WR,"Mike Thomas (FA)",10.20,179,2021,831,Bench/Flex
+WR,"Laquon Treadwell (FA)",10.20,174,2022,832,Bench/Flex
+WR,"Dee Eskridge (FA)",10.20,182,2025,833,Bench/Flex
+WR,"KeAndre Lambert-Smith (LAC)",10.10,158,2025,834,Bench/Flex
+WR,"Rakim Jarrett (FA)",10.00,172,2023,835,Bench/Flex
+WR,"Xavier Gipson (NYG)",9.90,152,2024,836,Bench/Flex
+WR,"Chris Conley (FA)",9.90,169,2023,837,Bench/Flex
+WR,"Dez Fitzpatrick (FA)",9.90,158,2021,838,Bench/Flex
+WR,"Dax Milne (FA)",9.70,154,2022,839,Bench/Flex
+WR,"Braxton Berrios (FA)",9.70,185,2025,840,Bench/Flex
+WR,"Shedrick Jackson (LV)",9.60,157,2025,841,Bench/Flex
+WR,"Jalen Virgil (BUF)",9.50,151,2022,842,Bench/Flex
+WR,"Michael Woods II (FA)",9.50,175,2022,843,Bench/Flex
+WR,"Cole Beasley (FA)",9.50,177,2022,844,Bench/Flex
+WR,"Kevin White (FA)",9.40,159,2022,845,Bench/Flex
+WR,"Cedrick Wilson Jr. (FA)",9.40,181,2025,846,Bench/Flex
+WR,"Keelan Doss (FA)",9.30,178,2023,847,Bench/Flex
+WR,"C.J. Board (FA)",9.10,174,2021,848,Bench/Flex
+WR,"Anthony Schwartz (FA)",9.10,142,2022,849,Bench/Flex
+WR,"Parris Campbell (DAL)",9.00,151,2024,850,Bench/Flex
+WR,"Michael Bandy (DEN)",9.00,167,2025,851,Bench/Flex
+WR,"Michael Strachan (FA)",8.90,165,2022,852,Bench/Flex
+WR,"Randall Cobb (FA)",8.90,154,2023,853,Bench/Flex
+WR,"Johnny Wilson (PHI)",8.80,147,2024,854,Bench/Flex
+WR,"Scotty Miller (FA)",8.80,150,2021,855,Bench/Flex
+WR,"Curtis Samuel (FA)",8.70,184,2021,856,Bench/Flex
+WR,"Tyquan Thornton (KC)",8.70,169,2024,857,Bench/Flex
+WR,"Ashton Dulin (IND)",8.70,132,2024,858,Bench/Flex
+WR,"Keith Kirkwood (FA)",8.70,163,2023,859,Bench/Flex
+WR,"Laviska Shenault Jr. (FA)",8.60,165,2024,860,Bench/Flex
+WR,"Jason Moore Jr. (FA)",8.60,175,2021,861,Bench/Flex
+WR,"D.J. Montgomery (IND)",8.60,156,2023,862,Bench/Flex
+WR,"Chris Conley (FA)",8.60,171,2022,863,Bench/Flex
+WR,"Marvin Jones Jr. (FA)",8.50,186,2023,864,Bench/Flex
+WR,"Jalin Hyatt (NYG)",8.50,187,2025,865,Bench/Flex
+WR,"Alex Erickson (FA)",8.50,177,2021,866,Bench/Flex
+WR,"Amari Rodgers (FA)",8.50,176,2021,867,Bench/Flex
+WR,"Tylan Wallace (BAL)",8.50,161,2025,868,Bench/Flex
+WR,"Anthony Miller (FA)",8.50,166,2021,869,Bench/Flex
+WR,"Jalen Guyton (FA)",8.40,163,2022,870,Bench/Flex
+WR,"Cody Hollister (FA)",8.40,169,2022,871,Bench/Flex
+WR,"Cody White (SEA)",8.30,191,2021,872,Bench/Flex
+WR,"Britain Covey (PHI)",8.20,176,2023,873,Bench/Flex
+WR,"Kristian Wilkerson (FA)",8.20,144,2021,874,Bench/Flex
+WR,"Deven Thompkins (ATL)",8.20,166,2022,875,Bench/Flex
+WR,"Josh Gordon (FA)",8.20,164,2021,876,Bench/Flex
+WR,"Chris Hogan (FA)",8.10,161,2021,877,Bench/Flex
+WR,"Jalen Brooks (ARI)",8.10,190,2025,878,Bench/Flex
+WR,"DeAndre Carter (FA)",7.90,173,2023,879,Bench/Flex
+WR,"Willie Snead IV (FA)",7.80,183,2021,880,Bench/Flex
+WR,"Lawrence Cager (WAS)",7.60,164,2023,881,Bench/Flex
+WR,"Austin Trammell (JAC)",7.60,180,2025,882,Bench/Flex
+WR,"Tom Kennedy (DET)",7.60,186,2025,883,Bench/Flex
+WR,"Treylon Burks (FA)",7.40,174,2024,884,Bench/Flex
+WR,"Dee Eskridge (FA)",7.40,170,2024,885,Bench/Flex
+WR,"Cody Hollister (FA)",7.30,190,2021,886,Bench/Flex
+WR,"Pharoh Cooper (FA)",7.30,187,2021,887,Bench/Flex
+WR,"Tylan Wallace (BAL)",7.30,178,2022,888,Bench/Flex
+WR,"Xavier Restrepo (TEN)",7.10,184,2025,889,Bench/Flex
+WR,"Tim Jones (JAC)",7.10,171,2024,890,Bench/Flex
+WR,"Terrace Marshall Jr. (MIA)",7.10,172,2024,891,Bench/Flex
+WR,"DJ Chark Jr. (FA)",7.10,150,2024,892,Bench/Flex
+WR,"Austin Trammell (JAC)",6.90,188,2023,893,Bench/Flex
+WR,"Auden Tate (FA)",6.90,163,2021,894,Bench/Flex
+WR,"Mason Kinsey (TEN)",6.80,179,2025,895,Bench/Flex
+WR,"Nikko Remigio (KC)",6.80,168,2024,896,Bench/Flex
+WR,"Elijah Cooks (NO)",6.80,177,2023,897,Bench/Flex
+WR,"Tahj Washington (MIA)",6.70,198,2025,898,Bench/Flex
+WR,"Dan Chisena (CAR)",6.70,173,2024,899,Bench/Flex
+WR,"D.J. Montgomery (IND)",6.60,186,2021,900,Bench/Flex
+WR,"William Fuller V (FA)",6.60,180,2021,901,Bench/Flex
+WR,"Christian Blake (FA)",6.50,194,2021,902,Bench/Flex
+WR,"Alex Bachman (LV)",6.10,176,2024,903,Bench/Flex
+WR,"KhaDarel Hodge (FA)",6.10,189,2025,904,Bench/Flex
+WR,"Justin Watson (HOU)",6.00,191,2025,905,Bench/Flex
+WR,"Deven Thompkins (ATL)",6.00,179,2024,906,Bench/Flex
+WR,"KJ Hill Jr. (FA)",6.00,192,2021,907,Bench/Flex
+WR,"Allen Robinson II (FA)",6.00,177,2024,908,Bench/Flex
+WR,"Racey McMath (FA)",6.00,173,2022,909,Bench/Flex
+WR,"Velus Jones Jr. (SEA)",6.00,168,2023,910,Bench/Flex
+WR,"Tim Jones (JAC)",6.00,179,2022,911,Bench/Flex
+WR,"Jalen Nailor (LV)",5.90,180,2023,912,Bench/Flex
+WR,"Zach Pascal (FA)",5.90,184,2023,913,Bench/Flex
+WR,"Devin Duvernay (FA)",5.80,179,2023,914,Bench/Flex
+WR,"Mike Thomas (FA)",5.80,167,2022,915,Bench/Flex
+WR,"Deven Thompkins (ATL)",5.70,188,2025,916,Bench/Flex
+WR,"David Bell (FA)",5.70,178,2024,917,Bench/Flex
+WR,"J.J. Arcega-Whiteside (FA)",5.60,188,2021,918,Bench/Flex
+WR,"Steven Sims Jr. (FA)",5.50,182,2023,919,Bench/Flex
+WR,"Tai Felton (MIN)",5.50,195,2025,920,Bench/Flex
+WR,"Ryan Miller (NYG)",5.40,163,2025,921,Bench/Flex
+WR,"Trenton Irwin (FA)",5.40,189,2021,922,Bench/Flex
+WR,"Simi Fehoko (FA)",5.40,182,2022,923,Bench/Flex
+WR,"Jamari Thrash (CLE)",5.20,181,2024,924,Bench/Flex
+WR,"Trent Sherfield Sr. (FA)",5.10,196,2025,925,Bench/Flex
+WR,"James Proche II (FA)",5.10,187,2024,926,Bench/Flex
+WR,"Jameson Williams (DET)",5.10,148,2022,927,Bench/Flex
+WR,"Penny Hart (FA)",5.00,186,2022,928,Bench/Flex
+WR,"Tyrie Cleveland (FA)",4.80,180,2022,929,Bench/Flex
+WR,"Kevin White (FA)",4.80,182,2021,930,Bench/Flex
+WR,"Jake Kumerow (FA)",4.80,193,2021,931,Bench/Flex
+WR,"Keith Kirkwood (FA)",4.70,198,2021,932,Bench/Flex
+WR,"Miles Boykin (FA)",4.70,185,2023,933,Bench/Flex
+WR,"Devin Duvernay (FA)",4.60,192,2025,934,Bench/Flex
+WR,"Malachi Corley (CLE)",4.60,180,2024,935,Bench/Flex
+WR,"Greg Dortch (FA)",4.50,181,2021,936,Bench/Flex
+WR,"Beaux Collins (NYG)",4.50,193,2025,937,Bench/Flex
+WR,"Bryan Edwards (FA)",4.50,191,2022,938,Bench/Flex
+WR,"Trenton Irwin (FA)",4.50,183,2024,939,Bench/Flex
+WR,"Marcus Kemp (FA)",4.40,195,2021,940,Bench/Flex
+WR,"Dezmon Patmon (FA)",4.40,181,2022,941,Bench/Flex
+WR,"Dazz Newsome (FA)",4.30,196,2021,942,Bench/Flex
+WR,"Tylan Wallace (BAL)",4.30,197,2021,943,Bench/Flex
+WR,"Ronnie Bell (NO)",4.30,170,2025,944,Bench/Flex
+WR,"Ronnie Bell (NO)",4.20,182,2024,945,Bench/Flex
+WR,"Montrell Washington (FA)",4.20,193,2022,946,Bench/Flex
+WR,"Dezmon Patmon (FA)",4.10,167,2021,947,Bench/Flex
+WR,"Andy Isabella (FA)",4.10,183,2022,948,Bench/Flex
+WR,"Cade Johnson (FA)",4.10,184,2022,949,Bench/Flex
+WR,"Lil'Jordan Humphrey (FA)",4.00,185,2022,950,Bench/Flex
+WR,"Britain Covey (PHI)",4.00,197,2025,951,Bench/Flex
+WR,"Kayshon Boutte (NE)",3.90,183,2023,952,Bench/Flex
+WR,"Keith Kirkwood (FA)",3.80,188,2022,953,Bench/Flex
+WR,"David Sills V (ATL)",3.70,199,2021,954,Bench/Flex
+WR,"Tyron Billy-Johnson (FA)",3.60,200,2021,955,Bench/Flex
+WR,"Dennis Houston (TB)",3.60,190,2022,956,Bench/Flex
+WR,"Cameron Batson (FA)",3.50,165,2021,957,Bench/Flex
+WR,"Jonathan Mingo (DAL)",3.50,194,2025,958,Bench/Flex
+WR,"Austin Trammell (JAC)",3.30,192,2022,959,Bench/Flex
+WR,"Malik Taylor (FA)",3.30,187,2023,960,Bench/Flex
+WR,"Stanley Morgan Jr. (FA)",3.10,201,2021,961,Bench/Flex
+WR,"Grant DuBose (FA)",3.10,185,2024,962,Bench/Flex
+WR,"Trishton Jackson (FA)",2.90,181,2023,963,Bench/Flex
+WR,"Racey McMath (FA)",2.80,203,2021,964,Bench/Flex
+WR,"Andre Baccellia (ARI)",2.80,199,2025,965,Bench/Flex
+WR,"Juwann Winfree (FA)",2.70,189,2022,966,Bench/Flex
+WR,"Ihmir Smith-Marsette (ARI)",2.50,195,2022,967,Bench/Flex
+WR,"Frank Darby (FA)",2.40,202,2021,968,Bench/Flex
+WR,"Javon Baker (FA)",2.20,184,2024,969,Bench/Flex
+WR,"Danny Gray (PHI)",2.00,187,2022,970,Bench/Flex
+WR,"Robbie Chosen (FA)",1.50,186,2024,971,Bench/Flex
+WR,"Diontae Spencer (FA)",0.70,205,2021,972,Bench/Flex
+WR,"Lance McCutcheon (FA)",0.00,194,2022,973,Bench/Flex
+WR,"Travis Benjamin (FA)",0.00,204,2021,974,Bench/Flex
+WR,"Braxton Berrios (FA)",0.00,188,2024,975,Bench/Flex
+WR,"James Proche II (FA)",0.00,189,2023,976,Bench/Flex

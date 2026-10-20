@@ -1,0 +1,687 @@
+player_name,pos,avg_pts,variance,seasons,consistency
+"Malik Cunningham (DET)",QB,0.00,0,2,"Highly Consistent"
+"Matt Barkley (FA)",QB,0.00,0,2,"Highly Consistent"
+"Feleipe Franks (FA)",QB,0.00,0,4,"Highly Consistent"
+"Dorian Thompson-Robinson (FA)",QB,22.50,0.8,2,"Highly Consistent"
+"Deshaun Watson (CLE)",QB,52.70,0.93,3,"Highly Consistent"
+"Clayton Tune (FA)",QB,3.39,1.24,3,"Highly Consistent"
+"Kyle Trask (FA)",QB,3.17,1.39,3,"Highly Consistent"
+"Blaine Gabbert (FA)",QB,11.25,1.81,3,"Highly Consistent"
+"Brandon Allen (FA)",QB,10.42,1.84,4,"Highly Consistent"
+"Chad Henne (FA)",QB,3.29,1.99,2,"Highly Consistent"
+"Colt McCoy (FA)",QB,36.40,2.2,2,"Highly Consistent"
+"Joe Milton III (DAL)",QB,18.18,2.56,2,"Highly Consistent"
+"Brian Hoyer (FA)",QB,14.47,2.71,3,"Highly Consistent"
+"Logan Woodside (FA)",QB,1.60,2.76,4,"Highly Consistent"
+"Bo Nix (DEN)",QB,163.17,2.87,2,"Highly Consistent"
+"Chris Streveler (FA)",QB,8.52,3.38,2,"Highly Consistent"
+"Nick Foles (FA)",QB,16.43,3.47,2,"Highly Consistent"
+"Jacob Eason (FA)",QB,3.75,3.57,3,"Highly Consistent"
+"Tanner McKee (PHI)",QB,20.59,5.13,2,"Highly Consistent"
+"Nathan Peterman (FA)",QB,3.69,5.21,3,"Highly Consistent"
+"Chase Daniel (FA)",QB,5.39,5.39,2,"Highly Consistent"
+"Will Levis (TEN)",QB,86.33,5.61,2,"Highly Consistent"
+"Jeff Driskel (WAS)",QB,7.95,5.7,3,"Highly Consistent"
+"Spencer Rattler (NO)",QB,65.71,5.93,2,"Highly Consistent"
+"Trey Lance (LAC)",QB,19.04,7.13,4,"Highly Consistent"
+"Davis Webb (FA)",QB,7.16,7.16,2,"Highly Consistent"
+"P.J. Walker (FA)",QB,29.56,7.34,3,"Highly Consistent"
+"Jaren Hall (FA)",QB,7.36,7.36,2,"Highly Consistent"
+"C.J. Beathard (FA)",QB,7.85,7.61,4,"Highly Consistent"
+"Kyle Allen (BUF)",QB,9.74,8,5,"Highly Consistent"
+"Caleb Williams (CHI)",QB,158.56,8.12,2,"Highly Consistent"
+"Chris Oladokun (KC)",QB,5.77,8.16,3,"Highly Consistent"
+"Case Keenum (CHI)",QB,15.61,8.31,3,"Highly Consistent"
+"Tim Boyle (FA)",QB,16.20,8.77,4,"Highly Consistent"
+"Malik Willis (MIA)",QB,21.15,9.36,4,"Highly Consistent"
+"John Wolford (FA)",QB,12.40,9.4,2,"Highly Consistent"
+"Brett Rypien (FA)",QB,10.35,9.64,4,"Highly Consistent"
+"Trace McSorley (FA)",QB,10.34,10.34,2,"Highly Consistent"
+"Bryce Young (CAR)",QB,118.61,10.46,3,"Highly Consistent"
+"Josh Johnson (FA)",QB,15.60,10.96,4,"Highly Consistent"
+"Skylar Thompson (FA)",QB,14.28,11.27,3,"Highly Consistent"
+"Tyler Huntley (BAL)",QB,33.24,11.77,5,"Highly Consistent"
+"David Blough (FA)",QB,12.29,12.29,2,"Highly Consistent"
+"Josh Allen (BUF)",QB,172.82,12.55,5,"Highly Consistent"
+"Tom Brady (FA)",QB,209.90,12.94,2,"Highly Consistent"
+"Jalen Hurts (PHI)",QB,144.20,14.1,5,"Highly Consistent"
+"Sam Ehlinger (DEN)",QB,15.46,15.46,2,Consistent
+"Jarrett Stidham (DEN)",QB,15.17,15.51,4,Consistent
+"Tyson Bagent (CHI)",QB,18.46,16.35,3,Consistent
+"C.J. Stroud (HOU)",QB,154.41,17.84,3,Consistent
+"Tommy DeVito (NE)",QB,33.86,17.88,2,Consistent
+"Drew Lock (SEA)",QB,30.04,17.89,4,Consistent
+"Mitchell Trubisky (TEN)",QB,26.37,18.06,5,Consistent
+"Matt Ryan (FA)",QB,149.05,18.47,2,Consistent
+"Bailey Zappe (NYJ)",QB,36.71,18.66,3,Consistent
+"Tyrod Taylor (FA)",QB,34.08,19.54,5,Consistent
+"Nick Mullens (JAC)",QB,21.35,20.56,5,Consistent
+"Trevor Siemian (FA)",QB,26.32,20.69,4,Consistent
+"Mason Rudolph (PIT)",QB,36.31,20.93,4,Consistent
+"Jared Goff (DET)",QB,181.81,21.56,5,Consistent
+"Mike White (FA)",QB,28.95,22.55,4,Consistent
+"Justin Fields (NYJ)",QB,79.89,22.93,5,Consistent
+"Michael Penix Jr. (ATL)",QB,63.84,24.44,2,Consistent
+"Patrick Mahomes II (KC)",QB,183.83,24.76,5,Consistent
+"Cooper Rush (BAL)",QB,37.51,25.24,5,Consistent
+"Jameis Winston (NYG)",QB,46.88,26.48,5,Consistent
+"Joe Flacco (FA)",QB,67.02,27.24,5,Consistent
+"Justin Herbert (LAC)",QB,173.45,27.77,5,Consistent
+"Lamar Jackson (BAL)",QB,134.16,29.63,5,Consistent
+"Tua Tagovailoa (ATL)",QB,140.36,30.57,5,Variable
+"Mac Jones (SF)",QB,109.87,31.03,5,Variable
+"Anthony Richardson Sr. (IND)",QB,38.27,31.35,3,Variable
+"Trevor Lawrence (JAC)",QB,151.18,31.42,5,Variable
+"Baker Mayfield (TB)",QB,148.40,33.63,5,Variable
+"Daniel Jones (IND)",QB,102.30,34.38,5,Variable
+"Ryan Tannehill (FA)",QB,113.95,35.19,3,Variable
+"Jake Browning (FA)",QB,41.86,35.48,3,Variable
+"Aidan O'Connell (LV)",QB,59.96,36.69,3,Variable
+"Marcus Mariota (WAS)",QB,42.81,36.9,5,Variable
+"Derek Carr (FA)",QB,153.02,37.94,4,Variable
+"Zach Wilson (FA)",QB,69.88,38.23,4,Variable
+"Joshua Dobbs (NE)",QB,40.59,38.44,4,Variable
+"Russell Wilson (FA)",QB,113.26,38.68,5,Variable
+"Andy Dalton (CAR)",QB,55.37,39.41,5,Variable
+"Matthew Stafford (LAR)",QB,165.08,40.29,5,Variable
+"Kenny Pickett (CAR)",QB,56.61,41.04,4,Variable
+"Desmond Ridder (GB)",QB,61.49,42.77,3,Variable
+"Dak Prescott (DAL)",QB,156.62,43.07,5,Variable
+"Kirk Cousins (ATL)",QB,140.00,43.64,5,Variable
+"Drake Maye (NE)",QB,143.20,44.06,2,Variable
+"Jacoby Brissett (ARI)",QB,75.00,45.21,5,Variable
+"Kyler Murray (FA)",QB,111.50,45.45,5,Variable
+"Jayden Daniels (WAS)",QB,105.75,46.67,2,Variable
+"Brock Purdy (SF)",QB,126.55,48.66,4,Variable
+"Gardner Minshew II (ARI)",QB,58.70,49.64,5,Variable
+"Carson Wentz (FA)",QB,63.68,50.51,5,"Highly Variable"
+"Davis Mills (HOU)",QB,63.94,50.57,5,"Highly Variable"
+"Taylor Heinicke (FA)",QB,69.79,51.29,4,"Highly Variable"
+"Joe Burrow (CIN)",QB,155.65,52.57,5,"Highly Variable"
+"Teddy Bridgewater (FA)",QB,42.47,53.12,4,"Highly Variable"
+"Geno Smith (NYJ)",QB,137.10,53.2,5,"Highly Variable"
+"Jimmy Garoppolo (LAR)",QB,69.73,58.81,5,"Highly Variable"
+"Aaron Rodgers (FA)",QB,128.91,63.4,5,"Highly Variable"
+"Sam Darnold (SEA)",QB,106.71,64.94,5,"Highly Variable"
+"Jordan Love (GB)",QB,101.16,67.62,5,"Highly Variable"
+"Sam Howell (FA)",QB,60.95,73.99,3,"Highly Variable"
+"Jake Funk (FA)",RB,0.00,0,2,"Highly Consistent"
+"British Brooks (HOU)",RB,0.00,0,2,"Highly Consistent"
+"Reggie Bonnafon (FA)",RB,0.00,0,2,"Highly Consistent"
+"Tyrion Davis-Price (FA)",RB,0.00,0,3,"Highly Consistent"
+"Terrell Jennings (NE)",RB,0.00,0,2,"Highly Consistent"
+"Devine Ozigbo (FA)",RB,0.33,0.47,3,"Highly Consistent"
+"Khari Blasingame (FA)",RB,0.50,0.5,2,"Highly Consistent"
+"Kylin Hill (FA)",RB,0.50,0.5,2,"Highly Consistent"
+"Malcolm Brown (FA)",RB,1.50,0.5,2,"Highly Consistent"
+"Dontrell Hilliard (FA)",RB,19.50,0.5,2,"Highly Consistent"
+"Evan Hull (NO)",RB,0.50,0.5,2,"Highly Consistent"
+"Dwayne Washington (FA)",RB,2.00,1,2,"Highly Consistent"
+"Jermar Jefferson (FA)",RB,3.00,1,2,"Highly Consistent"
+"Kene Nwangwu (FA)",RB,1.25,1.3,4,"Highly Consistent"
+"George Holani (SEA)",RB,1.50,1.5,2,"Highly Consistent"
+"Jordan Howard (FA)",RB,1.50,1.5,2,"Highly Consistent"
+"Anthony McFarland Jr. (FA)",RB,1.50,1.5,2,"Highly Consistent"
+"Larry Rountree III (FA)",RB,1.50,1.5,2,"Highly Consistent"
+"Royce Freeman (FA)",RB,2.00,1.63,3,"Highly Consistent"
+"Patrick Taylor Jr. (FA)",RB,1.50,1.66,4,"Highly Consistent"
+"Ke'Shawn Vaughn (FA)",RB,1.00,1.73,4,"Highly Consistent"
+"Jonathan Ward (FA)",RB,1.75,1.79,4,"Highly Consistent"
+"Adam Prentice (DEN)",RB,2.75,1.92,4,"Highly Consistent"
+"Phillip Lindsay (FA)",RB,2.00,2,2,"Highly Consistent"
+"Tyrone Tracy Jr. (NYG)",RB,67.00,2,2,"Highly Consistent"
+"Trey Benson (ARI)",RB,14.00,2,2,"Highly Consistent"
+"Isaiah Davis (NYJ)",RB,22.00,2,2,"Highly Consistent"
+"Sione Vaki (DET)",RB,2.00,2,2,"Highly Consistent"
+"J.J. Taylor (FA)",RB,2.67,2.05,3,"Highly Consistent"
+"Chris Rodriguez Jr. (WAS)",RB,4.33,2.05,3,"Highly Consistent"
+"Jonathan Williams (FA)",RB,3.00,2.16,3,"Highly Consistent"
+"Emari Demercado (FA)",RB,10.67,2.36,3,"Highly Consistent"
+"Deuce Vaughn (DEN)",RB,8.50,2.5,2,"Highly Consistent"
+"Ray Davis (BUF)",RB,13.50,2.5,2,"Highly Consistent"
+"Ronald Jones II (FA)",RB,5.50,2.5,2,"Highly Consistent"
+"Keaton Mitchell (BAL)",RB,8.00,2.94,3,"Highly Consistent"
+"D'Onta Foreman (FA)",RB,17.50,2.96,4,"Highly Consistent"
+"Tony Jones Jr. (FA)",RB,2.25,3.34,4,"Highly Consistent"
+"La'Mical Perine (FA)",RB,3.50,3.5,2,"Highly Consistent"
+"Blake Corum (LAR)",RB,9.50,3.5,2,"Highly Consistent"
+"Reggie Gilliam (NE)",RB,2.67,3.77,3,"Highly Consistent"
+"Boston Scott (FA)",RB,5.67,3.77,3,"Highly Consistent"
+"Will Shipley (PHI)",RB,12.00,4,2,"Highly Consistent"
+"Malik Davis (DAL)",RB,6.00,4,2,"Highly Consistent"
+"Benny Snell Jr. (FA)",RB,7.00,4,2,"Highly Consistent"
+"Jamaal Williams (FA)",RB,18.50,4.03,4,"Highly Consistent"
+"Ronnie Rivers (LAR)",RB,4.50,4.03,4,"Highly Consistent"
+"Matt Breida (FA)",RB,15.00,4.08,3,"Highly Consistent"
+"Julius Chestnut (FA)",RB,4.33,4.19,3,"Highly Consistent"
+"Mike Boone (FA)",RB,6.50,4.27,4,"Highly Consistent"
+"Trayveon Williams (FA)",RB,5.50,4.39,4,"Highly Consistent"
+"Godwin Igwebuike (FA)",RB,4.50,4.5,2,"Highly Consistent"
+"Kevin Harris (FA)",RB,4.50,4.5,2,"Highly Consistent"
+"Derek Watt (FA)",RB,4.50,4.5,2,"Highly Consistent"
+"Joshua Kelley (FA)",RB,7.00,4.58,4,"Highly Consistent"
+"Michael Burton (FA)",RB,4.50,4.92,4,"Highly Consistent"
+"Isaiah Spiller (FA)",RB,5.00,5,2,"Highly Consistent"
+"JaMycal Hasty (FA)",RB,27.67,5.31,3,"Highly Consistent"
+"Dylan Laube (LV)",RB,5.50,5.5,2,"Highly Consistent"
+"Darrynton Evans (FA)",RB,6.25,5.76,4,"Highly Consistent"
+"Keith Smith (FA)",RB,11.00,6,2,"Highly Consistent"
+"Tevin Coleman (FA)",RB,10.00,6,2,"Highly Consistent"
+"Ty Montgomery II (FA)",RB,10.33,6.13,3,"Highly Consistent"
+"Alec Ingold (LAC)",RB,16.40,6.28,5,"Highly Consistent"
+"Jahmyr Gibbs (DET)",RB,79.33,6.34,3,"Highly Consistent"
+"Eric Gray (NYG)",RB,10.50,6.5,2,"Highly Consistent"
+"Corey Clement (FA)",RB,10.00,7,2,"Highly Consistent"
+"Kendre Miller (NO)",RB,14.33,7.36,3,"Highly Consistent"
+"Hassan Haskins (LAC)",RB,8.33,7.72,3,"Highly Consistent"
+"Gus Edwards (FA)",RB,6.67,8.06,3,"Highly Consistent"
+"DeeJay Dallas (JAC)",RB,9.20,8.16,5,"Highly Consistent"
+"J.K. Dobbins (DEN)",RB,14.00,8.4,4,"Highly Consistent"
+"Keaontay Ingram (KC)",RB,12.50,8.5,2,"Highly Consistent"
+"Hunter Luepke (DAL)",RB,16.67,8.58,3,"Highly Consistent"
+"Gary Brightwell (CIN)",RB,10.33,8.58,3,"Highly Consistent"
+"Darrell Henderson Jr. (FA)",RB,32.00,8.6,3,"Highly Consistent"
+"Trey Sermon (FA)",RB,6.00,8.75,4,"Highly Consistent"
+"Craig Reynolds (FA)",RB,14.40,8.82,5,"Highly Consistent"
+"C.J. Ham (MIN)",RB,9.00,8.94,5,"Highly Consistent"
+"Dare Ogunbowale (FA)",RB,12.40,9.18,5,"Highly Consistent"
+"Jaylen Wright (MIA)",RB,11.50,9.5,2,"Highly Consistent"
+"Khalil Herbert (FA)",RB,16.00,9.72,5,"Highly Consistent"
+"Mark Ingram II (FA)",RB,25.00,10,2,"Highly Consistent"
+"Latavius Murray (FA)",RB,25.00,10.03,3,"Highly Consistent"
+"Tyler Goodson (IND)",RB,13.33,10.34,3,"Highly Consistent"
+"Jordan Mason (MIN)",RB,11.50,10.55,4,"Highly Consistent"
+"Salvon Ahmed (FA)",RB,15.00,10.61,3,"Highly Consistent"
+"Patrick Ricard (BAL)",RB,14.67,10.66,3,"Highly Consistent"
+"Kyren Williams (LAR)",RB,40.00,10.82,4,"Highly Consistent"
+"Tank Bigsby (PHI)",RB,13.33,10.87,3,"Highly Consistent"
+"Tyler Allgeier (ARI)",RB,35.25,10.96,4,"Highly Consistent"
+"J.D. McKissic (FA)",RB,28.00,11,2,"Highly Consistent"
+"Jaret Patterson (LAC)",RB,8.33,11.09,3,"Highly Consistent"
+"Damien Harris (FA)",RB,17.33,11.09,3,"Highly Consistent"
+"Jeff Wilson Jr. (FA)",RB,11.25,11.3,4,"Highly Consistent"
+"Raheem Blackshear (FA)",RB,14.33,11.44,3,"Highly Consistent"
+"Bam Knight (ARI)",RB,16.67,11.44,3,"Highly Consistent"
+"Derrick Gore (FA)",RB,11.50,11.5,2,"Highly Consistent"
+"Tyler Badie (DEN)",RB,12.33,11.67,3,"Highly Consistent"
+"Rashaad Penny (FA)",RB,12.67,11.73,3,"Highly Consistent"
+"Isiah Pacheco (KC)",RB,24.75,12.07,4,"Highly Consistent"
+"Tyjae Spears (TEN)",RB,111.67,12.26,3,"Highly Consistent"
+"Pierre Strong Jr. (GB)",RB,18.67,12.47,3,"Highly Consistent"
+"Rasheen Ali (BAL)",RB,12.50,12.5,2,"Highly Consistent"
+"Melvin Gordon III (FA)",RB,20.00,12.68,3,"Highly Consistent"
+"De'Von Achane (MIA)",RB,101.00,12.83,3,"Highly Consistent"
+"Damien Williams (FA)",RB,12.00,12.96,3,"Highly Consistent"
+"Audric Estime (NO)",RB,21.00,13,2,"Highly Consistent"
+"Chris Brooks (GB)",RB,18.33,13.12,3,"Highly Consistent"
+"Sean Tucker (FA)",RB,13.00,13.59,3,"Highly Consistent"
+"Rex Burkhead (FA)",RB,26.00,14,2,"Highly Consistent"
+"Eno Benjamin (FA)",RB,39.00,14,2,"Highly Consistent"
+"Justin Jackson (FA)",RB,39.00,15,2,"Highly Consistent"
+"Duke Johnson Jr. (FA)",RB,15.00,15,2,"Highly Consistent"
+"Cam Akers (SEA)",RB,18.00,15.45,5,Consistent
+"Giovani Bernard (FA)",RB,15.50,15.5,2,Consistent
+"Ty Chandler (FA)",RB,12.50,16.59,4,Consistent
+"Devin Singletary (NYG)",RB,51.40,17.04,5,Consistent
+"Emanuel Wilson (FA)",RB,31.67,17.13,3,Consistent
+"Chuba Hubbard (CAR)",RB,53.40,17.49,5,Consistent
+"Marlon Mack (FA)",RB,20.00,18,2,Consistent
+"Zach Charbonnet (SEA)",RB,55.00,18.02,3,Consistent
+"Rico Dowdle (PIT)",RB,55.67,18.26,3,Consistent
+"Chris Evans (FA)",RB,18.50,18.5,2,Consistent
+"Zack Moss (FA)",RB,41.75,18.53,4,Consistent
+"Zamir White (LV)",RB,16.75,18.61,4,Consistent
+"D'Ernest Johnson (FA)",RB,22.60,19,5,Consistent
+"Aaron Jones Sr. (FA)",RB,66.40,19,5,Consistent
+"Derrick Henry (BAL)",RB,54.20,19.11,5,Consistent
+"Jerick McKinnon (FA)",RB,43.00,19.13,3,Consistent
+"Kyle Juszczyk (SF)",RB,33.00,19.76,5,Consistent
+"Sony Michel (FA)",RB,31.50,20.5,2,Consistent
+"Dameon Pierce (FA)",RB,16.50,20.52,4,Consistent
+"Miles Sanders (FA)",RB,34.80,20.71,5,Consistent
+"Braelon Allen (NYJ)",RB,28.00,21,2,Consistent
+"D'Andre Swift (CHI)",RB,86.20,21.57,5,Consistent
+"Ameer Abdullah (FA)",RB,42.00,21.73,5,Consistent
+"Chase Edmonds (WAS)",RB,31.33,22.1,3,Consistent
+"Tony Pollard (TEN)",RB,70.80,22.66,5,Consistent
+"Nick Chubb (FA)",RB,26.00,22.67,5,Consistent
+"Travis Homer (FA)",RB,21.25,22.73,4,Consistent
+"Elijah Mitchell (NE)",RB,19.67,22.9,3,Consistent
+"Javonte Williams (DAL)",RB,64.60,23.74,5,Consistent
+"Dalvin Cook (FA)",RB,33.00,24.07,4,Consistent
+"James Robinson (FA)",RB,20.00,24.83,3,Consistent
+"Kenneth Gainwell (TB)",RB,52.60,24.83,5,Consistent
+"Rhamondre Stevenson (NE)",RB,65.00,26.37,5,Consistent
+"Josh Jacobs (GB)",RB,96.20,26.53,5,Consistent
+"Kareem Hunt (FA)",RB,43.00,26.64,5,Consistent
+"Rachaad White (FA)",RB,95.50,26.73,4,Consistent
+"Roschon Johnson (CHI)",RB,33.67,27.35,3,Consistent
+"Kenyan Drake (FA)",RB,27.33,27.39,3,Consistent
+"Myles Gaskin (FA)",RB,19.00,27.44,4,Consistent
+"Jonathan Taylor (IND)",RB,65.80,28.04,5,Consistent
+"Joe Mixon (FA)",RB,103.00,29.04,4,Consistent
+"Deon Jackson (FA)",RB,23.33,29.53,3,Consistent
+"Raheem Mostert (LV)",RB,37.00,30.18,5,Variable
+"Justice Hill (BAL)",RB,52.00,30.41,4,Variable
+"Jaleel McLaughlin (DEN)",RB,40.33,30.44,3,Variable
+"Jeremy McNichols (FA)",RB,46.67,30.94,3,Variable
+"Saquon Barkley (PHI)",RB,77.20,31.44,5,Variable
+"Demetric Felton Jr. (FA)",RB,32.50,31.5,2,Variable
+"David Johnson (FA)",RB,37.50,31.5,2,Variable
+"Alexander Mattison (FA)",RB,55.50,31.96,4,Variable
+"Nyheim Miller-Hines (FA)",RB,44.00,32.38,3,Variable
+"Michael Carter (FA)",RB,52.20,33.13,5,Variable
+"Kimani Vidal (LAC)",RB,38.50,33.5,2,Variable
+"Chase Brown (CIN)",RB,89.67,34.2,3,Variable
+"Jerome Ford (FA)",RB,45.75,35.32,4,Variable
+"Clyde Edwards-Helaire (FA)",RB,40.40,35.79,5,Variable
+"Ezekiel Elliott (FA)",RB,54.00,36.8,4,Variable
+"James Cook III (BUF)",RB,64.00,38.15,4,Variable
+"Darrel Williams (FA)",RB,42.50,38.5,2,Variable
+"David Montgomery (HOU)",RB,75.00,39.62,5,Variable
+"Alvin Kamara (NO)",RB,97.80,40.92,5,Variable
+"Jaylen Warren (PIT)",RB,108.50,41.46,4,Variable
+"Kenneth Walker III (KC)",RB,85.25,41.76,4,Variable
+"Brian Robinson Jr. (FA)",RB,47.25,42.38,4,Variable
+"Travis Etienne Jr. (NO)",RB,100.25,42.98,4,Variable
+"A.J. Dillon (FA)",RB,69.25,43.08,4,Variable
+"Antonio Gibson (FA)",RB,63.20,43.77,5,Variable
+"Ty Johnson (BUF)",RB,52.40,45.81,5,Variable
+"Mike Davis (FA)",RB,48.50,46.5,2,Variable
+"Bijan Robinson (ATL)",RB,144.67,46.62,3,Variable
+"Samaje Perine (CIN)",RB,79.20,46.82,5,Variable
+"Brandon Bolden (FA)",RB,40.00,49,3,Variable
+"Bucky Irving (TB)",RB,119.00,59,2,"Highly Variable"
+"Austin Ekeler (FA)",RB,129.80,60.85,5,"Highly Variable"
+"James Conner (ARI)",RB,106.80,62.08,5,"Highly Variable"
+"Breece Hall (NYJ)",RB,134.00,68.11,4,"Highly Variable"
+"Cordarrelle Patterson (FA)",RB,50.00,69.34,4,"Highly Variable"
+"Najee Harris (LAC)",RB,85.40,72.51,5,"Highly Variable"
+"Christian McCaffrey (SF)",RB,127.00,76.5,5,"Highly Variable"
+"Leonard Fournette (FA)",RB,120.33,86.28,3,"Highly Variable"
+"Brevyn Spann-Ford (DAL)",TE,17.90,0.1,2,"Highly Consistent"
+"Tyler Davis (FA)",TE,7.05,0.45,2,"Highly Consistent"
+"Trevon Wesco (FA)",TE,5.55,0.95,2,"Highly Consistent"
+"Ben Sims (MIN)",TE,6.77,1.01,3,"Highly Consistent"
+"O.J. Howard (FA)",TE,26.00,1.5,2,"Highly Consistent"
+"Zach Gentry (FA)",TE,33.95,1.75,2,"Highly Consistent"
+"Kenny Yeboah (FA)",TE,7.25,2.45,2,"Highly Consistent"
+"Tip Reiman (ARI)",TE,7.25,2.45,2,"Highly Consistent"
+"Charlie Woerner (ATL)",TE,10.20,2.49,4,"Highly Consistent"
+"Brycen Hopkins (FA)",TE,15.35,2.55,2,"Highly Consistent"
+"Andrew Beck (NYJ)",TE,12.97,2.56,3,"Highly Consistent"
+"Quintin Morris (JAC)",TE,12.17,3.22,3,"Highly Consistent"
+"Tre' McKitty (FA)",TE,13.85,3.35,2,"Highly Consistent"
+"Tucker Fisk (LAC)",TE,7.40,3.5,2,"Highly Consistent"
+"Chris Manhertz (NYG)",TE,8.23,3.67,4,"Highly Consistent"
+"Hunter Long (JAC)",TE,16.75,3.75,2,"Highly Consistent"
+"Parker Hesse (FA)",TE,13.60,4.3,2,"Highly Consistent"
+"Blake Whiteheart (CLE)",TE,6.75,4.35,2,"Highly Consistent"
+"Cade Stover (HOU)",TE,23.95,4.35,2,"Highly Consistent"
+"Chris Myarick (FA)",TE,9.10,4.4,2,"Highly Consistent"
+"Ross Dwelley (FA)",TE,8.43,4.43,3,"Highly Consistent"
+"Blake Bell (FA)",TE,12.65,5.05,2,"Highly Consistent"
+"Jeremy Ruckert (NYJ)",TE,33.50,5.34,3,"Highly Consistent"
+"Shane Zylstra (FA)",TE,9.47,5.36,3,"Highly Consistent"
+"Brevin Jordan (HOU)",TE,34.50,5.46,3,"Highly Consistent"
+"Tommy Tremble (CAR)",TE,43.02,5.65,5,"Highly Consistent"
+"Johnny Mundt (FA)",TE,30.13,5.81,4,"Highly Consistent"
+"Peyton Hendershot (FA)",TE,13.07,5.9,3,"Highly Consistent"
+"Charlie Kolar (LAC)",TE,17.73,5.98,4,"Highly Consistent"
+"Brock Wright (DET)",TE,26.64,6.54,5,"Highly Consistent"
+"Jack Stoll (NO)",TE,12.23,6.58,4,"Highly Consistent"
+"Tanner Conner (NYG)",TE,11.35,6.75,2,"Highly Consistent"
+"Irv Smith Jr. (FA)",TE,36.35,6.85,2,"Highly Consistent"
+"Ko Kieft (TB)",TE,8.10,6.9,2,"Highly Consistent"
+"Luke Farrell (SF)",TE,17.46,6.94,5,"Highly Consistent"
+"Adam Trautman (DEN)",TE,41.14,7,5,"Highly Consistent"
+"Eric Tomlinson (FA)",TE,9.90,7,2,"Highly Consistent"
+"Drew Sample (CIN)",TE,28.48,7.05,4,"Highly Consistent"
+"Drew Ogletree (FA)",TE,16.77,7.29,3,"Highly Consistent"
+"Ben Sinnott (WAS)",TE,15.10,7.3,2,"Highly Consistent"
+"Julian Hill (MIA)",TE,20.60,7.5,3,"Highly Consistent"
+"Nick Vannett (LAR)",TE,21.43,7.78,3,"Highly Consistent"
+"MyCole Pruitt (FA)",TE,22.38,8.23,4,"Highly Consistent"
+"Nate Adkins (DEN)",TE,14.17,8.23,3,"Highly Consistent"
+"James Mitchell (CAR)",TE,14.05,8.25,2,"Highly Consistent"
+"Payne Durham (TB)",TE,11.80,8.36,3,"Highly Consistent"
+"Cameron Brate (FA)",TE,45.95,8.55,2,"Highly Consistent"
+"Stephen Sullivan (FA)",TE,15.55,8.95,2,"Highly Consistent"
+"Eric Saubert (SEA)",TE,14.90,9.34,5,"Highly Consistent"
+"Cole Turner (MIA)",TE,13.65,9.35,2,"Highly Consistent"
+"Ja'Tavion Sanders (CAR)",TE,57.60,9.6,2,"Highly Consistent"
+"Pharaoh Brown (FA)",TE,28.03,9.76,4,"Highly Consistent"
+"John Bates (WAS)",TE,28.30,10.12,5,"Highly Consistent"
+"Jimmy Graham (FA)",TE,20.30,10.4,2,"Highly Consistent"
+"Mitchell Wilcox (FA)",TE,16.70,10.84,3,"Highly Consistent"
+"Mo Alie-Cox (FA)",TE,34.80,11.33,5,"Highly Consistent"
+"Isaiah Likely (NYG)",TE,72.95,11.37,4,"Highly Consistent"
+"Daniel Bellinger (TEN)",TE,45.35,11.38,4,"Highly Consistent"
+"Josh Oliver (MIN)",TE,33.32,11.39,5,"Highly Consistent"
+"Tyler Kroft (FA)",TE,21.50,11.8,2,"Highly Consistent"
+"Stone Smartt (FA)",TE,20.30,12.14,4,"Highly Consistent"
+"Lucas Krull (DEN)",TE,18.40,12.55,3,"Highly Consistent"
+"Elijah Higgins (ARI)",TE,42.53,12.74,3,"Highly Consistent"
+"Michael Mayer (LV)",TE,53.93,12.97,3,"Highly Consistent"
+"Donald Parham Jr. (FA)",TE,39.17,13.27,3,"Highly Consistent"
+"Chig Okonkwo (FA)",TE,98.93,13.37,4,"Highly Consistent"
+"Connor Heyward (PIT)",TE,20.48,13.78,4,"Highly Consistent"
+"Stephen Anderson (FA)",TE,18.20,14.3,2,"Highly Consistent"
+"Ian Thomas (LV)",TE,23.24,14.36,5,"Highly Consistent"
+"Davis Allen (LAR)",TE,24.73,14.72,3,"Highly Consistent"
+"Luke Schoonmaker (DAL)",TE,30.93,15.17,3,Consistent
+"Maxx Williams (FA)",TE,20.05,15.25,2,Consistent
+"Dallas Goedert (FA)",TE,118.62,15.42,5,Consistent
+"Geoff Swaim (FA)",TE,29.73,15.76,3,Consistent
+"Will Mallory (IND)",TE,22.80,15.9,2,Consistent
+"Cade Otton (TB)",TE,102.20,15.95,4,Consistent
+"Marcedes Lewis (FA)",TE,21.30,16.5,3,Consistent
+"Josiah Deguara (FA)",TE,19.58,16.64,5,Consistent
+"Theo Johnson (NYG)",TE,79.95,17.85,2,Consistent
+"Grant Calcaterra (PHI)",TE,22.85,18.14,4,Consistent
+"Taysom Hill (FA)",TE,35.15,18.28,4,Consistent
+"Austin Hooper (ATL)",TE,69.24,18.62,5,Consistent
+"Harrison Bryant (FA)",TE,28.12,18.89,5,Consistent
+"Josh Whyle (GB)",TE,26.60,18.95,3,Consistent
+"Tanner Hudson (CIN)",TE,41.90,19.28,4,Consistent
+"Hunter Henry (NE)",TE,111.26,21.29,5,Consistent
+"Kylen Granson (FA)",TE,38.56,21.9,5,Consistent
+"Darnell Washington (PIT)",TE,39.83,22.18,3,Consistent
+"Anthony Firkser (FA)",TE,31.80,22.25,3,Consistent
+"Dalton Schultz (HOU)",TE,132.38,22.54,5,Consistent
+"Dalton Kincaid (BUF)",TE,108.40,22.75,3,Consistent
+"Tucker Kraft (GB)",TE,89.37,22.92,3,Consistent
+"Kyle Rudolph (FA)",TE,28.75,22.95,2,Consistent
+"Ryan Griffin (FA)",TE,29.85,23.25,2,Consistent
+"Jordan Akins (FA)",TE,59.78,23.91,4,Consistent
+"Luke Musgrave (GB)",TE,43.30,23.92,3,Consistent
+"Foster Moreau (NO)",TE,53.76,23.95,5,Consistent
+"George Kittle (SF)",TE,154.78,24.1,5,Consistent
+"Noah Gray (KC)",TE,49.90,24.28,5,Consistent
+"Colby Parkinson (LAR)",TE,51.68,24.53,5,Consistent
+"AJ Barner (SEA)",TE,79.20,24.7,2,Consistent
+"Albert Okwuegbunam Jr. (LV)",TE,31.37,24.89,3,Consistent
+"Noah Fant (NO)",TE,93.56,24.96,5,Consistent
+"Dawson Knox (BUF)",TE,75.76,25.87,5,Consistent
+"Dan Arnold (FA)",TE,49.15,26.65,2,Consistent
+"Cole Kmet (CHI)",TE,105.92,26.78,5,Consistent
+"Pat Freiermuth (PIT)",TE,105.72,27.02,5,Consistent
+"Logan Thomas (FA)",TE,71.17,27.35,3,Consistent
+"Jelani Woods (NYJ)",TE,28.80,27.4,2,Consistent
+"Will Dissly (FA)",TE,53.20,27.43,5,Consistent
+"Durham Smythe (FA)",TE,38.00,27.53,5,Consistent
+"Travis Kelce (KC)",TE,196.02,27.84,5,Consistent
+"Darren Waller (FA)",TE,86.95,28.33,4,Consistent
+"Hayden Hurst (FA)",TE,49.43,30.36,4,Variable
+"Greg Dulcich (MIA)",TE,36.73,30.53,4,Variable
+"Robert Tonyan (FA)",TE,53.53,33.52,3,Variable
+"C.J. Uzomah (FA)",TE,52.10,34.95,3,Variable
+"Sam LaPorta (DET)",TE,132.13,35.11,3,Variable
+"Zach Ertz (FA)",TE,103.08,36.25,5,Variable
+"David Njoku (FA)",TE,110.06,36.38,5,Variable
+"Gerald Everett (FA)",TE,78.25,39.32,4,Variable
+"Brenton Strange (JAC)",TE,63.20,39.44,3,Variable
+"Tyler Conklin (LAC)",TE,93.92,39.56,5,Variable
+"Mike Gesicki (CIN)",TE,92.56,40.51,5,Variable
+"T.J. Hockenson (MIN)",TE,133.80,42.76,5,Variable
+"Tyler Higbee (LAR)",TE,83.04,43.62,5,Variable
+"Jake Ferguson (DAL)",TE,108.48,44.19,4,Variable
+"Juwan Johnson (NO)",TE,93.24,44.57,5,Variable
+"Jonnu Smith (FA)",TE,90.74,47.38,5,Variable
+"Kyle Pitts Sr. (ATL)",TE,130.55,47.85,4,Variable
+"Evan Engram (DEN)",TE,125.26,48.78,5,Variable
+"Brock Bowers (LV)",TE,181.70,49.7,2,Variable
+"Mark Andrews (BAL)",TE,142.54,55.41,5,"Highly Variable"
+"Trey McBride (ARI)",TE,173.63,75.13,4,"Highly Variable"
+"Tank Dell (HOU)",WR,117.80,0.1,2,"Highly Consistent"
+"Dezmon Patmon (FA)",WR,4.25,0.15,2,"Highly Consistent"
+"Kevin Austin Jr. (NO)",WR,26.55,0.45,2,"Highly Consistent"
+"Cody Hollister (FA)",WR,7.85,0.55,2,"Highly Consistent"
+"D.J. Montgomery (IND)",WR,7.60,1,2,"Highly Consistent"
+"Jeff Smith (FA)",WR,20.35,1.05,2,"Highly Consistent"
+"Corey Davis (FA)",WR,84.40,1.2,2,"Highly Consistent"
+"Derius Davis (LAC)",WR,22.90,1.3,2,"Highly Consistent"
+"Samori Toure (NO)",WR,14.50,1.3,2,"Highly Consistent"
+"Racey McMath (FA)",WR,4.40,1.6,2,"Highly Consistent"
+"Luke McCaffrey (WAS)",WR,33.05,1.75,2,"Highly Consistent"
+"Cody White (SEA)",WR,10.15,1.85,2,"Highly Consistent"
+"Austin Trammell (JAC)",WR,5.93,1.88,3,"Highly Consistent"
+"Michael Woods II (FA)",WR,11.50,2,2,"Highly Consistent"
+"Keith Kirkwood (FA)",WR,5.73,2.13,3,"Highly Consistent"
+"Mike Thomas (FA)",WR,8.00,2.2,2,"Highly Consistent"
+"Kevin White (FA)",WR,7.10,2.3,2,"Highly Consistent"
+"Michael Gallup (FA)",WR,78.90,2.33,3,"Highly Consistent"
+"Mason Tipton (NO)",WR,21.25,2.65,2,"Highly Consistent"
+"Britain Covey (PHI)",WR,7.53,2.65,3,"Highly Consistent"
+"Jake Kumerow (FA)",WR,7.60,2.8,2,"Highly Consistent"
+"Marcus Johnson (FA)",WR,21.95,3.05,2,"Highly Consistent"
+"Keon Coleman (BUF)",WR,81.50,3.1,2,"Highly Consistent"
+"River Cracraft (FA)",WR,17.97,3.18,3,"Highly Consistent"
+"Dee Eskridge (FA)",WR,11.70,3.32,4,"Highly Consistent"
+"Jalen Coker (CAR)",WR,76.10,3.7,2,"Highly Consistent"
+"Dax Milne (FA)",WR,13.50,3.8,2,"Highly Consistent"
+"Breshad Perriman (FA)",WR,23.85,3.85,2,"Highly Consistent"
+"Penny Hart (FA)",WR,8.95,3.95,2,"Highly Consistent"
+"Ronnie Bell (NO)",WR,7.10,4.03,3,"Highly Consistent"
+"Denzel Mims (FA)",WR,25.45,4.15,2,"Highly Consistent"
+"Jamal Agnew (FA)",WR,41.70,4.25,3,"Highly Consistent"
+"Andre Baccellia (ARI)",WR,7.15,4.35,2,"Highly Consistent"
+"Michael Bandy (DEN)",WR,13.95,4.95,2,"Highly Consistent"
+"Malik Heath (ATL)",WR,20.60,5.3,3,"Highly Consistent"
+"KJ Hamler (FA)",WR,17.95,5.55,2,"Highly Consistent"
+"Juwann Winfree (FA)",WR,8.25,5.55,2,"Highly Consistent"
+"Simi Fehoko (FA)",WR,11.00,5.6,2,"Highly Consistent"
+"Rakim Jarrett (FA)",WR,15.70,5.7,2,"Highly Consistent"
+"Velus Jones Jr. (SEA)",WR,11.85,5.85,2,"Highly Consistent"
+"N'Keal Harry (FA)",WR,24.50,5.9,2,"Highly Consistent"
+"Ihmir Smith-Marsette (ARI)",WR,10.73,5.99,3,"Highly Consistent"
+"Tim Jones (JAC)",WR,10.80,6.03,3,"Highly Consistent"
+"Tom Kennedy (DET)",WR,13.70,6.14,3,"Highly Consistent"
+"Gunner Olszewski (NYG)",WR,17.40,7.1,2,"Highly Consistent"
+"Malachi Corley (CLE)",WR,11.75,7.15,2,"Highly Consistent"
+"Anthony Schwartz (FA)",WR,16.30,7.2,2,"Highly Consistent"
+"Jake Bobo (SEA)",WR,31.15,7.45,2,"Highly Consistent"
+"Jamari Thrash (CLE)",WR,12.95,7.75,2,"Highly Consistent"
+"DeVante Parker (FA)",WR,82.93,7.92,3,"Highly Consistent"
+"Jordan Whittington (LAR)",WR,43.20,8.1,2,"Highly Consistent"
+"Deven Thompkins (ATL)",WR,11.30,8.14,4,"Highly Consistent"
+"Cedric Tillman (CLE)",WR,51.43,8.32,3,"Highly Consistent"
+"Lawrence Cager (WAS)",WR,16.20,8.6,2,"Highly Consistent"
+"Rome Odunze (CHI)",WR,118.75,8.65,2,"Highly Consistent"
+"Kyle Philips (FA)",WR,24.45,8.65,2,"Highly Consistent"
+"Ricky Pearsall (SF)",WR,79.90,8.9,2,"Highly Consistent"
+"Sammy Watkins (FA)",WR,57.45,8.95,2,"Highly Consistent"
+"Jalen Brooks (ARI)",WR,16.73,9.34,3,"Highly Consistent"
+"Steven Sims Jr. (FA)",WR,14.95,9.45,2,"Highly Consistent"
+"Damiere Byrd (FA)",WR,49.35,9.55,2,"Highly Consistent"
+"Cam Sims (FA)",WR,26.50,9.6,2,"Highly Consistent"
+"Ryan Miller (NYG)",WR,15.10,9.7,2,"Highly Consistent"
+"Dante Pettis (NO)",WR,26.98,9.72,4,"Highly Consistent"
+"Tylan Wallace (BAL)",WR,12.60,10.33,4,"Highly Consistent"
+"Bo Melton (GB)",WR,23.20,10.37,3,"Highly Consistent"
+"Ashton Dulin (IND)",WR,22.58,10.88,4,"Highly Consistent"
+"KhaDarel Hodge (FA)",WR,25.06,11.05,5,"Highly Consistent"
+"Kendall Hinton (FA)",WR,43.80,11.3,2,"Highly Consistent"
+"Tre'Quan Smith (FA)",WR,58.25,11.45,2,"Highly Consistent"
+"John Metchie III (FA)",WR,47.20,11.78,3,"Highly Consistent"
+"Christian Watson (GB)",WR,89.85,12.01,4,"Highly Consistent"
+"Scotty Miller (FA)",WR,20.90,12.02,5,"Highly Consistent"
+"Adonai Mitchell (NYJ)",WR,66.25,12.05,2,"Highly Consistent"
+"Marvin Mims Jr. (DEN)",WR,72.73,12.34,3,"Highly Consistent"
+"James Proche II (FA)",WR,13.60,12.41,5,"Highly Consistent"
+"David Sills V (ATL)",WR,20.80,13.65,3,"Highly Consistent"
+"Xavier Legette (CAR)",WR,85.00,13.7,2,"Highly Consistent"
+"Xavier Worthy (KC)",WR,109.00,13.8,2,"Highly Consistent"
+"Dontayvion Wicks (GB)",WR,80.27,13.84,3,"Highly Consistent"
+"Phillip Dorsett II (LV)",WR,31.85,13.85,2,"Highly Consistent"
+"Amari Rodgers (FA)",WR,22.45,13.95,2,"Highly Consistent"
+"Dyami Brown (FA)",WR,36.02,14.47,5,"Highly Consistent"
+"Malik Washington (MIA)",WR,63.00,14.7,2,"Highly Consistent"
+"Jakobi Meyers (JAC)",WR,163.38,15.15,5,Consistent
+"Skyy Moore (GB)",WR,35.37,15.33,3,Consistent
+"Alex Erickson (FA)",WR,23.85,15.35,2,Consistent
+"Josh Downs (IND)",WR,137.33,16.34,3,Consistent
+"David Bell (FA)",WR,27.27,16.39,3,Consistent
+"Tyler Johnson (FA)",WR,52.93,16.52,3,Consistent
+"DK Metcalf (PIT)",WR,170.62,16.55,5,Consistent
+"Xavier Gipson (NYG)",WR,26.90,17,2,Consistent
+"Devaughn Vele (NO)",WR,71.40,17.1,2,Consistent
+"Demarcus Robinson (SF)",WR,67.88,17.24,5,Consistent
+"Nelson Agholor (FA)",WR,65.43,17.47,4,Consistent
+"Romeo Doubs (NE)",WR,111.10,17.55,4,Consistent
+"Shi Smith (FA)",WR,34.00,17.6,2,Consistent
+"Lil'Jordan Humphrey (FA)",WR,32.00,18.11,5,Consistent
+"Zay Flowers (BAL)",WR,183.27,18.24,3,Consistent
+"Equanimeous St. Brown (FA)",WR,27.77,18.32,3,Consistent
+"T.Y. Hilton (FA)",WR,37.60,18.5,2,Consistent
+"Brandon Johnson (FA)",WR,28.80,18.6,2,Consistent
+"Chris Conley (FA)",WR,21.60,18.97,4,Consistent
+"Jalen Reagor (FA)",WR,29.78,19.17,4,Consistent
+"Brandon Powell (FA)",WR,38.37,19.33,3,Consistent
+"Kadarius Toney (FA)",WR,52.67,20.51,3,Consistent
+"DeSean Jackson (FA)",WR,44.85,20.55,2,Consistent
+"Quentin Johnston (LAC)",WR,110.57,20.85,3,Consistent
+"Tyquan Thornton (KC)",WR,35.08,21.02,4,Consistent
+"KaVontae Turpin (DAL)",WR,54.43,21.24,3,Consistent
+"DeMario Douglas (NE)",WR,102.97,21.45,3,Consistent
+"Courtland Sutton (DEN)",WR,156.70,21.78,5,Consistent
+"Trenton Irwin (FA)",WR,26.15,22.19,4,Consistent
+"Isaiah Hodgins (NYG)",WR,47.23,22.45,3,Consistent
+"Calvin Austin III (FA)",WR,64.67,22.92,3,Consistent
+"DeVonta Smith (PHI)",WR,177.38,23,5,Consistent
+"Julio Jones (FA)",WR,48.90,23.13,3,Consistent
+"Jalin Hyatt (NYG)",WR,27.67,23.19,3,Consistent
+"Marquise Goodwin (FA)",WR,42.57,23.29,3,Consistent
+"Nick Westbrook-Ikhine (FA)",WR,63.38,23.34,5,Consistent
+"Trent Sherfield Sr. (FA)",WR,26.08,23.36,5,Consistent
+"Darius Slayton (NYG)",WR,98.48,23.5,5,Consistent
+"Alec Pierce (IND)",WR,112.60,23.74,4,Consistent
+"Freddie Swain (FA)",WR,35.35,23.95,2,Consistent
+"Trey Palmer (NO)",WR,53.35,24.15,2,Consistent
+"Justin Watson (HOU)",WR,44.10,24.18,4,Consistent
+"Marvin Harrison Jr. (ARI)",WR,126.15,24.35,2,Consistent
+"Keelan Cole Sr. (FA)",WR,48.50,24.4,2,Consistent
+"Russell Gage Jr. (FA)",WR,118.30,24.7,2,Consistent
+"Sterling Shepard (FA)",WR,51.64,24.73,5,Consistent
+"Olamide Zaccheaus (ATL)",WR,71.44,24.87,5,Consistent
+"Ben Skowronek (PIT)",WR,27.66,24.92,5,Consistent
+"Terrace Marshall Jr. (MIA)",WR,36.95,25.25,4,Consistent
+"Jordan Addison (MIN)",WR,138.20,25.26,3,Consistent
+"Michael Thomas (FA)",WR,58.45,25.35,2,Consistent
+"Andrei Iosivas (CIN)",WR,62.33,25.45,3,Consistent
+"Kendrick Bourne (ARI)",WR,88.32,25.67,5,Consistent
+"Robert Woods (FA)",WR,82.30,25.72,4,Consistent
+"Ladd McConkey (LAC)",WR,170.90,26,2,Consistent
+"Treylon Burks (FA)",WR,36.48,26,4,Consistent
+"Jahan Dotson (ATL)",WR,68.23,26.29,4,Consistent
+"David Moore (CAR)",WR,40.75,26.35,2,Consistent
+"Jalen McMillan (TB)",WR,56.45,26.65,2,Consistent
+"Michael Pittman Jr. (PIT)",WR,184.02,27,5,Consistent
+"Chris Moore (FA)",WR,60.65,27,4,Consistent
+"Xavier Hutchinson (HOU)",WR,39.50,27.22,3,Consistent
+"Isaiah McKenzie (FA)",WR,47.10,27.38,3,Consistent
+"Tyler Boyd (FA)",WR,124.53,27.54,4,Consistent
+"Marquez Valdes-Scantling (FA)",WR,63.66,27.56,5,Consistent
+"Tee Higgins (CIN)",WR,155.52,27.69,5,Consistent
+"Kalif Raymond (CHI)",WR,77.90,28.01,5,Consistent
+"Allen Robinson II (FA)",WR,53.48,28.1,4,Consistent
+"Jarvis Landry (FA)",WR,80.60,28.4,2,Consistent
+"Jalen Nailor (LV)",WR,43.90,28.52,4,Consistent
+"Zach Pascal (FA)",WR,37.43,29.26,3,Consistent
+"Drake London (ATL)",WR,176.28,29.35,4,Consistent
+"Randall Cobb (FA)",WR,50.03,29.38,3,Consistent
+"Tutu Atwell (FA)",WR,64.63,29.49,4,Consistent
+"Jalen Guyton (FA)",WR,34.37,29.61,3,Consistent
+"Jaylen Waddle (MIA)",WR,175.38,29.71,5,Consistent
+"Rashid Shaheed (SEA)",WR,94.33,29.71,4,Consistent
+"Devin Duvernay (FA)",WR,33.44,29.94,5,Consistent
+"Josh Reynolds (FA)",WR,61.76,30.56,5,Variable
+"Rashod Bateman (BAL)",WR,74.34,30.8,5,Variable
+"Greg Dortch (FA)",WR,55.20,30.86,5,Variable
+"Tre Tucker (LV)",WR,93.20,30.9,3,Variable
+"Amon-Ra St. Brown (DET)",WR,234.44,31.14,5,Variable
+"Van Jefferson (FA)",WR,69.52,31.39,5,Variable
+"Deonte Harty (FA)",WR,61.50,31.5,2,Variable
+"Jalen Tolbert (FA)",WR,65.70,31.62,3,Variable
+"Braxton Berrios (FA)",WR,36.42,31.74,5,Variable
+"Quez Watkins (PHI)",WR,68.43,32.05,3,Variable
+"Cedrick Wilson Jr. (FA)",WR,46.58,32.6,5,Variable
+"Joshua Palmer (BUF)",WR,92.60,32.92,5,Variable
+"Laquon Treadwell (FA)",WR,43.30,33.1,2,Variable
+"Noah Brown (FA)",WR,63.24,33.35,5,Variable
+"Jonathan Mingo (DAL)",WR,40.67,33.55,3,Variable
+"Jamison Crowder (FA)",WR,38.95,33.59,4,Variable
+"Ryan Flournoy (DAL)",WR,53.85,33.65,2,Variable
+"Byron Pringle (FA)",WR,50.80,34.05,3,Variable
+"Mack Hollins (NE)",WR,75.04,34.15,5,Variable
+"DJ Chark Jr. (FA)",WR,49.30,35.07,4,Variable
+"Deebo Samuel Sr. (FA)",WR,149.72,36.21,5,Variable
+"DeAndre Carter (FA)",WR,44.38,36.34,4,Variable
+"Elijah Moore (FA)",WR,87.28,36.49,5,Variable
+"Terry McLaurin (WAS)",WR,169.08,36.95,5,Variable
+"Ja'Marr Chase (CIN)",WR,240.74,37.12,5,Variable
+"Kenny Golladay (FA)",WR,51.60,37.5,2,Variable
+"Robbie Chosen (FA)",WR,36.30,37.74,5,Variable
+"Odell Beckham Jr. (FA)",WR,67.90,37.84,3,Variable
+"Tim Patrick (FA)",WR,77.50,38.02,3,Variable
+"Michael Wilson (ARI)",WR,124.97,38.04,3,Variable
+"Keenan Allen (LAC)",WR,179.28,38.84,5,Variable
+"A.J. Brown (PHI)",WR,198.46,39.18,5,Variable
+"George Pickens (DAL)",WR,173.50,39.43,4,Variable
+"Amari Cooper (FA)",WR,161.05,39.71,4,Variable
+"Allen Lazard (FA)",WR,78.24,40.77,5,Variable
+"Troy Franklin (DEN)",WR,95.10,40.8,2,Variable
+"DJ Moore (BUF)",WR,181.14,40.96,5,Variable
+"DeAndre Hopkins (BAL)",WR,117.52,41.39,5,Variable
+"Gabe Davis (FA)",WR,81.98,41.59,5,Variable
+"Ray-Ray McCloud III (FA)",WR,55.00,41.69,5,Variable
+"Marquez Callaway (FA)",WR,73.80,42,2,Variable
+"Mecole Hardman Jr. (BUF)",WR,57.85,42.6,4,Variable
+"Bryan Edwards (FA)",WR,47.80,43.3,2,Variable
+"Kayshon Boutte (NE)",WR,64.63,43.31,3,Variable
+"Jerry Jeudy (CLE)",WR,140.36,44.61,5,Variable
+"K.J. Osborn (FA)",WR,88.80,44.69,4,Variable
+"Parris Campbell (DAL)",WR,47.73,45.5,4,Variable
+"A.J. Green (FA)",WR,93.20,45.6,2,Variable
+"CeeDee Lamb (DAL)",WR,229.02,45.91,5,Variable
+"Laviska Shenault Jr. (FA)",WR,50.93,46.08,4,Variable
+"Richie James Jr. (FA)",WR,67.65,46.25,2,Variable
+"Parker Washington (JAC)",WR,80.97,46.87,3,Variable
+"Donovan Peoples-Jones (FA)",WR,89.03,47.63,3,Variable
+"Darnell Mooney (FA)",WR,117.54,47.7,5,Variable
+"Jauan Jennings (FA)",WR,93.62,48,5,Variable
+"Jayden Reed (GB)",WR,107.90,48.24,3,Variable
+"Brian Thomas Jr. (JAC)",WR,166.95,48.25,2,Variable
+"Davante Adams (LAR)",WR,215.50,48.38,5,Variable
+"Rashee Rice (KC)",WR,111.90,49.01,3,Variable
+"Mike Evans (SF)",WR,162.52,49.02,5,Variable
+"Justin Jefferson (MIN)",WR,239.80,50.37,5,"Highly Variable"
+"Tyler Lockett (LV)",WR,143.26,50.45,5,"Highly Variable"
+"Puka Nacua (LAR)",WR,244.03,50.47,3,"Highly Variable"
+"JuJu Smith-Schuster (FA)",WR,72.56,51.12,5,"Highly Variable"
+"Khalil Shakir (BUF)",WR,107.05,51.39,4,"Highly Variable"
+"Curtis Samuel (FA)",WR,66.60,51.56,5,"Highly Variable"
+"Chase Claypool (FA)",WR,83.93,53.03,3,"Highly Variable"
+"Brandin Cooks (FA)",WR,108.82,53.16,5,"Highly Variable"
+"Zay Jones (FA)",WR,75.74,53.27,5,"Highly Variable"
+"Nico Collins (HOU)",WR,144.74,53.47,5,"Highly Variable"
+"Adam Thielen (FA)",WR,126.54,54.15,5,"Highly Variable"
+"Garrett Wilson (NYJ)",WR,169.85,54.86,4,"Highly Variable"
+"Brandon Aiyuk (SF)",WR,147.43,55.12,4,"Highly Variable"
+"Stefon Diggs (FA)",WR,197.84,55.18,5,"Highly Variable"
+"Wan'Dale Robinson (TEN)",WR,128.63,55.92,4,"Highly Variable"
+"Chris Olave (NO)",WR,165.95,56.08,4,"Highly Variable"
+"Hollywood Brown (FA)",WR,112.78,56.36,5,"Highly Variable"
+"Chris Godwin Jr. (TB)",WR,155.32,56.64,5,"Highly Variable"
+"Diontae Johnson (FA)",WR,147.63,56.95,4,"Highly Variable"
+"Christian Kirk (FA)",WR,124.50,57.38,5,"Highly Variable"
+"Calvin Ridley (TEN)",WR,112.43,59.52,4,"Highly Variable"
+"Marvin Jones Jr. (FA)",WR,87.87,60.8,3,"Highly Variable"
+"Mike Williams (FA)",WR,109.45,63.59,4,"Highly Variable"
+"Jaxon Smith-Njigba (SEA)",WR,212.37,70.42,3,"Highly Variable"
+"Jameson Williams (DET)",WR,99.83,70.56,4,"Highly Variable"
+"Hunter Renfrow (FA)",WR,87.55,70.69,4,"Highly Variable"
+"Cole Beasley (FA)",WR,80.40,70.9,2,"Highly Variable"
+"Cooper Kupp (SEA)",WR,174.58,84.09,5,"Highly Variable"
+"Tyreek Hill (FA)",WR,209.64,92.11,5,"Highly Variable"
+"Malik Nabers (NYG)",WR,137.25,92.15,2,"Highly Variable"

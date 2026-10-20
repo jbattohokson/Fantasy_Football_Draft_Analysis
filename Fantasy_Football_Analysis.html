@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Fantasy Football Draft Value Analysis</title>
+<title>Fantasy Football Draft Analysis</title>
 <style>
   :root{--ink:#0f1117;--ink-light:#4a4f5e;--border:#dde1ea;--bg:#f7f8fc;--white:#ffffff;--accent:#1a56db;--accent-dim:#e8eefb;--warn:#c0392b;--warn-dim:#fdf0ee;--green:#1a7f4b;--green-dim:#eaf5ef;--amber:#b45309;--amber-dim:#fef3e2;--mono:'Courier New',Courier,monospace}
   *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
@@ -17,7 +17,7 @@
   h1{font-size:clamp(24px,4vw,38px);font-weight:normal;line-height:1.2;letter-spacing:-.02em;margin-bottom:18px}
   h1 em{font-style:italic;color:#7b9fd4}
   .meta{font-family:'Arial',sans-serif;font-size:13px;color:#7b9fd4;display:flex;flex-wrap:wrap;gap:20px}
-  .meta span::before{content:'-- '}
+  .meta span::before{content:'· '}
   .sticky-nav{position:sticky;top:0;background:var(--white);border-bottom:1px solid var(--border);z-index:100;padding:10px 0}
   .sticky-nav .page-wrap{display:flex;gap:24px;flex-wrap:wrap;padding-top:0;padding-bottom:0}
   .sticky-nav a{font-family:'Arial',sans-serif;font-size:12.5px;color:var(--ink-light);font-weight:500}
@@ -57,145 +57,56 @@
   tr:last-child td{border-bottom:none}
   tr:nth-child(even) td{background:var(--bg)}
   .neg{color:var(--warn);font-weight:700}.pos{color:var(--green);font-weight:700}
-  .draft-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin:16px 0}
-  .draft-card{background:var(--white);border:1px solid var(--border);border-radius:6px;padding:14px}
-  .draft-round{font-family:'Arial',sans-serif;font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.1em;color:var(--ink-light);margin-bottom:4px}
-  .draft-action{font-size:15px;font-weight:normal;margin-bottom:6px}
-  .draft-pts{font-family:var(--mono);font-size:12px;color:var(--ink-light)}
+  .rec-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+  .rec-card{background:var(--white);border:1px solid var(--border);border-radius:8px;padding:20px}
+  .rec-priority{font-family:'Arial',sans-serif;font-size:10px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;margin-bottom:8px}
+  .rec-priority.p1{color:var(--warn)}.rec-priority.p2{color:var(--amber)}.rec-priority.p3{color:var(--accent)}
+  .rec-card h3{font-size:15px;font-weight:normal;margin-bottom:10px;line-height:1.3}
+  .rec-card p{font-size:13.5px;color:var(--ink-light);line-height:1.6;margin-bottom:10px}
+  .rec-card p:last-child{margin-bottom:0}
+  .rec-impact{font-family:var(--mono);font-size:12px;background:var(--bg);border:1px solid var(--border);border-radius:4px;padding:8px 10px;color:var(--ink);margin-top:10px}
   footer{border-top:1px solid var(--border);padding-top:28px;margin-top:64px;font-family:'Arial',sans-serif;font-size:12.5px;color:var(--ink-light);display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px}
   @media(max-width:600px){.exec-summary{padding:20px 18px}.finding-header,.finding-body{padding:16px}}
+  .model-stat{display:inline-block;font-family:var(--mono);font-size:12px;background:var(--bg);border:1px solid var(--border);border-radius:4px;padding:4px 10px;margin:3px 4px 3px 0}
 </style>
 </head>
 <body>
-<header>
-  <div class="page-wrap">
-    <p class="eyebrow">Sports Analytics -- Draft Strategy</p>
-    <h1>ADP rankings aren't wrong.<br><em>They're just not using the right variables.</em></h1>
-    <div class="meta">
-      <span>Julian Batto-Hokson</span>
-      <span>~4,000 player-season observations, 2021 to 2025</span>
-      <span>Python, Statsmodels, FantasyPros</span>
-      <span>March 2026</span>
-    </div>
-  </div>
-</header>
-<nav class="sticky-nav"><div class="page-wrap"><a href="#summary">Summary</a><a href="#findings">Findings</a><a href="#strategy">Draft Strategy</a><a href="#model">Model</a></div></nav>
+<header><div class="page-wrap"><p class="eyebrow">Sports Analytics · Data Pipeline</p>
+<h1>A MySQL warehouse for five seasons of NFL stats.<br><em>Built first; the draft-value question comes next.</em></h1>
+<div class="meta"><span>Julian Batto-Hokson</span><span>2,662 player-seasons, 2021 to 2025</span><span>MySQL · Python · Tableau</span><span>October 2026</span></div></div></header>
+<nav class="sticky-nav"><div class="page-wrap"><a href="#summary">Summary</a><a href="#findings">Findings</a><a href="#next">Next Version</a><a href="#data">Data</a></div></nav>
 <div class="page-wrap">
+
+<div class="status-banner" style="margin-top:32px;background:var(--amber-dim);border:1px solid var(--amber);border-radius:6px;padding:14px 18px;font-family:Arial,sans-serif;font-size:13px;color:var(--amber)"><strong>Status:</strong> the pipeline runs end to end and reproduces exactly. The analysis layer is being rebuilt: the source files have no touchdowns and no draft data, so the current numbers can't answer the draft-value question yet. This page shows what works, what doesn't and what's next.</div>
 <section id="summary" class="exec-summary">
-  <h2>Executive Summary</h2>
-  <p>Consensus ADP rankings are built from aggregate draft behavior -- which means they encode the biases of the average drafter, not the optimal draft strategy. This analysis identifies where those biases create exploitable inefficiencies across five seasons of NFL data.</p>
-  <p>Three patterns are consistent and predictable. Running backs in rounds 1-2 underperform their ADP by 15 to 20 points on average. Wide receivers in rounds 3-5 outperform ADP by 10 to 20 points. Targets are the single strongest predictor of fantasy production across all positions (correlation 0.72 to 0.81) -- yet ADP rankings weight prior-season points more heavily than target share.</p>
-  <p>A draft strategy that exploits these three inefficiencies is estimated to add 25 to 40 fantasy points over a full season compared to consensus ADP drafting. In a 12-team league, that margin is the difference between making the playoffs and missing them.</p>
+  <h2>Summary</h2>
+  <p>The goal is to find where consensus draft position (ADP) misprices players. Version one loads 20 FantasyPros stat files (QB, RB, WR and TE for 2021 to 2025) into a single MySQL table, scores each player-season, and exports results to Python and Tableau.</p>
+  <p>Running it end to end exposed three problems. The stat files have no touchdowns, so points are a yards-and-receptions proxy, not real fantasy scoring. The "draft rank" column is FantasyPros' end-of-season rank, so "value over draft slot" compares players with their own outcome. And there's no ADP data in the project yet.</p>
 </section>
-<div class="kpi-strip">
-  <div class="kpi"><div class="num warn">-15 to -20</div><div class="label">Avg ADP overperformance gap for RBs drafted in rounds 1-2</div></div>
-  <div class="kpi"><div class="num good">+10 to +20</div><div class="label">Avg ADP outperformance for WRs drafted in rounds 3-5</div></div>
-  <div class="kpi"><div class="num blue">0.72-0.81</div><div class="label">Target share correlation with fantasy production -- strongest predictor</div></div>
-  <div class="kpi"><div class="num amber">R2 = 0.71</div><div class="label">QB predictability -- highest of any position</div></div>
-  <div class="kpi"><div class="num warn">R2 = 0.58</div><div class="label">TE predictability -- lowest, most volatile year-to-year</div></div>
-  <div class="kpi"><div class="num good">25-40 pts</div><div class="label">Estimated season-long gain from data-driven draft vs. consensus ADP</div></div>
-</div>
+<div class="kpi-strip"><div class="kpi"><div class="num blue">20</div><div class="label">Raw stat files loaded into one MySQL table</div></div><div class="kpi"><div class="num good">2,662</div><div class="label">Player-season records, 2021 to 2025</div></div><div class="kpi"><div class="num good">3x</div><div class="label">Identical output across three runs</div></div><div class="kpi"><div class="num warn">0</div><div class="label">Touchdown columns in the source files</div></div><div class="kpi"><div class="num warn">0</div><div class="label">ADP files in the project so far</div></div></div>
 <section id="findings" class="section">
-  <p class="section-label">Analysis</p>
-  <h2 class="section-title">Five patterns in the data -- and what each one suggests about consensus ADP</h2>
-  <div class="finding">
-    <div class="finding-header"><span class="finding-number">01</span><span class="finding-title">Early-round RBs underperform -- injury rates and committee backfields are the mechanism</span></div>
-    <div class="finding-body">
-      <p>Running backs drafted in rounds 1-2 underperform their ADP expectations by 15 to 20 fantasy points on average across the 2021-2025 period. The drivers are structural: injury rates of 15-20% per season, usage volatility from game-script dependencies, and NFL teams increasingly deploying committee backfields that reduce any single back's target share.</p>
-      <div class="impact-block red"><p class="impact-label">Draft strategy implication</p><p>The only exception to avoiding early-round RBs is a true workhorse back with demonstrated pass-catching volume -- one who maintains relevance even if the team falls behind. For most RBs in rounds 1-2, the ADP reflects upside scenarios rather than median production. Waiting until round 4 or later for RBs gives equivalent production at lower opportunity cost.</p></div>
-    </div>
-  </div>
-  <div class="finding">
-    <div class="finding-header"><span class="finding-number">02</span><span class="finding-title">Mid-round WRs outperform -- stable systems and target volume are the explanation</span></div>
-    <div class="finding-body">
-      <p>Wide receivers in rounds 3-5 consistently beat ADP expectations by 10 to 20 points. The position shows lower injury volatility than RB, more stable offensive systems, and -- critically -- target share is more predictable year-over-year than RB usage. The R2 for WR production is 0.68, second only to QBs.</p>
-      <div class="impact-block green"><p class="impact-label">Draft strategy implication</p><p>Concentrating 3 to 4 WR picks in rounds 3-5 extracts more value per pick than any other strategy. The WR position in this range has the best combination of predictability, depth, and ADP discount. Drafters who fill RB slots in rounds 1-2 and pivot to WR heavy in the middle rounds leave value on the table.</p></div>
-    </div>
-  </div>
-  <div class="finding">
-    <div class="finding-header"><span class="finding-number">03</span><span class="finding-title">Targets predict production better than any other variable -- and ADP underweights them</span></div>
-    <div class="finding-body">
-      <p>Target share correlates 0.72 to 0.81 with fantasy production across RB, WR, and TE positions. Prior-season fantasy points, which ADP rankings weight heavily, explain only 45-54% of next-season variance. The gap between what predicts production and what ADP uses to set prices is where draft value is extracted.</p>
-      <div class="impact-block blue"><p class="impact-label">Pre-draft research implication</p><p>The correct pre-draft ranking process: identify target share projections by position, flag players whose ADP ranks them below their projected target share rank, and prioritize those players in the relevant draft windows. Players whose ADP was depressed by a down prior season but whose target share held stable are the clearest value targets -- the market is pricing recent points, not the underlying opportunity.</p></div>
-    </div>
-  </div>
-  <div class="finding">
-    <div class="finding-header"><span class="finding-number">04</span><span class="finding-title">QB streaming from round 10 or later matches early-round QB production</span></div>
-    <div class="finding-body">
-      <p>Quarterbacks drafted after round 10 match first-tier QB production on a point-per-game basis when matchup-selected weekly. QB scoring shows the highest year-to-year stability (R2 = 0.71) -- which means the drop-off from QB1 to QB12 is smaller than ADP pricing implies.</p>
-      <div class="impact-block amber"><p class="impact-label">Draft strategy implication</p><p>Spending a pick on a QB before round 10 in most formats costs a WR or RB selection in the high-value windows. The exception is a format with two starting QB slots or a superflex league -- in those formats, QB scarcity is real and early investment is warranted. In standard formats, streaming saves 6 to 8 picks of draft capital for positions where the value gap between early and late selections is larger.</p></div>
-    </div>
-  </div>
-  <div class="finding">
-    <div class="finding-header"><span class="finding-number">05</span><span class="finding-title">Only 2 TEs are worth early investment -- streaming is correct for every other TE slot</span></div>
-    <div class="finding-body">
-      <p>Tight end production has the lowest predictability of any position (R2 = 0.58) and the steepest drop-off after the elite tier. After the top 2 TEs by target share, streaming produces equivalent results to drafting depth early.</p>
-      <div class="impact-block amber"><p class="impact-label">Draft strategy implication</p><p>If an elite TE (top-2 by projected target share) is available in rounds 4 to 6, take them. Otherwise, skip the position entirely until round 8 or later. Spending round 4 capital on the third-best TE is a common ADP-driven mistake -- the positional scarcity is real only at the very top of the position, not throughout it.</p></div>
-    </div>
-  </div>
+  <p class="section-label">What works</p>
+  <h2 class="section-title">The pipeline</h2>
+  <div class="finding"><div class="finding-header"><span class="finding-number">01</span><span class="finding-title">Twenty messy files, one clean table</span></div><div class="finding-body"><p>Each position's files have different columns. The SQL layer maps them into one schema, casts text numbers like &quot;1,947&quot; to decimals, and loads all five seasons in a single transaction. A table-name typo that silently dropped every tight end was caught and fixed, and TE now loads all 516 player-seasons.</p><div class="data-table-wrap"><table><thead><tr><th>Position</th><th>Player-seasons</th></tr></thead><tbody><tr><td>WR</td><td>976</td></tr><tr><td>RB</td><td>739</td></tr><tr><td>TE</td><td>516</td></tr><tr><td>QB</td><td>431</td></tr></tbody></table></div></div></div>
+  <p class="section-label" style="margin-top:32px">What doesn't work yet</p>
+  <div class="finding"><div class="finding-header"><span class="finding-number">02</span><span class="finding-title">The points aren't fantasy points</span></div><div class="finding-body"><p>Receivers and backs score yards x 0.1 plus receptions. Quarterbacks score passing yards x 0.04 plus passer rating x 0.1. With no touchdowns or rushing for QBs, the totals don't match any real league. Cooper Kupp's record 2021 season scores 339.7 here.</p><div class="impact-block red"><p class="impact-label">Fix</p><p>Add a source with touchdowns, such as weekly box scores, and compute standard PPR.</p></div></div></div>
+  <div class="finding"><div class="finding-header"><span class="finding-number">03</span><span class="finding-title">&quot;Draft value&quot; is circular</span></div><div class="finding-body"><p>The draft_rank column is FantasyPros' end-of-season rank. Every &quot;elite steal&quot; finished in the top five at his position, so the list is just the season's top scorers.</p><div class="impact-block red"><p class="impact-label">Fix</p><p>Join historical ADP by player and season, then measure points above what a player's draft slot usually produces.</p></div></div></div>
+  <div class="finding"><div class="finding-header"><span class="finding-number">04</span><span class="finding-title">&quot;Consistent&quot; players scored zero</span></div><div class="finding-body"><p>Consistency is low standard deviation across seasons, so players who scored 0 points every year rank as the most consistent. The position tier summary also places every player in the elite tier.</p><div class="impact-block amber"><p class="impact-label">Fix</p><p>Require a minimum points threshold before ranking consistency, and set tier cutoffs on the same points scale as the scoring.</p></div></div></div>
 </section>
-<section id="strategy" class="section">
-  <p class="section-label">Draft Blueprint</p>
-  <h2 class="section-title">Recommended round-by-round approach</h2>
-  <div class="draft-grid">
-    <div class="draft-card"><p class="draft-round">Rounds 1-2</p><p class="draft-action">Elite WR or pass-catching RB</p><p class="draft-pts">Avg: 149-175 pts. Avoid standard RBs unless top-3 workhorse.</p></div>
-    <div class="draft-card"><p class="draft-round">Rounds 3-5</p><p class="draft-action">WR focus -- 3 picks here</p><p class="draft-pts">Sweet spot: +10 to +20 pts vs. ADP. Best value window in the draft.</p></div>
-    <div class="draft-card"><p class="draft-round">Rounds 6-7</p><p class="draft-action">RBs and flex WR</p><p class="draft-pts">RBs now offer better risk-adjusted value than rounds 1-2.</p></div>
-    <div class="draft-card"><p class="draft-round">Round 8</p><p class="draft-action">Elite TE only -- or skip</p><p class="draft-pts">Only invest if top-2 TE by target share is available. Otherwise defer.</p></div>
-    <div class="draft-card"><p class="draft-round">Rounds 9-12</p><p class="draft-action">QB, backup RB/WR, Defense</p><p class="draft-pts">Stream QB by matchup. Defense in round 12-13.</p></div>
-    <div class="draft-card"><p class="draft-round">Late rounds</p><p class="draft-action">High-upside targets and handcuffs</p><p class="draft-pts">Target players with stable target share whose ADP reflects down prior season.</p></div>
-  </div>
-</section>
-
-<section class="section">
-  <p class="section-label">Action Items</p>
-  <h2 class="section-title">Recommended draft adjustments and estimated impact</h2>
+<section id="next" class="section">
+  <p class="section-label">Next Version</p>
+  <h2 class="section-title">What version two needs</h2>
   <div class="rec-grid">
-    <div class="rec-card">
-      <p class="rec-priority p1">Highest Impact</p>
-      <h3>Avoid RB in rounds 1-2 unless workhorse confirmed</h3>
-      <p>Early-round RBs underperform ADP by 15-20 pts on average. Redirecting those picks to elite WRs preserves the same ceiling with lower injury and usage risk.</p>
-      <div class="rec-impact">Estimated gain: 15-20 pts recovered vs. consensus RB-heavy drafting in rounds 1-2</div>
-    </div>
-    <div class="rec-card">
-      <p class="rec-priority p1">Highest Value Window</p>
-      <h3>Stack 3 WRs in rounds 3-5</h3>
-      <p>Mid-round WRs outperform ADP by 10-20 pts. This is the single most consistent exploitable inefficiency across all five seasons of data.</p>
-      <div class="rec-impact">Estimated gain: 10-20 pts per WR pick vs. ADP expectation in this range</div>
-    </div>
-    <div class="rec-card">
-      <p class="rec-priority p2">Draft Capital Savings</p>
-      <h3>Stream QB from round 10 or later</h3>
-      <p>QB predictability (R2 = 0.71) makes the drop-off from QB1 to QB12 smaller than ADP implies. Streaming frees 6-8 picks for WR and RB windows where the value gap is larger.</p>
-      <div class="rec-impact">Estimated gain: 6-8 picks of draft capital redirected to higher-value positions</div>
-    </div>
-    <div class="rec-card">
-      <p class="rec-priority p2">Target Share Mispricing</p>
-      <h3>Draft players with stable target share whose ADP reflects a down prior season</h3>
-      <p>Prior-season points explain only 45-54% of next-season variance. Target share (0.72-0.81 correlation) is the stronger signal. ADP underweights it.</p>
-      <div class="rec-impact">Mechanism: identify players where target share rank and ADP rank diverge by 2+ rounds</div>
-    </div>
-  </div>
-  <div class="impact-block blue" style="margin-top:20px">
-    <p class="impact-label">Overall estimated season gain</p>
-    <p>Implementing these four adjustments together is estimated to add 25 to 40 fantasy points over a full season compared to consensus ADP drafting. Derivation: 15-20 pts from RB avoidance in rounds 1-2, plus 10-20 pts from WR value extraction in rounds 3-5, minus overlap from players already at the top of both lists. In a 12-team league where playoff qualification typically requires finishing in the top 4, a 25-40 point margin over a 13-14 week regular season represents roughly 2-3 points per week -- a meaningful edge in close matchups.</p>
+    <div class="rec-card"><p class="rec-priority p1">Data</p><h3>Touchdowns and real PPR scoring</h3><p>Weekly box scores with passing, rushing and receiving touchdowns.</p><div class="rec-impact">Output: points that match a real league</div></div>
+    <div class="rec-card"><p class="rec-priority p1">Data</p><h3>Historical ADP</h3><p>Average draft position by player and season, joined to the warehouse.</p><div class="rec-impact">Output: points above draft-slot expectation</div></div>
+    <div class="rec-card"><p class="rec-priority p2">Analysis</p><h3>Target share vs. next-season points</h3><p>Targets are already in the files. Test how well this season's target share predicts next season's points.</p><div class="rec-impact">Output: correlation and R² by position</div></div>
   </div>
 </section>
-
-<section id="model" class="section">
+<section id="data" class="section">
   <p class="section-label">Technical Reference</p>
-  <h2 class="section-title">Model results and data scope</h2>
-  <div class="data-table-wrap"><table>
-    <thead><tr><th>Position</th><th>R2</th><th>Predictability</th><th>RMSE</th></tr></thead>
-    <tbody>
-      <tr><td>QB</td><td class="pos">0.71</td><td>High -- stable passing volume</td><td>42</td></tr>
-      <tr><td>WR</td><td class="pos">0.68</td><td>High when team situation stable</td><td>38</td></tr>
-      <tr><td>RB</td><td>0.64</td><td>Moderate -- usage volatility</td><td>45</td></tr>
-      <tr><td>TE</td><td class="neg">0.58</td><td>Low -- highest year-to-year variance</td><td>52</td></tr>
-    </tbody>
-  </table></div>
-  <div class="impact-block amber" style="margin-top:16px"><p class="impact-label">Data Note</p><p>Analysis period is 2021-2025 (5 seasons, approximately 4,000 player-season observations, Full PPR scoring). Sources: FantasyPros for scoring datasets, Fantasy Football Calculator for ADP rankings. Tom Brady is excluded from the QB production analysis for seasons after his retirement following the 2022 season. Any player listed in top performers charts reflects their performance during the seasons they were active in the dataset. Tom Brady is excluded from the QB analysis for seasons after his 2022 retirement. The R2 values represent cross-season holdout predictability, not in-sample fit.</p></div>
+  <h2 class="section-title">Data scope</h2>
+  <div class="data-table-wrap"><table><thead><tr><th>Dimension</th><th>Value</th></tr></thead><tbody><tr><td>Seasons</td><td>2021 to 2025</td></tr><tr><td>Source</td><td>FantasyPros advanced stat exports, 20 CSVs</td></tr><tr><td>Records</td><td>2,662 player-seasons</td></tr><tr><td>Pipeline</td><td>Python loader to MySQL, 15 SQL analysis queries, Python charts, Tableau</td></tr><tr><td>Missing</td><td>Touchdowns, ADP</td></tr></tbody></table></div>
 </section>
 </div>
-<footer style="max-width:860px;margin:0 auto;padding:0 24px 48px"><span>Julian Batto-Hokson · March 2026</span><span><a href="https://github.com/jbattohokson">GitHub</a> · Python · Statsmodels</span></footer>
+<footer style="max-width:860px;margin:0 auto;padding:0 24px 48px"><span>Julian Batto-Hokson · October 2026</span><span><a href="https://github.com/jbattohokson/Fantasy_Football_Draft_Analysis">GitHub Repository</a> · MySQL · Python · Tableau</span></footer>
 </body></html>

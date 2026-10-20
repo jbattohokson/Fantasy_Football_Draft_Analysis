@@ -38,10 +38,10 @@ def classify_ppr_tier(pts):
 
 if __name__ == "__main__":
 
-    #Script lives in Python Code/, SQL results live in SQL Code/, outputs go to Python Code/Outputs/
+    #Script lives in python/, SQL results live in sql/, outputs go to python/Outputs/
     PROJECT_ROOT = Path(__file__).resolve().parent.parent
-    RESULTS_PATH = PROJECT_ROOT / "SQL Code"
-    OUTPUT_PATH = PROJECT_ROOT / "Python Code" / "Outputs"
+    RESULTS_PATH = PROJECT_ROOT / "sql"
+    OUTPUT_PATH = PROJECT_ROOT / "python" / "Outputs"
     OUTPUT_PATH.mkdir(parents=True, exist_ok=True)
 
     #SECTION 1: LOAD DATA FROM CSV FILES
@@ -51,7 +51,7 @@ if __name__ == "__main__":
     print("Loading data from MySQL query results...")
     print()
 
-    #Map each result key to its CSV path in the SQL Code folder
+    #Map each result key to its CSV path in the sql folder
     result_files = {
         'result_1':  RESULTS_PATH / 'Result1.csv',   #Draft Value Scoring Model
         'result_2':  RESULTS_PATH / 'Result2.csv',   #Fantasy Points by Position
