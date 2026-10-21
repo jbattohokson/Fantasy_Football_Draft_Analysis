@@ -2,3 +2,6 @@
 __pycache__/
 *.pyc
 .venv/
+
+# Built by sql/load_raw_tables.py --sqlite
+*.db

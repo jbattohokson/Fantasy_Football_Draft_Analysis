@@ -1,481 +1,300 @@
-#FANTASYPROS PPR FOOTBALL PYTHON ANALYSIS
-#Data sourced from MySQL fantasy_football_combined table (Results 1-16)
+#FANTASY FOOTBALL DRAFT ANALYSIS: PREDICTABILITY AND POSITIONAL VALUE
+#Reads the SQL results in ../sql (Result<N>.csv = Query <N> in Fantasy_Football_MYSQL.sql)
 #Analysis Period: 2021-2025 Seasons
+#
+#AUDITED 2026-10-21: rebuilt. The old version
+#  * applied weekly PPR cutoffs (25/20/12 pts) to SEASON totals, so every
+#    top-15 player at every position landed in "Elite",
+#  * ranked "steals" by an end-of-season rank, which is circular,
+#  * ranked consistency on raw season totals, so players who scored 0 every
+#    year came out "most consistent",
+#  * read columns (consistency, variance) the SQL no longer produced.
+#Without ADP the data can't say who was mispriced on draft day. It can say
+#which positions are predictable from one season to the next, how steeply
+#value falls off by positional finish, and whether target share carries
+#signal beyond last season's production. That's what this script answers.
 
 from pathlib import Path
-import os
-import pandas as pd
+
 import numpy as np
+import pandas as pd
+import matplotlib
+matplotlib.use("Agg")  # headless: charts are only written to disk
 import matplotlib.pyplot as plt
-import seaborn as sns
 from scipy import stats
-import warnings
-warnings.filterwarnings('ignore')
 
-#Set style for visualizations
-sns.set_style("whitegrid")
-plt.rcParams['figure.figsize'] = (12, 6)
+POSITIONS = ['QB', 'RB', 'WR', 'TE']
+COLORS = {'QB': '#1f77b4', 'RB': '#ff7f0e', 'WR': '#2ca02c', 'TE': '#d62728'}
+#12-team league starters: QB12, RB24, WR36 (incl. flex), TE12
+STARTERS = {'QB': 12, 'RB': 24, 'WR': 36, 'TE': 12}
 
-#PPR PERFORMANCE BENCHMARKS (Universal across all positions)
-PPR_ELITE = 25          #Elite Performance: 25+ points
-PPR_STARTER = 20        #Solid/Starter Quality: 12-20 points (threshold at 20)
-PPR_FLEX = 12           #Flex/Average: 8-12 points (threshold at 12)
-PPR_BELOW_AVG = 8       #Below Average: Under 8 points
+RESULT_FILES = {
+    'position_summary': 'Result1.csv',
+    'season_trends':    'Result2.csv',
+    'multi_season':     'Result3.csv',
+    'finishes':         'Result4.csv',
+    'vor':              'Result5.csv',
+    'pairs':            'Result6.csv',
+    'all_seasons':      'Result7.csv',
+}
 
 
-def classify_ppr_tier(pts):
-    #Classifies a player into a PPR performance tier based on average points.
-    #Defined outside the loop so it is only created once.
-    if pts >= PPR_ELITE:
-        return 'Elite Performance (25+ pts)'
-    elif pts >= PPR_STARTER:
-        return 'Solid/Starter (20-24.9 pts)'
-    elif pts >= PPR_FLEX:
-        return 'Flex/Average (12-19.9 pts)'
-    else:
-        return 'Below Average (< 12 pts)'
+def load_results(results_dir):
+    missing = [f for f in RESULT_FILES.values() if not (results_dir / f).exists()]
+    if missing:
+        raise FileNotFoundError(
+            f"Missing {missing} in {results_dir}. Run sql/load_raw_tables.py --sqlite and sql/run_sqlite.py first."
+        )
+    return {key: pd.read_csv(results_dir / f) for key, f in RESULT_FILES.items()}
+
+
+def corr_with_ci(x, y):
+    #Pearson r with a 95% CI (Fisher z). Returns (r, low, high, n, p)
+    x, y = np.asarray(x, float), np.asarray(y, float)
+    ok = ~(np.isnan(x) | np.isnan(y))
+    x, y = x[ok], y[ok]
+    n = len(x)
+    if n < 4 or np.std(x) == 0 or np.std(y) == 0:
+        return np.nan, np.nan, np.nan, n, np.nan
+    r, p = stats.pearsonr(x, y)
+    z, se = np.arctanh(r), 1 / np.sqrt(n - 3)
+    return r, np.tanh(z - 1.96 * se), np.tanh(z + 1.96 * se), n, p
+
+
+def position_predictability(pairs, finishes):
+    """How well does a player's points per game predict his next season's? (qualifying seasons only)
+
+    Two views per position:
+      all players      every pair, backups to stars. The wide talent range inflates r.
+      starters only    players who finished as a starter in season N (QB12/RB24/WR36/TE12),
+                       the range a draft actually chooses from
+    Pairs need 8+ games in BOTH seasons, so a starter who got hurt and missed the next
+    season isn't counted. The drop rates are therefore a floor.
+    """
+    d = pairs.merge(finishes[['player_name', 'pos', 'yr', 'pos_finish']], on=['player_name', 'pos', 'yr'], how='left')
+    rows = []
+    for pos in POSITIONS:
+        a = d[d['pos'] == pos]
+        s = a[a['pos_finish'] <= STARTERS[pos]]
+        r, lo, hi, n, p = corr_with_ci(a['ppg'], a['next_ppg'])
+        rs, slo, shi, sn, _ = corr_with_ci(s['ppg'], s['next_ppg'])
+        rows.append({'pos': pos, 'pairs': n, 'yoy_r': r, 'ci_low': lo, 'ci_high': hi,
+                     'r_squared': r ** 2 if pd.notna(r) else np.nan, 'p_value': p,
+                     'starter_pairs': sn, 'starter_yoy_r': rs, 'starter_ci_low': slo, 'starter_ci_high': shi,
+                     'starter_avg_ppg_change': (s['next_ppg'] - s['ppg']).mean(),
+                     'starter_share_dropping_20pct': ((s['next_ppg'] / s['ppg']) < 0.8).mean()})
+    return pd.DataFrame(rows).sort_values('starter_yoy_r', ascending=False).reset_index(drop=True)
+
+
+def target_share_signal(pairs):
+    #WR/TE: does this season's target share predict next season's ppg, and does it add anything once ppg is known?
+    import statsmodels.formula.api as smf
+    rows = []
+    for pos in ['WR', 'TE']:
+        d = pairs[(pairs['pos'] == pos)].dropna(subset=['ppg', 'next_ppg', 'target_share'])
+        r_share, *_ = corr_with_ci(d['target_share'], d['next_ppg'])
+        r_ppg, *_ = corr_with_ci(d['ppg'], d['next_ppg'])
+        base = smf.ols('next_ppg ~ ppg', data=d).fit()
+        full = smf.ols('next_ppg ~ ppg + target_share', data=d).fit()
+        rows.append({
+            'pos': pos, 'pairs': len(d),
+            'r_target_share_vs_next_ppg': r_share,
+            'r_ppg_vs_next_ppg': r_ppg,
+            'r2_ppg_only': base.rsquared,
+            'r2_ppg_plus_share': full.rsquared,
+            'share_coef_per_pct_pt': full.params['target_share'],
+            'share_p_value': full.pvalues['target_share'],
+        })
+    return pd.DataFrame(rows)
+
+
+def vor_by_finish(vor):
+    #Average value over replacement for each positional finish, across seasons
+    out = (vor.groupby(['pos', 'pos_finish'])['vor'].mean().reset_index()
+           .rename(columns={'vor': 'avg_vor'}))
+    return out[out['pos_finish'] <= 40]
+
+
+def vor_summary(vor_curve):
+    rows = []
+    for pos in POSITIONS:
+        c = vor_curve[vor_curve['pos'] == pos].set_index('pos_finish')['avg_vor']
+        rows.append({'pos': pos, 'replacement_finish': STARTERS[pos],
+                     'vor_finish_1': c.get(1), 'vor_finish_3': c.get(3), 'vor_finish_6': c.get(6),
+                     'drop_1_to_6': c.get(1) - c.get(6)})
+    return pd.DataFrame(rows).sort_values('vor_finish_3', ascending=False).reset_index(drop=True)
+
+
+def consistent_starters(multi, finishes, min_seasons=3):
+    #Most reliable among players who were actually starters: 3+ qualifying seasons and a career
+    #average at or above the position's starter cutoff (the ppg of the last starter in an average season)
+    q = finishes[finishes['games_played'] >= 8]
+    cutoffs = {}
+    for pos in POSITIONS:
+        by_year = (q[q['pos'] == pos].sort_values('ppg', ascending=False)
+                   .groupby('yr')['ppg'].apply(lambda s: s.iloc[STARTERS[pos] - 1] if len(s) >= STARTERS[pos] else np.nan))
+        cutoffs[pos] = by_year.mean()
+    m = multi[(multi['seasons'] >= min_seasons)].copy()
+    m['starter_cutoff_ppg'] = m['pos'].map(cutoffs)
+    m = m[m['avg_ppg'] >= m['starter_cutoff_ppg']]
+    return m.sort_values(['pos', 'cv_ppg']).groupby('pos').head(5).reset_index(drop=True), cutoffs
+
+
+def top_players(multi, n=5):
+    return multi.sort_values(['pos', 'avg_ppg'], ascending=[True, False]).groupby('pos').head(n).reset_index(drop=True)
+
+
+def plot_ppg_distribution(all_seasons, out):
+    q = all_seasons[all_seasons['games_played'] >= 8]
+    fig, ax = plt.subplots(figsize=(10, 6))
+    data = [q.loc[q['pos'] == p, 'ppg'] for p in POSITIONS]
+    bp = ax.boxplot(data, tick_labels=POSITIONS, patch_artist=True, showfliers=False)
+    for patch, pos in zip(bp['boxes'], POSITIONS):
+        patch.set_facecolor(COLORS[pos])
+        patch.set_alpha(0.6)
+    ax.set_ylabel('Points per game (PPR, no touchdowns)')
+    ax.set_title('Per-game production by position, qualifying seasons (8+ games)', fontweight='bold')
+    ax.grid(axis='y', alpha=0.3)
+    plt.tight_layout()
+    plt.savefig(out / '01_ppg_by_position.png', dpi=150)
+    plt.close()
+
+
+def plot_yoy(pairs, pred, out):
+    fig, axes = plt.subplots(2, 2, figsize=(12, 10))
+    for ax, pos in zip(axes.flat, POSITIONS):
+        d = pairs[pairs['pos'] == pos]
+        row = pred.set_index('pos').loc[pos]
+        ax.scatter(d['ppg'], d['next_ppg'], s=14, alpha=0.5, color=COLORS[pos])
+        lim = max(d['ppg'].max(), d['next_ppg'].max()) * 1.05
+        ax.plot([0, lim], [0, lim], color='grey', linewidth=0.8, linestyle='--')
+        ax.set_xlim(0, lim)
+        ax.set_ylim(0, lim)
+        ax.set_title(f"{pos}: r = {row['yoy_r']:.2f} all, {row['starter_yoy_r']:.2f} starters (n = {int(row['pairs'])})", fontweight='bold')
+        ax.set_xlabel('Points per game, season N')
+        ax.set_ylabel('Points per game, season N+1')
+        ax.grid(alpha=0.3)
+    fig.suptitle('How well does this season predict next season?', fontsize=14, fontweight='bold')
+    plt.tight_layout()
+    plt.savefig(out / '02_year_over_year_predictability.png', dpi=150)
+    plt.close()
+
+
+def plot_vor_curve(curve, out):
+    fig, ax = plt.subplots(figsize=(11, 6))
+    for pos in POSITIONS:
+        c = curve[curve['pos'] == pos]
+        ax.plot(c['pos_finish'], c['avg_vor'], marker='o', markersize=3, linewidth=2, label=pos, color=COLORS[pos])
+    ax.axhline(0, color='black', linewidth=0.8)
+    ax.set_xlabel('Positional finish (1 = best at the position that season)')
+    ax.set_ylabel('Season points above replacement (avg 2021-2025)')
+    ax.set_title('Value over replacement by finish (replacement = QB12 / RB24 / WR36 / TE12)', fontweight='bold')
+    ax.legend()
+    ax.grid(alpha=0.3)
+    plt.tight_layout()
+    plt.savefig(out / '03_value_over_replacement.png', dpi=150)
+    plt.close()
+
+
+def plot_target_share(pairs, signal, out):
+    fig, axes = plt.subplots(1, 2, figsize=(12, 5))
+    for ax, pos in zip(axes, ['WR', 'TE']):
+        d = pairs[pairs['pos'] == pos].dropna(subset=['target_share', 'next_ppg'])
+        r = signal.set_index('pos').loc[pos, 'r_target_share_vs_next_ppg']
+        ax.scatter(d['target_share'], d['next_ppg'], s=14, alpha=0.5, color=COLORS[pos])
+        ax.set_title(f'{pos}: target share vs next-season ppg (r = {r:.2f})', fontweight='bold')
+        ax.set_xlabel('Share of team targets, season N (%)')
+        ax.set_ylabel('Points per game, season N+1')
+        ax.grid(alpha=0.3)
+    plt.tight_layout()
+    plt.savefig(out / '04_target_share_signal.png', dpi=150)
+    plt.close()
+
+
+def plot_top_players(top, out):
+    fig, axes = plt.subplots(2, 2, figsize=(14, 10))
+    fig.suptitle('Highest points per game, 2+ qualifying seasons (PPR, no touchdowns)', fontsize=14, fontweight='bold')
+    for ax, pos in zip(axes.flat, POSITIONS):
+        d = top[top['pos'] == pos]
+        ax.barh(d['player_name'], d['avg_ppg'], color=COLORS[pos], alpha=0.75, edgecolor='black')
+        ax.set_title(f'Top 5 {pos}s', fontweight='bold')
+        ax.set_xlabel('Average points per game')
+        ax.invert_yaxis()
+    plt.tight_layout()
+    plt.savefig(out / '05_top_players.png', dpi=150)
+    plt.close()
+
+
+def key_findings(pred, signal, vsum, cutoffs):
+    p = pred.set_index('pos')
+    order = ', '.join(f"{pos} r={p.loc[pos, 'yoy_r']:.2f}" for pos in pred['pos'])
+    v = vsum.set_index('pos')
+    s = signal.set_index('pos')
+    starters = ', '.join(f"{pos} r={p.loc[pos, 'starter_yoy_r']:.2f}" for pos in pred['pos'])
+    drops = ', '.join(f"{pos} {p.loc[pos, 'starter_share_dropping_20pct']:.0%}" for pos in pred['pos'])
+    lines = [
+        f"1. Predictability (points per game, season N vs N+1), all players: {order}.",
+        f"   Starters only (the range a draft picks from): {starters}.",
+        f"   Starters lose {abs(pred['starter_avg_ppg_change'].max()):.1f}-{abs(pred['starter_avg_ppg_change'].min()):.1f} ppg on average the next season;",
+        f"   share falling 20%+ (a floor; injured-out seasons aren't counted): {drops}.",
+        "2. Value over replacement, avg season points above the last starter:",
+        *[f"   {pos}: #1 finisher +{v.loc[pos, 'vor_finish_1']:.0f}, #3 +{v.loc[pos, 'vor_finish_3']:.0f}, "
+          f"#6 +{v.loc[pos, 'vor_finish_6']:.0f}" for pos in vsum['pos']],
+        "3. Target share (WR/TE):",
+        *[f"   {pos}: r with next-season ppg {s.loc[pos, 'r_target_share_vs_next_ppg']:.2f}; adding it to last "
+          f"season's ppg moves R^2 {s.loc[pos, 'r2_ppg_only']:.3f} -> {s.loc[pos, 'r2_ppg_plus_share']:.3f} "
+          f"(p={s.loc[pos, 'share_p_value']:.3f})" for pos in ['WR', 'TE']],
+        "4. Starter cutoffs (ppg of the last starter, avg season): "
+        + ', '.join(f"{pos} {cutoffs[pos]:.1f}" for pos in POSITIONS),
+        "Caveat: points exclude touchdowns (and QB rushing / RB receiving yards), so compare within a position.",
+    ]
+    return '\n'.join(lines)
+
+
+def main():
+    project_root = Path(__file__).resolve().parent.parent
+    results = load_results(project_root / 'sql')
+    out = project_root / 'python' / 'Outputs'
+    out.mkdir(parents=True, exist_ok=True)
+
+    print("FANTASY FOOTBALL DRAFT ANALYSIS")
+    print(results['position_summary'].to_string(index=False))
+    print()
+
+    pairs = results['pairs']
+    pred = position_predictability(pairs, results['finishes'])
+    signal = target_share_signal(pairs)
+    curve = vor_by_finish(results['vor'])
+    vsum = vor_summary(curve)
+    consistent, cutoffs = consistent_starters(results['multi_season'], results['finishes'])
+    top = top_players(results['multi_season'])
+
+    exports = {
+        'position_predictability': pred,
+        'target_share_signal': signal,
+        'vor_by_finish': curve,
+        'vor_summary': vsum,
+        'consistent_starters': consistent,
+        'top_players': top,
+        'season_trends': results['season_trends'],
+    }
+    for name, df in exports.items():
+        df.round(4).to_csv(out / f'{name}.csv', index=False)
+        print(f"Saved: {name}.csv ({len(df)} rows)")
+
+    plot_ppg_distribution(results['all_seasons'], out)
+    plot_yoy(pairs, pred, out)
+    plot_vor_curve(curve, out)
+    plot_target_share(pairs, signal, out)
+    plot_top_players(top, out)
+    print("Saved: 01-05 charts")
+
+    print("\nKEY FINDINGS")
+    print(key_findings(pred, signal, vsum, cutoffs))
+    print("\nMost reliable starters (3+ qualifying seasons, lowest season-to-season spread):")
+    print(consistent[['pos', 'player_name', 'seasons', 'avg_ppg', 'cv_ppg']].to_string(index=False))
+    print("\nAll output files saved to:", out)
 
 
 if __name__ == "__main__":
-
-    #Script lives in python/, SQL results live in sql/, outputs go to python/Outputs/
-    PROJECT_ROOT = Path(__file__).resolve().parent.parent
-    RESULTS_PATH = PROJECT_ROOT / "sql"
-    OUTPUT_PATH = PROJECT_ROOT / "python" / "Outputs"
-    OUTPUT_PATH.mkdir(parents=True, exist_ok=True)
-
-    #SECTION 1: LOAD DATA FROM CSV FILES
-
-    print("FANTASY FOOTBALL ANALYTICS - PYTHON ANALYSIS")
-    print()
-    print("Loading data from MySQL query results...")
-    print()
-
-    #Map each result key to its CSV path in the sql folder
-    result_files = {
-        'result_1':  RESULTS_PATH / 'Result1.csv',   #Draft Value Scoring Model
-        'result_2':  RESULTS_PATH / 'Result2.csv',   #Fantasy Points by Position
-        'result_3':  RESULTS_PATH / 'Result3.csv',   #Year-Over-Year Consistency
-        'result_4':  RESULTS_PATH / 'Result4.csv',   #Top Performers (Multi-Year)
-        'result_5':  RESULTS_PATH / 'Result5.csv',   #Top 5 QBs
-        'result_6':  RESULTS_PATH / 'Result6.csv',   #Top 5 RBs
-        'result_7':  RESULTS_PATH / 'Result7.csv',   #Top 5 WRs
-        'result_8':  RESULTS_PATH / 'Result8.csv',   #Top 5 TEs
-        'result_9':  RESULTS_PATH / 'Result9.csv',   #Position Predictability
-        'result_10': RESULTS_PATH / 'Result10.csv',  #Player Consistency
-        'result_11': RESULTS_PATH / 'Result11.csv',  #Draft Value Analysis
-        'result_12': RESULTS_PATH / 'Result12.csv',  #Tier Classification
-        'result_13': RESULTS_PATH / 'Result13.csv',  #Summary by Position
-        'result_14': RESULTS_PATH / 'Result14.csv',  #Season Trends
-        'result_15': RESULTS_PATH / 'Result15.csv',  #Complete Export Dataset
-        'result_16': RESULTS_PATH / 'Result16.csv'   #Draft Value Scoring Model
-    }
-
-    #Load data — missing files are logged and skipped so the rest of the script can continue
-    data = {}
-    for key, filepath in result_files.items():
-        try:
-            data[key] = pd.read_csv(filepath)
-            print(f"Loaded {filepath.name} ({len(data[key])} rows)")
-        except FileNotFoundError:
-            print(f"File not found: {filepath}")
-
-    print()
-
-    #SECTION 2: EXPLORATORY DATA ANALYSIS
-
-    print("EXPLORATORY DATA ANALYSIS")
-    print()
-
-    #Result 2: Fantasy Points by Position
-    print("Fantasy Points by Position (All Seasons):")
-    print(data['result_2'])
-    print()
-
-    #Result 13: Summary by Position
-    print("Summary Statistics by Position:")
-    print(data['result_13'])
-    print()
-
-    #Result 14: Season Trends
-    print("Season Trends (2021-2025):")
-    print(data['result_14'].head(20))
-    print()
-
-    #SECTION 3: VISUALIZATION 1 FANTASY POINTS BY POSITION
-
-    print("Creating visualization 1: Fantasy Points by Position...")
-
-    fig, ax = plt.subplots(figsize=(10, 6))
-
-    result_2 = data['result_2'].sort_values('avg_points', ascending=True)
-    colors = ['#1f77b4', '#ff7f0e', '#2ca02c', '#d62728']
-
-    bars = ax.barh(result_2['position'], result_2['avg_points'], color=colors, alpha=0.7, edgecolor='black', linewidth=2)
-    ax.set_xlabel('Average Fantasy Points', fontsize=12, fontweight='bold')
-    ax.set_ylabel('Position', fontsize=12, fontweight='bold')
-    ax.set_title('Average Fantasy Points by Position (2021-2025)', fontsize=14, fontweight='bold')
-    ax.grid(True, alpha=0.3, axis='x')
-
-    #Add value labels
-    for i, bar in enumerate(bars):
-        width = bar.get_width()
-        ax.text(width, bar.get_y() + bar.get_height() / 2., f'{width:.1f}',
-                ha='left', va='center', fontsize=11, fontweight='bold',
-                bbox=dict(boxstyle='round', facecolor='wheat', alpha=0.5))
-
-    plt.tight_layout()
-    plt.savefig(OUTPUT_PATH / '01_fantasy_points_by_position.png', dpi=300, bbox_inches='tight')
-    print("Saved: 01_fantasy_points_by_position.png")
-    plt.close()
-
-    #SECTION 4: VISUALIZATION 2 SEASON TRENDS
-
-    print("Creating visualization 2: Season Trends...")
-
-    fig, ax = plt.subplots(figsize=(12, 7))
-
-    result_14 = data['result_14']
-    positions = result_14['pos'].unique()
-    colors_pos = {'QB': '#1f77b4', 'RB': '#ff7f0e', 'WR': '#2ca02c', 'TE': '#d62728'}
-
-    for pos in positions:
-        pos_data = result_14[result_14['pos'] == pos].sort_values('yr')
-        ax.plot(pos_data['yr'], pos_data['avg_pts'], marker='o', linewidth=2.5,
-                markersize=8, label=pos, color=colors_pos.get(pos, '#1f77b4'))
-
-    ax.set_xlabel('Season', fontsize=12, fontweight='bold')
-    ax.set_ylabel('Average Fantasy Points', fontsize=12, fontweight='bold')
-    ax.set_title('Fantasy Points Trends by Season and Position', fontsize=14, fontweight='bold')
-    ax.legend(fontsize=11, loc='best')
-    ax.grid(True, alpha=0.3)
-
-    plt.tight_layout()
-    plt.savefig(OUTPUT_PATH / '02_season_trends.png', dpi=300, bbox_inches='tight')
-    print("Saved: 02_season_trends.png")
-    plt.close()
-
-    #SECTION 5: VISUALIZATION 3 TOP PERFORMERS BY POSITION
-
-    print("Creating visualization 3: Top Performers...")
-
-    fig, axes = plt.subplots(2, 2, figsize=(14, 10))
-    fig.suptitle('Top 5 Players by Position (Average Fantasy Points)', fontsize=16, fontweight='bold')
-
-    #QB
-    ax = axes[0, 0]
-    qb_data = data['result_5'].head(5)
-    ax.barh(qb_data['player_name'], qb_data['avg_points'], color='#1f77b4', alpha=0.7, edgecolor='black')
-    ax.set_title('Top 5 QBs', fontsize=12, fontweight='bold')
-    ax.set_xlabel('Average Fantasy Points')
-    ax.invert_yaxis()
-
-    #RB
-    ax = axes[0, 1]
-    rb_data = data['result_6'].head(5)
-    ax.barh(rb_data['player_name'], rb_data['avg_points'], color='#ff7f0e', alpha=0.7, edgecolor='black')
-    ax.set_title('Top 5 RBs', fontsize=12, fontweight='bold')
-    ax.set_xlabel('Average Fantasy Points')
-    ax.invert_yaxis()
-
-    #WR
-    ax = axes[1, 0]
-    wr_data = data['result_7'].head(5)
-    ax.barh(wr_data['player_name'], wr_data['avg_points'], color='#2ca02c', alpha=0.7, edgecolor='black')
-    ax.set_title('Top 5 WRs', fontsize=12, fontweight='bold')
-    ax.set_xlabel('Average Fantasy Points')
-    ax.invert_yaxis()
-
-    #TE
-    ax = axes[1, 1]
-    te_data = data['result_8'].head(5)
-    ax.barh(te_data['player_name'], te_data['avg_points'], color='#d62728', alpha=0.7, edgecolor='black')
-    ax.set_title('Top 5 TEs', fontsize=12, fontweight='bold')
-    ax.set_xlabel('Average Fantasy Points')
-    ax.invert_yaxis()
-
-    plt.tight_layout()
-    plt.savefig(OUTPUT_PATH / '03_top_performers.png', dpi=300, bbox_inches='tight')
-    print("Saved: 03_top_performers.png")
-    plt.close()
-
-    #SECTION 6: VISUALIZATION 4 DRAFT VALUE BY ROUND
-
-    print("Creating visualization 4: Draft Value Analysis...")
-
-    fig, ax = plt.subplots(figsize=(12, 7))
-
-    result_11 = data['result_11']
-    qb_draft = result_11[result_11['pos'] == 'QB'].sort_values('avg_pts', ascending=False)
-
-    x = np.arange(len(qb_draft))
-    width = 0.35
-
-    ax.bar(x - width / 2, qb_draft['avg_pts'], width, label='Average Points', color='steelblue', alpha=0.7, edgecolor='black')
-    ax.bar(x + width / 2, qb_draft['std_dev'], width, label='Std Deviation', color='coral', alpha=0.7, edgecolor='black')
-
-    ax.set_xlabel('Draft Round', fontsize=12, fontweight='bold')
-    ax.set_ylabel('Fantasy Points', fontsize=12, fontweight='bold')
-    ax.set_title('QB Draft Value by Round (Average Points & Variance)', fontsize=14, fontweight='bold')
-    ax.set_xticks(x)
-    ax.set_xticklabels(qb_draft['draft_round'])
-    ax.legend(fontsize=11)
-    ax.grid(True, alpha=0.3, axis='y')
-
-    plt.tight_layout()
-    plt.savefig(OUTPUT_PATH / '04_draft_value_by_round.png', dpi=300, bbox_inches='tight')
-    print("Saved: 04_draft_value_by_round.png")
-    plt.close()
-
-    #SECTION 7: VISUALIZATION 5 TIER DISTRIBUTION
-
-    print("Creating visualization 5: Tier Distribution...")
-
-    fig, ax = plt.subplots(figsize=(12, 7))
-
-    result_12 = data['result_12']
-    tier_counts = result_12.groupby('tier').size().sort_values(ascending=False)
-
-    colors_tier = {
-        'Elite (Top 3)':    '#2ecc71',
-        'High Tier (4-10)': '#3498db',
-        'Mid Tier (11-20)': '#f39c12',
-        'Low Tier (21-30)': '#e74c3c',
-        'Bench/Flex':       '#95a5a6'
-    }
-
-    bar_colors = [colors_tier.get(tier, '#1f77b4') for tier in tier_counts.index]
-    bars = ax.bar(tier_counts.index, tier_counts.values, color=bar_colors, alpha=0.7, edgecolor='black', linewidth=2)
-
-    ax.set_ylabel('Player Count', fontsize=12, fontweight='bold')
-    ax.set_title('Player Distribution by Tier Classification', fontsize=14, fontweight='bold')
-    ax.grid(True, alpha=0.3, axis='y')
-
-    #Add value labels on bars
-    for bar in bars:
-        height = bar.get_height()
-        ax.text(bar.get_x() + bar.get_width() / 2., height,
-                f'{int(height)}',
-                ha='center', va='bottom', fontsize=11, fontweight='bold')
-
-    plt.xticks(rotation=45, ha='right')
-    plt.tight_layout()
-    plt.savefig(OUTPUT_PATH / '05_tier_distribution.png', dpi=300, bbox_inches='tight')
-    print("Saved: 05_tier_distribution.png")
-    plt.close()
-
-    #SECTION 8: KEY INSIGHTS
-
-    print()
-    print("KEY INSIGHTS & FINDINGS")
-    print()
-
-    #Insight 1: Position Performance
-    print("1. POSITION PERFORMANCE (Average Fantasy Points):")
-    result_2_sorted = data['result_2'].sort_values('avg_points', ascending=False)
-    for _, row in result_2_sorted.iterrows():
-        print(f"   {row['position']}: {row['avg_points']:.2f} avg pts (std = {row['std_dev']:.2f})")
-    print()
-
-    #Insight 2: Top Players by Position
-    print("2. ELITE PERFORMERS BY POSITION (5-Year Average):")
-    result_4 = data['result_4']
-    for pos in ['QB', 'RB', 'WR', 'TE']:
-        pos_data = result_4[result_4['pos'] == pos].head(5)
-        print(f"\n   {pos} - Top 5:")
-        for idx, (_, row) in enumerate(pos_data.iterrows(), 1):
-            print(f"      {idx}. {row['player_name']}: {row['avg_pts']:.1f} pts (Seasons: {int(row['seasons'])}, Consistency: {row['consistency']:.1f})")
-    print()
-
-    #Insight 3: Best Draft Values by Position
-    print("3. BEST DRAFT VALUES (Elite Steals) BY POSITION:")
-    result_1 = data['result_1']
-
-    for pos in ['QB', 'RB', 'WR', 'TE']:
-        pos_data = result_1[result_1['pos'] == pos]
-
-        if len(pos_data) > 0:
-            pos_steals = pos_data.nlargest(5, 'value_gained')
-            print(f"\n   {pos} - Top 5 Steals:")
-            for idx, (_, row) in enumerate(pos_steals.iterrows(), 1):
-                print(f"      {idx}. {row['player_name']} (Yr {int(row['yr'])}): Rank {int(row['draft_rank'])}, Value +{row['value_gained']:.1f} pts, Score: {row['pts']:.1f}")
-        else:
-            print(f"\n   {pos} - No data found")
-    print()
-
-    #Insight 4: Most Consistent Players by Position
-    print("4. MOST CONSISTENT PLAYERS BY POSITION (Lowest Variance):")
-    result_10 = data['result_10'].dropna()
-    for pos in ['QB', 'RB', 'WR', 'TE']:
-        pos_consistent = result_10[result_10['pos'] == pos].nsmallest(5, 'variance')
-        print(f"\n   {pos} - Top 5 Most Consistent:")
-        if len(pos_consistent) > 0:
-            for idx, (_, row) in enumerate(pos_consistent.iterrows(), 1):
-                print(f"      {idx}. {row['player_name']}: {row['variance']:.1f} variance (Avg: {row['avg_pts']:.1f} pts)")
-        else:
-            print(f"      No data found for {pos}")
-    print()
-
-    #Insight 5: Season Trends by Position
-    print("5. SEASON TRENDS - YEAR-OVER-YEAR CHANGES BY POSITION:")
-    result_14_years = data['result_14']
-    for pos in ['QB', 'RB', 'WR', 'TE']:
-        pos_trends = result_14_years[result_14_years['pos'] == pos].sort_values('yr')
-        print(f"\n   {pos} - 5-Year Trend:")
-        if len(pos_trends) > 0:
-            for _, row in pos_trends.iterrows():
-                print(f"      {int(row['yr'])}: {row['avg_pts']:.1f} pts")
-            yr_first = pos_trends.iloc[0]
-            yr_last = pos_trends.iloc[-1]
-            change = yr_last['avg_pts'] - yr_first['avg_pts']
-            change_pct = (change / yr_first['avg_pts']) * 100 if yr_first['avg_pts'] != 0 else 0
-            print(f"      Change: {change:+.1f} pts ({change_pct:+.1f}%)")
-        else:
-            print(f"      No data found for {pos}")
-    print()
-
-    #SECTION 9: CALCULATE PPR-BASED PERFORMANCE TIERS
-
-    print("CALCULATING PPR-BASED PERFORMANCE TIERS FOR ALL EXPORTS")
-    print()
-
-    #ELITE STEALS: Players exceeding average with high points and value
-    print("Calculating elite steals (high avg_pts + high value_gained)...")
-    elite_steals_all = []
-
-    result_1 = data['result_1']
-
-    for pos in ['QB', 'RB', 'WR', 'TE']:
-        pos_data = result_1[result_1['pos'] == pos]
-
-        if len(pos_data) > 0:
-            #Elite steals: high average performance + high value gained
-            elite_steals = pos_data.nlargest(5, 'value_gained')
-            elite_steals_all.append(elite_steals)
-            print(f"  Found {len(elite_steals)} elite steals for {pos}")
-
-    elite_steals_df = pd.concat(elite_steals_all, ignore_index=True)
-    elite_steals_df = elite_steals_df.sort_values('value_gained', ascending=False)
-    print(f"Total elite steals: {len(elite_steals_df)} (5 per position with highest value_gained)")
-    print()
-
-    #TOP PERFORMERS: High average fantasy points across seasons
-    print("Calculating top performers (high average points + consistency)...")
-    top_performers_all = []
-
-    result_4 = data['result_4']
-
-    for pos in ['QB', 'RB', 'WR', 'TE']:
-        pos_data = result_4[result_4['pos'] == pos]
-
-        if len(pos_data) > 0:
-            #Top performers: highest avg pts (quality) + multiple seasons (consistency)
-            top_performers = pos_data.nlargest(6, 'avg_pts')
-            top_performers_all.append(top_performers)
-            print(f"  Found {len(top_performers)} top performers for {pos} (avg_pts >= {top_performers['avg_pts'].min():.1f})")
-
-    top_performers_df = pd.concat(top_performers_all, ignore_index=True)
-    top_performers_df = top_performers_df.sort_values('avg_pts', ascending=False)
-    print(f"Total top performers: {len(top_performers_df)} (6 per position - highest average scoring)")
-    print()
-
-    #CONSISTENT PLAYERS: Low variance (reliable, predictable scoring)
-    print("Calculating consistent players (lowest variance = most reliable)...")
-    consistent_all = []
-
-    result_10 = data['result_10'].dropna()
-
-    for pos in ['QB', 'RB', 'WR', 'TE']:
-        pos_data = result_10[result_10['pos'] == pos]
-
-        if len(pos_data) > 0:
-            #Consistent players: lowest variance = most predictable week-to-week
-            consistent = pos_data.nsmallest(5, 'variance')
-            consistent_all.append(consistent)
-            avg_pts_threshold = consistent['avg_pts'].min()
-            print(f"  Found {len(consistent)} consistent players for {pos} (variance <= {consistent['variance'].max():.2f}, avg_pts >= {avg_pts_threshold:.1f})")
-
-    consistent_players_df = pd.concat(consistent_all, ignore_index=True)
-    consistent_players_df = consistent_players_df.sort_values('variance')
-    print(f"Total consistent players: {len(consistent_players_df)} (5 per position - lowest variance)")
-    print()
-
-    #TIER CLASSIFICATION: PPR-based performance tiers (Elite, Starter, Flex, Below Avg)
-    print("Calculating PPR-based tier classification...")
-    print(f"  PPR Benchmarks:")
-    print(f"    Elite Performance: {PPR_ELITE}+ points")
-    print(f"    Solid/Starter: {PPR_STARTER}-{PPR_ELITE - 0.1} points")
-    print(f"    Flex/Average: {PPR_FLEX}-{PPR_STARTER - 0.1} points")
-    print(f"    Below Average: < {PPR_BELOW_AVG} points")
-    print()
-
-    tier_all_positions = []
-
-    result_12 = data['result_12']
-
-    for pos in ['QB', 'RB', 'WR', 'TE']:
-        pos_data = result_12[result_12['pos'] == pos]
-
-        if len(pos_data) > 0:
-            #Get top performers per position (approximately top 12-15)
-            top_tiers = pos_data.head(15).copy()
-
-            #Apply PPR tier using the module-level classify_ppr_tier function
-            top_tiers['ppr_tier'] = top_tiers['pts'].apply(classify_ppr_tier)
-            tier_all_positions.append(top_tiers)
-
-            elite_count   = len(top_tiers[top_tiers['pts'] >= PPR_ELITE])
-            starter_count = len(top_tiers[(top_tiers['pts'] >= PPR_STARTER) & (top_tiers['pts'] < PPR_ELITE)])
-            flex_count    = len(top_tiers[(top_tiers['pts'] >= PPR_FLEX) & (top_tiers['pts'] < PPR_STARTER)])
-            below_count   = len(top_tiers[top_tiers['pts'] < PPR_BELOW_AVG])
-
-            print(f"  {pos}: {elite_count} Elite | {starter_count} Starter | {flex_count} Flex | {below_count} Below Avg")
-
-    tier_classification_df = pd.concat(tier_all_positions, ignore_index=True)
-    tier_classification_df = tier_classification_df.sort_values('pts', ascending=False)
-    print(f"Total players classified: {len(tier_classification_df)} across all positions with PPR tiers")
-    print()
-
-    #SECTION 10: EXPORT ANALYSIS SUMMARY
-
-    print("EXPORTING ANALYSIS SUMMARY")
-    print()
-
-    #Export key results with PPR-based logic applied to all positions
-    export_results = {
-        'fantasy_points_by_position': data['result_2'],
-        'top_performers':             top_performers_df,
-        'draft_value_analysis':       data['result_11'],
-        'tier_classification':        tier_classification_df,
-        'position_summary':           data['result_13'],
-        'season_trends':              data['result_14'],
-        'elite_steals':               elite_steals_df,
-        'consistent_players':         consistent_players_df
-    }
-
-    for export_name, export_df in export_results.items():
-        filepath = OUTPUT_PATH / f'{export_name}_analysis.csv'
-        export_df.to_csv(filepath, index=False)
-        print(f"Saved: {export_name}_analysis.csv ({len(export_df)} rows)")
-
-    print()
-    print("ANALYSIS COMPLETE!")
-    print()
-    print("Generated visualizations:")
-    print("  01_fantasy_points_by_position.png")
-    print("  02_season_trends.png")
-    print("  03_top_performers.png")
-    print("  04_draft_value_by_round.png")
-    print("  05_tier_distribution.png")
-    print()
-    print("Generated analysis exports (with PPR-based logic):")
-    for export_name in export_results.keys():
-        print(f"  {export_name}_analysis.csv ({len(export_results[export_name])} rows)")
-    print()
-    print("PPR PERFORMANCE BENCHMARKS APPLIED:")
-    print(f"  Elite Performance: {PPR_ELITE}+ points (winning performances)")
-    print(f"  Solid/Starter: {PPR_STARTER}-{PPR_ELITE - 0.1} points (dependable starters)")
-    print(f"  Flex/Average: {PPR_FLEX}-{PPR_STARTER - 0.1} points (weekly flex plays)")
-    print(f"  Below Average: < {PPR_BELOW_AVG} points (benchmarked or injuries)")
-    print()
-    print("All output files saved to:", OUTPUT_PATH)
+    main()

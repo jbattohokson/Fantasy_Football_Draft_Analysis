@@ -1,687 +1,2664 @@
-player_name,pos,seasons,avg_pts,consistency,peak,worst
-"Tom Brady (FA)",QB,2,209.90,12.94,222.84,196.96
-"Patrick Mahomes II (KC)",QB,5,183.83,24.76,220.60,152.48
-"Jared Goff (DET)",QB,5,181.81,21.56,196.56,139.10
-"Justin Herbert (LAC)",QB,5,173.45,27.77,210.46,134.26
-"Josh Allen (BUF)",QB,5,172.82,12.55,185.48,156.22
-"Matthew Stafford (LAR)",QB,5,165.08,40.29,205.94,92.58
-"Bo Nix (DEN)",QB,2,163.17,2.87,166.04,160.30
-"Caleb Williams (CHI)",QB,2,158.56,8.12,166.68,150.44
-"Dak Prescott (DAL)",QB,5,156.62,43.07,192.08,87.82
-"Joe Burrow (CIN)",QB,5,155.65,52.57,207.52,82.56
-"C.J. Stroud (HOU)",QB,3,154.41,17.84,174.32,131.04
-"Derek Carr (FA)",QB,4,153.02,37.94,201.56,96.10
-"Trevor Lawrence (JAC)",QB,5,151.18,31.42,173.92,90.00
-"Matt Ryan (FA)",QB,2,149.05,18.47,167.52,130.58
-"Baker Mayfield (TB)",QB,5,148.40,33.63,190.60,94.52
-"Jalen Hurts (PHI)",QB,5,144.20,14.1,163.12,126.32
-"Drake Maye (NE)",QB,2,143.20,44.06,187.26,99.14
-"Tua Tagovailoa (ATL)",QB,5,140.36,30.57,195.06,114.72
-"Kirk Cousins (ATL)",QB,5,140.00,43.64,191.18,77.04
-"Geno Smith (NYJ)",QB,5,137.10,53.2,182.20,38.08
-"Lamar Jackson (BAL)",QB,5,134.16,29.63,178.88,98.58
-"Aaron Rodgers (FA)",QB,5,128.91,63.4,175.90,4.00
-"Brock Purdy (SF)",QB,4,126.55,48.66,182.40,62.96
-"Bryce Young (CAR)",QB,3,118.61,10.46,129.04,104.32
-"Ryan Tannehill (FA)",QB,3,113.95,35.19,158.56,72.54
-"Russell Wilson (FA)",QB,5,113.26,38.68,149.56,40.44
-"Kyler Murray (FA)",QB,5,111.50,45.45,163.54,47.48
-"Mac Jones (SF)",QB,5,109.87,31.03,161.44,74.88
-"Sam Darnold (SEA)",QB,5,106.71,64.94,183.06,15.78
-"Jayden Daniels (WAS)",QB,2,105.75,46.67,152.42,59.08
-"Daniel Jones (IND)",QB,5,102.30,34.38,137.70,43.06
-"Jordan Love (GB)",QB,5,101.16,67.62,176.16,17.60
-"Will Levis (TEN)",QB,2,86.33,5.61,91.94,80.72
-"Justin Fields (NYJ)",QB,5,79.89,22.93,110.88,50.24
-"Jacoby Brissett (ARI)",QB,5,75.00,45.21,143.04,23.06
-"Zach Wilson (FA)",QB,4,69.88,38.23,100.46,5.98
-"Taylor Heinicke (FA)",QB,4,69.79,51.29,145.36,7.12
-"Jimmy Garoppolo (LAR)",QB,5,69.73,58.81,162.50,0.00
-"Joe Flacco (FA)",QB,5,67.02,27.24,106.36,26.52
-"Spencer Rattler (NO)",QB,2,65.71,5.93,71.64,59.78
-"Davis Mills (HOU)",QB,5,63.94,50.57,132.62,12.22
-"Michael Penix Jr. (ATL)",QB,2,63.84,24.44,88.28,39.40
-"Carson Wentz (FA)",QB,5,63.68,50.51,152.02,13.92
-"Desmond Ridder (GB)",QB,3,61.49,42.77,121.64,25.92
-"Sam Howell (FA)",QB,3,60.95,73.99,165.34,2.46
-"Aidan O'Connell (LV)",QB,3,59.96,36.69,97.02,9.98
-"Gardner Minshew II (ARI)",QB,5,58.70,49.64,140.80,3.38
-"Kenny Pickett (CAR)",QB,4,56.61,41.04,103.76,14.22
-"Andy Dalton (CAR)",QB,5,55.37,39.41,124.34,17.34
-"Deshaun Watson (CLE)",QB,3,52.70,0.93,54.02,52.00
-"Jameis Winston (NYG)",QB,5,46.88,26.48,91.74,14.06
-"Marcus Mariota (WAS)",QB,5,42.81,36.9,97.76,1.96
-"Teddy Bridgewater (FA)",QB,4,42.47,53.12,131.58,0.00
-"Jake Browning (FA)",QB,3,41.86,35.48,86.74,0.00
-"Joshua Dobbs (NE)",QB,4,40.59,38.44,106.66,11.10
-"Anthony Richardson Sr. (IND)",QB,3,38.27,31.35,79.46,3.46
-"Cooper Rush (BAL)",QB,5,37.51,25.24,80.86,12.46
-"Bailey Zappe (NYJ)",QB,3,36.71,18.66,57.08,12.00
-"Colt McCoy (FA)",QB,2,36.40,2.2,38.60,34.20
-"Mason Rudolph (PIT)",QB,4,36.31,20.93,69.40,18.28
-"Tyrod Taylor (FA)",QB,5,34.08,19.54,61.44,7.32
-"Tommy DeVito (NE)",QB,2,33.86,17.88,51.74,15.98
-"Tyler Huntley (BAL)",QB,5,33.24,11.77,49.44,16.12
-"Drew Lock (SEA)",QB,4,30.04,17.89,50.54,2.20
-"P.J. Walker (FA)",QB,3,29.56,7.34,37.04,19.58
-"Mike White (FA)",QB,4,28.95,22.55,56.08,5.12
-"Mitchell Trubisky (TEN)",QB,5,26.37,18.06,58.48,8.22
-"Trevor Siemian (FA)",QB,4,26.32,20.69,55.16,0.00
-"Dorian Thompson-Robinson (FA)",QB,2,22.50,0.8,23.30,21.70
-"Nick Mullens (JAC)",QB,5,21.35,20.56,61.14,4.36
-"Malik Willis (MIA)",QB,4,21.15,9.36,31.20,8.86
-"Tanner McKee (PHI)",QB,2,20.59,5.13,25.72,15.46
-"Trey Lance (LAC)",QB,4,19.04,7.13,31.12,12.76
-"Tyson Bagent (CHI)",QB,3,18.46,16.35,41.46,4.94
-"Joe Milton III (DAL)",QB,2,18.18,2.56,20.74,15.62
-"Nick Foles (FA)",QB,2,16.43,3.47,19.90,12.96
-"Tim Boyle (FA)",QB,4,16.20,8.77,25.54,1.82
-"Case Keenum (CHI)",QB,3,15.61,8.31,24.88,4.72
-"Josh Johnson (FA)",QB,4,15.60,10.96,32.12,4.58
-"Sam Ehlinger (DEN)",QB,2,15.46,15.46,30.92,0.00
-"Jarrett Stidham (DEN)",QB,4,15.17,15.51,34.94,0.00
-"Brian Hoyer (FA)",QB,3,14.47,2.71,16.88,10.68
-"Skylar Thompson (FA)",QB,3,14.28,11.27,27.56,0.00
-"John Wolford (FA)",QB,2,12.40,9.4,21.80,3.00
-"David Blough (FA)",QB,2,12.29,12.29,24.58,0.00
-"Blaine Gabbert (FA)",QB,3,11.25,1.81,13.06,8.78
-"Brandon Allen (FA)",QB,4,10.42,1.84,12.86,7.68
-"Brett Rypien (FA)",QB,4,10.35,9.64,25.22,0.00
-"Trace McSorley (FA)",QB,2,10.34,10.34,20.68,0.00
-"Kyle Allen (BUF)",QB,5,9.74,8,20.64,0.00
-"Chris Streveler (FA)",QB,2,8.52,3.38,11.90,5.14
-"Jeff Driskel (WAS)",QB,3,7.95,5.7,13.04,0.00
-"C.J. Beathard (FA)",QB,4,7.85,7.61,20.26,0.00
-"Jaren Hall (FA)",QB,2,7.36,7.36,14.72,0.00
-"Davis Webb (FA)",QB,2,7.16,7.16,14.32,0.00
-"Chris Oladokun (KC)",QB,3,5.77,8.16,17.30,0.00
-"Chase Daniel (FA)",QB,2,5.39,5.39,10.78,0.00
-"Jacob Eason (FA)",QB,3,3.75,3.57,8.56,0.00
-"Nathan Peterman (FA)",QB,3,3.69,5.21,11.06,0.00
-"Clayton Tune (FA)",QB,3,3.39,1.24,4.68,1.72
-"Chad Henne (FA)",QB,2,3.29,1.99,5.28,1.30
-"Kyle Trask (FA)",QB,3,3.17,1.39,5.12,2.00
-"Logan Woodside (FA)",QB,4,1.60,2.76,6.38,0.00
-"Feleipe Franks (FA)",QB,4,0.00,0,0.00,0.00
-"Malik Cunningham (DET)",QB,2,0.00,0,0.00,0.00
-"Matt Barkley (FA)",QB,2,0.00,0,0.00,0.00
-"Bijan Robinson (ATL)",RB,3,144.67,46.62,209.00,100.00
-"Breece Hall (NYJ)",RB,4,134.00,68.11,209.00,42.00
-"Austin Ekeler (FA)",RB,5,129.80,60.85,180.00,12.00
-"Christian McCaffrey (SF)",RB,5,127.00,76.5,221.00,29.00
-"Leonard Fournette (FA)",RB,3,120.33,86.28,198.00,0.00
-"Bucky Irving (TB)",RB,2,119.00,59,178.00,60.00
-"Tyjae Spears (TEN)",RB,3,111.67,12.26,127.00,97.00
-"Jaylen Warren (PIT)",RB,4,108.50,41.46,179.00,75.00
-"James Conner (ARI)",RB,5,106.80,62.08,204.00,23.00
-"Joe Mixon (FA)",RB,4,103.00,29.04,133.00,55.00
-"De'Von Achane (MIA)",RB,3,101.00,12.83,112.00,83.00
-"Travis Etienne Jr. (NO)",RB,4,100.25,42.98,145.00,30.00
-"Alvin Kamara (NO)",RB,5,97.80,40.92,138.00,23.00
-"Josh Jacobs (GB)",RB,5,96.20,26.53,142.00,61.00
-"Rachaad White (FA)",RB,4,95.50,26.73,125.00,65.00
-"Chase Brown (CIN)",RB,3,89.67,34.2,124.00,43.00
-"D'Andre Swift (CHI)",RB,5,86.20,21.57,122.00,65.00
-"Najee Harris (LAC)",RB,5,85.40,72.51,219.00,5.00
-"Kenneth Walker III (KC)",RB,4,85.25,41.76,146.00,32.00
-"Jahmyr Gibbs (DET)",RB,3,79.33,6.34,88.00,73.00
-"Samaje Perine (CIN)",RB,5,79.20,46.82,165.00,33.00
-"Saquon Barkley (PHI)",RB,5,77.20,31.44,130.00,38.00
-"David Montgomery (HOU)",RB,5,75.00,39.62,132.00,30.00
-"Tony Pollard (TEN)",RB,5,70.80,22.66,101.00,39.00
-"A.J. Dillon (FA)",RB,4,69.25,43.08,111.00,5.00
-"Tyrone Tracy Jr. (NYG)",RB,2,67.00,2,69.00,65.00
-"Aaron Jones Sr. (FA)",RB,5,66.40,19,90.00,41.00
-"Jonathan Taylor (IND)",RB,5,65.80,28.04,103.00,29.00
-"Rhamondre Stevenson (NE)",RB,5,65.00,26.37,115.00,42.00
-"Javonte Williams (DAL)",RB,5,64.60,23.74,93.00,34.00
-"James Cook III (BUF)",RB,4,64.00,38.15,103.00,12.00
-"Antonio Gibson (FA)",RB,5,63.20,43.77,131.00,3.00
-"Rico Dowdle (PIT)",RB,3,55.67,18.26,71.00,30.00
-"Alexander Mattison (FA)",RB,4,55.50,31.96,105.00,24.00
-"Zach Charbonnet (SEA)",RB,3,55.00,18.02,76.00,32.00
-"Derrick Henry (BAL)",RB,5,54.20,19.11,85.00,26.00
-"Ezekiel Elliott (FA)",RB,4,54.00,36.8,109.00,19.00
-"Chuba Hubbard (CAR)",RB,5,53.40,17.49,79.00,29.00
-"Kenneth Gainwell (TB)",RB,5,52.60,24.83,100.00,30.00
-"Ty Johnson (BUF)",RB,5,52.40,45.81,108.00,5.00
-"Michael Carter (FA)",RB,5,52.20,33.13,103.00,19.00
-"Justice Hill (BAL)",RB,4,52.00,30.41,95.00,9.00
-"Devin Singletary (NYG)",RB,5,51.40,17.04,73.00,29.00
-"Cordarrelle Patterson (FA)",RB,4,50.00,69.34,170.00,6.00
-"Mike Davis (FA)",RB,2,48.50,46.5,95.00,2.00
-"Brian Robinson Jr. (FA)",RB,4,47.25,42.38,112.00,6.00
-"Jeremy McNichols (FA)",RB,3,46.67,30.94,71.00,3.00
-"Jerome Ford (FA)",RB,4,45.75,35.32,88.00,0.00
-"Nyheim Miller-Hines (FA)",RB,3,44.00,32.38,77.00,0.00
-"Jerick McKinnon (FA)",RB,3,43.00,19.13,70.00,28.00
-"Kareem Hunt (FA)",RB,5,43.00,26.64,88.00,16.00
-"Darrel Williams (FA)",RB,2,42.50,38.5,81.00,4.00
-"Ameer Abdullah (FA)",RB,5,42.00,21.73,69.00,20.00
-"Zack Moss (FA)",RB,4,41.75,18.53,60.00,15.00
-"Clyde Edwards-Helaire (FA)",RB,5,40.40,35.79,103.00,4.00
-"Jaleel McLaughlin (DEN)",RB,3,40.33,30.44,83.00,14.00
-"Brandon Bolden (FA)",RB,3,40.00,49,109.00,0.00
-"Kyren Williams (LAR)",RB,4,40.00,10.82,53.00,25.00
-"Justin Jackson (FA)",RB,2,39.00,15,54.00,24.00
-"Eno Benjamin (FA)",RB,2,39.00,14,53.00,25.00
-"Kimani Vidal (LAC)",RB,2,38.50,33.5,72.00,5.00
-"David Johnson (FA)",RB,2,37.50,31.5,69.00,6.00
-"Raheem Mostert (LV)",RB,5,37.00,30.18,82.00,0.00
-"Tyler Allgeier (ARI)",RB,4,35.25,10.96,51.00,20.00
-"Miles Sanders (FA)",RB,5,34.80,20.71,67.00,14.00
-"Roschon Johnson (CHI)",RB,3,33.67,27.35,67.00,0.00
-"Kyle Juszczyk (SF)",RB,5,33.00,19.76,58.00,4.00
-"Dalvin Cook (FA)",RB,4,33.00,24.07,60.00,3.00
-"Demetric Felton Jr. (FA)",RB,2,32.50,31.5,64.00,1.00
-"Darrell Henderson Jr. (FA)",RB,3,32.00,8.6,42.00,21.00
-"Emanuel Wilson (FA)",RB,3,31.67,17.13,48.00,8.00
-"Sony Michel (FA)",RB,2,31.50,20.5,52.00,11.00
-"Chase Edmonds (WAS)",RB,3,31.33,22.1,61.00,8.00
-"Braelon Allen (NYJ)",RB,2,28.00,21,49.00,7.00
-"J.D. McKissic (FA)",RB,2,28.00,11,39.00,17.00
-"JaMycal Hasty (FA)",RB,3,27.67,5.31,34.00,21.00
-"Kenyan Drake (FA)",RB,3,27.33,27.39,66.00,6.00
-"Rex Burkhead (FA)",RB,2,26.00,14,40.00,12.00
-"Nick Chubb (FA)",RB,5,26.00,22.67,55.00,4.00
-"Mark Ingram II (FA)",RB,2,25.00,10,35.00,15.00
-"Latavius Murray (FA)",RB,3,25.00,10.03,39.00,16.00
-"Isiah Pacheco (KC)",RB,4,24.75,12.07,42.00,12.00
-"Deon Jackson (FA)",RB,3,23.33,29.53,65.00,0.00
-"D'Ernest Johnson (FA)",RB,5,22.60,19,47.00,0.00
-"Isaiah Davis (NYJ)",RB,2,22.00,2,24.00,20.00
-"Travis Homer (FA)",RB,4,21.25,22.73,58.00,0.00
-"Audric Estime (NO)",RB,2,21.00,13,34.00,8.00
-"Melvin Gordon III (FA)",RB,3,20.00,12.68,36.00,5.00
-"Marlon Mack (FA)",RB,2,20.00,18,38.00,2.00
-"James Robinson (FA)",RB,3,20.00,24.83,55.00,0.00
-"Elijah Mitchell (NE)",RB,3,19.67,22.9,52.00,2.00
-"Dontrell Hilliard (FA)",RB,2,19.50,0.5,20.00,19.00
-"Myles Gaskin (FA)",RB,4,19.00,27.44,66.00,0.00
-"Pierre Strong Jr. (GB)",RB,3,18.67,12.47,32.00,2.00
-"Jamaal Williams (FA)",RB,4,18.50,4.03,25.00,14.00
-"Chris Evans (FA)",RB,2,18.50,18.5,37.00,0.00
-"Chris Brooks (GB)",RB,3,18.33,13.12,30.00,0.00
-"Cam Akers (SEA)",RB,5,18.00,15.45,36.00,0.00
-"D'Onta Foreman (FA)",RB,4,17.50,2.96,22.00,14.00
-"Damien Harris (FA)",RB,3,17.33,11.09,30.00,3.00
-"Zamir White (LV)",RB,4,16.75,18.61,47.00,0.00
-"Hunter Luepke (DAL)",RB,3,16.67,8.58,27.00,6.00
-"Bam Knight (ARI)",RB,3,16.67,11.44,28.00,1.00
-"Dameon Pierce (FA)",RB,4,16.50,20.52,51.00,0.00
-"Alec Ingold (LAC)",RB,5,16.40,6.28,25.00,10.00
-"Khalil Herbert (FA)",RB,5,16.00,9.72,27.00,1.00
-"Giovani Bernard (FA)",RB,2,15.50,15.5,31.00,0.00
-"Salvon Ahmed (FA)",RB,3,15.00,10.61,23.00,0.00
-"Duke Johnson Jr. (FA)",RB,2,15.00,15,30.00,0.00
-"Matt Breida (FA)",RB,3,15.00,4.08,20.00,10.00
-"Patrick Ricard (BAL)",RB,3,14.67,10.66,27.00,1.00
-"Craig Reynolds (FA)",RB,5,14.40,8.82,26.00,0.00
-"Kendre Miller (NO)",RB,3,14.33,7.36,23.00,5.00
-"Raheem Blackshear (FA)",RB,3,14.33,11.44,28.00,0.00
-"J.K. Dobbins (DEN)",RB,4,14.00,8.4,28.00,7.00
-"Trey Benson (ARI)",RB,2,14.00,2,16.00,12.00
-"Ray Davis (BUF)",RB,2,13.50,2.5,16.00,11.00
-"Tank Bigsby (PHI)",RB,3,13.33,10.87,28.00,2.00
-"Tyler Goodson (IND)",RB,3,13.33,10.34,27.00,2.00
-"Sean Tucker (FA)",RB,3,13.00,13.59,32.00,1.00
-"Rashaad Penny (FA)",RB,3,12.67,11.73,29.00,2.00
-"Rasheen Ali (BAL)",RB,2,12.50,12.5,25.00,0.00
-"Keaontay Ingram (KC)",RB,2,12.50,8.5,21.00,4.00
-"Ty Chandler (FA)",RB,4,12.50,16.59,41.00,0.00
-"Dare Ogunbowale (FA)",RB,5,12.40,9.18,28.00,0.00
-"Tyler Badie (DEN)",RB,3,12.33,11.67,28.00,0.00
-"Will Shipley (PHI)",RB,2,12.00,4,16.00,8.00
-"Damien Williams (FA)",RB,3,12.00,12.96,30.00,0.00
-"Derrick Gore (FA)",RB,2,11.50,11.5,23.00,0.00
-"Jordan Mason (MIN)",RB,4,11.50,10.55,26.00,0.00
-"Jaylen Wright (MIA)",RB,2,11.50,9.5,21.00,2.00
-"Jeff Wilson Jr. (FA)",RB,4,11.25,11.3,30.00,1.00
-"Keith Smith (FA)",RB,2,11.00,6,17.00,5.00
-"Emari Demercado (FA)",RB,3,10.67,2.36,14.00,9.00
-"Eric Gray (NYG)",RB,2,10.50,6.5,17.00,4.00
-"Gary Brightwell (CIN)",RB,3,10.33,8.58,21.00,0.00
-"Ty Montgomery II (FA)",RB,3,10.33,6.13,18.00,3.00
-"Corey Clement (FA)",RB,2,10.00,7,17.00,3.00
-"Tevin Coleman (FA)",RB,2,10.00,6,16.00,4.00
-"Blake Corum (LAR)",RB,2,9.50,3.5,13.00,6.00
-"DeeJay Dallas (JAC)",RB,5,9.20,8.16,23.00,0.00
-"C.J. Ham (MIN)",RB,5,9.00,8.94,26.00,2.00
-"Deuce Vaughn (DEN)",RB,2,8.50,2.5,11.00,6.00
-"Jaret Patterson (LAC)",RB,3,8.33,11.09,24.00,0.00
-"Hassan Haskins (LAC)",RB,3,8.33,7.72,19.00,1.00
-"Keaton Mitchell (BAL)",RB,3,8.00,2.94,12.00,5.00
-"Benny Snell Jr. (FA)",RB,2,7.00,4,11.00,3.00
-"Joshua Kelley (FA)",RB,4,7.00,4.58,12.00,0.00
-"Gus Edwards (FA)",RB,3,6.67,8.06,18.00,0.00
-"Mike Boone (FA)",RB,4,6.50,4.27,12.00,0.00
-"Darrynton Evans (FA)",RB,4,6.25,5.76,12.00,0.00
-"Trey Sermon (FA)",RB,4,6.00,8.75,21.00,0.00
-"Malik Davis (DAL)",RB,2,6.00,4,10.00,2.00
-"Boston Scott (FA)",RB,3,5.67,3.77,11.00,3.00
-"Dylan Laube (LV)",RB,2,5.50,5.5,11.00,0.00
-"Ronald Jones II (FA)",RB,2,5.50,2.5,8.00,3.00
-"Trayveon Williams (FA)",RB,4,5.50,4.39,13.00,2.00
-"Isaiah Spiller (FA)",RB,2,5.00,5,10.00,0.00
-"Michael Burton (FA)",RB,4,4.50,4.92,13.00,1.00
-"Derek Watt (FA)",RB,2,4.50,4.5,9.00,0.00
-"Ronnie Rivers (LAR)",RB,4,4.50,4.03,11.00,0.00
-"Kevin Harris (FA)",RB,2,4.50,4.5,9.00,0.00
-"Godwin Igwebuike (FA)",RB,2,4.50,4.5,9.00,0.00
-"Julius Chestnut (FA)",RB,3,4.33,4.19,10.00,0.00
-"Chris Rodriguez Jr. (WAS)",RB,3,4.33,2.05,7.00,2.00
-"La'Mical Perine (FA)",RB,2,3.50,3.5,7.00,0.00
-"Jermar Jefferson (FA)",RB,2,3.00,1,4.00,2.00
-"Jonathan Williams (FA)",RB,3,3.00,2.16,5.00,0.00
-"Adam Prentice (DEN)",RB,4,2.75,1.92,5.00,0.00
-"Reggie Gilliam (NE)",RB,3,2.67,3.77,8.00,0.00
-"J.J. Taylor (FA)",RB,3,2.67,2.05,5.00,0.00
-"Tony Jones Jr. (FA)",RB,4,2.25,3.34,8.00,0.00
-"Royce Freeman (FA)",RB,3,2.00,1.63,4.00,0.00
-"Dwayne Washington (FA)",RB,2,2.00,1,3.00,1.00
-"Sione Vaki (DET)",RB,2,2.00,2,4.00,0.00
-"Phillip Lindsay (FA)",RB,2,2.00,2,4.00,0.00
-"Jonathan Ward (FA)",RB,4,1.75,1.79,4.00,0.00
-"Patrick Taylor Jr. (FA)",RB,4,1.50,1.66,4.00,0.00
-"Larry Rountree III (FA)",RB,2,1.50,1.5,3.00,0.00
-"Jordan Howard (FA)",RB,2,1.50,1.5,3.00,0.00
-"Malcolm Brown (FA)",RB,2,1.50,0.5,2.00,1.00
-"George Holani (SEA)",RB,2,1.50,1.5,3.00,0.00
-"Anthony McFarland Jr. (FA)",RB,2,1.50,1.5,3.00,0.00
-"Kene Nwangwu (FA)",RB,4,1.25,1.3,3.00,0.00
-"Ke'Shawn Vaughn (FA)",RB,4,1.00,1.73,4.00,0.00
-"Evan Hull (NO)",RB,2,0.50,0.5,1.00,0.00
-"Khari Blasingame (FA)",RB,2,0.50,0.5,1.00,0.00
-"Kylin Hill (FA)",RB,2,0.50,0.5,1.00,0.00
-"Devine Ozigbo (FA)",RB,3,0.33,0.47,1.00,0.00
-"Tyrion Davis-Price (FA)",RB,3,0.00,0,0.00,0.00
-"Terrell Jennings (NE)",RB,2,0.00,0,0.00,0.00
-"British Brooks (HOU)",RB,2,0.00,0,0.00,0.00
-"Reggie Bonnafon (FA)",RB,2,0.00,0,0.00,0.00
-"Jake Funk (FA)",RB,2,0.00,0,0.00,0.00
-"Travis Kelce (KC)",TE,5,196.02,27.84,243.80,161.10
-"Brock Bowers (LV)",TE,2,181.70,49.7,231.40,132.00
-"Trey McBride (ARI)",TE,4,173.63,75.13,249.90,55.50
-"George Kittle (SF)",TE,5,154.78,24.1,188.60,119.80
-"Mark Andrews (BAL)",TE,5,142.54,55.41,243.10,90.20
-"T.J. Hockenson (MIN)",TE,5,133.80,42.76,191.00,86.50
-"Dalton Schultz (HOU)",TE,5,132.38,22.54,159.70,106.20
-"Sam LaPorta (DET)",TE,3,132.13,35.11,174.90,88.90
-"Kyle Pitts Sr. (ATL)",TE,4,130.55,47.85,180.80,63.60
-"Evan Engram (DEN)",TE,5,125.26,48.78,210.30,83.50
-"Dallas Goedert (FA)",TE,5,118.62,15.42,139.00,91.60
-"Hunter Henry (NE)",TE,5,111.26,21.29,136.80,83.90
-"David Njoku (FA)",TE,5,110.06,36.38,169.20,62.30
-"Jake Ferguson (DAL)",TE,4,108.48,44.19,147.10,36.40
-"Dalton Kincaid (BUF)",TE,3,108.40,22.75,140.30,88.80
-"Cole Kmet (CHI)",TE,5,105.92,26.78,144.90,64.70
-"Pat Freiermuth (PIT)",TE,5,105.72,27.02,136.20,62.80
-"Zach Ertz (FA)",TE,5,103.08,36.25,150.30,45.70
-"Cade Otton (TB)",TE,4,102.20,15.95,119.00,81.10
-"Chig Okonkwo (FA)",TE,4,98.93,13.37,112.00,77.00
-"Tyler Conklin (LAC)",TE,5,93.92,39.56,123.10,17.10
-"Noah Fant (NO)",TE,5,93.56,24.96,135.00,62.80
-"Juwan Johnson (NO)",TE,5,93.24,44.57,165.90,28.90
-"Mike Gesicki (CIN)",TE,5,92.56,40.51,151.00,53.40
-"Jonnu Smith (FA)",TE,5,90.74,47.38,176.40,51.50
-"Tucker Kraft (GB)",TE,3,89.37,22.92,120.70,66.50
-"Darren Waller (FA)",TE,4,86.95,28.33,121.50,52.30
-"Tyler Higbee (LAR)",TE,5,83.04,43.62,134.00,14.60
-"Theo Johnson (NYG)",TE,2,79.95,17.85,97.80,62.10
-"AJ Barner (SEA)",TE,2,79.20,24.7,103.90,54.50
-"Gerald Everett (FA)",TE,4,78.25,39.32,113.50,11.60
-"Dawson Knox (BUF)",TE,5,75.76,25.87,107.70,40.60
-"Isaiah Likely (NYG)",TE,4,72.95,11.37,89.70,57.70
-"Logan Thomas (FA)",TE,3,71.17,27.35,104.60,37.60
-"Austin Hooper (ATL)",TE,5,69.24,18.62,92.60,47.30
-"Brenton Strange (JAC)",TE,3,63.20,39.44,100.00,8.50
-"Jordan Akins (FA)",TE,4,59.78,23.91,86.50,28.20
-"Ja'Tavion Sanders (CAR)",TE,2,57.60,9.6,67.20,48.00
-"Michael Mayer (LV)",TE,3,53.93,12.97,67.80,36.60
-"Foster Moreau (NO)",TE,5,53.76,23.95,75.00,12.90
-"Robert Tonyan (FA)",TE,3,53.53,33.52,100.00,22.20
-"Will Dissly (FA)",TE,5,53.20,27.43,98.10,20.70
-"C.J. Uzomah (FA)",TE,3,52.10,34.95,98.30,13.80
-"Colby Parkinson (LAR)",TE,5,51.68,24.53,83.80,8.30
-"Noah Gray (KC)",TE,5,49.90,24.28,83.70,10.60
-"Hayden Hurst (FA)",TE,4,49.43,30.36,97.90,15.30
-"Dan Arnold (FA)",TE,2,49.15,26.65,75.80,22.50
-"Cameron Brate (FA)",TE,2,45.95,8.55,54.50,37.40
-"Daniel Bellinger (TEN)",TE,4,45.35,11.38,56.80,26.50
-"Luke Musgrave (GB)",TE,3,43.30,23.92,69.20,11.50
-"Tommy Tremble (CAR)",TE,5,43.02,5.65,51.90,36.40
-"Elijah Higgins (ARI)",TE,3,42.53,12.74,60.10,30.30
-"Tanner Hudson (CIN)",TE,4,41.90,19.28,74.20,23.20
-"Adam Trautman (DEN)",TE,5,41.14,7,53.30,31.80
-"Darnell Washington (PIT)",TE,3,39.83,22.18,67.40,13.10
-"Donald Parham Jr. (FA)",TE,3,39.17,13.27,55.50,23.00
-"Kylen Granson (FA)",TE,5,38.56,21.9,66.80,11.00
-"Durham Smythe (FA)",TE,5,38.00,27.53,71.60,6.50
-"Greg Dulcich (MIA)",TE,4,36.73,30.53,74.10,5.50
-"Irv Smith Jr. (FA)",TE,2,36.35,6.85,43.20,29.50
-"Taysom Hill (FA)",TE,4,35.15,18.28,62.10,16.70
-"Mo Alie-Cox (FA)",TE,5,34.80,11.33,55.60,24.70
-"Brevin Jordan (HOU)",TE,3,34.50,5.46,38.90,26.80
-"Zach Gentry (FA)",TE,2,33.95,1.75,35.70,32.20
-"Jeremy Ruckert (NYJ)",TE,3,33.50,5.34,40.90,28.50
-"Josh Oliver (MIN)",TE,5,33.32,11.39,47.80,15.60
-"Anthony Firkser (FA)",TE,3,31.80,22.25,63.10,13.30
-"Albert Okwuegbunam Jr. (LV)",TE,3,31.37,24.89,66.00,8.60
-"Luke Schoonmaker (DAL)",TE,3,30.93,15.17,51.10,14.50
-"Johnny Mundt (FA)",TE,4,30.13,5.81,34.20,20.10
-"Ryan Griffin (FA)",TE,2,29.85,23.25,53.10,6.60
-"Geoff Swaim (FA)",TE,3,29.73,15.76,52.00,17.80
-"Jelani Woods (NYJ)",TE,2,28.80,27.4,56.20,1.40
-"Kyle Rudolph (FA)",TE,2,28.75,22.95,51.70,5.80
-"Drew Sample (CIN)",TE,4,28.48,7.05,38.30,19.10
-"John Bates (WAS)",TE,5,28.30,10.12,44.90,16.40
-"Harrison Bryant (FA)",TE,5,28.12,18.89,54.90,2.70
-"Pharaoh Brown (FA)",TE,4,28.03,9.76,40.10,14.50
-"Brock Wright (DET)",TE,5,26.64,6.54,39.60,22.10
-"Josh Whyle (GB)",TE,3,26.60,18.95,52.80,8.60
-"O.J. Howard (FA)",TE,2,26.00,1.5,27.50,24.50
-"Davis Allen (LAR)",TE,3,24.73,14.72,44.80,9.90
-"Cade Stover (HOU)",TE,2,23.95,4.35,28.30,19.60
-"Ian Thomas (LV)",TE,5,23.24,14.36,40.70,3.70
-"Grant Calcaterra (PHI)",TE,4,22.85,18.14,53.80,7.90
-"Will Mallory (IND)",TE,2,22.80,15.9,38.70,6.90
-"MyCole Pruitt (FA)",TE,4,22.38,8.23,31.00,10.00
-"Tyler Kroft (FA)",TE,2,21.50,11.8,33.30,9.70
-"Nick Vannett (LAR)",TE,3,21.43,7.78,30.50,11.50
-"Marcedes Lewis (FA)",TE,3,21.30,16.5,44.40,6.90
-"Julian Hill (MIA)",TE,3,20.60,7.5,29.00,10.80
-"Connor Heyward (PIT)",TE,4,20.48,13.78,39.70,5.10
-"Jimmy Graham (FA)",TE,2,20.30,10.4,30.70,9.90
-"Stone Smartt (FA)",TE,4,20.30,12.14,36.80,5.70
-"Maxx Williams (FA)",TE,2,20.05,15.25,35.30,4.80
-"Josiah Deguara (FA)",TE,5,19.58,16.64,49.50,4.40
-"Lucas Krull (DEN)",TE,3,18.40,12.55,34.20,3.50
-"Stephen Anderson (FA)",TE,2,18.20,14.3,32.50,3.90
-"Brevyn Spann-Ford (DAL)",TE,2,17.90,0.1,18.00,17.80
-"Charlie Kolar (LAC)",TE,4,17.73,5.98,24.20,8.90
-"Luke Farrell (SF)",TE,5,17.46,6.94,28.50,8.00
-"Drew Ogletree (FA)",TE,3,16.77,7.29,23.70,6.70
-"Hunter Long (JAC)",TE,2,16.75,3.75,20.50,13.00
-"Mitchell Wilcox (FA)",TE,3,16.70,10.84,30.90,4.60
-"Stephen Sullivan (FA)",TE,2,15.55,8.95,24.50,6.60
-"Brycen Hopkins (FA)",TE,2,15.35,2.55,17.90,12.80
-"Ben Sinnott (WAS)",TE,2,15.10,7.3,22.40,7.80
-"Eric Saubert (SEA)",TE,5,14.90,9.34,29.80,4.20
-"Nate Adkins (DEN)",TE,3,14.17,8.23,25.50,6.20
-"James Mitchell (CAR)",TE,2,14.05,8.25,22.30,5.80
-"Tre' McKitty (FA)",TE,2,13.85,3.35,17.20,10.50
-"Cole Turner (MIA)",TE,2,13.65,9.35,23.00,4.30
-"Parker Hesse (FA)",TE,2,13.60,4.3,17.90,9.30
-"Peyton Hendershot (FA)",TE,3,13.07,5.9,21.30,7.80
-"Andrew Beck (NYJ)",TE,3,12.97,2.56,16.50,10.50
-"Blake Bell (FA)",TE,2,12.65,5.05,17.70,7.60
-"Jack Stoll (NO)",TE,4,12.23,6.58,23.30,6.20
-"Quintin Morris (JAC)",TE,3,12.17,3.22,16.40,8.60
-"Payne Durham (TB)",TE,3,11.80,8.36,22.50,2.10
-"Tanner Conner (NYG)",TE,2,11.35,6.75,18.10,4.60
-"Charlie Woerner (ATL)",TE,4,10.20,2.49,12.80,6.20
-"Eric Tomlinson (FA)",TE,2,9.90,7,16.90,2.90
-"Shane Zylstra (FA)",TE,3,9.47,5.36,17.00,5.00
-"Chris Myarick (FA)",TE,2,9.10,4.4,13.50,4.70
-"Ross Dwelley (FA)",TE,3,8.43,4.43,13.50,2.70
-"Chris Manhertz (NYG)",TE,4,8.23,3.67,13.10,3.60
-"Ko Kieft (TB)",TE,2,8.10,6.9,15.00,1.20
-"Tucker Fisk (LAC)",TE,2,7.40,3.5,10.90,3.90
-"Tip Reiman (ARI)",TE,2,7.25,2.45,9.70,4.80
-"Kenny Yeboah (FA)",TE,2,7.25,2.45,9.70,4.80
-"Tyler Davis (FA)",TE,2,7.05,0.45,7.50,6.60
-"Ben Sims (MIN)",TE,3,6.77,1.01,8.20,6.00
-"Blake Whiteheart (CLE)",TE,2,6.75,4.35,11.10,2.40
-"Trevon Wesco (FA)",TE,2,5.55,0.95,6.50,4.60
-"Puka Nacua (LAR)",WR,3,244.03,50.47,300.50,178.00
-"Ja'Marr Chase (CIN)",WR,5,240.74,37.12,297.80,191.60
-"Justin Jefferson (MIN)",WR,5,239.80,50.37,308.90,175.40
-"Amon-Ra St. Brown (DET)",WR,5,234.44,31.14,270.50,181.20
-"CeeDee Lamb (DAL)",WR,5,229.02,45.91,309.90,182.70
-"Davante Adams (LAR)",WR,5,215.50,48.38,278.30,138.90
-"Jaxon Smith-Njigba (SEA)",WR,3,212.37,70.42,298.30,125.80
-"Tyreek Hill (FA)",WR,5,209.64,92.11,298.90,47.50
-"A.J. Brown (PHI)",WR,5,198.46,39.18,251.60,149.90
-"Stefon Diggs (FA)",WR,5,197.84,55.18,255.50,96.60
-"Michael Pittman Jr. (PIT)",WR,5,184.02,27,224.20,149.80
-"Zay Flowers (BAL)",WR,3,183.27,18.24,207.10,162.80
-"DJ Moore (BUF)",WR,5,181.14,40.96,232.40,118.20
-"Keenan Allen (LAC)",WR,5,179.28,38.84,232.30,141.20
-"DeVonta Smith (PHI)",WR,5,177.38,23,214.60,151.30
-"Drake London (ATL)",WR,4,176.28,29.35,227.10,158.60
-"Jaylen Waddle (MIA)",WR,5,175.38,29.71,210.60,132.40
-"Cooper Kupp (SEA)",WR,5,174.58,84.09,339.70,106.30
-"George Pickens (DAL)",WR,4,173.50,39.43,235.90,132.10
-"Ladd McConkey (LAC)",WR,2,170.90,26,196.90,144.90
-"DK Metcalf (PIT)",WR,5,170.62,16.55,194.80,144.00
-"Garrett Wilson (NYJ)",WR,4,169.85,54.86,211.40,75.50
-"Terry McLaurin (WAS)",WR,5,169.08,36.95,196.10,96.20
-"Brian Thomas Jr. (JAC)",WR,2,166.95,48.25,215.20,118.70
-"Chris Olave (NO)",WR,4,165.95,56.08,216.30,72.00
-"Jakobi Meyers (JAC)",WR,5,163.38,15.15,189.70,147.40
-"Mike Evans (SF)",WR,5,162.52,49.02,204.50,66.80
-"Amari Cooper (FA)",WR,4,161.05,39.71,197.00,98.70
-"Courtland Sutton (DEN)",WR,5,156.70,21.78,189.10,135.60
-"Tee Higgins (CIN)",WR,5,155.52,27.69,183.10,107.60
-"Chris Godwin Jr. (TB)",WR,5,155.32,56.64,208.30,69.00
-"Deebo Samuel Sr. (FA)",WR,5,149.72,36.21,217.50,118.00
-"Diontae Johnson (FA)",WR,4,147.63,56.95,223.10,70.50
-"Brandon Aiyuk (SF)",WR,4,147.43,55.12,209.20,62.40
-"Nico Collins (HOU)",WR,5,144.74,53.47,209.70,77.60
-"Tyler Lockett (LV)",WR,5,143.26,50.45,190.50,61.10
-"Jerry Jeudy (CLE)",WR,5,140.36,44.61,212.90,84.70
-"Jordan Addison (MIN)",WR,3,138.20,25.26,161.10,103.00
-"Josh Downs (IND)",WR,3,137.33,16.34,152.30,114.60
-"Malik Nabers (NYG)",WR,2,137.25,92.15,229.40,45.10
-"Wan'Dale Robinson (TEN)",WR,4,128.63,55.92,193.40,45.70
-"Adam Thielen (FA)",WR,5,126.54,54.15,204.40,37.60
-"Marvin Harrison Jr. (ARI)",WR,2,126.15,24.35,150.50,101.80
-"Michael Wilson (ARI)",WR,3,124.97,38.04,178.60,94.50
-"Tyler Boyd (FA)",WR,4,124.53,27.54,149.80,78.00
-"Christian Kirk (FA)",WR,5,124.50,57.38,194.80,51.90
-"Rome Odunze (CHI)",WR,2,118.75,8.65,127.40,110.10
-"Russell Gage Jr. (FA)",WR,2,118.30,24.7,143.00,93.60
-"Tank Dell (HOU)",WR,2,117.80,0.1,117.90,117.70
-"Darnell Mooney (FA)",WR,5,117.54,47.7,186.50,72.40
-"DeAndre Hopkins (BAL)",WR,5,117.52,41.39,180.70,55.00
-"Hollywood Brown (FA)",WR,5,112.78,56.36,191.80,18.10
-"Alec Pierce (IND)",WR,4,112.60,23.74,147.30,83.40
-"Calvin Ridley (TEN)",WR,4,112.43,59.52,177.60,47.30
-"Rashee Rice (KC)",WR,3,111.90,49.01,172.80,52.80
-"Romeo Doubs (NE)",WR,4,111.10,17.55,127.40,84.50
-"Quentin Johnston (LAC)",WR,3,110.57,20.85,126.10,81.10
-"Mike Williams (FA)",WR,4,109.45,63.59,190.60,43.90
-"Xavier Worthy (KC)",WR,2,109.00,13.8,122.80,95.20
-"Brandin Cooks (FA)",WR,5,108.82,53.16,193.70,51.90
-"Jayden Reed (GB)",WR,3,107.90,48.24,143.30,39.70
-"Khalil Shakir (BUF)",WR,4,107.05,51.39,158.10,26.10
-"DeMario Douglas (NE)",WR,3,102.97,21.45,128.10,75.70
-"Jameson Williams (DET)",WR,4,99.83,70.56,176.70,5.10
-"Darius Slayton (NYG)",WR,5,98.48,23.5,127.00,59.90
-"Troy Franklin (DEN)",WR,2,95.10,40.8,135.90,54.30
-"Rashid Shaheed (SEA)",WR,4,94.33,29.71,127.70,54.90
-"Jauan Jennings (FA)",WR,5,93.62,48,174.50,45.50
-"A.J. Green (FA)",WR,2,93.20,45.6,138.80,47.60
-"Tre Tucker (LV)",WR,3,93.20,30.9,126.60,52.10
-"Joshua Palmer (BUF)",WR,5,92.60,32.92,148.90,52.30
-"Christian Watson (GB)",WR,4,89.85,12.01,102.10,70.20
-"Donovan Peoples-Jones (FA)",WR,3,89.03,47.63,144.90,28.50
-"K.J. Osborn (FA)",WR,4,88.80,44.69,125.00,12.70
-"Kendrick Bourne (ARI)",WR,5,88.32,25.67,135.00,58.50
-"Marvin Jones Jr. (FA)",WR,3,87.87,60.8,156.20,8.50
-"Hunter Renfrow (FA)",WR,4,87.55,70.69,206.80,23.90
-"Elijah Moore (FA)",WR,5,87.28,36.49,123.00,20.20
-"Xavier Legette (CAR)",WR,2,85.00,13.7,98.70,71.30
-"Corey Davis (FA)",WR,2,84.40,1.2,85.60,83.20
-"Chase Claypool (FA)",WR,3,83.93,53.03,145.00,15.70
-"DeVante Parker (FA)",WR,3,82.93,7.92,91.50,72.40
-"Robert Woods (FA)",WR,4,82.30,25.72,105.70,40.30
-"Gabe Davis (FA)",WR,5,81.98,41.59,131.60,24.90
-"Keon Coleman (BUF)",WR,2,81.50,3.1,84.60,78.40
-"Parker Washington (JAC)",WR,3,80.97,46.87,142.70,29.20
-"Jarvis Landry (FA)",WR,2,80.60,28.4,109.00,52.20
-"Cole Beasley (FA)",WR,2,80.40,70.9,151.30,9.50
-"Dontayvion Wicks (GB)",WR,3,80.27,13.84,97.10,63.20
-"Ricky Pearsall (SF)",WR,2,79.90,8.9,88.80,71.00
-"Michael Gallup (FA)",WR,3,78.90,2.33,81.40,75.80
-"Allen Lazard (FA)",WR,5,78.24,40.77,138.80,17.00
-"Kalif Raymond (CHI)",WR,5,77.90,28.01,108.60,38.50
-"Tim Patrick (FA)",WR,3,77.50,38.02,126.40,33.70
-"Jalen Coker (CAR)",WR,2,76.10,3.7,79.80,72.40
-"Zay Jones (FA)",WR,5,75.74,53.27,164.30,16.40
-"Mack Hollins (NE)",WR,5,75.04,34.15,126.00,36.30
-"Rashod Bateman (BAL)",WR,5,74.34,30.8,120.60,41.40
-"Marquez Callaway (FA)",WR,2,73.80,42,115.80,31.80
-"Marvin Mims Jr. (DEN)",WR,3,72.73,12.34,89.30,59.70
-"JuJu Smith-Schuster (FA)",WR,5,72.56,51.12,171.30,27.90
-"Olamide Zaccheaus (ATL)",WR,5,71.44,24.87,95.60,26.40
-"Devaughn Vele (NO)",WR,2,71.40,17.1,88.50,54.30
-"Van Jefferson (FA)",WR,5,69.52,31.39,130.20,40.90
-"Quez Watkins (PHI)",WR,3,68.43,32.05,107.70,29.20
-"Jahan Dotson (ATL)",WR,4,68.23,26.29,100.80,40.60
-"Odell Beckham Jr. (FA)",WR,3,67.90,37.84,97.70,14.50
-"Demarcus Robinson (SF)",WR,5,67.88,17.24,93.80,49.60
-"Richie James Jr. (FA)",WR,2,67.65,46.25,113.90,21.40
-"Curtis Samuel (FA)",WR,5,66.60,51.56,129.60,8.70
-"Adonai Mitchell (NYJ)",WR,2,66.25,12.05,78.30,54.20
-"Jalen Tolbert (FA)",WR,3,65.70,31.62,110.00,38.30
-"Nelson Agholor (FA)",WR,4,65.43,17.47,84.30,37.10
-"Calvin Austin III (FA)",WR,3,64.67,22.92,90.80,35.00
-"Tutu Atwell (FA)",WR,4,64.63,29.49,98.20,25.20
-"Kayshon Boutte (NE)",WR,3,64.63,43.31,101.90,3.90
-"Marquez Valdes-Scantling (FA)",WR,5,63.66,27.56,110.70,26.00
-"Nick Westbrook-Ikhine (FA)",WR,5,63.38,23.34,85.60,19.90
-"Noah Brown (FA)",WR,5,63.24,33.35,98.50,13.30
-"Malik Washington (MIA)",WR,2,63.00,14.7,77.70,48.30
-"Andrei Iosivas (CIN)",WR,3,62.33,25.45,83.90,26.60
-"Josh Reynolds (FA)",WR,5,61.76,30.56,100.80,21.10
-"Deonte Harty (FA)",WR,2,61.50,31.5,93.00,30.00
-"Chris Moore (FA)",WR,4,60.65,27,102.80,31.70
-"Michael Thomas (FA)",WR,2,58.45,25.35,83.80,33.10
-"Tre'Quan Smith (FA)",WR,2,58.25,11.45,69.70,46.80
-"Mecole Hardman Jr. (BUF)",WR,4,57.85,42.6,128.30,21.00
-"Sammy Watkins (FA)",WR,2,57.45,8.95,66.40,48.50
-"Jalen McMillan (TB)",WR,2,56.45,26.65,83.10,29.80
-"Greg Dortch (FA)",WR,5,55.20,30.86,98.70,4.50
-"Ray-Ray McCloud III (FA)",WR,5,55.00,41.69,130.60,13.90
-"KaVontae Turpin (DAL)",WR,3,54.43,21.24,73.00,24.70
-"Ryan Flournoy (DAL)",WR,2,53.85,33.65,87.50,20.20
-"Allen Robinson II (FA)",WR,4,53.48,28.1,79.00,6.00
-"Trey Palmer (NO)",WR,2,53.35,24.15,77.50,29.20
-"Tyler Johnson (FA)",WR,3,52.93,16.52,72.00,31.70
-"Kadarius Toney (FA)",WR,3,52.67,20.51,81.00,33.10
-"Sterling Shepard (FA)",WR,5,51.64,24.73,76.10,15.70
-"Kenny Golladay (FA)",WR,2,51.60,37.5,89.10,14.10
-"Cedric Tillman (CLE)",WR,3,51.43,8.32,62.90,43.40
-"Laviska Shenault Jr. (FA)",WR,4,50.93,46.08,124.90,8.60
-"Byron Pringle (FA)",WR,3,50.80,34.05,98.80,23.50
-"Randall Cobb (FA)",WR,3,50.03,29.38,75.70,8.90
-"Damiere Byrd (FA)",WR,2,49.35,9.55,58.90,39.80
-"DJ Chark Jr. (FA)",WR,4,49.30,35.07,87.50,7.10
-"Julio Jones (FA)",WR,3,48.90,23.13,74.40,18.40
-"Keelan Cole Sr. (FA)",WR,2,48.50,24.4,72.90,24.10
-"Bryan Edwards (FA)",WR,2,47.80,43.3,91.10,4.50
-"Parris Campbell (DAL)",WR,4,47.73,45.5,125.30,9.00
-"Isaiah Hodgins (NYG)",WR,3,47.23,22.45,76.20,21.50
-"John Metchie III (FA)",WR,3,47.20,11.78,60.40,31.80
-"Isaiah McKenzie (FA)",WR,3,47.10,27.38,84.30,19.20
-"Cedrick Wilson Jr. (FA)",WR,5,46.58,32.6,105.20,9.40
-"DeSean Jackson (FA)",WR,2,44.85,20.55,65.40,24.30
-"DeAndre Carter (FA)",WR,4,44.38,36.34,99.80,7.90
-"Justin Watson (HOU)",WR,4,44.10,24.18,73.00,6.00
-"Jalen Nailor (LV)",WR,4,43.90,28.52,73.40,5.90
-"Kendall Hinton (FA)",WR,2,43.80,11.3,55.10,32.50
-"Laquon Treadwell (FA)",WR,2,43.30,33.1,76.40,10.20
-"Jordan Whittington (LAR)",WR,2,43.20,8.1,51.30,35.10
-"Marquise Goodwin (FA)",WR,3,42.57,23.29,65.70,10.70
-"Jamal Agnew (FA)",WR,3,41.70,4.25,46.90,36.50
-"David Moore (CAR)",WR,2,40.75,26.35,67.10,14.40
-"Jonathan Mingo (DAL)",WR,3,40.67,33.55,84.80,3.50
-"Xavier Hutchinson (HOU)",WR,3,39.50,27.22,77.80,17.00
-"Jamison Crowder (FA)",WR,4,38.95,33.59,95.70,12.00
-"Brandon Powell (FA)",WR,3,38.37,19.33,61.40,14.10
-"T.Y. Hilton (FA)",WR,2,37.60,18.5,56.10,19.10
-"Zach Pascal (FA)",WR,3,37.43,29.26,76.40,5.90
-"Terrace Marshall Jr. (MIA)",WR,4,36.95,25.25,77.00,7.10
-"Treylon Burks (FA)",WR,4,36.48,26,77.40,7.40
-"Braxton Berrios (FA)",WR,5,36.42,31.74,89.10,0.00
-"Robbie Chosen (FA)",WR,5,36.30,37.74,104.90,1.50
-"Dyami Brown (FA)",WR,5,36.02,14.47,60.80,19.30
-"Skyy Moore (GB)",WR,3,35.37,15.33,47.00,13.70
-"Freddie Swain (FA)",WR,2,35.35,23.95,59.30,11.40
-"Tyquan Thornton (KC)",WR,4,35.08,21.02,62.80,8.70
-"Jalen Guyton (FA)",WR,3,34.37,29.61,75.80,8.40
-"Shi Smith (FA)",WR,2,34.00,17.6,51.60,16.40
-"Devin Duvernay (FA)",WR,5,33.44,29.94,77.70,4.60
-"Luke McCaffrey (WAS)",WR,2,33.05,1.75,34.80,31.30
-"Lil'Jordan Humphrey (FA)",WR,5,32.00,18.11,60.30,4.00
-"Phillip Dorsett II (LV)",WR,2,31.85,13.85,45.70,18.00
-"Jake Bobo (SEA)",WR,2,31.15,7.45,38.60,23.70
-"Jalen Reagor (FA)",WR,4,29.78,19.17,62.90,17.00
-"Brandon Johnson (FA)",WR,2,28.80,18.6,47.40,10.20
-"Equanimeous St. Brown (FA)",WR,3,27.77,18.32,53.30,11.20
-"Jalin Hyatt (NYG)",WR,3,27.67,23.19,60.30,8.50
-"Ben Skowronek (PIT)",WR,5,27.66,24.92,76.60,10.90
-"David Bell (FA)",WR,3,27.27,16.39,45.40,5.70
-"Dante Pettis (NO)",WR,4,26.98,9.72,43.50,18.70
-"Xavier Gipson (NYG)",WR,2,26.90,17,43.90,9.90
-"Kevin Austin Jr. (NO)",WR,2,26.55,0.45,27.00,26.10
-"Cam Sims (FA)",WR,2,26.50,9.6,36.10,16.90
-"Trenton Irwin (FA)",WR,4,26.15,22.19,56.60,4.50
-"Trent Sherfield Sr. (FA)",WR,5,26.08,23.36,71.70,5.10
-"Denzel Mims (FA)",WR,2,25.45,4.15,29.60,21.30
-"KhaDarel Hodge (FA)",WR,5,25.06,11.05,37.20,6.10
-"N'Keal Harry (FA)",WR,2,24.50,5.9,30.40,18.60
-"Kyle Philips (FA)",WR,2,24.45,8.65,33.10,15.80
-"Breshad Perriman (FA)",WR,2,23.85,3.85,27.70,20.00
-"Alex Erickson (FA)",WR,2,23.85,15.35,39.20,8.50
-"Bo Melton (GB)",WR,3,23.20,10.37,37.80,14.70
-"Derius Davis (LAC)",WR,2,22.90,1.3,24.20,21.60
-"Ashton Dulin (IND)",WR,4,22.58,10.88,35.70,8.70
-"Amari Rodgers (FA)",WR,2,22.45,13.95,36.40,8.50
-"Marcus Johnson (FA)",WR,2,21.95,3.05,25.00,18.90
-"Chris Conley (FA)",WR,4,21.60,18.97,54.30,8.60
-"Mason Tipton (NO)",WR,2,21.25,2.65,23.90,18.60
-"Scotty Miller (FA)",WR,5,20.90,12.02,41.50,8.80
-"David Sills V (ATL)",WR,3,20.80,13.65,37.10,3.70
-"Malik Heath (ATL)",WR,3,20.60,5.3,27.50,14.60
-"Jeff Smith (FA)",WR,2,20.35,1.05,21.40,19.30
-"River Cracraft (FA)",WR,3,17.97,3.18,21.10,13.60
-"KJ Hamler (FA)",WR,2,17.95,5.55,23.50,12.40
-"Gunner Olszewski (NYG)",WR,2,17.40,7.1,24.50,10.30
-"Jalen Brooks (ARI)",WR,3,16.73,9.34,29.70,8.10
-"Anthony Schwartz (FA)",WR,2,16.30,7.2,23.50,9.10
-"Lawrence Cager (WAS)",WR,2,16.20,8.6,24.80,7.60
-"Rakim Jarrett (FA)",WR,2,15.70,5.7,21.40,10.00
-"Ryan Miller (NYG)",WR,2,15.10,9.7,24.80,5.40
-"Steven Sims Jr. (FA)",WR,2,14.95,9.45,24.40,5.50
-"Samori Toure (NO)",WR,2,14.50,1.3,15.80,13.20
-"Michael Bandy (DEN)",WR,2,13.95,4.95,18.90,9.00
-"Tom Kennedy (DET)",WR,3,13.70,6.14,22.10,7.60
-"James Proche II (FA)",WR,5,13.60,12.41,36.20,0.00
-"Dax Milne (FA)",WR,2,13.50,3.8,17.30,9.70
-"Jamari Thrash (CLE)",WR,2,12.95,7.75,20.70,5.20
-"Tylan Wallace (BAL)",WR,4,12.60,10.33,30.30,4.30
-"Velus Jones Jr. (SEA)",WR,2,11.85,5.85,17.70,6.00
-"Malachi Corley (CLE)",WR,2,11.75,7.15,18.90,4.60
-"Dee Eskridge (FA)",WR,4,11.70,3.32,16.40,7.40
-"Michael Woods II (FA)",WR,2,11.50,2,13.50,9.50
-"Deven Thompkins (ATL)",WR,4,11.30,8.14,25.30,5.70
-"Simi Fehoko (FA)",WR,2,11.00,5.6,16.60,5.40
-"Tim Jones (JAC)",WR,3,10.80,6.03,19.30,6.00
-"Ihmir Smith-Marsette (ARI)",WR,3,10.73,5.99,16.60,2.50
-"Cody White (SEA)",WR,2,10.15,1.85,12.00,8.30
-"Penny Hart (FA)",WR,2,8.95,3.95,12.90,5.00
-"Juwann Winfree (FA)",WR,2,8.25,5.55,13.80,2.70
-"Mike Thomas (FA)",WR,2,8.00,2.2,10.20,5.80
-"Cody Hollister (FA)",WR,2,7.85,0.55,8.40,7.30
-"Jake Kumerow (FA)",WR,2,7.60,2.8,10.40,4.80
-"D.J. Montgomery (IND)",WR,2,7.60,1,8.60,6.60
-"Britain Covey (PHI)",WR,3,7.53,2.65,10.40,4.00
-"Andre Baccellia (ARI)",WR,2,7.15,4.35,11.50,2.80
-"Kevin White (FA)",WR,2,7.10,2.3,9.40,4.80
-"Ronnie Bell (NO)",WR,3,7.10,4.03,12.80,4.20
-"Austin Trammell (JAC)",WR,3,5.93,1.88,7.60,3.30
-"Keith Kirkwood (FA)",WR,3,5.73,2.13,8.70,3.80
-"Racey McMath (FA)",WR,2,4.40,1.6,6.00,2.80
-"Dezmon Patmon (FA)",WR,2,4.25,0.15,4.40,4.10
+player_name,pos,yr,games_played,pts,ppg,pos_finish,tier
+Tom Brady,QB,2021,17,212.64,12.51,1,Elite starter
+Justin Herbert,QB,2021,17,200.56,11.8,2,Elite starter
+Matthew Stafford,QB,2021,17,195.44,11.5,3,Elite starter
+Patrick Mahomes II,QB,2021,17,193.12,11.36,4,Elite starter
+Derek Carr,QB,2021,17,192.16,11.3,5,Elite starter
+Joe Burrow,QB,2021,16,184.44,11.53,6,Elite starter
+Dak Prescott,QB,2021,16,177.96,11.12,7,Starter
+Josh Allen,QB,2021,17,176.28,10.37,8,Starter
+Kirk Cousins,QB,2021,16,168.84,10.55,9,Starter
+Aaron Rodgers,QB,2021,16,164.6,10.29,10,Starter
+Matt Ryan,QB,2021,17,158.72,9.34,11,Starter
+Jimmy Garoppolo,QB,2021,15,152.4,10.16,12,Starter
+Mac Jones,QB,2021,17,152.04,8.94,13,Bench depth
+Kyler Murray,QB,2021,14,151.48,10.82,14,Bench depth
+Ben Roethlisberger,QB,2021,16,149.6,9.35,15,Bench depth
+Ryan Tannehill,QB,2021,17,149.36,8.79,16,Bench depth
+Trevor Lawrence,QB,2021,17,145.64,8.57,17,Bench depth
+Carson Wentz,QB,2021,17,142.52,8.38,18,Bench depth
+Taylor Heinicke,QB,2021,16,136.76,8.55,19,Replacement level
+Jared Goff,QB,2021,14,129.8,9.27,20,Replacement level
+Jalen Hurts,QB,2021,15,125.76,8.38,21,Replacement level
+Russell Wilson,QB,2021,14,124.52,8.89,22,Replacement level
+Teddy Bridgewater,QB,2021,14,122.08,8.72,23,Replacement level
+Baker Mayfield,QB,2021,14,120.4,8.6,24,Replacement level
+Lamar Jackson,QB,2021,12,115.28,9.61,25,Replacement level
+Davis Mills,QB,2021,13,106.56,8.2,26,Replacement level
+Tua Tagovailoa,QB,2021,13,106.12,8.16,27,Replacement level
+Sam Darnold,QB,2021,12,101.08,8.42,28,Replacement level
+Daniel Jones,QB,2021,11,97.12,8.83,29,Replacement level
+Zach Wilson,QB,2021,13,93.36,7.18,30,Replacement level
+Justin Fields,QB,2021,12,74.8,6.23,31,Replacement level
+Andy Dalton,QB,2021,8,60.6,7.58,32,Replacement level
+Jacoby Brissett,QB,2021,11,51.32,4.67,33,Replacement level
+Jameis Winston,QB,2021,7,46.8,6.69,34,Replacement level
+Trevor Siemian,QB,2021,6,46.16,7.69,35,Replacement level
+Tyler Huntley,QB,2021,7,43.24,6.18,36,Replacement level
+Tyrod Taylor,QB,2021,6,38.64,6.44,37,Replacement level
+Mike White,QB,2021,4,38.12,9.53,38,Replacement level
+Mike Glennon,QB,2021,6,31.6,5.27,39,Replacement level
+Drew Lock,QB,2021,6,31.48,5.25,40,Replacement level
+Colt McCoy,QB,2021,8,29.6,3.7,41,Replacement level
+Geno Smith,QB,2021,4,28.08,7.02,42,Replacement level
+Cam Newton,QB,2021,8,27.36,3.42,43,Replacement level
+Josh Johnson,QB,2021,4,25.52,6.38,44,Replacement level
+Trey Lance,QB,2021,6,24.12,4.02,45,Replacement level
+Tim Boyle,QB,2021,4,21.04,5.26,46,Replacement level
+Case Keenum,QB,2021,5,18.48,3.7,47,Replacement level
+Gardner Minshew II,QB,2021,3,17.56,5.85,48,Replacement level
+Cooper Rush,QB,2021,4,16.88,4.22,49,Replacement level
+Jordan Love,QB,2021,6,16.44,2.74,50,Replacement level
+P.J. Walker,QB,2021,5,14.48,2.9,51,Replacement level
+Joe Flacco,QB,2021,2,13.52,6.76,52,Replacement level
+Mason Rudolph,QB,2021,2,11.08,5.54,53,Replacement level
+Nick Foles,QB,2021,1,10.0,10.0,54,Replacement level
+Brian Hoyer,QB,2021,5,9.08,1.82,55,Replacement level
+Jake Fromm,QB,2021,3,8.4,2.8,56,Replacement level
+Garrett Gilbert,QB,2021,1,7.76,7.76,57,Replacement level
+Sean Mannion,QB,2021,1,7.56,7.56,58,Replacement level
+Brandon Allen,QB,2021,5,5.96,1.19,59,Replacement level
+Nick Mullens,QB,2021,1,5.88,5.88,60,Replacement level
+Ian Book,QB,2021,1,5.4,5.4,61,Replacement level
+Kyle Allen,QB,2021,2,4.8,2.4,62,Replacement level
+Chad Henne,QB,2021,4,3.28,0.82,63,Replacement level
+Blaine Gabbert,QB,2021,6,2.68,0.45,64,Replacement level
+Mitchell Trubisky,QB,2021,5,1.72,0.34,65,Replacement level
+Chris Streveler,QB,2021,2,1.44,0.72,66,Replacement level
+C.J. Beathard,QB,2021,2,1.32,0.66,67,Replacement level
+Jacob Eason,QB,2021,1,1.0,1.0,68,Replacement level
+Josh Rosen,QB,2021,3,0.76,0.25,69,Replacement level
+Ryan Fitzpatrick,QB,2021,1,0.52,0.52,70,Replacement level
+John Wolford,QB,2021,2,0.2,0.1,71,Replacement level
+Kellen Mond,QB,2021,2,0.2,0.1,72,Replacement level
+Marcus Mariota,QB,2021,7,0.16,0.02,73,Replacement level
+Brett Rypien,QB,2021,1,0.0,0.0,74,Replacement level
+Chase Daniel,QB,2021,1,0.0,0.0,75,Replacement level
+David Blough,QB,2021,1,0.0,0.0,76,Replacement level
+Davis Webb,QB,2021,1,0.0,0.0,77,Replacement level
+Feleipe Franks,QB,2021,6,0.0,0.0,78,Replacement level
+Kurt Benkert,QB,2021,1,0.0,0.0,79,Replacement level
+Logan Woodside,QB,2021,4,0.0,0.0,80,Replacement level
+Nathan Peterman,QB,2021,1,0.0,0.0,81,Replacement level
+Sam Ehlinger,QB,2021,3,0.0,0.0,82,Replacement level
+Trace McSorley,QB,2021,1,0.0,0.0,83,Replacement level
+Patrick Mahomes II,QB,2022,17,210.0,12.35,1,Elite starter
+Justin Herbert,QB,2022,17,189.56,11.15,2,Elite starter
+Tom Brady,QB,2022,17,187.76,11.04,3,Elite starter
+Kirk Cousins,QB,2022,17,181.88,10.7,4,Elite starter
+Joe Burrow,QB,2022,17,181.08,10.65,5,Elite starter
+Jared Goff,QB,2022,17,177.52,10.44,6,Elite starter
+Josh Allen,QB,2022,17,172.64,10.16,7,Starter
+Geno Smith,QB,2022,17,171.28,10.08,8,Starter
+Trevor Lawrence,QB,2022,17,164.52,9.68,9,Starter
+Jalen Hurts,QB,2022,15,148.04,9.87,10,Starter
+Aaron Rodgers,QB,2022,17,147.8,8.69,11,Starter
+Tua Tagovailoa,QB,2022,13,141.92,10.92,12,Starter
+Russell Wilson,QB,2022,15,140.96,9.4,13,Bench depth
+Derek Carr,QB,2022,15,140.88,9.39,14,Bench depth
+Daniel Jones,QB,2022,16,128.2,8.01,15,Bench depth
+Davis Mills,QB,2022,15,124.72,8.31,16,Bench depth
+Matt Ryan,QB,2022,12,122.28,10.19,17,Bench depth
+Mac Jones,QB,2022,14,119.88,8.56,18,Bench depth
+Andy Dalton,QB,2022,14,114.84,8.2,19,Replacement level
+Dak Prescott,QB,2022,12,114.4,9.53,20,Replacement level
+Jacoby Brissett,QB,2022,14,104.32,7.45,21,Replacement level
+Ryan Tannehill,QB,2022,12,101.44,8.45,22,Replacement level
+Jimmy Garoppolo,QB,2022,11,97.48,8.86,23,Replacement level
+Kenny Pickett,QB,2022,13,96.16,7.4,24,Replacement level
+Kyler Murray,QB,2022,11,94.72,8.61,25,Replacement level
+Justin Fields,QB,2022,15,89.68,5.98,26,Replacement level
+Lamar Jackson,QB,2022,12,89.68,7.47,27,Replacement level
+Marcus Mariota,QB,2022,13,88.76,6.83,28,Replacement level
+Baker Mayfield,QB,2022,12,86.52,7.21,29,Replacement level
+Matthew Stafford,QB,2022,9,83.48,9.28,30,Replacement level
+Taylor Heinicke,QB,2022,9,74.36,8.26,31,Replacement level
+Carson Wentz,QB,2022,8,70.2,8.78,32,Replacement level
+Zach Wilson,QB,2022,9,67.52,7.5,33,Replacement level
+Brock Purdy,QB,2022,9,54.96,6.11,34,Replacement level
+Mitchell Trubisky,QB,2022,7,50.08,7.15,35,Replacement level
+Mike White,QB,2022,4,47.68,11.92,36,Replacement level
+Sam Darnold,QB,2022,6,45.72,7.62,37,Replacement level
+Deshaun Watson,QB,2022,6,44.08,7.35,38,Replacement level
+Cooper Rush,QB,2022,8,42.04,5.25,39,Replacement level
+Joe Flacco,QB,2022,5,42.04,8.41,40,Replacement level
+Jameis Winston,QB,2022,3,34.32,11.44,41,Replacement level
+Bailey Zappe,QB,2022,4,31.24,7.81,42,Replacement level
+Colt McCoy,QB,2022,4,31.2,7.8,43,Replacement level
+P.J. Walker,QB,2022,6,29.24,4.87,44,Replacement level
+Desmond Ridder,QB,2022,4,28.32,7.08,45,Replacement level
+Teddy Bridgewater,QB,2022,5,27.32,5.46,46,Replacement level
+Gardner Minshew II,QB,2022,5,26.52,5.3,47,Replacement level
+Tyler Huntley,QB,2022,5,26.32,5.26,48,Replacement level
+Jarrett Stidham,QB,2022,3,26.24,8.75,49,Replacement level
+Sam Ehlinger,QB,2022,4,22.92,5.73,50,Replacement level
+Skylar Thompson,QB,2022,7,21.36,3.05,51,Replacement level
+Brett Rypien,QB,2022,4,19.32,4.83,52,Replacement level
+Kyle Allen,QB,2022,3,16.64,5.55,53,Replacement level
+Trace McSorley,QB,2022,5,16.48,3.3,54,Replacement level
+Joshua Dobbs,QB,2022,2,16.44,8.22,55,Replacement level
+David Blough,QB,2022,2,16.08,8.04,56,Replacement level
+John Wolford,QB,2022,2,15.6,7.8,57,Replacement level
+Anthony Brown Jr.,QB,2022,2,12.08,6.04,58,Replacement level
+Malik Willis,QB,2022,7,11.04,1.58,59,Replacement level
+Nick Foles,QB,2022,2,8.96,4.48,60,Replacement level
+Nick Mullens,QB,2022,4,8.96,2.24,61,Replacement level
+Jordan Love,QB,2022,4,7.8,1.95,62,Replacement level
+Trey Lance,QB,2022,3,7.76,2.59,63,Replacement level
+Trevor Siemian,QB,2022,2,7.36,3.68,64,Replacement level
+Sam Howell,QB,2022,1,6.76,6.76,65,Replacement level
+Davis Webb,QB,2022,1,6.72,6.72,66,Replacement level
+Bryce Perkins,QB,2022,5,6.44,1.29,67,Replacement level
+Nathan Peterman,QB,2022,3,5.56,1.85,68,Replacement level
+Jeff Driskel,QB,2022,7,4.32,0.62,69,Replacement level
+Chris Streveler,QB,2022,1,3.6,3.6,70,Replacement level
+Jacob Eason,QB,2022,1,2.36,2.36,71,Replacement level
+Tyrod Taylor,QB,2022,3,2.32,0.77,72,Replacement level
+Chase Daniel,QB,2022,3,2.08,0.69,73,Replacement level
+Brian Hoyer,QB,2022,1,1.48,1.48,74,Replacement level
+C.J. Beathard,QB,2022,4,1.4,0.35,75,Replacement level
+Tim Boyle,QB,2022,1,1.32,1.32,76,Replacement level
+Blaine Gabbert,QB,2022,1,1.16,1.16,77,Replacement level
+Kyle Trask,QB,2022,1,0.92,0.92,78,Replacement level
+Brandon Allen,QB,2022,1,0.88,0.88,79,Replacement level
+Josh Johnson,QB,2022,1,0.4,0.4,80,Replacement level
+Case Keenum,QB,2022,2,0.32,0.16,81,Replacement level
+Chad Henne,QB,2022,3,0.0,0.0,82,Replacement level
+Davis Cheek,QB,2022,1,0.0,0.0,83,Replacement level
+Feleipe Franks,QB,2022,7,0.0,0.0,84,Replacement level
+Logan Woodside,QB,2022,1,0.0,0.0,85,Replacement level
+Matt Barkley,QB,2022,1,0.0,0.0,86,Replacement level
+Matt Corral,QB,2022,2,0.0,0.0,87,Replacement level
+Nate Sudfeld,QB,2022,2,0.0,0.0,88,Replacement level
+Tua Tagovailoa,QB,2023,17,184.96,10.88,1,Elite starter
+Jared Goff,QB,2023,17,183.0,10.76,2,Elite starter
+Dak Prescott,QB,2023,17,180.64,10.63,3,Elite starter
+Josh Allen,QB,2023,17,172.24,10.13,4,Elite starter
+Brock Purdy,QB,2023,16,171.2,10.7,5,Elite starter
+Patrick Mahomes II,QB,2023,16,167.32,10.46,6,Elite starter
+Jordan Love,QB,2023,17,166.36,9.79,7,Starter
+C.J. Stroud,QB,2023,15,164.32,10.95,8,Starter
+Baker Mayfield,QB,2023,17,161.76,9.52,9,Starter
+Trevor Lawrence,QB,2023,16,160.64,10.04,10,Starter
+Matthew Stafford,QB,2023,15,158.6,10.57,11,Starter
+Sam Howell,QB,2023,17,157.84,9.28,12,Starter
+Derek Carr,QB,2023,17,155.12,9.12,13,Bench depth
+Jalen Hurts,QB,2023,17,154.32,9.08,14,Bench depth
+Lamar Jackson,QB,2023,16,147.12,9.2,15,Bench depth
+Geno Smith,QB,2023,15,144.96,9.66,16,Bench depth
+Gardner Minshew II,QB,2023,16,132.2,8.26,17,Bench depth
+Justin Herbert,QB,2023,13,125.36,9.64,18,Bench depth
+Russell Wilson,QB,2023,15,122.8,8.19,19,Replacement level
+Bryce Young,QB,2023,16,115.08,7.19,20,Replacement level
+Desmond Ridder,QB,2023,15,113.44,7.56,21,Replacement level
+Justin Fields,QB,2023,13,102.48,7.88,22,Replacement level
+Joshua Dobbs,QB,2023,13,98.56,7.58,23,Replacement level
+Kirk Cousins,QB,2023,8,93.24,11.65,24,Replacement level
+Joe Burrow,QB,2023,10,92.36,9.24,25,Replacement level
+Zach Wilson,QB,2023,12,90.84,7.57,26,Replacement level
+Aidan O'Connell,QB,2023,11,88.72,8.07,27,Replacement level
+Mac Jones,QB,2023,11,84.8,7.71,28,Replacement level
+Kenny Pickett,QB,2023,12,82.8,6.9,29,Replacement level
+Jake Browning,QB,2023,9,77.44,8.6,30,Replacement level
+Will Levis,QB,2023,9,72.32,8.04,31,Replacement level
+Kyler Murray,QB,2023,8,71.96,8.99,32,Replacement level
+Joe Flacco,QB,2023,5,64.64,12.93,33,Replacement level
+Ryan Tannehill,QB,2023,9,64.64,7.18,34,Replacement level
+Tyrod Taylor,QB,2023,10,53.64,5.36,35,Replacement level
+Nick Mullens,QB,2023,5,52.24,10.45,36,Replacement level
+Bailey Zappe,QB,2023,10,50.88,5.09,37,Replacement level
+Jimmy Garoppolo,QB,2023,7,48.2,6.89,38,Replacement level
+Easton Stick,QB,2023,5,45.16,9.03,39,Replacement level
+Deshaun Watson,QB,2023,6,44.6,7.43,40,Replacement level
+Tommy DeVito,QB,2023,10,44.04,4.4,41,Replacement level
+Daniel Jones,QB,2023,6,36.36,6.06,42,Replacement level
+Taylor Heinicke,QB,2023,5,35.6,7.12,43,Replacement level
+Tyson Bagent,QB,2023,5,34.36,6.87,44,Replacement level
+Trevor Siemian,QB,2023,5,28.96,5.79,45,Replacement level
+Mason Rudolph,QB,2023,4,28.76,7.19,46,Replacement level
+P.J. Walker,QB,2023,5,26.96,5.39,47,Replacement level
+Mitchell Trubisky,QB,2023,5,25.28,5.06,48,Replacement level
+Anthony Richardson Sr.,QB,2023,4,23.08,5.77,49,Replacement level
+Drew Lock,QB,2023,4,21.72,5.43,50,Replacement level
+Jarrett Stidham,QB,2023,3,19.84,6.61,51,Replacement level
+Dorian Thompson-Robinson,QB,2023,7,17.6,2.51,52,Replacement level
+Andy Dalton,QB,2023,3,14.44,4.81,53,Replacement level
+Tim Boyle,QB,2023,3,14.4,4.8,54,Replacement level
+C.J. Beathard,QB,2023,7,13.96,1.99,55,Replacement level
+Sam Darnold,QB,2023,10,11.88,1.19,56,Replacement level
+Case Keenum,QB,2023,2,11.64,5.82,57,Replacement level
+Jameis Winston,QB,2023,6,10.56,1.76,58,Replacement level
+Brian Hoyer,QB,2023,2,9.24,4.62,59,Replacement level
+Jacoby Brissett,QB,2023,2,8.96,4.48,60,Replacement level
+Tyler Huntley,QB,2023,5,8.12,1.62,61,Replacement level
+Blaine Gabbert,QB,2023,2,7.4,3.7,62,Replacement level
+Davis Mills,QB,2023,6,6.92,1.15,63,Replacement level
+Brett Rypien,QB,2023,2,6.88,3.44,64,Replacement level
+Jaren Hall,QB,2023,3,6.72,2.24,65,Replacement level
+Jeff Driskel,QB,2023,1,6.64,6.64,66,Replacement level
+Marcus Mariota,QB,2023,2,6.56,3.28,67,Replacement level
+Carson Wentz,QB,2023,1,6.52,6.52,68,Replacement level
+Cooper Rush,QB,2023,8,5.76,0.72,69,Replacement level
+Malik Willis,QB,2023,2,2.96,1.48,70,Replacement level
+Mike White,QB,2023,6,2.96,0.49,71,Replacement level
+Clayton Tune,QB,2023,8,2.48,0.31,72,Replacement level
+Sean Clifford,QB,2023,2,1.48,0.74,73,Replacement level
+Logan Woodside,QB,2023,1,1.08,1.08,74,Replacement level
+AJ McCarron,QB,2023,2,0.76,0.38,75,Replacement level
+Aaron Rodgers,QB,2023,1,0.0,0.0,76,Replacement level
+Chris Oladokun,QB,2023,2,0.0,0.0,77,Replacement level
+Jacob Eason,QB,2023,2,0.0,0.0,78,Replacement level
+Kyle Allen,QB,2023,6,0.0,0.0,79,Replacement level
+Kyle Trask,QB,2023,2,0.0,0.0,80,Replacement level
+Malik Cunningham,QB,2023,2,0.0,0.0,81,Replacement level
+Matt Barkley,QB,2023,1,0.0,0.0,82,Replacement level
+Max Duggan,QB,2023,1,0.0,0.0,83,Replacement level
+Nathan Peterman,QB,2023,1,0.0,0.0,84,Replacement level
+Skylar Thompson,QB,2023,1,0.0,0.0,85,Replacement level
+Teddy Bridgewater,QB,2023,1,0.0,0.0,86,Replacement level
+Joe Burrow,QB,2024,17,196.72,11.57,1,Elite starter
+Jared Goff,QB,2024,17,185.16,10.89,2,Elite starter
+Baker Mayfield,QB,2024,17,180.0,10.59,3,Elite starter
+Geno Smith,QB,2024,17,172.8,10.16,4,Elite starter
+Sam Darnold,QB,2024,17,172.76,10.16,5,Elite starter
+Lamar Jackson,QB,2024,17,166.88,9.82,6,Elite starter
+Patrick Mahomes II,QB,2024,16,157.12,9.82,7,Starter
+Aaron Rodgers,QB,2024,17,155.88,9.17,8,Starter
+Justin Herbert,QB,2024,17,154.8,9.11,9,Starter
+Brock Purdy,QB,2024,15,154.56,10.3,10,Starter
+Kyler Murray,QB,2024,17,154.04,9.06,11,Starter
+Bo Nix,QB,2024,17,151.0,8.88,12,Starter
+Matthew Stafford,QB,2024,16,150.48,9.4,13,Bench depth
+Josh Allen,QB,2024,17,149.24,8.78,14,Bench depth
+C.J. Stroud,QB,2024,17,149.08,8.77,15,Bench depth
+Jayden Daniels,QB,2024,17,142.72,8.4,16,Bench depth
+Caleb Williams,QB,2024,17,141.64,8.33,17,Bench depth
+Kirk Cousins,QB,2024,14,140.32,10.02,18,Bench depth
+Jordan Love,QB,2024,15,135.56,9.04,19,Replacement level
+Jalen Hurts,QB,2024,15,116.12,7.74,20,Replacement level
+Tua Tagovailoa,QB,2024,11,114.68,10.43,21,Replacement level
+Russell Wilson,QB,2024,11,99.28,9.03,22,Replacement level
+Bryce Young,QB,2024,14,96.12,6.87,23,Replacement level
+Drake Maye,QB,2024,13,91.04,7.0,24,Replacement level
+Derek Carr,QB,2024,10,85.8,8.58,25,Replacement level
+Jameis Winston,QB,2024,11,84.84,7.71,26,Replacement level
+Will Levis,QB,2024,12,83.64,6.97,27,Replacement level
+Daniel Jones,QB,2024,10,82.8,8.28,28,Replacement level
+Trevor Lawrence,QB,2024,10,81.8,8.18,29,Replacement level
+Gardner Minshew II,QB,2024,10,80.52,8.05,30,Replacement level
+Dak Prescott,QB,2024,8,79.12,9.89,31,Replacement level
+Cooper Rush,QB,2024,12,73.76,6.15,32,Replacement level
+Anthony Richardson Sr.,QB,2024,11,72.56,6.6,33,Replacement level
+Joe Flacco,QB,2024,7,70.44,10.06,34,Replacement level
+Mac Jones,QB,2024,10,66.88,6.69,35,Replacement level
+Aidan O'Connell,QB,2024,9,64.48,7.16,36,Replacement level
+Mason Rudolph,QB,2024,8,61.2,7.65,37,Replacement level
+Spencer Rattler,QB,2024,7,52.68,7.53,38,Replacement level
+Deshaun Watson,QB,2024,7,45.92,6.56,39,Replacement level
+Justin Fields,QB,2024,10,44.24,4.42,40,Replacement level
+Drew Lock,QB,2024,7,42.84,6.12,41,Replacement level
+Andy Dalton,QB,2024,6,39.56,6.59,42,Replacement level
+Tyler Huntley,QB,2024,5,33.16,6.63,43,Replacement level
+Jacoby Brissett,QB,2024,7,33.04,4.72,44,Replacement level
+Michael Penix Jr.,QB,2024,5,31.0,6.2,45,Replacement level
+Malik Willis,QB,2024,7,22.0,3.14,46,Replacement level
+Desmond Ridder,QB,2024,5,18.32,3.66,47,Replacement level
+Dorian Thompson-Robinson,QB,2024,6,17.6,2.93,48,Replacement level
+Marcus Mariota,QB,2024,3,14.56,4.85,49,Replacement level
+Joshua Dobbs,QB,2024,3,14.44,4.81,50,Replacement level
+Jimmy Garoppolo,QB,2024,1,13.36,13.36,51,Replacement level
+Tanner McKee,QB,2024,2,12.92,6.46,52,Replacement level
+Kenny Pickett,QB,2024,5,11.64,2.33,53,Replacement level
+Tim Boyle,QB,2024,3,11.04,3.68,54,Replacement level
+Trey Lance,QB,2024,4,10.64,2.66,55,Replacement level
+Tommy DeVito,QB,2024,3,10.28,3.43,56,Replacement level
+Joe Milton III,QB,2024,1,9.64,9.64,57,Replacement level
+Jake Haener,QB,2024,8,9.04,1.13,58,Replacement level
+Davis Mills,QB,2024,4,8.48,2.12,59,Replacement level
+Brandon Allen,QB,2024,3,7.96,2.65,60,Replacement level
+Skylar Thompson,QB,2024,2,7.48,3.74,61,Replacement level
+Mitchell Trubisky,QB,2024,9,7.16,0.8,62,Replacement level
+Bailey Zappe,QB,2024,1,6.8,6.8,63,Replacement level
+Tyrod Taylor,QB,2024,2,4.76,2.38,64,Replacement level
+Carson Wentz,QB,2024,2,4.72,2.36,65,Replacement level
+Hendon Hooker,QB,2024,3,2.48,0.83,66,Replacement level
+Nick Mullens,QB,2024,4,1.52,0.38,67,Replacement level
+Mike White,QB,2024,1,1.12,1.12,68,Replacement level
+Taylor Heinicke,QB,2024,4,1.12,0.28,69,Replacement level
+Sam Howell,QB,2024,1,0.96,0.96,70,Replacement level
+Kyle Allen,QB,2024,1,0.76,0.76,71,Replacement level
+Josh Johnson,QB,2024,4,0.68,0.17,72,Replacement level
+Tyson Bagent,QB,2024,4,0.44,0.11,73,Replacement level
+Clayton Tune,QB,2024,6,0.32,0.05,74,Replacement level
+Kyle Trask,QB,2024,4,0.2,0.05,75,Replacement level
+Austin Reed,QB,2024,1,0.0,0.0,76,Replacement level
+C.J. Beathard,QB,2024,1,0.0,0.0,77,Replacement level
+Chris Oladokun,QB,2024,1,0.0,0.0,78,Replacement level
+Emory Jones,QB,2024,1,0.0,0.0,79,Replacement level
+Feleipe Franks,QB,2024,9,0.0,0.0,80,Replacement level
+Jake Browning,QB,2024,3,0.0,0.0,81,Replacement level
+Jake Luton,QB,2024,1,0.0,0.0,82,Replacement level
+Jaren Hall,QB,2024,1,0.0,0.0,83,Replacement level
+Jarrett Stidham,QB,2024,3,0.0,0.0,84,Replacement level
+Jeff Driskel,QB,2024,1,0.0,0.0,85,Replacement level
+Jordan Travis,QB,2024,1,0.0,0.0,86,Replacement level
+Sam Hartman,QB,2024,2,0.0,0.0,87,Replacement level
+Trevor Siemian,QB,2024,1,0.0,0.0,88,Replacement level
+Matthew Stafford,QB,2025,17,188.28,11.08,1,Elite starter
+Jared Goff,QB,2025,17,182.56,10.74,2,Elite starter
+Dak Prescott,QB,2025,17,182.08,10.71,3,Elite starter
+Drake Maye,QB,2025,17,175.76,10.34,4,Elite starter
+Sam Darnold,QB,2025,17,161.92,9.52,5,Elite starter
+Trevor Lawrence,QB,2025,17,160.28,9.43,6,Elite starter
+Caleb Williams,QB,2025,17,157.68,9.28,7,Starter
+Bo Nix,QB,2025,17,157.24,9.25,8,Starter
+Justin Herbert,QB,2025,16,149.08,9.32,9,Starter
+Baker Mayfield,QB,2025,17,147.72,8.69,10,Starter
+Josh Allen,QB,2025,17,146.72,8.63,11,Starter
+Patrick Mahomes II,QB,2025,14,143.48,10.25,12,Starter
+Jordan Love,QB,2025,15,135.24,9.02,13,Bench depth
+Jacoby Brissett,QB,2025,14,134.64,9.62,14,Bench depth
+Aaron Rodgers,QB,2025,16,132.88,8.3,15,Bench depth
+Jalen Hurts,QB,2025,16,128.96,8.06,16,Bench depth
+Cam Ward,QB,2025,17,126.76,7.46,17,Bench depth
+Daniel Jones,QB,2025,13,124.04,9.54,18,Bench depth
+C.J. Stroud,QB,2025,14,121.64,8.69,19,Replacement level
+Geno Smith,QB,2025,15,121.0,8.07,20,Replacement level
+Bryce Young,QB,2025,16,120.44,7.53,21,Replacement level
+Tua Tagovailoa,QB,2025,14,106.4,7.6,22,Replacement level
+Lamar Jackson,QB,2025,13,101.96,7.84,23,Replacement level
+Joe Flacco,QB,2025,13,99.16,7.63,24,Replacement level
+Tyler Shough,QB,2025,11,95.36,8.67,25,Replacement level
+Jaxson Dart,QB,2025,14,90.88,6.49,26,Replacement level
+Brock Purdy,QB,2025,9,86.68,9.63,27,Replacement level
+Mac Jones,QB,2025,11,86.04,7.82,28,Replacement level
+Michael Penix Jr.,QB,2025,9,79.28,8.81,29,Replacement level
+Joe Burrow,QB,2025,8,72.36,9.04,30,Replacement level
+Kirk Cousins,QB,2025,10,68.84,6.88,31,Replacement level
+Marcus Mariota,QB,2025,12,67.8,5.65,32,Replacement level
+J.J. McCarthy,QB,2025,10,65.28,6.53,33,Replacement level
+Spencer Rattler,QB,2025,9,63.44,7.05,34,Replacement level
+Shedeur Sanders,QB,2025,8,56.0,7.0,35,Replacement level
+Jayden Daniels,QB,2025,7,50.48,7.21,36,Replacement level
+Justin Fields,QB,2025,9,50.36,5.6,37,Replacement level
+Carson Wentz,QB,2025,5,48.64,9.73,38,Replacement level
+Kyler Murray,QB,2025,5,38.48,7.7,39,Replacement level
+Dillon Gabriel,QB,2025,10,37.48,3.75,40,Replacement level
+Davis Mills,QB,2025,6,36.6,6.1,41,Replacement level
+Russell Wilson,QB,2025,6,33.24,5.54,42,Replacement level
+Tyrod Taylor,QB,2025,6,31.16,5.19,43,Replacement level
+Jake Browning,QB,2025,5,30.84,6.17,44,Replacement level
+Brady Cook,QB,2025,5,29.56,5.91,45,Replacement level
+Quinn Ewers,QB,2025,4,24.88,6.22,46,Replacement level
+Jameis Winston,QB,2025,3,22.68,7.56,47,Replacement level
+Philip Rivers,QB,2025,3,21.76,7.25,48,Replacement level
+Tyler Huntley,QB,2025,5,17.04,3.41,49,Replacement level
+Malik Willis,QB,2025,4,16.88,4.22,50,Replacement level
+Riley Leonard,QB,2025,5,16.6,3.32,51,Replacement level
+Josh Johnson,QB,2025,5,14.88,2.98,52,Replacement level
+Max Brosmer,QB,2025,7,13.12,1.87,53,Replacement level
+Mitchell Trubisky,QB,2025,4,12.52,3.13,54,Replacement level
+Mason Rudolph,QB,2025,5,12.4,2.48,55,Replacement level
+Cooper Rush,QB,2025,4,12.12,3.03,56,Replacement level
+Andy Dalton,QB,2025,4,11.72,2.93,57,Replacement level
+Tanner McKee,QB,2025,4,10.96,2.74,58,Replacement level
+Chris Oladokun,QB,2025,3,9.4,3.13,59,Replacement level
+Trey Lance,QB,2025,4,9.04,2.26,60,Replacement level
+Kenny Pickett,QB,2025,6,7.52,1.25,61,Replacement level
+Joe Milton III,QB,2025,4,7.32,1.83,62,Replacement level
+Aidan O'Connell,QB,2025,1,4.08,4.08,63,Replacement level
+Shane Buechele,QB,2025,1,3.52,3.52,64,Replacement level
+Brandon Allen,QB,2025,1,2.88,2.88,65,Replacement level
+Joshua Dobbs,QB,2025,4,2.6,0.65,66,Replacement level
+Teddy Bridgewater,QB,2025,4,2.48,0.62,67,Replacement level
+Tyson Bagent,QB,2025,3,1.88,0.63,68,Replacement level
+Clayton Tune,QB,2025,2,1.68,0.84,69,Replacement level
+Gardner Minshew II,QB,2025,4,1.48,0.37,70,Replacement level
+Zach Wilson,QB,2025,4,1.28,0.32,71,Replacement level
+Nick Mullens,QB,2025,5,0.76,0.15,72,Replacement level
+Drew Lock,QB,2025,5,0.6,0.12,73,Replacement level
+Anthony Richardson Sr.,QB,2025,2,0.36,0.18,74,Replacement level
+Adrian Martinez,QB,2025,1,0.0,0.0,75,Replacement level
+Brett Rypien,QB,2025,1,0.0,0.0,76,Replacement level
+Feleipe Franks,QB,2025,12,0.0,0.0,77,Replacement level
+Jalen Milroe,QB,2025,4,0.0,0.0,78,Replacement level
+Jarrett Stidham,QB,2025,1,0.0,0.0,79,Replacement level
+Jimmy Garoppolo,QB,2025,5,0.0,0.0,80,Replacement level
+Kyle Allen,QB,2025,4,0.0,0.0,81,Replacement level
+Logan Woodside,QB,2025,3,0.0,0.0,82,Replacement level
+Malik Cunningham,QB,2025,1,0.0,0.0,83,Replacement level
+Stetson Bennett IV,QB,2025,1,0.0,0.0,84,Replacement level
+Will Grier,QB,2025,1,0.0,0.0,85,Replacement level
+Kedon Slovis,QB,2025,2,-0.08,-0.04,86,Replacement level
+Jonathan Taylor,RB,2021,17,221.1,13.01,1,Elite starter
+Najee Harris,RB,2021,17,194.0,11.41,2,Elite starter
+Joe Mixon,RB,2021,16,162.5,10.16,3,Elite starter
+Austin Ekeler,RB,2021,16,161.1,10.07,4,Elite starter
+Leonard Fournette,RB,2021,14,150.2,10.73,5,Elite starter
+Dalvin Cook,RB,2021,13,149.9,11.53,6,Elite starter
+Ezekiel Elliott,RB,2021,17,147.2,8.66,7,Elite starter
+Nick Chubb,RB,2021,14,145.9,10.42,8,Elite starter
+Antonio Gibson,RB,2021,16,145.7,9.11,9,Elite starter
+Josh Jacobs,RB,2021,15,141.2,9.41,10,Elite starter
+Alvin Kamara,RB,2021,13,136.8,10.52,11,Elite starter
+Javonte Williams,RB,2021,17,133.3,7.84,12,Elite starter
+Aaron Jones Sr.,RB,2021,15,131.9,8.79,13,Starter
+Devin Singletary,RB,2021,17,127.0,7.47,14,Starter
+David Montgomery,RB,2021,14,126.9,9.06,15,Starter
+D'Andre Swift,RB,2021,13,123.7,9.52,16,Starter
+Melvin Gordon III,RB,2021,16,119.8,7.49,17,Starter
+Elijah Mitchell,RB,2021,12,115.3,9.61,18,Starter
+A.J. Dillon,RB,2021,17,114.3,6.72,19,Starter
+Cordarrelle Patterson,RB,2021,16,113.8,7.11,20,Starter
+James Conner,RB,2021,15,112.2,7.48,21,Starter
+Derrick Henry,RB,2021,8,111.7,13.96,22,Starter
+Damien Harris,RB,2021,15,110.9,7.39,23,Starter
+Tony Pollard,RB,2021,15,110.9,7.39,24,Starter
+Myles Gaskin,RB,2021,17,110.2,6.48,25,Bench depth
+James Robinson,RB,2021,14,107.7,7.69,26,Bench depth
+Sony Michel,RB,2021,17,105.5,6.21,27,Bench depth
+Darrel Williams,RB,2021,17,102.8,6.05,28,Bench depth
+Chase Edmonds,RB,2021,12,102.2,8.52,29,Bench depth
+Miles Sanders,RB,2021,12,101.4,8.45,30,Bench depth
+Saquon Barkley,RB,2021,14,100.3,7.16,31,Bench depth
+Michael Carter,RB,2021,14,99.9,7.14,32,Bench depth
+Devontae Booker,RB,2021,16,99.3,6.21,33,Bench depth
+Darrell Henderson Jr.,RB,2021,12,97.8,8.15,34,Bench depth
+Mike Davis,RB,2021,17,94.3,5.55,35,Bench depth
+Devonta Freeman,RB,2021,16,91.6,5.72,36,Bench depth
+Chuba Hubbard,RB,2021,16,86.2,5.39,37,Replacement level
+Jamaal Williams,RB,2021,13,86.1,6.62,38,Replacement level
+Mark Ingram II,RB,2021,14,82.4,5.89,39,Replacement level
+Christian McCaffrey,RB,2021,7,81.2,11.6,40,Replacement level
+Alexander Mattison,RB,2021,16,81.1,5.07,41,Replacement level
+Rashaad Penny,RB,2021,10,80.9,8.09,42,Replacement level
+Rhamondre Stevenson,RB,2021,12,74.6,6.22,43,Replacement level
+D'Ernest Johnson,RB,2021,13,72.4,5.57,44,Replacement level
+Clyde Edwards-Helaire,RB,2021,10,70.7,7.07,45,Replacement level
+Rex Burkhead,RB,2021,15,67.7,4.51,46,Replacement level
+Nyheim Miller-Hines,RB,2021,17,67.6,3.98,47,Replacement level
+D'Onta Foreman,RB,2021,9,65.6,7.29,48,Replacement level
+J.D. McKissic,RB,2021,11,64.2,5.84,49,Replacement level
+Brandon Bolden,RB,2021,16,63.6,3.98,50,Replacement level
+Kenneth Gainwell,RB,2021,16,62.1,3.88,51,Replacement level
+Kareem Hunt,RB,2021,8,60.6,7.58,52,Replacement level
+Latavius Murray,RB,2021,14,60.1,4.29,53,Replacement level
+Justin Jackson,RB,2021,14,58.4,4.17,54,Replacement level
+Ty Johnson,RB,2021,15,57.8,3.85,55,Replacement level
+Zack Moss,RB,2021,13,57.5,4.42,56,Replacement level
+Khalil Herbert,RB,2021,16,57.3,3.58,57,Replacement level
+Kenyan Drake,RB,2021,12,55.4,4.62,58,Replacement level
+David Johnson,RB,2021,13,54.8,4.22,59,Replacement level
+Ameer Abdullah,RB,2021,17,54.6,3.21,60,Replacement level
+Dontrell Hilliard,RB,2021,8,54.0,6.75,61,Replacement level
+Ronald Jones II,RB,2021,15,52.8,3.52,62,Replacement level
+Samaje Perine,RB,2021,15,51.6,3.44,63,Replacement level
+Boston Scott,RB,2021,11,50.3,4.57,64,Replacement level
+Alex Collins,RB,2021,11,50.1,4.55,65,Replacement level
+Tevin Coleman,RB,2021,11,46.6,4.24,66,Replacement level
+Jeremy McNichols,RB,2021,13,43.6,3.35,67,Replacement level
+Jordan Howard,RB,2021,7,42.6,6.09,68,Replacement level
+Carlos Hyde,RB,2021,12,37.3,3.11,69,Replacement level
+Duke Johnson Jr.,RB,2021,5,37.0,7.4,70,Replacement level
+Jaret Patterson,RB,2021,14,36.6,2.61,71,Replacement level
+Jeff Wilson Jr.,RB,2021,9,36.4,4.04,72,Replacement level
+DeeJay Dallas,RB,2021,17,34.8,2.05,73,Replacement level
+Travis Homer,RB,2021,14,33.7,2.41,74,Replacement level
+Derrick Gore,RB,2021,8,33.6,4.2,75,Replacement level
+Damien Williams,RB,2021,12,32.4,2.7,76,Replacement level
+Kyle Juszczyk,RB,2021,15,32.2,2.15,77,Replacement level
+Peyton Barber,RB,2021,10,31.2,3.12,78,Replacement level
+Craig Reynolds,RB,2021,5,30.0,6.0,79,Replacement level
+JaMycal Hasty,RB,2021,11,29.8,2.71,80,Replacement level
+Chris Carson,RB,2021,4,29.2,7.3,81,Replacement level
+Phillip Lindsay,RB,2021,14,28.9,2.06,82,Replacement level
+Giovani Bernard,RB,2021,10,28.8,2.88,83,Replacement level
+Ty'Son Williams,RB,2021,8,27.5,3.44,84,Replacement level
+Royce Freeman,RB,2021,12,26.9,2.24,85,Replacement level
+Salvon Ahmed,RB,2021,11,26.9,2.45,86,Replacement level
+Dare Ogunbowale,RB,2021,13,26.7,2.05,87,Replacement level
+Chris Evans,RB,2021,9,22.7,2.52,88,Replacement level
+Ke'Shawn Vaughn,RB,2021,6,22.0,3.67,89,Replacement level
+C.J. Ham,RB,2021,15,20.4,1.36,90,Replacement level
+Demetric Felton Jr.,RB,2021,15,20.4,1.36,91,Replacement level
+Ty Montgomery II,RB,2021,14,20.4,1.46,92,Replacement level
+Corey Clement,RB,2021,11,20.0,1.82,93,Replacement level
+Trey Sermon,RB,2021,6,19.7,3.28,94,Replacement level
+Matt Breida,RB,2021,7,19.5,2.79,95,Replacement level
+Jerick McKinnon,RB,2021,9,19.2,2.13,96,Replacement level
+Tony Jones Jr.,RB,2021,10,19.2,1.92,97,Replacement level
+Elijhaa Penny,RB,2021,13,18.9,1.45,98,Replacement level
+Godwin Igwebuike,RB,2021,15,18.8,1.25,99,Replacement level
+Eno Benjamin,RB,2021,8,17.8,2.23,100,Replacement level
+Jalen Richard,RB,2021,9,16.0,1.78,101,Replacement level
+James White,RB,2021,3,15.8,5.27,102,Replacement level
+Malcolm Brown,RB,2021,6,15.5,2.58,103,Replacement level
+Joshua Kelley,RB,2021,8,15.2,1.9,104,Replacement level
+Le'Veon Bell,RB,2021,8,15.1,1.89,105,Replacement level
+Qadree Ollison,RB,2021,6,14.5,2.42,106,Replacement level
+Adrian Peterson,RB,2021,4,13.8,3.45,107,Replacement level
+Austin Walter,RB,2021,4,12.1,3.02,108,Replacement level
+Keith Smith,RB,2021,13,12.1,0.93,109,Replacement level
+Marlon Mack,RB,2021,6,12.1,2.02,110,Replacement level
+Jonathan Williams,RB,2021,5,11.9,2.38,111,Replacement level
+Benny Snell Jr.,RB,2021,16,11.8,0.74,112,Replacement level
+Jermar Jefferson,RB,2021,5,11.4,2.28,113,Replacement level
+Wayne Gallman Jr.,RB,2021,9,11.4,1.27,114,Replacement level
+Ryquell Armstead,RB,2021,2,11.0,5.5,115,Replacement level
+Patrick Taylor Jr.,RB,2021,5,10.9,2.18,116,Replacement level
+Alec Ingold,RB,2021,7,10.1,1.44,117,Replacement level
+Kene Nwangwu,RB,2021,9,10.1,1.12,118,Replacement level
+Larry Rountree III,RB,2021,10,9.7,0.97,119,Replacement level
+Patrick Ricard,RB,2021,8,8.4,1.05,120,Replacement level
+J.J. Taylor,RB,2021,5,7.7,1.54,121,Replacement level
+Wendell Smallwood,RB,2021,2,6.5,3.25,122,Replacement level
+Jonathan Ward,RB,2021,9,6.3,0.7,123,Replacement level
+Trayveon Williams,RB,2021,4,6.1,1.52,124,Replacement level
+Kalen Ballage,RB,2021,9,5.6,0.62,125,Replacement level
+Michael Burton,RB,2021,10,5.6,0.56,126,Replacement level
+Mike Boone,RB,2021,3,5.5,1.83,127,Replacement level
+Jason Huntley,RB,2021,1,5.1,5.1,128,Replacement level
+Jaylen Samuels,RB,2021,3,3.9,1.3,129,Replacement level
+Gabe Nabers,RB,2021,7,3.8,0.54,130,Replacement level
+Dwayne Washington,RB,2021,8,3.6,0.45,131,Replacement level
+Adam Prentice,RB,2021,5,3.5,0.7,132,Replacement level
+Kylin Hill,RB,2021,8,3.4,0.42,133,Replacement level
+Patrick Laird,RB,2021,3,3.4,1.13,134,Replacement level
+Cam Akers,RB,2021,2,3.3,1.65,135,Replacement level
+Reggie Gilliam,RB,2021,8,3.3,0.41,136,Replacement level
+Scottie Phillips,RB,2021,3,3.3,1.1,137,Replacement level
+Alex Armah Jr.,RB,2021,10,3.1,0.31,138,Replacement level
+Deon Jackson,RB,2021,5,3.1,0.62,139,Replacement level
+Derek Watt,RB,2021,11,3.1,0.28,140,Replacement level
+La'Mical Perine,RB,2021,2,3.1,1.55,141,Replacement level
+Andy Janovich,RB,2021,6,3.0,0.5,142,Replacement level
+JaQuan Hardy,RB,2021,2,2.9,1.45,143,Replacement level
+Trey Ragas,RB,2021,1,2.9,2.9,144,Replacement level
+Darrynton Evans,RB,2021,2,2.7,1.35,145,Replacement level
+Khari Blasingame,RB,2021,5,2.6,0.52,146,Replacement level
+Johnny Stanton IV,RB,2021,3,2.5,0.83,147,Replacement level
+Reggie Bonnafon,RB,2021,1,2.4,2.4,148,Replacement level
+Raheem Mostert,RB,2021,1,2.0,2.0,149,Replacement level
+Gary Brightwell,RB,2021,7,1.4,0.2,150,Replacement level
+Ryan Nall,RB,2021,5,1.4,0.28,151,Replacement level
+Anthony McFarland Jr.,RB,2021,3,1.3,0.43,152,Replacement level
+John Kelly Jr.,RB,2021,1,1.3,1.3,153,Replacement level
+Jacques Patrick,RB,2021,1,1.2,1.2,154,Replacement level
+Buddy Howell,RB,2021,5,1.1,0.22,155,Replacement level
+Mekhi Sargent,RB,2021,5,1.1,0.22,156,Replacement level
+Damarea Crockett,RB,2021,1,0.7,0.7,157,Replacement level
+Devine Ozigbo,RB,2021,2,0.7,0.35,158,Replacement level
+Jake Funk,RB,2021,5,0.5,0.1,159,Replacement level
+Ito Smith,RB,2021,1,0.4,0.4,160,Replacement level
+Trenton Cannon,RB,2021,10,0.4,0.04,161,Replacement level
+Nathan Cottrell,RB,2021,3,0.3,0.1,162,Replacement level
+Kenjon Barner,RB,2021,3,0.0,0.0,163,Replacement level
+Nate McCrary,RB,2021,1,-0.1,-0.1,164,Replacement level
+Josh Jacobs,RB,2022,17,218.3,12.84,1,Elite starter
+Christian McCaffrey,RB,2022,17,198.9,11.7,2,Elite starter
+Austin Ekeler,RB,2022,17,198.5,11.68,3,Elite starter
+Saquon Barkley,RB,2022,16,188.2,11.76,4,Elite starter
+Derrick Henry,RB,2022,16,186.8,11.68,5,Elite starter
+Nick Chubb,RB,2022,17,179.5,10.56,6,Elite starter
+Rhamondre Stevenson,RB,2022,17,173.0,10.18,7,Elite starter
+Aaron Jones Sr.,RB,2022,17,171.1,10.06,8,Elite starter
+Dalvin Cook,RB,2022,17,156.3,9.19,9,Elite starter
+Travis Etienne Jr.,RB,2022,17,147.5,8.68,10,Elite starter
+Miles Sanders,RB,2022,17,146.9,8.64,11,Elite starter
+Alvin Kamara,RB,2022,15,146.7,9.78,12,Elite starter
+Najee Harris,RB,2022,17,144.4,8.49,13,Starter
+Joe Mixon,RB,2022,15,142.6,9.51,14,Starter
+Leonard Fournette,RB,2022,16,139.8,8.74,15,Starter
+Tony Pollard,RB,2022,16,139.7,8.73,16,Starter
+Kenneth Walker III,RB,2022,15,132.0,8.8,17,Starter
+James Conner,RB,2022,13,124.2,9.55,18,Starter
+Dameon Pierce,RB,2022,13,123.9,9.53,19,Starter
+Devin Singletary,RB,2022,17,120.2,7.07,20,Starter
+Raheem Mostert,RB,2022,16,120.1,7.51,21,Starter
+Tyler Allgeier,RB,2022,16,119.5,7.47,22,Starter
+Jamaal Williams,RB,2022,17,118.6,6.98,23,Starter
+David Montgomery,RB,2022,16,114.1,7.13,24,Starter
+Jonathan Taylor,RB,2022,12,114.1,9.51,25,Bench depth
+Jeff Wilson Jr.,RB,2022,16,108.0,6.75,26,Bench depth
+A.J. Dillon,RB,2022,17,105.0,6.18,27,Bench depth
+Ezekiel Elliott,RB,2022,15,104.6,6.97,28,Bench depth
+Latavius Murray,RB,2022,14,103.0,7.36,29,Bench depth
+D'Andre Swift,RB,2022,14,102.2,7.3,30,Bench depth
+Antonio Gibson,RB,2022,15,100.6,6.71,31,Bench depth
+Rachaad White,RB,2022,17,98.1,5.77,32,Bench depth
+D'Onta Foreman,RB,2022,16,96.4,6.03,33,Bench depth
+Isiah Pacheco,RB,2022,17,96.0,5.65,34,Bench depth
+Cam Akers,RB,2022,15,91.6,6.11,35,Bench depth
+Cordarrelle Patterson,RB,2022,13,90.5,6.96,36,Bench depth
+Brian Robinson Jr.,RB,2022,12,88.7,7.39,37,Replacement level
+Jerick McKinnon,RB,2022,17,85.1,5.01,38,Replacement level
+Khalil Herbert,RB,2022,13,82.1,6.32,39,Replacement level
+Kareem Hunt,RB,2022,17,81.8,4.81,40,Replacement level
+Michael Carter,RB,2022,16,81.2,5.08,41,Replacement level
+Samaje Perine,RB,2022,16,77.4,4.84,42,Replacement level
+James Cook III,RB,2022,17,73.5,4.32,43,Replacement level
+Jaylen Warren,RB,2022,16,65.9,4.12,44,Replacement level
+Breece Hall,RB,2022,7,65.3,9.33,45,Replacement level
+Kenyan Drake,RB,2022,12,65.2,5.43,46,Replacement level
+Damien Harris,RB,2022,11,63.2,5.75,47,Replacement level
+Chuba Hubbard,RB,2022,14,60.6,4.33,48,Replacement level
+J.K. Dobbins,RB,2022,8,59.0,7.38,49,Replacement level
+Melvin Gordon III,RB,2022,10,56.8,5.68,50,Replacement level
+Zack Moss,RB,2022,13,56.6,4.35,51,Replacement level
+Eno Benjamin,RB,2022,13,56.3,4.33,52,Replacement level
+Deon Jackson,RB,2022,12,53.6,4.47,53,Replacement level
+James Robinson,RB,2022,11,53.5,4.86,54,Replacement level
+Clyde Edwards-Helaire,RB,2022,10,47.2,4.72,55,Replacement level
+Kenneth Gainwell,RB,2022,17,47.0,2.76,56,Replacement level
+Darrell Henderson Jr.,RB,2022,10,45.3,4.53,57,Replacement level
+Rex Burkhead,RB,2022,15,45.0,3.0,58,Replacement level
+Alexander Mattison,RB,2022,17,43.3,2.55,59,Replacement level
+Gus Edwards,RB,2022,9,43.3,4.81,60,Replacement level
+Bam Knight,RB,2022,7,43.0,6.14,61,Replacement level
+Joshua Kelley,RB,2022,12,42.7,3.56,62,Replacement level
+Matt Breida,RB,2022,17,42.0,2.47,63,Replacement level
+Chase Edmonds,RB,2022,13,40.5,3.12,64,Replacement level
+JaMycal Hasty,RB,2022,14,40.4,2.89,65,Replacement level
+Mark Ingram II,RB,2022,10,39.3,3.93,66,Replacement level
+Caleb Huntley,RB,2022,12,38.6,3.22,67,Replacement level
+Rashaad Penny,RB,2022,5,38.6,7.72,68,Replacement level
+Justice Hill,RB,2022,15,38.2,2.55,69,Replacement level
+J.D. McKissic,RB,2022,9,36.5,4.06,70,Replacement level
+Javonte Williams,RB,2022,4,36.4,9.1,71,Replacement level
+DeeJay Dallas,RB,2022,15,35.6,2.37,72,Replacement level
+Dontrell Hilliard,RB,2022,12,35.5,2.96,73,Replacement level
+Nyheim Miller-Hines,RB,2022,16,33.3,2.08,74,Replacement level
+Dare Ogunbowale,RB,2022,15,32.3,2.15,75,Replacement level
+Elijah Mitchell,RB,2022,5,30.9,6.18,76,Replacement level
+Justin Jackson,RB,2022,15,29.0,1.93,77,Replacement level
+Ty Johnson,RB,2022,12,28.0,2.33,78,Replacement level
+Ameer Abdullah,RB,2022,16,27.0,1.69,79,Replacement level
+Boston Scott,RB,2022,15,26.7,1.78,80,Replacement level
+Jordan Mason,RB,2022,12,25.8,2.15,81,Replacement level
+Avery Williams,RB,2022,17,23.9,1.41,82,Replacement level
+Travis Homer,RB,2022,12,23.4,1.95,83,Replacement level
+Kyren Williams,RB,2022,8,22.9,2.86,84,Replacement level
+Jonathan Williams,RB,2022,9,22.2,2.47,85,Replacement level
+Malik Davis,RB,2022,6,22.1,3.68,86,Replacement level
+Kyle Juszczyk,RB,2022,13,21.6,1.66,87,Replacement level
+Hassan Haskins,RB,2022,14,20.3,1.45,88,Replacement level
+Sony Michel,RB,2022,10,19.6,1.96,89,Replacement level
+Craig Reynolds,RB,2022,7,19.2,2.74,90,Replacement level
+Mike Boone,RB,2022,8,19.2,2.4,91,Replacement level
+Gary Brightwell,RB,2022,15,19.1,1.27,92,Replacement level
+Raheem Blackshear,RB,2022,13,17.7,1.36,93,Replacement level
+Royce Freeman,RB,2022,5,17.7,3.54,94,Replacement level
+Pierre Strong Jr.,RB,2022,10,17.0,1.7,95,Replacement level
+Brandon Bolden,RB,2022,12,16.6,1.38,96,Replacement level
+Marlon Mack,RB,2022,8,16.4,2.05,97,Replacement level
+Alec Ingold,RB,2022,13,15.8,1.22,98,Replacement level
+Darrel Williams,RB,2022,5,14.2,2.84,99,Replacement level
+Malcolm Brown,RB,2022,7,13.1,1.87,100,Replacement level
+Patrick Ricard,RB,2022,13,12.6,0.97,101,Replacement level
+Jordan Wilkins,RB,2022,4,11.8,2.95,102,Replacement level
+Benny Snell Jr.,RB,2022,9,11.0,1.22,103,Replacement level
+Phillip Lindsay,RB,2022,3,10.9,3.63,104,Replacement level
+C.J. Ham,RB,2022,12,10.7,0.89,105,Replacement level
+Corey Clement,RB,2022,5,10.5,2.1,106,Replacement level
+Keaontay Ingram,RB,2022,11,10.0,0.91,107,Replacement level
+Tyrion Davis-Price,RB,2022,5,9.9,1.98,108,Replacement level
+Ke'Shawn Vaughn,RB,2022,9,8.3,0.92,109,Replacement level
+Ronald Jones II,RB,2022,5,8.0,1.6,110,Replacement level
+Jaret Patterson,RB,2022,2,7.8,3.9,111,Replacement level
+Darrynton Evans,RB,2022,3,7.4,2.47,112,Replacement level
+Salvon Ahmed,RB,2022,7,7.4,1.06,113,Replacement level
+Tony Jones Jr.,RB,2022,3,7.4,2.47,114,Replacement level
+Trestan Ebner,RB,2022,11,7.4,0.67,115,Replacement level
+Derek Watt,RB,2022,12,7.1,0.59,116,Replacement level
+Isaiah Spiller,RB,2022,5,7.1,1.42,117,Replacement level
+Ronnie Rivers,RB,2022,2,7.1,3.55,118,Replacement level
+Zamir White,RB,2022,11,7.0,0.64,119,Replacement level
+Myles Gaskin,RB,2022,2,6.6,3.3,120,Replacement level
+David Johnson,RB,2022,4,6.4,1.6,121,Replacement level
+Spencer Brown,RB,2022,2,6.3,3.15,122,Replacement level
+Zander Horvath,RB,2022,8,5.8,0.72,123,Replacement level
+Tevin Coleman,RB,2022,3,5.6,1.87,124,Replacement level
+Kevin Harris,RB,2022,5,5.2,1.04,125,Replacement level
+Anthony McFarland Jr.,RB,2022,1,5.0,5.0,126,Replacement level
+Trayveon Williams,RB,2022,9,5.0,0.56,127,Replacement level
+Dwayne Washington,RB,2022,7,4.8,0.69,128,Replacement level
+Giovani Bernard,RB,2022,4,4.8,1.2,129,Replacement level
+D'Ernest Johnson,RB,2022,10,4.7,0.47,130,Replacement level
+Jonathan Ward,RB,2022,4,4.5,1.13,131,Replacement level
+Julius Chestnut,RB,2022,6,4.2,0.7,132,Replacement level
+Snoop Conner,RB,2022,5,4.2,0.84,133,Replacement level
+Patrick Taylor Jr.,RB,2022,7,4.1,0.59,134,Replacement level
+Adam Prentice,RB,2022,6,3.9,0.65,135,Replacement level
+Larry Rountree III,RB,2022,3,3.9,1.3,136,Replacement level
+Mike Davis,RB,2022,5,3.8,0.76,137,Replacement level
+Kene Nwangwu,RB,2022,14,3.4,0.24,138,Replacement level
+Ty Montgomery II,RB,2022,1,2.8,2.8,139,Replacement level
+Michael Burton,RB,2022,12,2.7,0.23,140,Replacement level
+Ty Chandler,RB,2022,2,2.0,1.0,141,Replacement level
+J.J. Taylor,RB,2022,1,1.9,1.9,142,Replacement level
+Trey Sermon,RB,2022,1,1.9,1.9,143,Replacement level
+Demetric Felton Jr.,RB,2022,6,1.6,0.27,144,Replacement level
+Devine Ozigbo,RB,2022,3,1.4,0.47,145,Replacement level
+Godwin Igwebuike,RB,2022,5,1.4,0.28,146,Replacement level
+Jerome Ford,RB,2022,13,1.2,0.09,147,Replacement level
+Keith Smith,RB,2022,10,1.2,0.12,148,Replacement level
+Tyler Badie,RB,2022,1,1.0,1.0,149,Replacement level
+Reggie Bonnafon,RB,2022,1,0.8,0.8,150,Replacement level
+Kylin Hill,RB,2022,1,0.7,0.7,151,Replacement level
+Duke Johnson Jr.,RB,2022,1,0.4,0.4,152,Replacement level
+Damien Williams,RB,2022,1,0.2,0.2,153,Replacement level
+Jordan Howard,RB,2022,1,0.1,0.1,154,Replacement level
+Christian McCaffrey,RB,2023,16,212.9,13.31,1,Elite starter
+Breece Hall,RB,2023,17,175.4,10.32,2,Elite starter
+Rachaad White,RB,2023,17,163.0,9.59,3,Elite starter
+Travis Etienne Jr.,RB,2023,17,158.8,9.34,4,Elite starter
+James Cook III,RB,2023,17,156.2,9.19,5,Elite starter
+Bijan Robinson,RB,2023,17,155.6,9.15,6,Elite starter
+Tony Pollard,RB,2023,17,155.5,9.15,7,Elite starter
+Joe Mixon,RB,2023,17,155.4,9.14,8,Elite starter
+Jahmyr Gibbs,RB,2023,15,146.5,9.77,9,Elite starter
+Kyren Williams,RB,2023,12,146.4,12.2,10,Elite starter
+Derrick Henry,RB,2023,17,144.7,8.51,11,Elite starter
+Alvin Kamara,RB,2023,13,144.4,11.11,12,Elite starter
+D'Andre Swift,RB,2023,16,143.9,8.99,13,Starter
+Jaylen Warren,RB,2023,17,139.4,8.2,14,Starter
+Isiah Pacheco,RB,2023,14,137.5,9.82,15,Starter
+Saquon Barkley,RB,2023,14,137.2,9.8,16,Starter
+Najee Harris,RB,2023,17,132.5,7.79,17,Starter
+James Conner,RB,2023,13,131.0,10.08,18,Starter
+Chuba Hubbard,RB,2023,17,129.2,7.6,19,Starter
+Raheem Mostert,RB,2023,15,126.2,8.41,20,Starter
+Jerome Ford,RB,2023,17,125.3,7.37,21,Starter
+Javonte Williams,RB,2023,16,124.4,7.78,22,Starter
+Devin Singletary,RB,2023,17,119.8,7.05,23,Starter
+Kenneth Walker III,RB,2023,15,119.5,7.97,24,Starter
+David Montgomery,RB,2023,14,117.5,8.39,25,Bench depth
+Josh Jacobs,RB,2023,13,117.5,9.04,26,Bench depth
+Ezekiel Elliott,RB,2023,17,115.2,6.78,27,Bench depth
+Austin Ekeler,RB,2023,14,113.8,8.13,28,Bench depth
+Brian Robinson Jr.,RB,2023,15,109.3,7.29,29,Bench depth
+De'Von Achane,RB,2023,11,107.0,9.73,30,Bench depth
+Zack Moss,RB,2023,14,106.4,7.6,31,Bench depth
+Alexander Mattison,RB,2023,16,100.0,6.25,32,Bench depth
+Rhamondre Stevenson,RB,2023,12,99.9,8.33,33,Bench depth
+Tyjae Spears,RB,2023,17,97.3,5.72,34,Bench depth
+Aaron Jones Sr.,RB,2023,11,95.6,8.69,35,Bench depth
+Jonathan Taylor,RB,2023,10,93.1,9.31,36,Bench depth
+Gus Edwards,RB,2023,17,93.0,5.47,37,Replacement level
+Tyler Allgeier,RB,2023,17,86.3,5.08,38,Replacement level
+A.J. Dillon,RB,2023,15,83.3,5.55,39,Replacement level
+Khalil Herbert,RB,2023,12,81.1,6.76,40,Replacement level
+Zach Charbonnet,RB,2023,16,79.2,4.95,41,Replacement level
+Antonio Gibson,RB,2023,16,74.5,4.66,42,Replacement level
+Samaje Perine,RB,2023,17,73.8,4.34,43,Replacement level
+Jaleel McLaughlin,RB,2023,17,72.0,4.24,44,Replacement level
+Miles Sanders,RB,2023,16,70.2,4.39,45,Replacement level
+Roschon Johnson,RB,2023,15,69.2,4.61,46,Replacement level
+Ty Chandler,RB,2023,16,67.1,4.19,47,Replacement level
+Justice Hill,RB,2023,16,66.7,4.17,48,Replacement level
+Kenneth Gainwell,RB,2023,16,66.4,4.15,49,Replacement level
+Zamir White,RB,2023,15,60.1,4.01,50,Replacement level
+Kareem Hunt,RB,2023,15,56.1,3.74,51,Replacement level
+Dameon Pierce,RB,2023,14,54.6,3.9,52,Replacement level
+D'Onta Foreman,RB,2023,9,53.5,5.94,53,Replacement level
+Rico Dowdle,RB,2023,16,53.1,3.32,54,Replacement level
+Emari Demercado,RB,2023,14,49.4,3.53,55,Replacement level
+Jamaal Williams,RB,2023,13,48.6,3.74,56,Replacement level
+Keaton Mitchell,RB,2023,7,48.6,6.94,57,Replacement level
+Joshua Kelley,RB,2023,17,48.5,2.85,58,Replacement level
+Latavius Murray,RB,2023,15,47.0,3.13,59,Replacement level
+Michael Carter,RB,2023,15,42.7,2.85,60,Replacement level
+Clyde Edwards-Helaire,RB,2023,15,39.3,2.62,61,Replacement level
+Dalvin Cook,RB,2023,14,36.4,2.6,62,Replacement level
+Elijah Mitchell,RB,2023,11,34.1,3.1,63,Replacement level
+Pierre Strong Jr.,RB,2023,17,34.1,2.01,64,Replacement level
+Royce Freeman,RB,2023,11,32.9,2.99,65,Replacement level
+Jeff Wilson Jr.,RB,2023,9,32.8,3.64,66,Replacement level
+Matt Breida,RB,2023,15,32.1,2.14,67,Replacement level
+Chase Brown,RB,2023,12,31.9,2.66,68,Replacement level
+Chase Edmonds,RB,2023,13,31.6,2.43,69,Replacement level
+Jerick McKinnon,RB,2023,12,31.0,2.58,70,Replacement level
+Ameer Abdullah,RB,2023,16,27.9,1.74,71,Replacement level
+Cam Akers,RB,2023,7,27.7,3.96,72,Replacement level
+Cordarrelle Patterson,RB,2023,12,27.1,2.26,73,Replacement level
+Chris Rodriguez Jr.,RB,2023,11,26.7,2.43,74,Replacement level
+Kendre Miller,RB,2023,8,25.6,3.2,75,Replacement level
+Patrick Taylor Jr.,RB,2023,11,25.1,2.28,76,Replacement level
+Jordan Mason,RB,2023,16,23.6,1.48,77,Replacement level
+Craig Reynolds,RB,2023,15,22.9,1.53,78,Replacement level
+Salvon Ahmed,RB,2023,8,22.1,2.76,79,Replacement level
+Darrell Henderson Jr.,RB,2023,4,21.2,5.3,80,Replacement level
+Nick Chubb,RB,2023,2,21.0,10.5,81,Replacement level
+D'Ernest Johnson,RB,2023,16,20.8,1.3,82,Replacement level
+Ty Johnson,RB,2023,9,20.2,2.24,83,Replacement level
+Darrynton Evans,RB,2023,6,19.1,3.18,84,Replacement level
+Trey Sermon,RB,2023,8,19.0,2.38,85,Replacement level
+Ronnie Rivers,RB,2023,9,17.9,1.99,86,Replacement level
+Tony Jones Jr.,RB,2023,6,16.5,2.75,87,Replacement level
+Isaiah Spiller,RB,2023,9,15.6,1.73,88,Replacement level
+Tyler Goodson,RB,2023,6,14.7,2.45,89,Replacement level
+Kyle Juszczyk,RB,2023,17,14.6,0.86,90,Replacement level
+Tank Bigsby,RB,2023,16,14.2,0.89,91,Replacement level
+Israel Abanikanda,RB,2023,7,14.0,2.0,92,Replacement level
+Trayveon Williams,RB,2023,16,13.9,0.87,93,Replacement level
+Alec Ingold,RB,2023,17,13.0,0.76,94,Replacement level
+Boston Scott,RB,2023,12,12.6,1.05,95,Replacement level
+Emanuel Wilson,RB,2023,7,12.5,1.79,96,Replacement level
+Damien Harris,RB,2023,7,11.4,1.63,97,Replacement level
+Keaontay Ingram,RB,2023,7,11.4,1.63,98,Replacement level
+Melvin Gordon III,RB,2023,4,11.1,2.77,99,Replacement level
+Deuce Vaughn,RB,2023,7,11.0,1.57,100,Replacement level
+Eric Gray,RB,2023,14,10.8,0.77,101,Replacement level
+La'Mical Perine,RB,2023,2,10.7,5.35,102,Replacement level
+Chris Brooks,RB,2023,3,10.6,3.53,103,Replacement level
+Raheem Blackshear,RB,2023,11,10.6,0.96,104,Replacement level
+DeeJay Dallas,RB,2023,17,9.6,0.56,105,Replacement level
+Kevin Harris,RB,2023,4,9.5,2.38,106,Replacement level
+Mike Boone,RB,2023,9,9.3,1.03,107,Replacement level
+C.J. Ham,RB,2023,17,7.7,0.45,108,Replacement level
+Gary Brightwell,RB,2023,4,6.9,1.73,109,Replacement level
+Deon Jackson,RB,2023,2,6.6,3.3,110,Replacement level
+Damien Williams,RB,2023,3,6.3,2.1,111,Replacement level
+Ke'Shawn Vaughn,RB,2023,5,6.2,1.24,112,Replacement level
+Ty Montgomery II,RB,2023,11,5.9,0.54,113,Replacement level
+Khari Blasingame,RB,2023,8,5.6,0.7,114,Replacement level
+Dare Ogunbowale,RB,2023,10,5.5,0.55,115,Replacement level
+Hunter Luepke,RB,2023,17,4.9,0.29,116,Replacement level
+Rashaad Penny,RB,2023,3,4.3,1.43,117,Replacement level
+Sean Tucker,RB,2023,5,4.3,0.86,118,Replacement level
+J.K. Dobbins,RB,2023,1,4.2,4.2,119,Replacement level
+Leonard Fournette,RB,2023,2,4.0,2.0,120,Replacement level
+Michael Burton,RB,2023,17,3.9,0.23,121,Replacement level
+Nick Bawden,RB,2023,6,3.4,0.57,122,Replacement level
+Adam Prentice,RB,2023,6,3.2,0.53,123,Replacement level
+Brandon Bolden,RB,2023,5,3.1,0.62,124,Replacement level
+Jashaun Corbin,RB,2023,3,3.1,1.03,125,Replacement level
+Derrick Gore,RB,2023,3,2.6,0.87,126,Replacement level
+Elijah Dotson,RB,2023,1,2.6,2.6,127,Replacement level
+Bam Knight,RB,2023,2,2.3,1.15,128,Replacement level
+Chris Evans,RB,2023,3,2.2,0.73,129,Replacement level
+Tyrion Davis-Price,RB,2023,1,2.1,2.1,130,Replacement level
+Jake Funk,RB,2023,1,2.0,2.0,131,Replacement level
+Kenyan Drake,RB,2023,2,2.0,1.0,132,Replacement level
+Zach Evans,RB,2023,4,1.9,0.47,133,Replacement level
+Devine Ozigbo,RB,2023,1,1.5,1.5,134,Replacement level
+Kene Nwangwu,RB,2023,8,1.3,0.16,135,Replacement level
+James Robinson,RB,2023,1,1.2,1.2,136,Replacement level
+Evan Hull,RB,2023,1,1.1,1.1,137,Replacement level
+Jonathan Ward,RB,2023,2,1.1,0.55,138,Replacement level
+Jonathan Williams,RB,2023,1,-0.2,-0.2,139,Replacement level
+Saquon Barkley,RB,2024,16,233.5,14.59,1,Elite starter
+Derrick Henry,RB,2024,17,211.1,12.42,2,Elite starter
+Bijan Robinson,RB,2024,17,206.6,12.15,3,Elite starter
+Jahmyr Gibbs,RB,2024,17,193.2,11.36,4,Elite starter
+Josh Jacobs,RB,2024,17,168.9,9.94,5,Elite starter
+De'Von Achane,RB,2024,17,168.7,9.92,6,Elite starter
+Aaron Jones Sr.,RB,2024,17,164.8,9.69,7,Elite starter
+Kyren Williams,RB,2024,16,163.9,10.24,8,Elite starter
+Alvin Kamara,RB,2024,14,163.0,11.64,9,Elite starter
+Chuba Hubbard,RB,2024,15,162.5,10.83,10,Elite starter
+Jonathan Taylor,RB,2024,14,161.1,11.51,11,Elite starter
+Bucky Irving,RB,2024,17,159.2,9.36,12,Elite starter
+James Conner,RB,2024,16,156.4,9.78,13,Starter
+Chase Brown,RB,2024,16,153.0,9.56,14,Starter
+Tony Pollard,RB,2024,16,148.9,9.31,15,Starter
+Rico Dowdle,RB,2024,16,146.9,9.18,16,Starter
+Breece Hall,RB,2024,16,144.6,9.04,17,Starter
+Najee Harris,RB,2024,17,140.3,8.25,18,Starter
+D'Andre Swift,RB,2024,17,137.9,8.11,19,Starter
+Joe Mixon,RB,2024,14,137.6,9.83,20,Starter
+James Cook III,RB,2024,16,132.9,8.31,21,Starter
+J.K. Dobbins,RB,2024,13,122.5,9.42,22,Starter
+Tyrone Tracy Jr.,RB,2024,17,121.9,7.17,23,Starter
+David Montgomery,RB,2024,14,113.5,8.11,24,Starter
+Rhamondre Stevenson,RB,2024,15,113.1,7.54,25,Bench depth
+Rachaad White,RB,2024,16,112.3,7.02,26,Bench depth
+Javonte Williams,RB,2024,17,103.3,6.08,27,Bench depth
+Kenneth Walker III,RB,2024,11,103.3,9.39,28,Bench depth
+Brian Robinson Jr.,RB,2024,14,99.9,7.14,29,Bench depth
+Zach Charbonnet,RB,2024,17,98.9,5.82,30,Bench depth
+Kareem Hunt,RB,2024,13,95.8,7.37,31,Bench depth
+Travis Etienne Jr.,RB,2024,15,94.8,6.32,32,Bench depth
+Jerome Ford,RB,2024,14,93.5,6.68,33,Bench depth
+Jordan Mason,RB,2024,12,89.9,7.49,34,Bench depth
+Jaylen Warren,RB,2024,15,89.1,5.94,35,Bench depth
+Tank Bigsby,RB,2024,16,83.6,5.22,36,Bench depth
+Alexander Mattison,RB,2024,14,78.0,5.57,37,Replacement level
+Tyler Allgeier,RB,2024,17,77.4,4.55,38,Replacement level
+Antonio Gibson,RB,2024,17,76.8,4.52,39,Replacement level
+Jaleel McLaughlin,RB,2024,16,73.6,4.6,40,Replacement level
+Austin Ekeler,RB,2024,12,71.7,5.98,41,Replacement level
+Ameer Abdullah,RB,2024,15,71.1,4.74,42,Replacement level
+Justice Hill,RB,2024,15,64.8,4.32,43,Replacement level
+Devin Singletary,RB,2024,16,64.7,4.04,44,Replacement level
+Emanuel Wilson,RB,2024,17,61.2,3.6,45,Replacement level
+Ray Davis,RB,2024,17,61.2,3.6,46,Replacement level
+Tyjae Spears,RB,2024,12,61.2,5.1,47,Replacement level
+Cam Akers,RB,2024,16,58.4,3.65,48,Replacement level
+Isaac Guerendo,RB,2024,16,57.0,3.56,49,Replacement level
+Braelon Allen,RB,2024,17,52.4,3.08,50,Replacement level
+Zack Moss,RB,2024,9,47.2,5.24,51,Replacement level
+Raheem Mostert,RB,2024,13,46.8,3.6,52,Replacement level
+Kenneth Gainwell,RB,2024,17,45.0,2.65,53,Replacement level
+Miles Sanders,RB,2024,11,44.5,4.05,54,Replacement level
+Isiah Pacheco,RB,2024,7,43.0,6.14,55,Replacement level
+Sean Tucker,RB,2024,17,39.8,2.34,56,Replacement level
+Gus Edwards,RB,2024,11,39.5,3.59,57,Replacement level
+Ty Johnson,RB,2024,17,39.3,2.31,58,Replacement level
+Emari Demercado,RB,2024,13,38.3,2.95,59,Replacement level
+Nick Chubb,RB,2024,8,38.2,4.78,60,Replacement level
+Samaje Perine,RB,2024,17,37.2,2.19,61,Replacement level
+Audric Estime,RB,2024,13,36.0,2.77,62,Replacement level
+Christian McCaffrey,RB,2024,4,35.2,8.8,63,Replacement level
+Jeremy McNichols,RB,2024,17,35.1,2.06,64,Replacement level
+Trey Benson,RB,2024,13,35.1,2.7,65,Replacement level
+Ezekiel Elliott,RB,2024,15,34.6,2.31,66,Replacement level
+Trey Sermon,RB,2024,15,31.9,2.13,67,Replacement level
+Dameon Pierce,RB,2024,11,31.3,2.85,68,Replacement level
+Roschon Johnson,RB,2024,13,31.0,2.38,69,Replacement level
+Dare Ogunbowale,RB,2024,17,30.2,1.78,70,Replacement level
+Chris Brooks,RB,2024,13,29.3,2.25,71,Replacement level
+D'Onta Foreman,RB,2024,10,29.2,2.92,72,Replacement level
+Jaylen Wright,RB,2024,15,27.9,1.86,73,Replacement level
+Blake Corum,RB,2024,15,27.7,1.85,74,Replacement level
+Isaiah Davis,RB,2024,14,26.4,1.89,75,Replacement level
+D'Ernest Johnson,RB,2024,12,26.3,2.19,76,Replacement level
+Tyler Goodson,RB,2024,16,26.3,1.64,77,Replacement level
+Cordarrelle Patterson,RB,2024,13,25.5,1.96,78,Replacement level
+Jamaal Williams,RB,2024,14,25.4,1.81,79,Replacement level
+Carson Steele,RB,2024,16,25.3,1.58,80,Replacement level
+Pierre Strong Jr.,RB,2024,13,24.8,1.91,81,Replacement level
+Sincere McCormick,RB,2024,4,24.3,6.08,82,Replacement level
+Zamir White,RB,2024,8,24.3,3.04,83,Replacement level
+Ty Chandler,RB,2024,15,24.2,1.61,84,Replacement level
+Michael Carter,RB,2024,4,24.1,6.03,85,Replacement level
+Khalil Herbert,RB,2024,12,23.0,1.92,86,Replacement level
+Kyle Juszczyk,RB,2024,17,21.6,1.27,87,Replacement level
+Patrick Taylor Jr.,RB,2024,9,21.3,2.37,88,Replacement level
+Kimani Vidal,RB,2024,10,20.5,2.05,89,Replacement level
+Kenny McIntosh,RB,2024,12,20.2,1.68,90,Replacement level
+Kendre Miller,RB,2024,7,19.8,2.83,91,Replacement level
+Jordan Mims,RB,2024,8,19.0,2.38,92,Replacement level
+Chris Rodriguez Jr.,RB,2024,8,18.3,2.29,93,Replacement level
+Craig Reynolds,RB,2024,14,16.9,1.21,94,Replacement level
+JaMycal Hasty,RB,2024,12,16.9,1.41,95,Replacement level
+Hunter Luepke,RB,2024,16,15.8,0.99,96,Replacement level
+Ronnie Rivers,RB,2024,7,14.9,2.13,97,Replacement level
+Eric Gray,RB,2024,16,13.1,0.82,98,Replacement level
+Alec Ingold,RB,2024,15,12.7,0.85,99,Replacement level
+Julius Chestnut,RB,2024,14,12.2,0.87,100,Replacement level
+Will Shipley,RB,2024,13,12.2,0.94,101,Replacement level
+Hassan Haskins,RB,2024,15,11.9,0.79,102,Replacement level
+Tyler Badie,RB,2024,3,11.6,3.87,103,Replacement level
+Michael Burton,RB,2024,17,10.8,0.64,104,Replacement level
+Deuce Vaughn,RB,2024,6,10.0,1.67,105,Replacement level
+Jeff Wilson Jr.,RB,2024,7,8.7,1.24,106,Replacement level
+Raheem Blackshear,RB,2024,16,8.0,0.5,107,Replacement level
+DeeJay Dallas,RB,2024,16,7.9,0.49,108,Replacement level
+Clyde Edwards-Helaire,RB,2024,2,7.6,3.8,109,Replacement level
+J.J. Taylor,RB,2024,4,6.4,1.6,110,Replacement level
+Mike Boone,RB,2024,5,6.1,1.22,111,Replacement level
+C.J. Ham,RB,2024,17,6.0,0.35,112,Replacement level
+Tony Jones Jr.,RB,2024,1,5.5,5.5,113,Replacement level
+Travis Homer,RB,2024,9,5.3,0.59,114,Replacement level
+Jonathon Brooks,RB,2024,3,5.2,1.73,115,Replacement level
+Sione Vaki,RB,2024,12,4.4,0.37,116,Replacement level
+Keaton Mitchell,RB,2024,4,4.0,1.0,117,Replacement level
+Jacob Kibodi,RB,2024,1,3.4,3.4,118,Replacement level
+Terrell Jennings,RB,2024,2,3.3,1.65,119,Replacement level
+Jase McClellan,RB,2024,3,3.2,1.07,120,Replacement level
+Jermar Jefferson,RB,2024,2,3.2,1.6,121,Replacement level
+Rasheen Ali,RB,2024,5,3.1,0.62,122,Replacement level
+Dalvin Cook,RB,2024,2,3.0,1.5,123,Replacement level
+MarShawn Lloyd,RB,2024,1,2.5,2.5,124,Replacement level
+Chris Collier,RB,2024,6,2.2,0.37,125,Replacement level
+Jonathan Ward,RB,2024,4,2.2,0.55,126,Replacement level
+Blake Watson,RB,2024,3,2.0,0.67,127,Replacement level
+George Holani,RB,2024,3,2.0,0.67,128,Replacement level
+Aaron Shampklin,RB,2024,3,1.7,0.57,129,Replacement level
+Cody Schrader,RB,2024,1,1.3,1.3,130,Replacement level
+Tyreik McAllister,RB,2024,2,1.1,0.55,131,Replacement level
+Myles Gaskin,RB,2024,4,0.9,0.23,132,Replacement level
+Reggie Gilliam,RB,2024,14,0.7,0.05,133,Replacement level
+Tyrion Davis-Price,RB,2024,1,0.7,0.7,134,Replacement level
+Ke'Shawn Vaughn,RB,2024,1,0.4,0.4,135,Replacement level
+Darrynton Evans,RB,2024,2,0.3,0.15,136,Replacement level
+British Brooks,RB,2024,3,0.2,0.07,137,Replacement level
+Joshua Kelley,RB,2024,1,0.2,0.2,138,Replacement level
+Dylan Laube,RB,2024,6,0.0,0.0,139,Replacement level
+Bijan Robinson,RB,2025,17,226.8,13.34,1,Elite starter
+Christian McCaffrey,RB,2025,17,222.2,13.07,2,Elite starter
+Jonathan Taylor,RB,2025,17,204.5,12.03,3,Elite starter
+De'Von Achane,RB,2025,16,202.0,12.63,4,Elite starter
+Jahmyr Gibbs,RB,2025,17,199.3,11.72,5,Elite starter
+James Cook III,RB,2025,17,195.1,11.48,6,Elite starter
+Derrick Henry,RB,2025,17,174.5,10.26,7,Elite starter
+Chase Brown,RB,2025,17,170.9,10.05,8,Elite starter
+Kyren Williams,RB,2025,17,161.2,9.48,9,Elite starter
+Javonte Williams,RB,2025,16,155.1,9.69,10,Elite starter
+Ashton Jeanty,RB,2025,17,152.5,8.97,11,Elite starter
+Saquon Barkley,RB,2025,16,151.0,9.44,12,Elite starter
+Travis Etienne Jr.,RB,2025,17,146.7,8.63,13,Starter
+Rico Dowdle,RB,2025,17,146.6,8.62,14,Starter
+D'Andre Swift,RB,2025,16,142.7,8.92,15,Starter
+Breece Hall,RB,2025,16,142.5,8.91,16,Starter
+Tony Pollard,RB,2025,17,141.2,8.31,17,Starter
+Jaylen Warren,RB,2025,16,135.8,8.49,18,Starter
+Kenneth Walker III,RB,2025,17,133.7,7.86,19,Starter
+Josh Jacobs,RB,2025,15,128.9,8.59,20,Starter
+Kenneth Gainwell,RB,2025,17,126.7,7.45,21,Starter
+TreVeyon Henderson,RB,2025,17,126.1,7.42,22,Starter
+Tyrone Tracy Jr.,RB,2025,15,110.0,7.33,23,Starter
+Quinshon Judkins,RB,2025,14,108.7,7.76,24,Starter
+RJ Harvey,RB,2025,17,101.0,5.94,25,Bench depth
+Rachaad White,RB,2025,17,97.2,5.72,26,Bench depth
+Kyle Monangai,RB,2025,17,96.3,5.66,27,Bench depth
+David Montgomery,RB,2025,17,95.6,5.62,28,Bench depth
+Woody Marks,RB,2025,16,94.3,5.89,29,Bench depth
+Zach Charbonnet,RB,2025,16,93.0,5.81,30,Bench depth
+Rhamondre Stevenson,RB,2025,14,92.3,6.59,31,Bench depth
+Jordan Mason,RB,2025,16,89.8,5.61,32,Bench depth
+Jacory Croskey-Merritt,RB,2025,17,89.5,5.26,33,Bench depth
+Bucky Irving,RB,2025,10,88.8,8.88,34,Bench depth
+J.K. Dobbins,RB,2025,10,88.2,8.82,35,Bench depth
+Omarion Hampton,RB,2025,9,86.5,9.61,36,Bench depth
+Aaron Jones Sr.,RB,2025,12,82.8,6.9,37,Replacement level
+Blake Corum,RB,2025,17,82.6,4.86,38,Replacement level
+Chuba Hubbard,RB,2025,15,81.1,5.41,39,Replacement level
+Kimani Vidal,RB,2025,13,80.3,6.18,40,Replacement level
+Alvin Kamara,RB,2025,11,80.1,7.28,41,Replacement level
+Kareem Hunt,RB,2025,17,79.1,4.65,42,Replacement level
+Tyjae Spears,RB,2025,13,73.3,5.64,43,Replacement level
+Michael Carter,RB,2025,13,66.3,5.1,44,Replacement level
+Tyler Allgeier,RB,2025,17,65.4,3.85,45,Replacement level
+Isiah Pacheco,RB,2025,13,65.2,5.02,46,Replacement level
+Cam Skattebo,RB,2025,8,65.0,8.13,47,Replacement level
+Emanuel Wilson,RB,2025,17,64.6,3.8,48,Replacement level
+Nick Chubb,RB,2025,15,63.6,4.24,49,Replacement level
+Devin Singletary,RB,2025,17,61.7,3.63,50,Replacement level
+Samaje Perine,RB,2025,15,55.2,3.68,51,Replacement level
+Chris Rodriguez Jr.,RB,2025,13,53.0,4.08,52,Replacement level
+Dylan Sampson,RB,2025,15,50.5,3.37,53,Replacement level
+Bam Knight,RB,2025,12,48.9,4.08,54,Replacement level
+Brian Robinson Jr.,RB,2025,17,48.0,2.82,55,Replacement level
+Jeremy McNichols,RB,2025,17,47.1,2.77,56,Replacement level
+Isaiah Davis,RB,2025,16,44.6,2.79,57,Replacement level
+Emari Demercado,RB,2025,13,44.2,3.4,58,Replacement level
+Ty Johnson,RB,2025,17,44.0,2.59,59,Replacement level
+Keaton Mitchell,RB,2025,13,43.1,3.32,60,Replacement level
+Bhayshul Tuten,RB,2025,15,40.7,2.71,61,Replacement level
+Brashard Smith,RB,2025,17,40.1,2.36,62,Replacement level
+Sean Tucker,RB,2025,17,40.0,2.35,63,Replacement level
+Tank Bigsby,RB,2025,16,38.6,2.41,64,Replacement level
+Devin Neal,RB,2025,9,37.6,4.18,65,Replacement level
+Ray Davis,RB,2025,17,37.5,2.21,66,Replacement level
+Jaylen Wright,RB,2025,11,33.8,3.07,67,Replacement level
+Jerome Ford,RB,2025,13,33.3,2.56,68,Replacement level
+Audric Estime,RB,2025,7,31.8,4.54,69,Replacement level
+Justice Hill,RB,2025,10,30.3,3.03,70,Replacement level
+Trey Benson,RB,2025,5,29.0,5.8,71,Replacement level
+Malik Davis,RB,2025,10,27.0,2.7,72,Replacement level
+Ollie Gordon II,RB,2025,17,26.9,1.58,73,Replacement level
+Jawhar Jordan,RB,2025,4,26.3,6.58,74,Replacement level
+Zavier Scott,RB,2025,11,25.4,2.31,75,Replacement level
+Kendre Miller,RB,2025,7,24.3,3.47,76,Replacement level
+Kyle Juszczyk,RB,2025,17,23.7,1.39,77,Replacement level
+Chris Brooks,RB,2025,17,23.6,1.39,78,Replacement level
+Jaleel McLaughlin,RB,2025,8,22.7,2.84,79,Replacement level
+Raheem Mostert,RB,2025,12,22.4,1.87,80,Replacement level
+Ameer Abdullah,RB,2025,13,22.0,1.69,81,Replacement level
+Tyler Badie,RB,2025,16,21.3,1.33,82,Replacement level
+Hunter Luepke,RB,2025,17,20.1,1.18,83,Replacement level
+Miles Sanders,RB,2025,4,19.7,4.92,84,Replacement level
+LeQuint Allen Jr.,RB,2025,17,19.4,1.14,85,Replacement level
+Jaret Patterson,RB,2025,6,18.9,3.15,86,Replacement level
+James Conner,RB,2025,4,17.5,4.38,87,Replacement level
+Jaydon Blue,RB,2025,5,13.9,2.78,88,Replacement level
+Will Shipley,RB,2025,15,13.9,0.93,89,Replacement level
+Antonio Gibson,RB,2025,5,12.6,2.52,90,Replacement level
+Dare Ogunbowale,RB,2025,17,12.5,0.74,91,Replacement level
+Trevor Etienne,RB,2025,17,12.4,0.73,92,Replacement level
+Raheim Sanders,RB,2025,5,12.2,2.44,93,Replacement level
+Trayveon Williams,RB,2025,7,11.6,1.66,94,Replacement level
+Rasheen Ali,RB,2025,15,11.4,0.76,95,Replacement level
+Adam Prentice,RB,2025,17,10.4,0.61,96,Replacement level
+Braelon Allen,RB,2025,4,9.6,2.4,97,Replacement level
+DJ Giddens,RB,2025,9,9.6,1.07,98,Replacement level
+Austin Ekeler,RB,2025,3,9.3,3.1,99,Replacement level
+George Holani,RB,2025,10,9.3,0.93,100,Replacement level
+Najee Harris,RB,2025,3,9.1,3.03,101,Replacement level
+A.J. Dillon,RB,2025,7,9.0,1.29,102,Replacement level
+Alec Ingold,RB,2025,17,8.9,0.52,103,Replacement level
+Hassan Haskins,RB,2025,13,8.7,0.67,104,Replacement level
+Terrell Jennings,RB,2025,6,8.3,1.38,105,Replacement level
+Kaleb Johnson,RB,2025,10,7.9,0.79,106,Replacement level
+British Brooks,RB,2025,13,7.8,0.6,107,Replacement level
+Corey Kiner,RB,2025,4,7.8,1.95,108,Replacement level
+Ty Chandler,RB,2025,3,7.7,2.57,109,Replacement level
+Zamir White,RB,2025,5,7.2,1.44,110,Replacement level
+Khalil Herbert,RB,2025,5,6.2,1.24,111,Replacement level
+Nathan Carter,RB,2025,4,6.0,1.5,112,Replacement level
+Evan Hull,RB,2025,6,5.8,0.97,113,Replacement level
+Tahj Brooks,RB,2025,12,5.5,0.46,114,Replacement level
+Kene Nwangwu,RB,2025,10,4.9,0.49,115,Replacement level
+Ronnie Rivers,RB,2025,7,4.6,0.66,116,Replacement level
+Tyler Goodson,RB,2025,11,4.4,0.4,117,Replacement level
+Julius Chestnut,RB,2025,17,4.0,0.24,118,Replacement level
+Dylan Laube,RB,2025,17,3.9,0.23,119,Replacement level
+Phil Mafah,RB,2025,1,3.8,3.8,120,Replacement level
+Brittain Brown,RB,2025,2,3.7,1.85,121,Replacement level
+Dameon Pierce,RB,2025,5,3.6,0.72,122,Replacement level
+Clyde Edwards-Helaire,RB,2025,2,3.3,1.65,123,Replacement level
+C.J. Ham,RB,2025,11,2.5,0.23,124,Replacement level
+D'Ernest Johnson,RB,2025,6,2.5,0.42,125,Replacement level
+Reggie Gilliam,RB,2025,17,2.4,0.14,126,Replacement level
+DeeJay Dallas,RB,2025,5,2.1,0.42,127,Replacement level
+Jacardia Wright,RB,2025,1,2.0,2.0,128,Replacement level
+Cam Akers,RB,2025,4,1.9,0.47,129,Replacement level
+Roschon Johnson,RB,2025,6,1.7,0.28,130,Replacement level
+Patrick Ricard,RB,2025,12,1.3,0.11,131,Replacement level
+Jacob Saylors,RB,2025,11,1.1,0.1,132,Replacement level
+Josh Williams,RB,2025,2,1.1,0.55,133,Replacement level
+Amar Johnson,RB,2025,1,0.8,0.8,134,Replacement level
+Kalel Mullings,RB,2025,5,0.7,0.14,135,Replacement level
+Myles Gaskin,RB,2025,1,0.6,0.6,136,Replacement level
+Owen Wright,RB,2025,3,0.6,0.2,137,Replacement level
+Craig Reynolds,RB,2025,6,0.4,0.07,138,Replacement level
+Sione Vaki,RB,2025,8,0.4,0.05,139,Replacement level
+Kendall Milton,RB,2025,1,0.2,0.2,140,Replacement level
+Ulysses Bentley IV,RB,2025,1,0.0,0.0,141,Replacement level
+Nyheim Miller-Hines,RB,2025,4,-0.2,-0.05,142,Replacement level
+Travis Homer,RB,2025,8,-0.2,-0.03,143,Replacement level
+Mark Andrews,TE,2021,17,243.1,14.3,1,Elite starter
+Travis Kelce,TE,2021,16,204.5,12.78,2,Elite starter
+Kyle Pitts Sr.,TE,2021,17,170.6,10.04,3,Elite starter
+George Kittle,TE,2021,14,162.0,11.57,4,Elite starter
+Dalton Schultz,TE,2021,17,158.8,9.34,5,Elite starter
+Mike Gesicki,TE,2021,17,151.0,8.88,6,Elite starter
+Zach Ertz,TE,2021,17,150.3,8.84,7,Starter
+Dallas Goedert,TE,2021,15,139.0,9.27,8,Starter
+Rob Gronkowski,TE,2021,12,135.2,11.27,9,Starter
+Noah Fant,TE,2021,16,135.0,8.44,10,Starter
+Darren Waller,TE,2021,11,121.5,11.05,11,Starter
+Cole Kmet,TE,2021,17,121.2,7.13,12,Starter
+Tyler Conklin,TE,2021,17,120.3,7.08,13,Bench depth
+T.J. Hockenson,TE,2021,12,119.3,9.94,14,Bench depth
+Tyler Higbee,TE,2021,15,117.0,7.8,15,Bench depth
+Hunter Henry,TE,2021,16,110.3,6.89,16,Bench depth
+Pat Freiermuth,TE,2021,16,109.7,6.86,17,Bench depth
+Dawson Knox,TE,2021,15,107.7,7.18,18,Bench depth
+Jared Cook,TE,2021,16,104.4,6.53,19,Replacement level
+C.J. Uzomah,TE,2021,16,98.3,6.14,20,Replacement level
+Gerald Everett,TE,2021,15,95.8,6.39,21,Replacement level
+Evan Engram,TE,2021,15,86.8,5.79,22,Replacement level
+David Njoku,TE,2021,15,83.5,5.57,23,Replacement level
+Dan Arnold,TE,2021,11,75.8,6.89,24,Replacement level
+Austin Hooper,TE,2021,15,72.5,4.83,25,Replacement level
+Durham Smythe,TE,2021,16,69.7,4.36,26,Replacement level
+Foster Moreau,TE,2021,15,67.3,4.49,27,Replacement level
+Albert Okwuegbunam Jr.,TE,2021,14,66.0,4.71,28,Replacement level
+Anthony Firkser,TE,2021,15,63.1,4.21,29,Replacement level
+Jack Doyle,TE,2021,15,59.2,3.95,30,Replacement level
+Jonnu Smith,TE,2021,16,57.4,3.59,31,Replacement level
+Ricky Seals-Jones,TE,2021,11,57.1,5.19,32,Replacement level
+Mo Alie-Cox,TE,2021,17,55.6,3.27,33,Replacement level
+Cameron Brate,TE,2021,16,54.5,3.41,34,Replacement level
+Adam Trautman,TE,2021,11,53.3,4.85,35,Replacement level
+Ryan Griffin,TE,2021,14,53.1,3.79,36,Replacement level
+Geoff Swaim,TE,2021,16,52.0,3.25,37,Replacement level
+Kyle Rudolph,TE,2021,15,51.7,3.45,38,Replacement level
+Josiah Deguara,TE,2021,14,49.5,3.54,39,Replacement level
+James O'Shaughnessy,TE,2021,7,48.4,6.91,40,Replacement level
+Hayden Hurst,TE,2021,12,48.1,4.01,41,Replacement level
+Jordan Akins,TE,2021,12,45.4,3.78,42,Replacement level
+John Bates,TE,2021,13,44.9,3.45,43,Replacement level
+Marcedes Lewis,TE,2021,13,44.4,3.42,44,Replacement level
+Harrison Bryant,TE,2021,15,44.3,2.95,45,Replacement level
+Will Dissly,TE,2021,13,44.1,3.39,46,Replacement level
+Pharaoh Brown,TE,2021,13,40.1,3.08,47,Replacement level
+Donald Parham Jr.,TE,2021,14,39.0,2.79,48,Replacement level
+Robert Tonyan,TE,2021,8,38.4,4.8,49,Replacement level
+Tommy Tremble,TE,2021,15,38.0,2.53,50,Replacement level
+Brevin Jordan,TE,2021,8,37.8,4.72,51,Replacement level
+Logan Thomas,TE,2021,5,37.6,7.52,52,Replacement level
+Ian Thomas,TE,2021,14,36.8,2.63,53,Replacement level
+Zach Gentry,TE,2021,10,35.7,3.57,54,Replacement level
+Maxx Williams,TE,2021,5,35.3,7.06,55,Replacement level
+Tyler Kroft,TE,2021,9,33.3,3.7,56,Replacement level
+Stephen Anderson,TE,2021,14,32.5,2.32,57,Replacement level
+Jimmy Graham,TE,2021,11,30.7,2.79,58,Replacement level
+Juwan Johnson,TE,2021,13,28.9,2.22,59,Replacement level
+MyCole Pruitt,TE,2021,13,28.5,2.19,60,Replacement level
+O.J. Howard,TE,2021,11,27.5,2.5,61,Replacement level
+Brock Wright,TE,2021,8,23.7,2.96,62,Replacement level
+Adam Shaheen,TE,2021,9,23.0,2.56,63,Replacement level
+Nick Vannett,TE,2021,7,22.3,3.19,64,Replacement level
+Kylen Granson,TE,2021,10,21.6,2.16,65,Replacement level
+Blake Jarwin,TE,2021,8,20.6,2.58,66,Replacement level
+Eric Ebron,TE,2021,8,20.4,2.55,67,Replacement level
+Drew Sample,TE,2021,10,19.1,1.91,68,Replacement level
+Blake Bell,TE,2021,12,17.7,1.47,69,Replacement level
+Josh Oliver,TE,2021,11,15.6,1.42,70,Replacement level
+Lee Smith,TE,2021,10,15.5,1.55,71,Replacement level
+Jacob Hollister,TE,2021,7,14.5,2.07,72,Replacement level
+Tommy Sweeney,TE,2021,7,13.4,1.91,73,Replacement level
+Jesse James,TE,2021,5,13.2,2.64,74,Replacement level
+Chris Manhertz,TE,2021,10,13.1,1.31,75,Replacement level
+Eric Saubert,TE,2021,10,12.7,1.27,76,Replacement level
+Luke Farrell,TE,2021,9,12.6,1.4,77,Replacement level
+Noah Gray,TE,2021,7,10.6,1.51,78,Replacement level
+Tre' McKitty,TE,2021,6,10.5,1.75,79,Replacement level
+Charlie Woerner,TE,2021,8,10.2,1.27,80,Replacement level
+Antony Auclair,TE,2021,4,9.7,2.42,81,Replacement level
+Parker Hesse,TE,2021,4,9.3,2.33,82,Replacement level
+Ross Dwelley,TE,2021,4,9.1,2.27,83,Replacement level
+Colby Parkinson,TE,2021,6,8.3,1.38,84,Replacement level
+Darren Fells,TE,2021,3,8.3,2.77,85,Replacement level
+Chris Herndon IV,TE,2021,6,8.0,1.33,86,Replacement level
+Garrett Griffin,TE,2021,5,7.9,1.58,87,Replacement level
+Kendall Blanton,TE,2021,4,7.7,1.93,88,Replacement level
+Tyler Davis,TE,2021,8,7.5,0.94,89,Replacement level
+Sean McKeon,TE,2021,5,6.7,1.34,90,Replacement level
+Trevon Wesco,TE,2021,8,6.5,0.81,91,Replacement level
+Shane Zylstra,TE,2021,3,6.4,2.13,92,Replacement level
+Kaden Smith,TE,2021,4,6.3,1.57,93,Replacement level
+Jack Stoll,TE,2021,6,6.2,1.03,94,Replacement level
+Jeremy Sprinkle,TE,2021,6,6.1,1.02,95,Replacement level
+Tommy Hudson,TE,2021,4,6.1,1.52,96,Replacement level
+Dominique Dafney,TE,2021,6,5.4,0.9,97,Replacement level
+Tyree Jackson,TE,2021,3,5.2,1.73,98,Replacement level
+Chris Myarick,TE,2021,5,4.7,0.94,99,Replacement level
+Mitchell Wilcox,TE,2021,4,4.6,1.15,100,Replacement level
+Demetrius Harris,TE,2021,10,4.0,0.4,101,Replacement level
+Darrell Daniels,TE,2021,10,1.0,0.1,102,Replacement level
+Travis Kelce,TE,2022,17,243.8,14.34,1,Elite starter
+T.J. Hockenson,TE,2022,17,177.4,10.44,2,Elite starter
+Mark Andrews,TE,2022,15,157.7,10.51,3,Elite starter
+Evan Engram,TE,2022,17,149.6,8.8,4,Elite starter
+George Kittle,TE,2022,15,136.5,9.1,5,Elite starter
+Pat Freiermuth,TE,2022,15,136.2,9.08,6,Elite starter
+Tyler Higbee,TE,2022,16,134.0,8.38,7,Starter
+Dallas Goedert,TE,2022,12,125.2,10.43,8,Starter
+David Njoku,TE,2022,14,120.8,8.63,9,Starter
+Dalton Schultz,TE,2022,15,114.7,7.65,10,Starter
+Gerald Everett,TE,2022,15,113.5,7.57,11,Starter
+Tyler Conklin,TE,2022,17,113.2,6.66,12,Starter
+Cole Kmet,TE,2022,17,104.4,6.14,13,Bench depth
+Robert Tonyan,TE,2022,17,100.0,5.88,14,Bench depth
+Dawson Knox,TE,2022,15,99.7,6.65,15,Bench depth
+Noah Fant,TE,2022,17,98.6,5.8,16,Bench depth
+Hayden Hurst,TE,2022,14,97.9,6.99,17,Bench depth
+Juwan Johnson,TE,2022,16,92.8,5.8,18,Bench depth
+Hunter Henry,TE,2022,16,91.9,5.74,19,Replacement level
+Zach Ertz,TE,2022,10,87.6,8.76,20,Replacement level
+Jordan Akins,TE,2022,15,86.5,5.77,21,Replacement level
+Austin Hooper,TE,2022,17,85.4,5.02,22,Replacement level
+Cade Otton,TE,2022,16,81.1,5.07,23,Replacement level
+Chig Okonkwo,TE,2022,17,77.0,4.53,24,Replacement level
+Foster Moreau,TE,2022,14,75.0,5.36,25,Replacement level
+Greg Dulcich,TE,2022,10,74.1,7.41,26,Replacement level
+Isaiah Likely,TE,2022,15,73.3,4.89,27,Replacement level
+Logan Thomas,TE,2022,13,71.3,5.48,28,Replacement level
+Will Dissly,TE,2022,15,68.9,4.59,29,Replacement level
+Mike Gesicki,TE,2022,17,68.2,4.01,30,Replacement level
+Darren Waller,TE,2022,9,66.8,7.42,31,Replacement level
+Kyle Pitts Sr.,TE,2022,10,63.6,6.36,32,Replacement level
+Kylen Granson,TE,2022,13,61.2,4.71,33,Replacement level
+Noah Gray,TE,2022,17,57.9,3.41,34,Replacement level
+Colby Parkinson,TE,2022,14,57.2,4.09,35,Replacement level
+Daniel Bellinger,TE,2022,12,56.8,4.73,36,Replacement level
+Jelani Woods,TE,2022,14,56.2,4.01,37,Replacement level
+Trey McBride,TE,2022,14,55.5,3.96,38,Replacement level
+Harrison Bryant,TE,2022,14,54.9,3.92,39,Replacement level
+Jonnu Smith,TE,2022,12,51.5,4.29,40,Replacement level
+C.J. Uzomah,TE,2022,14,44.2,3.16,41,Replacement level
+Irv Smith Jr.,TE,2022,8,43.2,5.4,42,Replacement level
+Ian Thomas,TE,2022,14,40.7,2.91,43,Replacement level
+Brock Wright,TE,2022,16,39.6,2.48,44,Replacement level
+Adam Trautman,TE,2022,13,38.7,2.98,45,Replacement level
+Mo Alie-Cox,TE,2022,14,37.9,2.71,46,Replacement level
+Cameron Brate,TE,2022,9,37.4,4.16,47,Replacement level
+Jake Ferguson,TE,2022,13,36.4,2.8,48,Replacement level
+Tommy Tremble,TE,2022,16,36.4,2.27,49,Replacement level
+Johnny Mundt,TE,2022,13,33.0,2.54,50,Replacement level
+Zach Gentry,TE,2022,14,32.2,2.3,51,Replacement level
+MyCole Pruitt,TE,2022,10,31.0,3.1,52,Replacement level
+Mitchell Wilcox,TE,2022,9,30.9,3.43,53,Replacement level
+Eric Saubert,TE,2022,14,29.8,2.13,54,Replacement level
+Josh Oliver,TE,2022,12,28.9,2.41,55,Replacement level
+Durham Smythe,TE,2022,13,27.9,2.15,56,Replacement level
+Connor Heyward,TE,2022,17,27.1,1.59,57,Replacement level
+Brevin Jordan,TE,2022,9,26.8,2.98,58,Replacement level
+John Bates,TE,2022,10,24.8,2.48,59,Replacement level
+O.J. Howard,TE,2022,11,24.5,2.23,60,Replacement level
+Josiah Deguara,TE,2022,9,24.4,2.71,61,Replacement level
+Pharaoh Brown,TE,2022,9,23.7,2.63,62,Replacement level
+Jack Stoll,TE,2022,10,23.3,2.33,63,Replacement level
+Tanner Hudson,TE,2022,6,23.2,3.87,64,Replacement level
+Donald Parham Jr.,TE,2022,6,23.0,3.83,65,Replacement level
+Dan Arnold,TE,2022,11,22.5,2.05,66,Replacement level
+James Mitchell,TE,2022,8,22.3,2.79,67,Replacement level
+Peyton Hendershot,TE,2022,12,21.3,1.78,68,Replacement level
+Jody Fortson Jr.,TE,2022,10,19.8,1.98,69,Replacement level
+Albert Okwuegbunam Jr.,TE,2022,6,19.5,3.25,70,Replacement level
+Anthony Firkser,TE,2022,8,19.0,2.38,71,Replacement level
+Teagan Quitoriano,TE,2022,7,18.3,2.61,72,Replacement level
+Giovanni Ricci,TE,2022,11,18.0,1.64,73,Replacement level
+Brycen Hopkins,TE,2022,7,17.9,2.56,74,Replacement level
+Parker Hesse,TE,2022,12,17.9,1.49,75,Replacement level
+Geoff Swaim,TE,2022,12,17.8,1.48,76,Replacement level
+Tre' McKitty,TE,2022,13,17.2,1.32,77,Replacement level
+Shane Zylstra,TE,2022,11,17.0,1.55,78,Replacement level
+Eric Tomlinson,TE,2022,9,16.9,1.88,79,Replacement level
+Taysom Hill,TE,2022,16,16.7,1.04,80,Replacement level
+Quintin Morris,TE,2022,9,16.4,1.82,81,Replacement level
+Ko Kieft,TE,2022,15,15.0,1.0,82,Replacement level
+Chris Myarick,TE,2022,10,13.5,1.35,83,Replacement level
+Ross Dwelley,TE,2022,6,13.5,2.25,84,Replacement level
+Grant Calcaterra,TE,2022,7,13.1,1.87,85,Replacement level
+Marcedes Lewis,TE,2022,6,12.6,2.1,86,Replacement level
+Andrew Beck,TE,2022,9,11.9,1.32,87,Replacement level
+Nick Vannett,TE,2022,7,11.5,1.64,88,Replacement level
+Armani Rogers,TE,2022,9,11.4,1.27,89,Replacement level
+Chris Manhertz,TE,2022,8,10.2,1.27,90,Replacement level
+Tyler Kroft,TE,2022,6,9.7,1.62,91,Replacement level
+Charlie Kolar,TE,2022,1,8.9,8.9,92,Replacement level
+Luke Farrell,TE,2022,4,8.0,2.0,93,Replacement level
+Ryan Griffin,TE,2022,10,6.6,0.66,94,Replacement level
+Stephen Sullivan,TE,2022,9,6.6,0.73,95,Replacement level
+Tyler Davis,TE,2022,11,6.6,0.6,96,Replacement level
+Kyle Rudolph,TE,2022,5,5.8,1.16,97,Replacement level
+Stone Smartt,TE,2022,3,5.7,1.9,98,Replacement level
+Ben Ellefson,TE,2022,2,5.6,2.8,99,Replacement level
+Jesper Horsted,TE,2022,5,4.9,0.98,100,Replacement level
+Maxx Williams,TE,2022,3,4.8,1.6,101,Replacement level
+Trevon Wesco,TE,2022,6,4.6,0.77,102,Replacement level
+Cole Turner,TE,2022,7,4.3,0.61,103,Replacement level
+Stephen Anderson,TE,2022,9,3.9,0.43,104,Replacement level
+Devin Asiasi,TE,2022,5,2.5,0.5,105,Replacement level
+Richard Rodgers,TE,2022,3,1.4,0.47,106,Replacement level
+Evan Engram,TE,2023,17,210.3,12.37,1,Elite starter
+Travis Kelce,TE,2023,15,191.4,12.76,2,Elite starter
+T.J. Hockenson,TE,2023,15,191.0,12.73,3,Elite starter
+Sam LaPorta,TE,2023,17,174.9,10.29,4,Elite starter
+David Njoku,TE,2023,16,169.2,10.57,5,Elite starter
+George Kittle,TE,2023,16,167.0,10.44,6,Elite starter
+Trey McBride,TE,2023,17,163.5,9.62,7,Starter
+Jake Ferguson,TE,2023,17,147.1,8.65,8,Starter
+Cole Kmet,TE,2023,17,144.9,8.52,9,Starter
+Dalton Kincaid,TE,2023,16,140.3,8.77,10,Starter
+Tyler Conklin,TE,2023,17,123.1,7.24,11,Starter
+Dalton Schultz,TE,2023,15,122.5,8.17,12,Starter
+Kyle Pitts Sr.,TE,2023,17,119.7,7.04,13,Bench depth
+Dallas Goedert,TE,2023,14,118.2,8.44,14,Bench depth
+Jonnu Smith,TE,2023,17,108.2,6.36,15,Bench depth
+Darren Waller,TE,2023,12,107.2,8.93,16,Bench depth
+Chig Okonkwo,TE,2023,17,106.8,6.28,17,Bench depth
+Logan Thomas,TE,2023,16,104.6,6.54,18,Bench depth
+Mark Andrews,TE,2023,10,99.4,9.94,19,Replacement level
+Tyler Higbee,TE,2023,15,96.5,6.43,20,Replacement level
+Cade Otton,TE,2023,17,92.5,5.44,21,Replacement level
+Gerald Everett,TE,2023,15,92.1,6.14,22,Replacement level
+Hunter Henry,TE,2023,14,83.9,5.99,23,Replacement level
+Tanner Hudson,TE,2023,12,74.2,6.18,24,Replacement level
+Juwan Johnson,TE,2023,13,73.8,5.68,25,Replacement level
+Noah Fant,TE,2023,17,73.4,4.32,26,Replacement level
+Durham Smythe,TE,2023,13,71.6,5.51,27,Replacement level
+Isaiah Likely,TE,2023,17,71.1,4.18,28,Replacement level
+Luke Musgrave,TE,2023,11,69.2,6.29,29,Replacement level
+Kylen Granson,TE,2023,15,66.8,4.45,30,Replacement level
+Tucker Kraft,TE,2023,17,66.5,3.91,31,Replacement level
+Pat Freiermuth,TE,2023,12,62.8,5.23,32,Replacement level
+Taysom Hill,TE,2023,16,62.1,3.88,33,Replacement level
+Noah Gray,TE,2023,17,58.5,3.44,34,Replacement level
+Michael Mayer,TE,2023,14,57.4,4.1,35,Replacement level
+Donald Parham Jr.,TE,2023,14,55.5,3.96,36,Replacement level
+Mike Gesicki,TE,2023,15,53.4,3.56,37,Replacement level
+Daniel Bellinger,TE,2023,17,50.5,2.97,38,Replacement level
+Colby Parkinson,TE,2023,15,49.7,3.31,39,Replacement level
+Austin Hooper,TE,2023,16,48.4,3.02,40,Replacement level
+Zach Ertz,TE,2023,7,45.7,6.53,41,Replacement level
+Josh Oliver,TE,2023,17,43.3,2.55,42,Replacement level
+Adam Trautman,TE,2023,17,42.4,2.49,43,Replacement level
+Tommy Tremble,TE,2023,16,42.4,2.65,44,Replacement level
+Dawson Knox,TE,2023,12,40.6,3.38,45,Replacement level
+Foster Moreau,TE,2023,15,40.3,2.69,46,Replacement level
+Connor Heyward,TE,2023,17,39.7,2.34,47,Replacement level
+Brevin Jordan,TE,2023,13,38.9,2.99,48,Replacement level
+Will Mallory,TE,2023,12,38.7,3.23,49,Replacement level
+Drew Sample,TE,2023,17,38.3,2.25,50,Replacement level
+Hayden Hurst,TE,2023,10,36.4,3.64,51,Replacement level
+Johnny Mundt,TE,2023,11,34.2,3.11,52,Replacement level
+Will Dissly,TE,2023,13,34.2,2.63,53,Replacement level
+John Bates,TE,2023,17,34.1,2.01,54,Replacement level
+Pharaoh Brown,TE,2023,11,33.8,3.07,55,Replacement level
+Jeremy Ruckert,TE,2023,15,31.1,2.07,56,Replacement level
+Elijah Higgins,TE,2023,11,30.3,2.75,57,Replacement level
+Irv Smith Jr.,TE,2023,11,29.5,2.68,58,Replacement level
+Mo Alie-Cox,TE,2023,17,29.1,1.71,59,Replacement level
+Luke Farrell,TE,2023,10,28.5,2.85,60,Replacement level
+Jordan Akins,TE,2023,13,28.2,2.17,61,Replacement level
+Stone Smartt,TE,2023,12,26.5,2.21,62,Replacement level
+Stephen Sullivan,TE,2023,11,24.5,2.23,63,Replacement level
+Drew Ogletree,TE,2023,12,23.7,1.97,64,Replacement level
+Cole Turner,TE,2023,12,23.0,1.92,65,Replacement level
+Robert Tonyan,TE,2023,12,22.2,1.85,66,Replacement level
+Brock Wright,TE,2023,14,22.1,1.58,67,Replacement level
+Harrison Bryant,TE,2023,15,21.1,1.41,68,Replacement level
+MyCole Pruitt,TE,2023,11,20.0,1.82,69,Replacement level
+Davis Allen,TE,2023,15,19.5,1.3,70,Replacement level
+Geoff Swaim,TE,2023,9,19.4,2.16,71,Replacement level
+Josh Whyle,TE,2023,11,18.4,1.67,72,Replacement level
+Lucas Krull,TE,2023,7,17.5,2.5,73,Replacement level
+Andrew Beck,TE,2023,13,16.5,1.27,74,Replacement level
+Charlie Kolar,TE,2023,14,15.7,1.12,75,Replacement level
+Mitchell Wilcox,TE,2023,12,14.6,1.22,76,Replacement level
+Josiah Deguara,TE,2023,9,14.5,1.61,77,Replacement level
+Luke Schoonmaker,TE,2023,17,14.5,0.85,78,Replacement level
+C.J. Uzomah,TE,2023,8,13.8,1.73,79,Replacement level
+Darnell Washington,TE,2023,17,13.1,0.77,80,Replacement level
+Brycen Hopkins,TE,2023,5,12.8,2.56,81,Replacement level
+Julian Hill,TE,2023,15,10.8,0.72,82,Replacement level
+Payne Durham,TE,2023,13,10.8,0.83,83,Replacement level
+Ian Thomas,TE,2023,8,10.6,1.32,84,Replacement level
+Jimmy Graham,TE,2023,6,9.9,1.65,85,Replacement level
+Jack Stoll,TE,2023,7,8.8,1.26,86,Replacement level
+Brenton Strange,TE,2023,14,8.5,0.61,87,Replacement level
+Grant Calcaterra,TE,2023,14,7.9,0.56,88,Replacement level
+Peyton Hendershot,TE,2023,8,7.8,0.97,89,Replacement level
+Blake Bell,TE,2023,7,7.6,1.09,90,Replacement level
+Marcedes Lewis,TE,2023,6,6.9,1.15,91,Replacement level
+Charlie Woerner,TE,2023,10,6.2,0.62,92,Replacement level
+Nate Adkins,TE,2023,10,6.2,0.62,93,Replacement level
+Ben Sims,TE,2023,16,6.1,0.38,94,Replacement level
+Greg Dulcich,TE,2023,2,5.5,2.75,95,Replacement level
+Kenny Yeboah,TE,2023,3,4.8,1.6,96,Replacement level
+Eric Saubert,TE,2023,3,4.2,1.4,97,Replacement level
+Chris Manhertz,TE,2023,7,3.6,0.51,98,Replacement level
+Ko Kieft,TE,2023,16,1.2,0.07,99,Replacement level
+Brock Bowers,TE,2024,17,231.4,13.61,1,Elite starter
+Trey McBride,TE,2024,16,225.6,14.1,2,Elite starter
+George Kittle,TE,2024,15,188.6,12.57,3,Elite starter
+Travis Kelce,TE,2024,16,179.3,11.21,4,Elite starter
+Jonnu Smith,TE,2024,17,176.4,10.38,5,Elite starter
+Hunter Henry,TE,2024,16,133.4,8.34,6,Elite starter
+Sam LaPorta,TE,2024,16,132.6,8.29,7,Starter
+Mike Gesicki,TE,2024,17,131.5,7.74,8,Starter
+Zach Ertz,TE,2024,17,131.4,7.73,9,Starter
+Pat Freiermuth,TE,2024,17,130.3,7.66,10,Starter
+Mark Andrews,TE,2024,17,122.3,7.19,11,Starter
+Tucker Kraft,TE,2024,17,120.7,7.1,12,Starter
+Cade Otton,TE,2024,14,119.0,8.5,13,Bench depth
+David Njoku,TE,2024,11,114.5,10.41,14,Bench depth
+Jake Ferguson,TE,2024,14,108.4,7.74,15,Bench depth
+Kyle Pitts Sr.,TE,2024,17,107.2,6.31,16,Bench depth
+Dalton Schultz,TE,2024,17,106.2,6.25,17,Bench depth
+Juwan Johnson,TE,2024,17,104.8,6.16,18,Bench depth
+Chig Okonkwo,TE,2024,17,99.9,5.88,19,Replacement level
+Will Dissly,TE,2024,15,98.1,6.54,20,Replacement level
+Noah Fant,TE,2024,14,98.0,7.0,21,Replacement level
+Tyler Conklin,TE,2024,16,95.9,5.99,22,Replacement level
+Cole Kmet,TE,2024,17,94.4,5.55,23,Replacement level
+Austin Hooper,TE,2024,17,92.6,5.45,24,Replacement level
+Dallas Goedert,TE,2024,10,91.6,9.16,25,Replacement level
+Isaiah Likely,TE,2024,16,89.7,5.61,26,Replacement level
+Dalton Kincaid,TE,2024,13,88.8,6.83,27,Replacement level
+T.J. Hockenson,TE,2024,10,86.5,8.65,28,Replacement level
+Noah Gray,TE,2024,17,83.7,4.92,29,Replacement level
+Evan Engram,TE,2024,9,83.5,9.28,30,Replacement level
+Brenton Strange,TE,2024,17,81.1,4.77,31,Replacement level
+Jordan Akins,TE,2024,16,79.0,4.94,32,Replacement level
+Foster Moreau,TE,2024,17,73.3,4.31,33,Replacement level
+Ja'Tavion Sanders,TE,2024,16,67.2,4.2,34,Replacement level
+Theo Johnson,TE,2024,12,62.1,5.17,35,Replacement level
+Colby Parkinson,TE,2024,17,59.4,3.49,36,Replacement level
+AJ Barner,TE,2024,17,54.5,3.21,37,Replacement level
+Grant Calcaterra,TE,2024,17,53.8,3.16,38,Replacement level
+Dawson Knox,TE,2024,16,53.1,3.32,39,Replacement level
+Josh Whyle,TE,2024,17,52.8,3.11,40,Replacement level
+Luke Schoonmaker,TE,2024,17,51.1,3.01,41,Replacement level
+Josh Oliver,TE,2024,15,47.8,3.19,42,Replacement level
+Tommy Tremble,TE,2024,12,46.4,3.87,43,Replacement level
+Taysom Hill,TE,2024,8,41.7,5.21,44,Replacement level
+Darnell Washington,TE,2024,17,39.0,2.29,45,Replacement level
+Elijah Higgins,TE,2024,17,37.2,2.19,46,Replacement level
+Stone Smartt,TE,2024,9,36.8,4.09,47,Replacement level
+Michael Mayer,TE,2024,11,36.6,3.33,48,Replacement level
+Erick All Jr.,TE,2024,9,35.8,3.98,49,Replacement level
+Tanner Hudson,TE,2024,11,34.4,3.13,50,Replacement level
+Lucas Krull,TE,2024,13,34.2,2.63,51,Replacement level
+Johnny Mundt,TE,2024,15,33.2,2.21,52,Replacement level
+Kylen Granson,TE,2024,16,32.2,2.01,53,Replacement level
+Adam Trautman,TE,2024,17,31.8,1.87,54,Replacement level
+Drew Sample,TE,2024,17,30.9,1.82,55,Replacement level
+Nick Vannett,TE,2024,13,30.5,2.35,56,Replacement level
+Jeremy Ruckert,TE,2024,17,28.5,1.68,57,Replacement level
+Cade Stover,TE,2024,15,28.3,1.89,58,Replacement level
+Mo Alie-Cox,TE,2024,17,26.7,1.57,59,Replacement level
+Daniel Bellinger,TE,2024,17,26.5,1.56,60,Replacement level
+Nate Adkins,TE,2024,17,25.5,1.5,61,Replacement level
+Brock Wright,TE,2024,17,23.0,1.35,62,Replacement level
+Payne Durham,TE,2024,16,22.5,1.41,63,Replacement level
+Charlie Kolar,TE,2024,13,22.1,1.7,64,Replacement level
+Julian Hill,TE,2024,16,22.0,1.38,65,Replacement level
+Eric Saubert,TE,2024,13,20.7,1.59,66,Replacement level
+Drew Ogletree,TE,2024,17,19.9,1.17,67,Replacement level
+Luke Farrell,TE,2024,12,18.7,1.56,68,Replacement level
+Brevyn Spann-Ford,TE,2024,17,17.8,1.05,69,Replacement level
+Harrison Bryant,TE,2024,6,17.6,2.93,70,Replacement level
+John Bates,TE,2024,17,16.4,0.96,71,Replacement level
+Hayden Hurst,TE,2024,7,15.3,2.19,72,Replacement level
+Tyler Higbee,TE,2024,3,14.6,4.87,73,Replacement level
+Pharaoh Brown,TE,2024,10,14.5,1.45,74,Replacement level
+Durham Smythe,TE,2024,14,14.3,1.02,75,Replacement level
+Devin Culp,TE,2024,5,13.8,2.76,76,Replacement level
+Hunter Long,TE,2024,11,13.0,1.18,77,Replacement level
+Charlie Woerner,TE,2024,16,11.6,0.72,78,Replacement level
+Gerald Everett,TE,2024,10,11.6,1.16,79,Replacement level
+Luke Musgrave,TE,2024,7,11.5,1.64,80,Replacement level
+Blake Whiteheart,TE,2024,11,11.1,1.01,81,Replacement level
+Tucker Fisk,TE,2024,9,10.9,1.21,82,Replacement level
+Peyton Hendershot,TE,2024,5,10.1,2.02,83,Replacement level
+Connor Heyward,TE,2024,17,10.0,0.59,84,Replacement level
+MyCole Pruitt,TE,2024,8,10.0,1.25,85,Replacement level
+Davis Allen,TE,2024,14,9.9,0.71,86,Replacement level
+Kenny Yeboah,TE,2024,7,9.7,1.39,87,Replacement level
+Tip Reiman,TE,2024,17,9.7,0.57,88,Replacement level
+Quintin Morris,TE,2024,10,8.6,0.86,89,Replacement level
+Ben Sims,TE,2024,17,8.2,0.48,90,Replacement level
+Ben Sinnott,TE,2024,17,7.8,0.46,91,Replacement level
+Cam Grandy,TE,2024,8,7.8,0.97,92,Replacement level
+Greg Dulcich,TE,2024,9,7.8,0.87,93,Replacement level
+Will Mallory,TE,2024,10,6.9,0.69,94,Replacement level
+Chris Manhertz,TE,2024,17,6.0,0.35,95,Replacement level
+Dallin Holker,TE,2024,12,5.1,0.42,96,Replacement level
+Tanner Conner,TE,2024,7,4.6,0.66,97,Replacement level
+Josiah Deguara,TE,2024,7,4.4,0.63,98,Replacement level
+Ian Thomas,TE,2024,3,3.7,1.23,99,Replacement level
+Eric Tomlinson,TE,2024,5,2.9,0.58,100,Replacement level
+Trey McBride,TE,2025,17,249.9,14.7,1,Elite starter
+Kyle Pitts Sr.,TE,2025,17,180.8,10.64,2,Elite starter
+Juwan Johnson,TE,2025,17,165.9,9.76,3,Elite starter
+Travis Kelce,TE,2025,17,161.1,9.48,4,Elite starter
+Dalton Schultz,TE,2025,17,159.7,9.39,5,Elite starter
+Tyler Warren,TE,2025,17,157.7,9.28,6,Elite starter
+Harold Fannin Jr.,TE,2025,16,145.1,9.07,7,Starter
+Jake Ferguson,TE,2025,17,142.0,8.35,8,Starter
+Hunter Henry,TE,2025,17,136.8,8.05,9,Starter
+Brock Bowers,TE,2025,12,132.0,11.0,10,Starter
+Colston Loveland,TE,2025,16,129.3,8.08,11,Starter
+George Kittle,TE,2025,11,119.8,10.89,12,Starter
+Dallas Goedert,TE,2025,15,119.1,7.94,13,Bench depth
+Cade Otton,TE,2025,16,116.2,7.26,14,Bench depth
+Oronde Gadsden II,TE,2025,15,115.4,7.69,15,Bench depth
+Chig Okonkwo,TE,2025,17,112.0,6.59,16,Bench depth
+AJ Barner,TE,2025,17,103.9,6.11,17,Bench depth
+Zach Ertz,TE,2025,13,100.4,7.72,18,Bench depth
+Brenton Strange,TE,2025,12,100.0,8.33,19,Replacement level
+Theo Johnson,TE,2025,15,97.8,6.52,20,Replacement level
+Dalton Kincaid,TE,2025,12,96.1,8.01,21,Replacement level
+Evan Engram,TE,2025,16,96.1,6.01,22,Replacement level
+T.J. Hockenson,TE,2025,15,94.8,6.32,23,Replacement level
+Mark Andrews,TE,2025,17,90.2,5.31,24,Replacement level
+Pat Freiermuth,TE,2025,17,89.6,5.27,25,Replacement level
+Sam LaPorta,TE,2025,9,88.9,9.88,26,Replacement level
+Colby Parkinson,TE,2025,15,83.8,5.59,27,Replacement level
+Mason Taylor,TE,2025,13,80.9,6.22,28,Replacement level
+Tucker Kraft,TE,2025,8,80.9,10.11,29,Replacement level
+Gunnar Helm,TE,2025,16,79.7,4.98,30,Replacement level
+Dawson Knox,TE,2025,17,77.7,4.57,31,Replacement level
+Michael Mayer,TE,2025,13,67.8,5.22,32,Replacement level
+Darnell Washington,TE,2025,16,67.4,4.21,33,Replacement level
+Cole Kmet,TE,2025,16,64.7,4.04,34,Replacement level
+Jake Tonges,TE,2025,16,63.3,3.96,35,Replacement level
+Noah Fant,TE,2025,15,62.8,4.19,36,Replacement level
+David Njoku,TE,2025,12,62.3,5.19,37,Replacement level
+Jonnu Smith,TE,2025,17,60.2,3.54,38,Replacement level
+Elijah Higgins,TE,2025,17,60.1,3.54,39,Replacement level
+Greg Dulcich,TE,2025,10,59.5,5.95,40,Replacement level
+Mike Gesicki,TE,2025,13,58.7,4.52,41,Replacement level
+Isaiah Likely,TE,2025,14,57.7,4.12,42,Replacement level
+Tyler Higbee,TE,2025,10,53.1,5.31,43,Replacement level
+Darren Waller,TE,2025,9,52.3,5.81,44,Replacement level
+Tommy Tremble,TE,2025,17,51.9,3.05,45,Replacement level
+Luke Musgrave,TE,2025,17,49.2,2.89,46,Replacement level
+Ja'Tavion Sanders,TE,2025,13,48.0,3.69,47,Replacement level
+Daniel Bellinger,TE,2025,16,47.6,2.98,48,Replacement level
+Austin Hooper,TE,2025,16,47.3,2.96,49,Replacement level
+Davis Allen,TE,2025,17,44.8,2.64,50,Replacement level
+Jeremy Ruckert,TE,2025,17,40.9,2.41,51,Replacement level
+Adam Trautman,TE,2025,17,39.5,2.32,52,Replacement level
+Noah Gray,TE,2025,16,38.8,2.42,53,Replacement level
+Mitchell Evans,TE,2025,17,36.1,2.12,54,Replacement level
+Tanner Hudson,TE,2025,13,35.8,2.75,55,Replacement level
+Jackson Hawes,TE,2025,17,34.7,2.04,56,Replacement level
+Terrance Ferguson,TE,2025,13,34.1,2.62,57,Replacement level
+Elijah Arroyo,TE,2025,13,32.9,2.53,58,Replacement level
+Josh Oliver,TE,2025,15,31.0,2.07,59,Replacement level
+Julian Hill,TE,2025,14,29.0,2.07,60,Replacement level
+Luke Schoonmaker,TE,2025,17,27.2,1.6,61,Replacement level
+Drew Sample,TE,2025,17,25.6,1.51,62,Replacement level
+Brock Wright,TE,2025,11,24.8,2.25,63,Replacement level
+Mo Alie-Cox,TE,2025,17,24.7,1.45,64,Replacement level
+Ian Thomas,TE,2025,15,24.4,1.63,65,Replacement level
+Charlie Kolar,TE,2025,17,24.2,1.42,66,Replacement level
+Ben Sinnott,TE,2025,16,22.4,1.4,67,Replacement level
+John Bates,TE,2025,15,21.3,1.42,68,Replacement level
+Will Dissly,TE,2025,9,20.7,2.3,69,Replacement level
+Hunter Long,TE,2025,9,20.5,2.28,70,Replacement level
+Johnny Mundt,TE,2025,16,20.1,1.26,71,Replacement level
+Taysom Hill,TE,2025,13,20.1,1.55,72,Replacement level
+Cade Stover,TE,2025,9,19.6,2.18,73,Replacement level
+Luke Farrell,TE,2025,17,19.5,1.15,74,Replacement level
+John FitzPatrick,TE,2025,15,19.2,1.28,75,Replacement level
+Tanner Conner,TE,2025,9,18.1,2.01,76,Replacement level
+Brevyn Spann-Ford,TE,2025,17,18.0,1.06,77,Replacement level
+Tyler Conklin,TE,2025,10,17.1,1.71,78,Replacement level
+Grant Calcaterra,TE,2025,15,16.6,1.11,79,Replacement level
+Anthony Firkser,TE,2025,7,13.3,1.9,80,Replacement level
+Foster Moreau,TE,2025,11,12.9,1.17,81,Replacement level
+Charlie Woerner,TE,2025,17,12.8,0.75,82,Replacement level
+Stone Smartt,TE,2025,9,12.2,1.36,83,Replacement level
+Quintin Morris,TE,2025,13,11.5,0.88,84,Replacement level
+Kylen Granson,TE,2025,17,11.0,0.65,85,Replacement level
+Nate Adkins,TE,2025,9,10.8,1.2,86,Replacement level
+Jack Stoll,TE,2025,15,10.6,0.71,87,Replacement level
+Andrew Beck,TE,2025,17,10.5,0.62,88,Replacement level
+Brenden Bates,TE,2025,9,8.8,0.98,89,Replacement level
+Albert Okwuegbunam Jr.,TE,2025,1,8.6,8.6,90,Replacement level
+Josh Whyle,TE,2025,8,8.6,1.07,91,Replacement level
+Keleki Latu,TE,2025,5,7.5,1.5,92,Replacement level
+Eric Saubert,TE,2025,11,7.1,0.65,93,Replacement level
+David Martin-Robinson,TE,2025,15,7.0,0.47,94,Replacement level
+Drew Ogletree,TE,2025,15,6.7,0.45,95,Replacement level
+Durham Smythe,TE,2025,17,6.5,0.38,96,Replacement level
+Ben Sims,TE,2025,9,6.0,0.67,97,Replacement level
+James Mitchell,TE,2025,5,5.8,1.16,98,Replacement level
+Connor Heyward,TE,2025,16,5.1,0.32,99,Replacement level
+Josiah Deguara,TE,2025,12,5.1,0.42,100,Replacement level
+Shane Zylstra,TE,2025,5,5.0,1.0,101,Replacement level
+Tip Reiman,TE,2025,5,4.8,0.96,102,Replacement level
+Tucker Fisk,TE,2025,10,3.9,0.39,103,Replacement level
+Lucas Krull,TE,2025,4,3.5,0.88,104,Replacement level
+Sal Cannella,TE,2025,2,3.1,1.55,105,Replacement level
+Harrison Bryant,TE,2025,12,2.7,0.23,106,Replacement level
+Ross Dwelley,TE,2025,10,2.7,0.27,107,Replacement level
+Blake Whiteheart,TE,2025,16,2.4,0.15,108,Replacement level
+Payne Durham,TE,2025,17,2.1,0.12,109,Replacement level
+Jelani Woods,TE,2025,6,1.4,0.23,110,Replacement level
+Cooper Kupp,WR,2021,17,339.7,19.98,1,Elite starter
+Davante Adams,WR,2021,16,278.3,17.39,2,Elite starter
+Justin Jefferson,WR,2021,17,269.6,15.86,3,Elite starter
+Tyreek Hill,WR,2021,17,234.9,13.82,4,Elite starter
+Ja'Marr Chase,WR,2021,17,226.5,13.32,5,Elite starter
+Stefon Diggs,WR,2021,17,225.5,13.26,6,Elite starter
+Diontae Johnson,WR,2021,16,223.1,13.94,7,Elite starter
+Keenan Allen,WR,2021,16,219.8,13.74,8,Elite starter
+Deebo Samuel Sr.,WR,2021,16,217.5,13.59,9,Elite starter
+DJ Moore,WR,2021,17,208.7,12.28,10,Elite starter
+Chris Godwin Jr.,WR,2021,14,208.3,14.88,11,Elite starter
+Hunter Renfrow,WR,2021,17,206.8,12.16,12,Elite starter
+Jaylen Waddle,WR,2021,16,205.5,12.84,13,Starter
+Michael Pittman Jr.,WR,2021,17,196.2,11.54,14,Starter
+Brandin Cooks,WR,2021,16,193.7,12.11,15,Starter
+Hollywood Brown,WR,2021,16,191.8,11.99,16,Starter
+Mike Williams,WR,2021,16,190.6,11.91,17,Starter
+Tyler Lockett,WR,2021,16,190.5,11.91,18,Starter
+CeeDee Lamb,WR,2021,16,189.2,11.82,19,Starter
+Darnell Mooney,WR,2021,17,186.5,10.97,20,Starter
+Tee Higgins,WR,2021,14,183.1,13.08,21,Starter
+Terry McLaurin,WR,2021,17,182.3,10.72,22,Starter
+Amon-Ra St. Brown,WR,2021,16,181.2,11.32,23,Starter
+Mike Evans,WR,2021,16,177.5,11.09,24,Starter
+Christian Kirk,WR,2021,17,175.2,10.31,25,Starter
+DK Metcalf,WR,2021,17,171.7,10.1,26,Starter
+Jakobi Meyers,WR,2021,16,169.6,10.6,27,Starter
+Marvin Jones Jr.,WR,2021,17,156.2,9.19,28,Starter
+DeVonta Smith,WR,2021,17,155.6,9.15,29,Starter
+Amari Cooper,WR,2021,15,154.5,10.3,30,Starter
+Cole Beasley,WR,2021,16,151.3,9.46,31,Starter
+A.J. Brown,WR,2021,13,149.9,11.53,32,Starter
+Tyler Boyd,WR,2021,16,149.8,9.36,33,Starter
+Chase Claypool,WR,2021,15,145.0,9.67,34,Starter
+Russell Gage Jr.,WR,2021,13,143.0,11.0,35,Starter
+Adam Thielen,WR,2021,13,139.6,10.74,36,Starter
+A.J. Green,WR,2021,16,138.8,8.68,37,Bench depth
+Brandon Aiyuk,WR,2021,17,138.6,8.15,38,Bench depth
+Courtland Sutton,WR,2021,17,135.6,7.98,39,Bench depth
+Kendrick Bourne,WR,2021,17,135.0,7.94,40,Bench depth
+Van Jefferson,WR,2021,17,130.2,7.66,41,Bench depth
+Mecole Hardman Jr.,WR,2021,17,128.3,7.55,42,Bench depth
+Tim Patrick,WR,2021,16,126.4,7.9,43,Bench depth
+Laviska Shenault Jr.,WR,2021,16,124.9,7.81,44,Bench depth
+Marquez Callaway,WR,2021,17,115.8,6.81,45,Bench depth
+K.J. Osborn,WR,2021,17,115.5,6.79,46,Bench depth
+Jarvis Landry,WR,2021,12,109.0,9.08,47,Bench depth
+Quez Watkins,WR,2021,17,107.7,6.34,48,Bench depth
+Kalif Raymond,WR,2021,16,105.6,6.6,49,Replacement level
+Cedrick Wilson Jr.,WR,2021,14,105.2,7.51,50,Replacement level
+Robbie Chosen,WR,2021,17,104.9,6.17,51,Replacement level
+Emmanuel Sanders,WR,2021,14,104.6,7.47,52,Replacement level
+Zay Jones,WR,2021,15,101.6,6.77,53,Replacement level
+Robert Woods,WR,2021,9,100.6,11.18,54,Replacement level
+DeAndre Hopkins,WR,2021,10,99.2,9.92,55,Replacement level
+Byron Pringle,WR,2021,16,98.8,6.17,56,Replacement level
+Odell Beckham Jr.,WR,2021,14,97.7,6.98,57,Replacement level
+Rashod Bateman,WR,2021,12,97.5,8.13,58,Replacement level
+Elijah Moore,WR,2021,11,96.8,8.8,59,Replacement level
+Antonio Brown,WR,2021,7,96.5,13.79,60,Replacement level
+Jamison Crowder,WR,2021,12,95.7,7.98,61,Replacement level
+Donovan Peoples-Jones,WR,2021,14,93.7,6.69,62,Replacement level
+Deonte Harty,WR,2021,13,93.0,7.15,63,Replacement level
+DeVante Parker,WR,2021,10,91.5,9.15,64,Replacement level
+Allen Lazard,WR,2021,14,91.3,6.52,65,Replacement level
+Bryan Edwards,WR,2021,16,91.1,5.69,66,Replacement level
+Gabe Davis,WR,2021,15,89.9,5.99,67,Replacement level
+Braxton Berrios,WR,2021,16,89.1,5.57,68,Replacement level
+Kenny Golladay,WR,2021,14,89.1,6.36,69,Replacement level
+Nick Westbrook-Ikhine,WR,2021,15,85.6,5.71,70,Replacement level
+Jerry Jeudy,WR,2021,10,84.7,8.47,71,Replacement level
+Nelson Agholor,WR,2021,15,84.3,5.62,72,Replacement level
+Corey Davis,WR,2021,9,83.2,9.24,73,Replacement level
+Kadarius Toney,WR,2021,9,81.0,9.0,74,Replacement level
+Michael Gallup,WR,2021,9,79.5,8.83,75,Replacement level
+Adam Humphries,WR,2021,17,79.3,4.66,76,Replacement level
+Allen Robinson II,WR,2021,12,79.0,6.58,77,Replacement level
+Nico Collins,WR,2021,14,77.6,5.54,78,Replacement level
+Laquon Treadwell,WR,2021,12,76.4,6.37,79,Replacement level
+Zach Pascal,WR,2021,16,76.4,4.78,80,Replacement level
+Jalen Guyton,WR,2021,16,75.8,4.74,81,Replacement level
+Julio Jones,WR,2021,10,74.4,7.44,82,Replacement level
+Keelan Cole Sr.,WR,2021,14,72.9,5.21,83,Replacement level
+Sterling Shepard,WR,2021,7,72.6,10.37,84,Replacement level
+Tyler Johnson,WR,2021,16,72.0,4.5,85,Replacement level
+Olamide Zaccheaus,WR,2021,15,71.6,4.77,86,Replacement level
+Henry Ruggs III,WR,2021,7,70.9,10.13,87,Replacement level
+Tre'Quan Smith,WR,2021,10,69.7,6.97,88,Replacement level
+Marquez Valdes-Scantling,WR,2021,11,69.0,6.27,89,Replacement level
+Josh Reynolds,WR,2021,11,68.6,6.24,90,Replacement level
+Joshua Palmer,WR,2021,15,68.3,4.55,91,Replacement level
+Ray-Ray McCloud III,WR,2021,16,66.7,4.17,92,Replacement level
+Sammy Watkins,WR,2021,11,66.4,6.04,93,Replacement level
+Randall Cobb,WR,2021,11,65.5,5.95,94,Replacement level
+DeSean Jackson,WR,2021,14,65.4,4.67,95,Replacement level
+Jalen Reagor,WR,2021,17,62.9,3.7,96,Replacement level
+Devin Duvernay,WR,2021,16,60.2,3.76,97,Replacement level
+Chester Rogers,WR,2021,16,60.1,3.76,98,Replacement level
+Darius Slayton,WR,2021,13,59.9,4.61,99,Replacement level
+Freddie Swain,WR,2021,17,59.3,3.49,100,Replacement level
+Calvin Ridley,WR,2021,5,59.1,11.82,101,Replacement level
+Damiere Byrd,WR,2021,11,58.9,5.35,102,Replacement level
+T.Y. Hilton,WR,2021,10,56.1,5.61,103,Replacement level
+Chris Conley,WR,2021,14,54.3,3.88,104,Replacement level
+DeAndre Carter,WR,2021,17,53.6,3.15,105,Replacement level
+James Washington,WR,2021,15,52.5,3.5,106,Replacement level
+Jauan Jennings,WR,2021,13,52.2,4.02,107,Replacement level
+Rashard Higgins,WR,2021,12,51.5,4.29,108,Replacement level
+Demarcus Robinson,WR,2021,15,51.4,3.43,109,Replacement level
+Marquise Goodwin,WR,2021,14,51.3,3.66,110,Replacement level
+Danny Amendola,WR,2021,8,48.8,6.1,111,Replacement level
+Tajae Sharpe,WR,2021,14,48.0,3.43,112,Replacement level
+Jamal Agnew,WR,2021,12,46.9,3.91,113,Replacement level
+Albert Wilson,WR,2021,10,46.3,4.63,114,Replacement level
+Tavon Austin,WR,2021,12,45.3,3.77,115,Replacement level
+Chris Moore,WR,2021,10,43.7,4.37,116,Replacement level
+Brandon Zylstra,WR,2021,12,43.0,3.58,117,Replacement level
+Antoine Wesley,WR,2021,8,39.8,4.97,118,Replacement level
+Lil'Jordan Humphrey,WR,2021,8,37.9,4.74,119,Replacement level
+Isaiah McKenzie,WR,2021,15,37.8,2.52,120,Replacement level
+Mack Hollins,WR,2021,16,36.3,2.27,121,Replacement level
+James Proche II,WR,2021,7,36.2,5.17,122,Replacement level
+Cam Sims,WR,2021,12,36.1,3.01,123,Replacement level
+Quintez Cephus,WR,2021,5,35.4,7.08,124,Replacement level
+Noah Brown,WR,2021,10,34.4,3.44,125,Replacement level
+John Ross,WR,2021,9,33.4,3.71,126,Replacement level
+Mohamed Sanu Sr.,WR,2021,8,32.7,4.09,127,Replacement level
+Kendall Hinton,WR,2021,11,32.5,2.95,128,Replacement level
+Cyril Grayson Jr.,WR,2021,3,31.2,10.4,129,Replacement level
+Terrace Marshall Jr.,WR,2021,12,30.8,2.57,130,Replacement level
+N'Keal Harry,WR,2021,10,30.4,3.04,131,Replacement level
+Ashton Dulin,WR,2021,16,30.3,1.89,132,Replacement level
+KhaDarel Hodge,WR,2021,12,28.7,2.39,133,Replacement level
+Dyami Brown,WR,2021,10,28.5,2.85,134,Replacement level
+Isaiah Ford,WR,2021,9,28.1,3.12,135,Replacement level
+JuJu Smith-Schuster,WR,2021,5,27.9,5.58,136,Replacement level
+Breshad Perriman,WR,2021,5,27.7,5.54,137,Replacement level
+Malik Turner,WR,2021,7,26.9,3.84,138,Replacement level
+Parris Campbell,WR,2021,6,26.2,4.37,139,Replacement level
+Marcus Johnson,WR,2021,7,25.0,3.57,140,Replacement level
+Ben Skowronek,WR,2021,12,24.3,2.02,141,Replacement level
+Jakeem Grant Sr.,WR,2021,15,24.2,1.61,142,Replacement level
+Anthony Schwartz,WR,2021,13,23.5,1.81,143,Replacement level
+DJ Chark Jr.,WR,2021,3,22.4,7.47,144,Replacement level
+Collin Johnson,WR,2021,8,21.5,2.69,145,Replacement level
+Denzel Mims,WR,2021,10,21.3,2.13,146,Replacement level
+Trinity Benson,WR,2021,7,20.3,2.9,147,Replacement level
+Jeff Smith,WR,2021,9,19.3,2.14,148,Replacement level
+Equanimeous St. Brown,WR,2021,12,18.8,1.57,149,Replacement level
+Dante Pettis,WR,2021,3,18.7,6.23,150,Replacement level
+Phillip Dorsett II,WR,2021,5,18.0,3.6,151,Replacement level
+Trent Sherfield Sr.,WR,2021,12,17.7,1.47,152,Replacement level
+Dax Milne,WR,2021,9,17.3,1.92,153,Replacement level
+Dede Westbrook,WR,2021,15,16.8,1.12,154,Replacement level
+Ihmir Smith-Marsette,WR,2021,6,16.6,2.77,155,Replacement level
+Greg Ward,WR,2021,10,16.5,1.65,156,Replacement level
+Dee Eskridge,WR,2021,8,16.4,2.05,157,Replacement level
+Shi Smith,WR,2021,5,16.4,3.28,158,Replacement level
+Juwann Winfree,WR,2021,5,13.8,2.76,159,Replacement level
+Preston Williams,WR,2021,6,13.1,2.18,160,Replacement level
+Penny Hart,WR,2021,12,12.9,1.07,161,Replacement level
+Kenny Stills,WR,2021,7,12.8,1.83,162,Replacement level
+KJ Hamler,WR,2021,3,12.4,4.13,163,Replacement level
+Tom Kennedy,WR,2021,7,11.4,1.63,164,Replacement level
+Ja'Marcus Bradley,WR,2021,4,10.4,2.6,165,Replacement level
+Jaelon Darden,WR,2021,9,10.3,1.14,166,Replacement level
+Mike Thomas,WR,2021,7,10.2,1.46,167,Replacement level
+Dez Fitzpatrick,WR,2021,3,9.9,3.3,168,Replacement level
+C.J. Board,WR,2021,6,9.1,1.52,169,Replacement level
+Scotty Miller,WR,2021,6,8.8,1.47,170,Replacement level
+Curtis Samuel,WR,2021,5,8.7,1.74,171,Replacement level
+Jason Moore Jr.,WR,2021,1,8.6,8.6,172,Replacement level
+Alex Erickson,WR,2021,17,8.5,0.5,173,Replacement level
+Amari Rodgers,WR,2021,16,8.5,0.53,174,Replacement level
+Anthony Miller,WR,2021,3,8.5,2.83,175,Replacement level
+Cody White,WR,2021,6,8.3,1.38,176,Replacement level
+Josh Gordon,WR,2021,9,8.2,0.91,177,Replacement level
+Kristian Wilkerson,WR,2021,1,8.2,8.2,178,Replacement level
+Chris Hogan,WR,2021,5,8.1,1.62,179,Replacement level
+Willie Snead IV,WR,2021,7,7.8,1.11,180,Replacement level
+Cody Hollister,WR,2021,3,7.3,2.43,181,Replacement level
+Pharoh Cooper,WR,2021,8,7.3,0.91,182,Replacement level
+Auden Tate,WR,2021,4,6.9,1.73,183,Replacement level
+D.J. Montgomery,WR,2021,2,6.6,3.3,184,Replacement level
+William Fuller V,WR,2021,2,6.6,3.3,185,Replacement level
+Christian Blake,WR,2021,10,6.5,0.65,186,Replacement level
+KJ Hill Jr.,WR,2021,6,6.0,1.0,187,Replacement level
+J.J. Arcega-Whiteside,WR,2021,7,5.6,0.8,188,Replacement level
+Trenton Irwin,WR,2021,5,5.4,1.08,189,Replacement level
+Jake Kumerow,WR,2021,7,4.8,0.69,190,Replacement level
+Kevin White,WR,2021,4,4.8,1.2,191,Replacement level
+Keith Kirkwood,WR,2021,3,4.7,1.57,192,Replacement level
+Greg Dortch,WR,2021,5,4.5,0.9,193,Replacement level
+Marcus Kemp,WR,2021,12,4.4,0.37,194,Replacement level
+Dazz Newsome,WR,2021,3,4.3,1.43,195,Replacement level
+Tylan Wallace,WR,2021,10,4.3,0.43,196,Replacement level
+Dezmon Patmon,WR,2021,4,4.1,1.02,197,Replacement level
+David Sills V,WR,2021,4,3.7,0.93,198,Replacement level
+Tyron Billy-Johnson,WR,2021,7,3.6,0.51,199,Replacement level
+Cameron Batson,WR,2021,4,3.5,0.88,200,Replacement level
+Stanley Morgan Jr.,WR,2021,11,3.1,0.28,201,Replacement level
+Racey McMath,WR,2021,6,2.8,0.47,202,Replacement level
+Frank Darby,WR,2021,4,2.4,0.6,203,Replacement level
+Diontae Spencer,WR,2021,15,0.7,0.05,204,Replacement level
+Travis Benjamin,WR,2021,5,0.0,0.0,205,Replacement level
+Justin Jefferson,WR,2022,17,308.9,18.17,1,Elite starter
+Tyreek Hill,WR,2022,17,290.0,17.06,2,Elite starter
+Stefon Diggs,WR,2022,17,255.5,15.03,3,Elite starter
+Davante Adams,WR,2022,17,251.6,14.8,4,Elite starter
+CeeDee Lamb,WR,2022,17,242.9,14.29,5,Elite starter
+A.J. Brown,WR,2022,17,237.6,13.98,6,Elite starter
+Amon-Ra St. Brown,WR,2022,16,222.1,13.88,7,Elite starter
+DeVonta Smith,WR,2022,17,214.6,12.62,8,Elite starter
+Jaylen Waddle,WR,2022,17,210.6,12.39,9,Elite starter
+Chris Godwin Jr.,WR,2022,15,206.3,13.75,10,Elite starter
+Terry McLaurin,WR,2022,17,196.1,11.54,11,Elite starter
+Christian Kirk,WR,2022,17,194.8,11.46,12,Elite starter
+DK Metcalf,WR,2022,17,194.8,11.46,13,Starter
+Amari Cooper,WR,2022,17,194.0,11.41,14,Starter
+Garrett Wilson,WR,2022,17,193.3,11.37,15,Starter
+Ja'Marr Chase,WR,2022,13,191.6,14.74,16,Starter
+Michael Pittman Jr.,WR,2022,16,191.5,11.97,17,Starter
+Mike Evans,WR,2022,15,189.4,12.63,18,Starter
+Tyler Lockett,WR,2022,16,187.3,11.71,19,Starter
+Brandon Aiyuk,WR,2022,17,179.5,10.56,20,Starter
+Tee Higgins,WR,2022,15,179.2,11.95,21,Starter
+Chris Olave,WR,2022,15,176.2,11.75,22,Starter
+Diontae Johnson,WR,2022,17,174.2,10.25,23,Starter
+JuJu Smith-Schuster,WR,2022,16,171.3,10.71,24,Starter
+Zay Jones,WR,2022,16,164.3,10.27,25,Starter
+Jerry Jeudy,WR,2022,15,164.2,10.95,26,Starter
+Drake London,WR,2022,17,158.6,9.33,27,Starter
+Cooper Kupp,WR,2022,9,156.2,17.36,28,Starter
+Mike Williams,WR,2022,13,152.5,11.73,29,Starter
+DJ Moore,WR,2022,17,151.8,8.93,30,Starter
+Joshua Palmer,WR,2022,16,148.9,9.31,31,Starter
+Jakobi Meyers,WR,2022,14,147.4,10.53,32,Starter
+Courtland Sutton,WR,2022,15,146.9,9.79,33,Starter
+Donovan Peoples-Jones,WR,2022,17,144.9,8.52,34,Starter
+Adam Thielen,WR,2022,17,141.6,8.33,35,Starter
+Keenan Allen,WR,2022,10,141.2,14.12,36,Starter
+Allen Lazard,WR,2022,15,138.8,9.25,37,Bench depth
+Hollywood Brown,WR,2022,12,137.9,11.49,38,Bench depth
+Tyler Boyd,WR,2022,17,136.6,8.04,39,Bench depth
+DeAndre Hopkins,WR,2022,9,135.7,15.08,40,Bench depth
+George Pickens,WR,2022,17,132.1,7.77,41,Bench depth
+Gabe Davis,WR,2022,15,131.6,8.77,42,Bench depth
+Curtis Samuel,WR,2022,17,129.6,7.62,43,Bench depth
+Brandin Cooks,WR,2022,13,126.9,9.76,44,Bench depth
+Mack Hollins,WR,2022,17,126.0,7.41,45,Bench depth
+Parris Campbell,WR,2022,17,125.3,7.37,46,Bench depth
+K.J. Osborn,WR,2022,17,125.0,7.35,47,Bench depth
+Deebo Samuel Sr.,WR,2022,13,119.2,9.17,48,Bench depth
+Darius Slayton,WR,2022,15,118.4,7.89,49,Replacement level
+Richie James Jr.,WR,2022,16,113.9,7.12,50,Replacement level
+Marquez Valdes-Scantling,WR,2022,17,110.7,6.51,51,Replacement level
+Kalif Raymond,WR,2022,17,108.6,6.39,52,Replacement level
+Robert Woods,WR,2022,17,105.7,6.22,53,Replacement level
+Chris Moore,WR,2022,15,102.8,6.85,54,Replacement level
+Christian Watson,WR,2022,14,102.1,7.29,55,Replacement level
+Alec Pierce,WR,2022,16,100.3,6.27,56,Replacement level
+DeAndre Carter,WR,2022,17,99.8,5.87,57,Replacement level
+Marvin Jones Jr.,WR,2022,16,98.9,6.18,58,Replacement level
+Greg Dortch,WR,2022,16,98.7,6.17,59,Replacement level
+Noah Brown,WR,2022,16,98.5,6.16,60,Replacement level
+Demarcus Robinson,WR,2022,16,93.8,5.86,61,Replacement level
+Russell Gage Jr.,WR,2022,13,93.6,7.2,62,Replacement level
+Olamide Zaccheaus,WR,2022,17,93.3,5.49,63,Replacement level
+Chase Claypool,WR,2022,15,91.1,6.07,64,Replacement level
+Darnell Mooney,WR,2022,11,89.3,8.12,65,Replacement level
+Jahan Dotson,WR,2022,12,87.3,7.27,66,Replacement level
+Josh Reynolds,WR,2022,12,85.9,7.16,67,Replacement level
+Corey Davis,WR,2022,13,85.6,6.58,68,Replacement level
+Nico Collins,WR,2022,10,85.1,8.51,69,Replacement level
+DeVante Parker,WR,2022,13,84.9,6.53,70,Replacement level
+Romeo Doubs,WR,2022,13,84.5,6.5,71,Replacement level
+Isaiah McKenzie,WR,2022,16,84.3,5.27,72,Replacement level
+Elijah Moore,WR,2022,16,81.6,5.1,73,Replacement level
+Michael Gallup,WR,2022,14,81.4,5.81,74,Replacement level
+DJ Chark Jr.,WR,2022,11,80.2,7.29,75,Replacement level
+Kendrick Bourne,WR,2022,16,78.4,4.9,76,Replacement level
+Devin Duvernay,WR,2022,14,77.7,5.55,77,Replacement level
+Treylon Burks,WR,2022,11,77.4,7.04,78,Replacement level
+Terrace Marshall Jr.,WR,2022,13,77.0,5.92,79,Replacement level
+Rashid Shaheed,WR,2022,12,76.8,6.4,80,Replacement level
+Ben Skowronek,WR,2022,14,76.6,5.47,81,Replacement level
+Jauan Jennings,WR,2022,16,76.6,4.79,82,Replacement level
+Isaiah Hodgins,WR,2022,9,76.2,8.47,83,Replacement level
+Randall Cobb,WR,2022,13,75.7,5.82,84,Replacement level
+Trent Sherfield Sr.,WR,2022,16,71.7,4.48,85,Replacement level
+Hunter Renfrow,WR,2022,10,69.0,6.9,86,Replacement level
+Quez Watkins,WR,2022,17,68.4,4.02,87,Replacement level
+Nelson Agholor,WR,2022,15,67.2,4.48,88,Replacement level
+Allen Robinson II,WR,2022,10,66.9,6.69,89,Replacement level
+Marquise Goodwin,WR,2022,13,65.7,5.05,90,Replacement level
+Nick Westbrook-Ikhine,WR,2022,16,64.7,4.04,91,Replacement level
+Van Jefferson,WR,2022,10,60.9,6.09,92,Replacement level
+Kendall Hinton,WR,2022,11,55.1,5.01,93,Replacement level
+Mecole Hardman Jr.,WR,2022,8,54.7,6.84,94,Replacement level
+Laviska Shenault Jr.,WR,2022,13,54.2,4.17,95,Replacement level
+Julio Jones,WR,2022,10,53.9,5.39,96,Replacement level
+Equanimeous St. Brown,WR,2022,16,53.3,3.33,97,Replacement level
+Jarvis Landry,WR,2022,9,52.2,5.8,98,Replacement level
+Shi Smith,WR,2022,17,51.6,3.04,99,Replacement level
+Sammy Watkins,WR,2022,9,48.5,5.39,100,Replacement level
+Robbie Chosen,WR,2022,12,48.2,4.02,101,Replacement level
+Tutu Atwell,WR,2022,13,47.8,3.68,102,Replacement level
+A.J. Green,WR,2022,13,47.6,3.66,103,Replacement level
+Skyy Moore,WR,2022,16,47.0,2.94,104,Replacement level
+Tre'Quan Smith,WR,2022,10,46.8,4.68,105,Replacement level
+Tyquan Thornton,WR,2022,12,46.7,3.89,106,Replacement level
+Justin Watson,WR,2022,17,46.5,2.74,107,Replacement level
+Phillip Dorsett II,WR,2022,15,45.7,3.05,108,Replacement level
+Wan'Dale Robinson,WR,2022,6,45.7,7.62,109,Replacement level
+David Bell,WR,2022,16,45.4,2.84,110,Replacement level
+Dante Pettis,WR,2022,17,43.5,2.56,111,Replacement level
+Rashod Bateman,WR,2022,6,43.5,7.25,112,Replacement level
+Jamal Agnew,WR,2022,15,41.7,2.78,113,Replacement level
+Scotty Miller,WR,2022,12,41.5,3.46,114,Replacement level
+Damiere Byrd,WR,2022,12,39.8,3.32,115,Replacement level
+Brandon Powell,WR,2022,17,39.6,2.33,116,Replacement level
+Ray-Ray McCloud III,WR,2022,17,38.3,2.25,117,Replacement level
+Trenton Irwin,WR,2022,9,38.1,4.23,118,Replacement level
+Amari Rodgers,WR,2022,15,36.4,2.43,119,Replacement level
+Ashton Dulin,WR,2022,10,35.7,3.57,120,Replacement level
+KhaDarel Hodge,WR,2022,14,33.2,2.37,121,Replacement level
+Kadarius Toney,WR,2022,9,33.1,3.68,122,Replacement level
+Michael Thomas,WR,2022,3,33.1,11.03,123,Replacement level
+Braxton Berrios,WR,2022,17,32.5,1.91,124,Replacement level
+Marquez Callaway,WR,2022,10,31.8,3.18,125,Replacement level
+Zach Pascal,WR,2022,15,30.0,2.0,126,Replacement level
+Denzel Mims,WR,2022,9,29.6,3.29,127,Replacement level
+Sterling Shepard,WR,2022,3,28.4,9.47,128,Replacement level
+Jalen Nailor,WR,2022,8,26.9,3.36,129,Replacement level
+Khalil Shakir,WR,2022,10,26.1,2.61,130,Replacement level
+Cedrick Wilson Jr.,WR,2022,13,25.6,1.97,131,Replacement level
+Lawrence Cager,WR,2022,6,24.8,4.13,132,Replacement level
+Steven Sims Jr.,WR,2022,12,24.4,2.03,133,Replacement level
+DeSean Jackson,WR,2022,7,24.3,3.47,134,Replacement level
+Keelan Cole Sr.,WR,2022,12,24.1,2.01,135,Replacement level
+Byron Pringle,WR,2022,10,23.5,2.35,136,Replacement level
+KJ Hamler,WR,2022,7,23.5,3.36,137,Replacement level
+Tom Kennedy,WR,2022,7,22.1,3.16,138,Replacement level
+David Sills V,WR,2022,7,21.6,3.09,139,Replacement level
+Jeff Smith,WR,2022,7,21.4,3.06,140,Replacement level
+Breshad Perriman,WR,2022,8,20.0,2.5,141,Replacement level
+Dyami Brown,WR,2022,9,19.3,2.14,142,Replacement level
+River Cracraft,WR,2022,8,19.2,2.4,143,Replacement level
+T.Y. Hilton,WR,2022,3,19.1,6.37,144,Replacement level
+Marcus Johnson,WR,2022,8,18.9,2.36,145,Replacement level
+Michael Bandy,WR,2022,8,18.9,2.36,146,Replacement level
+N'Keal Harry,WR,2022,6,18.6,3.1,147,Replacement level
+Jalen Reagor,WR,2022,17,18.4,1.08,148,Replacement level
+Velus Jones Jr.,WR,2022,11,17.7,1.61,149,Replacement level
+Cam Sims,WR,2022,13,16.9,1.3,150,Replacement level
+Kyle Philips,WR,2022,4,15.8,3.95,151,Replacement level
+James Proche II,WR,2022,12,14.2,1.18,152,Replacement level
+Kenny Golladay,WR,2022,6,14.1,2.35,153,Replacement level
+Samori Toure,WR,2022,4,13.2,3.3,154,Replacement level
+Dee Eskridge,WR,2022,9,12.8,1.42,155,Replacement level
+Trent Taylor,WR,2022,16,12.2,0.76,156,Replacement level
+Jamison Crowder,WR,2022,4,12.0,3.0,157,Replacement level
+Andre Baccellia,WR,2022,7,11.5,1.64,158,Replacement level
+Freddie Swain,WR,2022,3,11.4,3.8,159,Replacement level
+Jake Kumerow,WR,2022,5,10.4,2.08,160,Replacement level
+Gunner Olszewski,WR,2022,15,10.3,0.69,161,Replacement level
+Brandon Johnson,WR,2022,5,10.2,2.04,162,Replacement level
+Laquon Treadwell,WR,2022,3,10.2,3.4,163,Replacement level
+Dax Milne,WR,2022,15,9.7,0.65,164,Replacement level
+Cole Beasley,WR,2022,5,9.5,1.9,165,Replacement level
+Jalen Virgil,WR,2022,7,9.5,1.36,166,Replacement level
+Michael Woods II,WR,2022,8,9.5,1.19,167,Replacement level
+Kevin White,WR,2022,6,9.4,1.57,168,Replacement level
+Anthony Schwartz,WR,2022,7,9.1,1.3,169,Replacement level
+Michael Strachan,WR,2022,6,8.9,1.48,170,Replacement level
+Chris Conley,WR,2022,4,8.6,2.15,171,Replacement level
+Cody Hollister,WR,2022,6,8.4,1.4,172,Replacement level
+Jalen Guyton,WR,2022,2,8.4,4.2,173,Replacement level
+Deven Thompkins,WR,2022,5,8.2,1.64,174,Replacement level
+Tylan Wallace,WR,2022,8,7.3,0.91,175,Replacement level
+Racey McMath,WR,2022,4,6.0,1.5,176,Replacement level
+Tim Jones,WR,2022,7,6.0,0.86,177,Replacement level
+Mike Thomas,WR,2022,5,5.8,1.16,178,Replacement level
+Simi Fehoko,WR,2022,3,5.4,1.8,179,Replacement level
+Jameson Williams,WR,2022,6,5.1,0.85,180,Replacement level
+Penny Hart,WR,2022,3,5.0,1.67,181,Replacement level
+Tyrie Cleveland,WR,2022,5,4.8,0.96,182,Replacement level
+Bryan Edwards,WR,2022,4,4.5,1.13,183,Replacement level
+Dezmon Patmon,WR,2022,1,4.4,4.4,184,Replacement level
+Montrell Washington,WR,2022,15,4.2,0.28,185,Replacement level
+Andy Isabella,WR,2022,4,4.1,1.02,186,Replacement level
+Cade Johnson,WR,2022,2,4.1,2.05,187,Replacement level
+Lil'Jordan Humphrey,WR,2022,4,4.0,1.0,188,Replacement level
+Keith Kirkwood,WR,2022,3,3.8,1.27,189,Replacement level
+Dennis Houston,WR,2022,2,3.6,1.8,190,Replacement level
+Austin Trammell,WR,2022,2,3.3,1.65,191,Replacement level
+Juwann Winfree,WR,2022,3,2.7,0.9,192,Replacement level
+Ihmir Smith-Marsette,WR,2022,4,2.5,0.63,193,Replacement level
+Danny Gray,WR,2022,7,2.0,0.29,194,Replacement level
+Lance McCutcheon,WR,2022,4,0.0,0.0,195,Replacement level
+CeeDee Lamb,WR,2023,17,309.9,18.23,1,Elite starter
+Tyreek Hill,WR,2023,16,298.9,18.68,2,Elite starter
+Amon-Ra St. Brown,WR,2023,16,270.5,16.91,3,Elite starter
+Puka Nacua,WR,2023,17,253.6,14.92,4,Elite starter
+A.J. Brown,WR,2023,17,251.6,14.8,5,Elite starter
+DJ Moore,WR,2023,17,232.4,13.67,6,Elite starter
+Keenan Allen,WR,2023,13,232.3,17.87,7,Elite starter
+Stefon Diggs,WR,2023,17,225.3,13.25,8,Elite starter
+Michael Pittman Jr.,WR,2023,16,224.2,14.01,9,Elite starter
+Ja'Marr Chase,WR,2023,16,221.6,13.85,10,Elite starter
+Davante Adams,WR,2023,17,217.4,12.79,11,Elite starter
+Nico Collins,WR,2023,15,209.7,13.98,12,Elite starter
+Brandon Aiyuk,WR,2023,16,209.2,13.07,13,Starter
+Mike Evans,WR,2023,17,204.5,12.03,14,Starter
+Adam Thielen,WR,2023,17,204.4,12.02,15,Starter
+Chris Olave,WR,2023,16,199.3,12.46,16,Starter
+Garrett Wilson,WR,2023,17,199.2,11.72,17,Starter
+Amari Cooper,WR,2023,15,197.0,13.13,18,Starter
+DeVonta Smith,WR,2023,16,187.6,11.72,19,Starter
+Chris Godwin Jr.,WR,2023,17,185.4,10.91,20,Starter
+DeAndre Hopkins,WR,2023,17,180.7,10.63,21,Starter
+Terry McLaurin,WR,2023,17,179.2,10.54,22,Starter
+Calvin Ridley,WR,2023,17,177.6,10.45,23,Starter
+DK Metcalf,WR,2023,16,177.4,11.09,24,Starter
+George Pickens,WR,2023,17,177.0,10.41,25,Starter
+Justin Jefferson,WR,2023,10,175.4,17.54,26,Starter
+Jaylen Waddle,WR,2023,14,173.4,12.39,27,Starter
+Rashee Rice,WR,2023,16,172.8,10.8,28,Starter
+Tyler Lockett,WR,2023,17,168.4,9.91,29,Starter
+Zay Flowers,WR,2023,16,162.8,10.18,30,Starter
+Jordan Addison,WR,2023,17,161.1,9.48,31,Starter
+Drake London,WR,2023,16,159.5,9.97,32,Starter
+Jakobi Meyers,WR,2023,16,151.7,9.48,33,Starter
+Deebo Samuel Sr.,WR,2023,15,149.2,9.95,34,Starter
+Josh Downs,WR,2023,17,145.1,8.54,35,Starter
+Jayden Reed,WR,2023,16,143.3,8.96,36,Starter
+Courtland Sutton,WR,2023,16,136.2,8.51,37,Bench depth
+Christian Kirk,WR,2023,12,135.7,11.31,38,Bench depth
+Tyler Boyd,WR,2023,17,133.7,7.86,39,Bench depth
+Cooper Kupp,WR,2023,12,132.7,11.06,40,Bench depth
+Jerry Jeudy,WR,2023,16,129.8,8.11,41,Bench depth
+Darius Slayton,WR,2023,17,127.0,7.47,42,Bench depth
+Romeo Doubs,WR,2023,17,126.4,7.44,43,Bench depth
+Jaxon Smith-Njigba,WR,2023,17,125.8,7.4,44,Bench depth
+Curtis Samuel,WR,2023,16,123.3,7.71,45,Bench depth
+Elijah Moore,WR,2023,16,123.0,7.69,46,Bench depth
+Diontae Johnson,WR,2023,13,122.7,9.44,47,Bench depth
+Brandin Cooks,WR,2023,16,119.7,7.48,48,Bench depth
+Gabe Davis,WR,2023,17,119.6,7.04,49,Replacement level
+Rashid Shaheed,WR,2023,16,117.9,7.37,50,Replacement level
+Tank Dell,WR,2023,11,117.9,10.72,51,Replacement level
+Wan'Dale Robinson,WR,2023,15,112.5,7.5,52,Replacement level
+Hollywood Brown,WR,2023,13,108.4,8.34,53,Replacement level
+Tee Higgins,WR,2023,12,107.6,8.97,54,Replacement level
+DeMario Douglas,WR,2023,14,105.1,7.51,55,Replacement level
+K.J. Osborn,WR,2023,15,102.0,6.8,56,Replacement level
+Jahan Dotson,WR,2023,17,100.8,5.93,57,Replacement level
+Josh Reynolds,WR,2023,16,100.8,6.3,58,Replacement level
+Khalil Shakir,WR,2023,17,100.1,5.89,59,Replacement level
+Dontayvion Wicks,WR,2023,15,97.1,6.47,60,Replacement level
+Joshua Palmer,WR,2023,11,96.1,8.74,61,Replacement level
+Michael Wilson,WR,2023,13,94.5,7.27,62,Replacement level
+Odell Beckham Jr.,WR,2023,14,91.5,6.54,63,Replacement level
+Noah Brown,WR,2023,10,89.7,8.97,64,Replacement level
+DJ Chark Jr.,WR,2023,14,87.5,6.25,65,Replacement level
+Tutu Atwell,WR,2023,16,87.3,5.46,66,Replacement level
+Jonathan Mingo,WR,2023,15,84.8,5.65,67,Replacement level
+Kalif Raymond,WR,2023,17,83.9,4.94,68,Replacement level
+Michael Thomas,WR,2023,10,83.8,8.38,69,Replacement level
+Alec Pierce,WR,2023,17,83.4,4.91,70,Replacement level
+Robert Woods,WR,2023,14,82.6,5.9,71,Replacement level
+Quentin Johnston,WR,2023,17,81.1,4.77,72,Replacement level
+Kendrick Bourne,WR,2023,8,77.6,9.7,73,Replacement level
+Trey Palmer,WR,2023,17,77.5,4.56,74,Replacement level
+Michael Gallup,WR,2023,17,75.8,4.46,75,Replacement level
+Nelson Agholor,WR,2023,16,73.1,4.57,76,Replacement level
+Justin Watson,WR,2023,15,73.0,4.87,77,Replacement level
+Darnell Mooney,WR,2023,14,72.4,5.17,78,Replacement level
+DeVante Parker,WR,2023,13,72.4,5.57,79,Replacement level
+Christian Watson,WR,2023,9,70.2,7.8,80,Replacement level
+Rashod Bateman,WR,2023,16,68.7,4.29,81,Replacement level
+Zay Jones,WR,2023,9,66.1,7.34,82,Replacement level
+Nick Westbrook-Ikhine,WR,2023,13,65.0,5.0,83,Replacement level
+Chris Moore,WR,2023,17,64.4,3.79,84,Replacement level
+Demarcus Robinson,WR,2023,9,63.1,7.01,85,Replacement level
+Allen Robinson II,WR,2023,15,62.0,4.13,86,Replacement level
+Brandon Powell,WR,2023,17,61.4,3.61,87,Replacement level
+Jalin Hyatt,WR,2023,17,60.3,3.55,88,Replacement level
+Marvin Mims Jr.,WR,2023,16,59.7,3.73,89,Replacement level
+Jameson Williams,WR,2023,12,59.4,4.95,90,Replacement level
+Trenton Irwin,WR,2023,12,56.6,4.72,91,Replacement level
+JuJu Smith-Schuster,WR,2023,11,55.0,5.0,92,Replacement level
+Allen Lazard,WR,2023,14,54.1,3.86,93,Replacement level
+Marquez Valdes-Scantling,WR,2023,16,52.5,3.28,94,Replacement level
+Tre Tucker,WR,2023,16,52.1,3.26,95,Replacement level
+Greg Dortch,WR,2023,16,52.0,3.25,96,Replacement level
+Cedrick Wilson Jr.,WR,2023,11,51.6,4.69,97,Replacement level
+Braxton Berrios,WR,2023,16,50.8,3.17,98,Replacement level
+Hunter Renfrow,WR,2023,14,50.5,3.61,99,Replacement level
+Jalen Tolbert,WR,2023,17,48.8,2.87,100,Replacement level
+Brandon Johnson,WR,2023,11,47.4,4.31,101,Replacement level
+Jauan Jennings,WR,2023,13,45.5,3.5,102,Replacement level
+Skyy Moore,WR,2023,14,45.4,3.24,103,Replacement level
+Isaiah Hodgins,WR,2023,14,44.0,3.14,104,Replacement level
+Kadarius Toney,WR,2023,13,43.9,3.38,105,Replacement level
+Mike Williams,WR,2023,3,43.9,14.63,106,Replacement level
+Xavier Gipson,WR,2023,17,43.9,2.58,107,Replacement level
+Cedric Tillman,WR,2023,14,43.4,3.1,108,Replacement level
+Mack Hollins,WR,2023,11,43.1,3.92,109,Replacement level
+Van Jefferson,WR,2023,15,40.9,2.73,110,Replacement level
+Alex Erickson,WR,2023,8,39.2,4.9,111,Replacement level
+Jake Bobo,WR,2023,17,38.6,2.27,112,Replacement level
+Treylon Burks,WR,2023,11,38.1,3.46,113,Replacement level
+Bo Melton,WR,2023,5,37.8,7.56,114,Replacement level
+KhaDarel Hodge,WR,2023,17,37.2,2.19,115,Replacement level
+A.T. Perry,WR,2023,8,36.6,4.58,116,Replacement level
+Jamal Agnew,WR,2023,11,36.5,3.32,117,Replacement level
+Calvin Austin III,WR,2023,17,35.0,2.06,118,Replacement level
+Tyler Scott,WR,2023,17,33.8,1.99,119,Replacement level
+Kyle Philips,WR,2023,8,33.1,4.14,120,Replacement level
+Terrace Marshall Jr.,WR,2023,8,32.9,4.11,121,Replacement level
+Jamison Crowder,WR,2023,16,31.9,1.99,122,Replacement level
+John Metchie III,WR,2023,16,31.8,1.99,123,Replacement level
+David Bell,WR,2023,15,30.7,2.05,124,Replacement level
+Parris Campbell,WR,2023,10,30.4,3.04,125,Replacement level
+Byron Pringle,WR,2023,13,30.1,2.32,126,Replacement level
+Deonte Harty,WR,2023,16,30.0,1.88,127,Replacement level
+Lil'Jordan Humphrey,WR,2023,11,29.2,2.65,128,Replacement level
+Parker Washington,WR,2023,9,29.2,3.24,129,Replacement level
+Quez Watkins,WR,2023,5,29.2,5.84,130,Replacement level
+Dyami Brown,WR,2023,16,28.8,1.8,131,Replacement level
+Donovan Peoples-Jones,WR,2023,14,28.5,2.04,132,Replacement level
+Malik Heath,WR,2023,13,27.5,2.12,133,Replacement level
+Mecole Hardman Jr.,WR,2023,7,27.4,3.91,134,Replacement level
+Scotty Miller,WR,2023,12,27.1,2.26,135,Replacement level
+Andrei Iosivas,WR,2023,16,26.6,1.66,136,Replacement level
+Olamide Zaccheaus,WR,2023,11,26.4,2.4,137,Replacement level
+Ray-Ray McCloud III,WR,2023,12,25.5,2.13,138,Replacement level
+Deven Thompkins,WR,2023,17,25.3,1.49,139,Replacement level
+KaVontae Turpin,WR,2023,16,24.7,1.54,140,Replacement level
+Tyquan Thornton,WR,2023,9,22.1,2.46,141,Replacement level
+Derius Davis,WR,2023,17,21.6,1.27,142,Replacement level
+Richie James Jr.,WR,2023,9,21.4,2.38,143,Replacement level
+River Cracraft,WR,2023,6,21.1,3.52,144,Replacement level
+Jalen Reagor,WR,2023,9,20.8,2.31,145,Replacement level
+Trent Sherfield Sr.,WR,2023,11,19.6,1.78,146,Replacement level
+Lynn Bowden Jr.,WR,2023,8,19.3,2.41,147,Replacement level
+Tim Jones,WR,2023,10,19.3,1.93,148,Replacement level
+Isaiah McKenzie,WR,2023,13,19.2,1.48,149,Replacement level
+Jalen Guyton,WR,2023,7,18.9,2.7,150,Replacement level
+Julio Jones,WR,2023,8,18.4,2.3,151,Replacement level
+Xavier Hutchinson,WR,2023,15,17.0,1.13,152,Replacement level
+Robbie Chosen,WR,2023,6,16.6,2.77,153,Replacement level
+Laviska Shenault Jr.,WR,2023,8,16.0,2.0,154,Replacement level
+Samori Toure,WR,2023,8,15.8,1.98,155,Replacement level
+Chase Claypool,WR,2023,11,15.7,1.43,156,Replacement level
+Sterling Shepard,WR,2023,10,15.7,1.57,157,Replacement level
+Ben Skowronek,WR,2023,13,14.6,1.12,158,Replacement level
+David Moore,WR,2023,6,14.4,2.4,159,Replacement level
+Charlie Jones,WR,2023,11,13.4,1.22,160,Replacement level
+Ihmir Smith-Marsette,WR,2023,17,13.1,0.77,161,Replacement level
+Ronnie Bell,WR,2023,13,12.8,0.98,162,Replacement level
+Jalen Brooks,WR,2023,7,12.4,1.77,163,Replacement level
+Justyn Ross,WR,2023,10,11.3,1.13,164,Replacement level
+Equanimeous St. Brown,WR,2023,5,11.2,2.24,165,Replacement level
+Marquise Goodwin,WR,2023,10,10.7,1.07,166,Replacement level
+Jason Brownlee,WR,2023,4,10.6,2.65,167,Replacement level
+Rakim Jarrett,WR,2023,10,10.0,1.0,168,Replacement level
+Chris Conley,WR,2023,1,9.9,9.9,169,Replacement level
+Keelan Doss,WR,2023,2,9.3,4.65,170,Replacement level
+Randall Cobb,WR,2023,9,8.9,0.99,171,Replacement level
+Keith Kirkwood,WR,2023,7,8.7,1.24,172,Replacement level
+D.J. Montgomery,WR,2023,7,8.6,1.23,173,Replacement level
+Marvin Jones Jr.,WR,2023,5,8.5,1.7,174,Replacement level
+Britain Covey,WR,2023,15,8.2,0.55,175,Replacement level
+DeAndre Carter,WR,2023,17,7.9,0.46,176,Replacement level
+Lawrence Cager,WR,2023,5,7.6,1.52,177,Replacement level
+Austin Trammell,WR,2023,15,6.9,0.46,178,Replacement level
+Elijah Cooks,WR,2023,4,6.8,1.7,179,Replacement level
+Velus Jones Jr.,WR,2023,13,6.0,0.46,180,Replacement level
+Jalen Nailor,WR,2023,6,5.9,0.98,181,Replacement level
+Zach Pascal,WR,2023,10,5.9,0.59,182,Replacement level
+Devin Duvernay,WR,2023,13,5.8,0.45,183,Replacement level
+Steven Sims Jr.,WR,2023,3,5.5,1.83,184,Replacement level
+Miles Boykin,WR,2023,8,4.7,0.59,185,Replacement level
+Kayshon Boutte,WR,2023,5,3.9,0.78,186,Replacement level
+Malik Taylor,WR,2023,3,3.3,1.1,187,Replacement level
+Trishton Jackson,WR,2023,2,2.9,1.45,188,Replacement level
+James Proche II,WR,2023,10,0.0,0.0,189,Replacement level
+Ja'Marr Chase,WR,2024,17,297.8,17.52,1,Elite starter
+Justin Jefferson,WR,2024,17,256.3,15.08,2,Elite starter
+Amon-Ra St. Brown,WR,2024,17,241.3,14.19,3,Elite starter
+Malik Nabers,WR,2024,15,229.4,15.29,4,Elite starter
+Drake London,WR,2024,17,227.1,13.36,5,Elite starter
+CeeDee Lamb,WR,2024,15,220.4,14.69,6,Elite starter
+Brian Thomas Jr.,WR,2024,17,215.2,12.66,7,Elite starter
+Jaxon Smith-Njigba,WR,2024,17,213.0,12.53,8,Elite starter
+Jerry Jeudy,WR,2024,17,212.9,12.52,9,Elite starter
+Garrett Wilson,WR,2024,17,211.4,12.44,10,Elite starter
+Ladd McConkey,WR,2024,16,196.9,12.31,11,Elite starter
+DJ Moore,WR,2024,17,194.6,11.45,12,Elite starter
+Terry McLaurin,WR,2024,17,191.6,11.27,13,Starter
+Davante Adams,WR,2024,14,191.3,13.66,14,Starter
+Jakobi Meyers,WR,2024,15,189.7,12.65,15,Starter
+Courtland Sutton,WR,2024,17,189.1,11.12,16,Starter
+Zay Flowers,WR,2024,17,179.9,10.58,17,Starter
+Puka Nacua,WR,2024,11,178.0,16.18,18,Starter
+Tyreek Hill,WR,2024,17,176.9,10.41,19,Starter
+A.J. Brown,WR,2024,13,174.9,13.45,20,Starter
+Jauan Jennings,WR,2024,15,174.5,11.63,21,Starter
+Mike Evans,WR,2024,14,174.4,12.46,22,Starter
+Nico Collins,WR,2024,12,168.6,14.05,23,Starter
+Calvin Ridley,WR,2024,17,165.7,9.75,24,Starter
+DK Metcalf,WR,2024,15,165.2,11.01,25,Starter
+Tee Higgins,WR,2024,12,164.1,13.67,26,Starter
+Darnell Mooney,WR,2024,16,163.2,10.2,27,Starter
+Wan'Dale Robinson,WR,2024,17,162.9,9.58,28,Starter
+Jameson Williams,WR,2024,15,158.1,10.54,29,Starter
+Khalil Shakir,WR,2024,15,158.1,10.54,30,Starter
+Josh Downs,WR,2024,14,152.3,10.88,31,Starter
+DeVonta Smith,WR,2024,13,151.3,11.64,32,Starter
+Jordan Addison,WR,2024,15,150.5,10.03,33,Starter
+Marvin Harrison Jr.,WR,2024,17,150.5,8.85,34,Starter
+Michael Pittman Jr.,WR,2024,16,149.8,9.36,35,Starter
+George Pickens,WR,2024,14,149.0,10.64,36,Starter
+Keenan Allen,WR,2024,15,144.4,9.63,37,Bench depth
+Jayden Reed,WR,2024,17,140.7,8.28,38,Bench depth
+Cooper Kupp,WR,2024,12,138.0,11.5,39,Bench depth
+Jaylen Waddle,WR,2024,16,132.4,8.28,40,Bench depth
+Ray-Ray McCloud III,WR,2024,17,130.6,7.68,41,Bench depth
+DeMario Douglas,WR,2024,17,128.1,7.54,42,Bench depth
+Rome Odunze,WR,2024,17,127.4,7.49,43,Bench depth
+Quentin Johnston,WR,2024,15,126.1,8.41,44,Bench depth
+Xavier Worthy,WR,2024,17,122.8,7.22,45,Bench depth
+Rashod Bateman,WR,2024,17,120.6,7.09,46,Bench depth
+Alec Pierce,WR,2024,16,119.4,7.46,47,Bench depth
+Deebo Samuel Sr.,WR,2024,15,118.0,7.87,48,Bench depth
+Tank Dell,WR,2024,14,117.7,8.41,49,Replacement level
+DeAndre Hopkins,WR,2024,16,117.0,7.31,50,Replacement level
+Elijah Moore,WR,2024,17,114.8,6.75,51,Replacement level
+Jalen Tolbert,WR,2024,17,110.0,6.47,52,Replacement level
+Adam Thielen,WR,2024,10,109.5,10.95,53,Replacement level
+Tyler Lockett,WR,2024,17,109.0,6.41,54,Replacement level
+Chris Godwin Jr.,WR,2024,7,107.6,15.37,55,Replacement level
+Romeo Doubs,WR,2024,13,106.1,8.16,56,Replacement level
+Kayshon Boutte,WR,2024,15,101.9,6.79,57,Replacement level
+Michael Wilson,WR,2024,16,101.8,6.36,58,Replacement level
+Tre Tucker,WR,2024,17,100.9,5.94,59,Replacement level
+Amari Cooper,WR,2024,13,98.7,7.59,60,Replacement level
+Xavier Legette,WR,2024,16,98.7,6.17,61,Replacement level
+Tutu Atwell,WR,2024,17,98.2,5.78,62,Replacement level
+Joshua Palmer,WR,2024,15,97.4,6.49,63,Replacement level
+Stefon Diggs,WR,2024,8,96.6,12.07,64,Replacement level
+Darius Slayton,WR,2024,16,96.3,6.02,65,Replacement level
+Olamide Zaccheaus,WR,2024,17,95.6,5.62,66,Replacement level
+Christian Watson,WR,2024,15,91.0,6.07,67,Replacement level
+Calvin Austin III,WR,2024,17,90.8,5.34,68,Replacement level
+Allen Lazard,WR,2024,12,90.0,7.5,69,Replacement level
+Marvin Mims Jr.,WR,2024,17,89.3,5.25,70,Replacement level
+Devaughn Vele,WR,2024,13,88.5,6.81,71,Replacement level
+Keon Coleman,WR,2024,13,84.6,6.51,72,Replacement level
+Andrei Iosivas,WR,2024,17,83.9,4.94,73,Replacement level
+Jalen McMillan,WR,2024,13,83.1,6.39,74,Replacement level
+Nick Westbrook-Ikhine,WR,2024,14,81.7,5.84,75,Replacement level
+Demarcus Robinson,WR,2024,17,81.5,4.79,76,Replacement level
+Dontayvion Wicks,WR,2024,17,80.5,4.74,77,Replacement level
+Noah Brown,WR,2024,11,80.3,7.3,78,Replacement level
+Jalen Coker,WR,2024,11,79.8,7.25,79,Replacement level
+Tyler Boyd,WR,2024,15,78.0,5.2,80,Replacement level
+KaVontae Turpin,WR,2024,17,73.0,4.29,81,Replacement level
+Tim Patrick,WR,2024,16,72.4,4.53,82,Replacement level
+Chris Olave,WR,2024,8,72.0,9.0,83,Replacement level
+Greg Dortch,WR,2024,17,71.2,4.19,84,Replacement level
+Parker Washington,WR,2024,17,71.0,4.18,85,Replacement level
+Ricky Pearsall,WR,2024,11,71.0,6.45,86,Replacement level
+Diontae Johnson,WR,2024,11,70.5,6.41,87,Replacement level
+Jalen Nailor,WR,2024,17,69.4,4.08,88,Replacement level
+Mack Hollins,WR,2024,17,68.8,4.05,89,Replacement level
+David Moore,WR,2024,17,67.1,3.95,90,Replacement level
+Sterling Shepard,WR,2024,14,65.4,4.67,91,Replacement level
+Christian Kirk,WR,2024,8,64.9,8.11,92,Replacement level
+Cedric Tillman,WR,2024,11,62.9,5.72,93,Replacement level
+Brandon Aiyuk,WR,2024,7,62.4,8.91,94,Replacement level
+Dyami Brown,WR,2024,15,60.8,4.05,95,Replacement level
+Lil'Jordan Humphrey,WR,2024,14,60.3,4.31,96,Replacement level
+Marquez Valdes-Scantling,WR,2024,13,60.1,4.62,97,Replacement level
+Kendrick Bourne,WR,2024,12,58.5,4.88,98,Replacement level
+Curtis Samuel,WR,2024,14,56.3,4.02,99,Replacement level
+Tyler Johnson,WR,2024,11,55.1,5.01,100,Replacement level
+Rashid Shaheed,WR,2024,6,54.9,9.15,101,Replacement level
+Troy Franklin,WR,2024,16,54.3,3.39,102,Replacement level
+Adonai Mitchell,WR,2024,17,54.2,3.19,103,Replacement level
+Rashee Rice,WR,2024,4,52.8,13.2,104,Replacement level
+Brandin Cooks,WR,2024,10,51.9,5.19,105,Replacement level
+Van Jefferson,WR,2024,15,51.6,3.44,106,Replacement level
+Jordan Whittington,WR,2024,15,51.3,3.42,107,Replacement level
+Justin Watson,WR,2024,16,50.9,3.18,108,Replacement level
+Mike Williams,WR,2024,14,50.8,3.63,109,Replacement level
+John Metchie III,WR,2024,13,49.4,3.8,110,Replacement level
+Malik Washington,WR,2024,14,48.3,3.45,111,Replacement level
+Gabe Davis,WR,2024,10,43.9,4.39,112,Replacement level
+Cedrick Wilson Jr.,WR,2024,15,41.1,2.74,113,Replacement level
+JuJu Smith-Schuster,WR,2024,14,41.1,2.94,114,Replacement level
+Jahan Dotson,WR,2024,17,40.6,2.39,115,Replacement level
+Robert Woods,WR,2024,14,40.3,2.88,116,Replacement level
+Kalif Raymond,WR,2024,12,38.5,3.21,117,Replacement level
+Nelson Agholor,WR,2024,13,37.1,2.85,118,Replacement level
+Luke McCaffrey,WR,2024,17,34.8,2.05,119,Replacement level
+Jonathan Mingo,WR,2024,16,33.7,2.11,120,Replacement level
+Josh Reynolds,WR,2024,8,32.4,4.05,121,Replacement level
+DJ Turner,WR,2024,13,31.8,2.45,122,Replacement level
+Tylan Wallace,WR,2024,17,30.3,1.78,123,Replacement level
+Jalen Brooks,WR,2024,14,29.7,2.12,124,Replacement level
+Trey Palmer,WR,2024,15,29.2,1.95,125,Replacement level
+Kevin Austin Jr.,WR,2024,8,26.1,3.26,126,Replacement level
+Ryan Miller,WR,2024,11,24.8,2.25,127,Replacement level
+Derius Davis,WR,2024,15,24.2,1.61,128,Replacement level
+Dante Pettis,WR,2024,8,24.0,3.0,129,Replacement level
+Mason Tipton,WR,2024,11,23.9,2.17,130,Replacement level
+Jake Bobo,WR,2024,17,23.7,1.39,131,Replacement level
+Xavier Hutchinson,WR,2024,16,23.7,1.48,132,Replacement level
+Rakim Jarrett,WR,2024,10,21.4,2.14,133,Replacement level
+Mecole Hardman Jr.,WR,2024,12,21.0,1.75,134,Replacement level
+Bub Means,WR,2024,7,20.8,2.97,135,Replacement level
+Ja'Lynn Polk,WR,2024,15,20.7,1.38,136,Replacement level
+Ryan Flournoy,WR,2024,11,20.2,1.84,137,Replacement level
+KhaDarel Hodge,WR,2024,16,20.1,1.26,138,Replacement level
+Malik Heath,WR,2024,12,19.7,1.64,139,Replacement level
+Devin Duvernay,WR,2024,13,18.9,1.45,140,Replacement level
+Hollywood Brown,WR,2024,2,18.1,9.05,141,Replacement level
+Bo Melton,WR,2024,17,17.1,1.01,142,Replacement level
+Jalen Reagor,WR,2024,8,17.0,2.13,143,Replacement level
+Simi Fehoko,WR,2024,6,16.6,2.77,144,Replacement level
+Zay Jones,WR,2024,11,16.4,1.49,145,Replacement level
+Trent Sherfield Sr.,WR,2024,15,16.3,1.09,146,Replacement level
+DeAndre Carter,WR,2024,13,16.2,1.25,147,Replacement level
+Jamison Crowder,WR,2024,5,16.2,3.24,148,Replacement level
+Bryce Oliver,WR,2024,10,15.5,1.55,149,Replacement level
+Jermaine Burton,WR,2024,14,14.7,1.05,150,Replacement level
+Odell Beckham Jr.,WR,2024,8,14.5,1.81,151,Replacement level
+Jalin Hyatt,WR,2024,16,14.2,0.89,152,Replacement level
+Brandon Powell,WR,2024,17,14.1,0.83,153,Replacement level
+Chris Conley,WR,2024,9,13.6,1.51,154,Replacement level
+River Cracraft,WR,2024,5,13.6,2.72,155,Replacement level
+Michael Woods II,WR,2024,5,13.5,2.7,156,Replacement level
+K.J. Osborn,WR,2024,7,12.7,1.81,157,Replacement level
+Jacob Cowing,WR,2024,15,12.0,0.8,158,Replacement level
+Ben Skowronek,WR,2024,10,11.9,1.19,159,Replacement level
+Scotty Miller,WR,2024,13,11.9,0.92,160,Replacement level
+Ainias Smith,WR,2024,7,11.1,1.59,161,Replacement level
+Britain Covey,WR,2024,5,10.4,2.08,162,Replacement level
+Xavier Gipson,WR,2024,17,9.9,0.58,163,Replacement level
+Parris Campbell,WR,2024,4,9.0,2.25,164,Replacement level
+Johnny Wilson,WR,2024,16,8.8,0.55,165,Replacement level
+Ashton Dulin,WR,2024,15,8.7,0.58,166,Replacement level
+Tyquan Thornton,WR,2024,4,8.7,2.17,167,Replacement level
+Laviska Shenault Jr.,WR,2024,10,8.6,0.86,168,Replacement level
+Dee Eskridge,WR,2024,6,7.4,1.23,169,Replacement level
+Treylon Burks,WR,2024,5,7.4,1.48,170,Replacement level
+DJ Chark Jr.,WR,2024,4,7.1,1.77,171,Replacement level
+Terrace Marshall Jr.,WR,2024,5,7.1,1.42,172,Replacement level
+Tim Jones,WR,2024,8,7.1,0.89,173,Replacement level
+Nikko Remigio,WR,2024,5,6.8,1.36,174,Replacement level
+Dan Chisena,WR,2024,6,6.7,1.12,175,Replacement level
+Alex Bachman,WR,2024,5,6.1,1.22,176,Replacement level
+Allen Robinson II,WR,2024,6,6.0,1.0,177,Replacement level
+Deven Thompkins,WR,2024,5,6.0,1.2,178,Replacement level
+David Bell,WR,2024,1,5.7,5.7,179,Replacement level
+Jamari Thrash,WR,2024,9,5.2,0.58,180,Replacement level
+James Proche II,WR,2024,9,5.1,0.57,181,Replacement level
+Malachi Corley,WR,2024,7,4.6,0.66,182,Replacement level
+Trenton Irwin,WR,2024,6,4.5,0.75,183,Replacement level
+Ronnie Bell,WR,2024,4,4.2,1.05,184,Replacement level
+Grant DuBose,WR,2024,2,3.1,1.55,185,Replacement level
+Javon Baker,WR,2024,10,2.2,0.22,186,Replacement level
+Robbie Chosen,WR,2024,1,1.5,1.5,187,Replacement level
+Braxton Berrios,WR,2024,8,0.0,0.0,188,Replacement level
+Puka Nacua,WR,2025,16,300.5,18.78,1,Elite starter
+Jaxon Smith-Njigba,WR,2025,17,298.3,17.55,2,Elite starter
+Ja'Marr Chase,WR,2025,16,266.2,16.64,3,Elite starter
+Amon-Ra St. Brown,WR,2025,17,257.1,15.12,4,Elite starter
+George Pickens,WR,2025,17,235.9,13.88,5,Elite starter
+Chris Olave,WR,2025,16,216.3,13.52,6,Elite starter
+Zay Flowers,WR,2025,17,207.1,12.18,7,Elite starter
+Wan'Dale Robinson,WR,2025,16,193.4,12.09,8,Elite starter
+Justin Jefferson,WR,2025,17,188.8,11.11,9,Elite starter
+Stefon Diggs,WR,2025,17,186.3,10.96,10,Elite starter
+CeeDee Lamb,WR,2025,14,182.7,13.05,11,Elite starter
+Nico Collins,WR,2025,15,182.7,12.18,12,Elite starter
+Michael Wilson,WR,2025,17,178.6,10.51,13,Starter
+A.J. Brown,WR,2025,15,178.3,11.89,14,Starter
+DeVonta Smith,WR,2025,17,177.8,10.46,15,Starter
+Jameson Williams,WR,2025,17,176.7,10.39,16,Starter
+Courtland Sutton,WR,2025,17,175.7,10.34,17,Starter
+Tetairoa McMillan,WR,2025,17,171.4,10.08,18,Starter
+Drake London,WR,2025,12,159.9,13.33,19,Starter
+Keenan Allen,WR,2025,17,158.7,9.34,20,Starter
+Jakobi Meyers,WR,2025,16,158.5,9.91,21,Starter
+Michael Pittman Jr.,WR,2025,17,158.4,9.32,22,Starter
+Emeka Egbuka,WR,2025,17,156.8,9.22,23,Starter
+Jaylen Waddle,WR,2025,16,155.0,9.69,24,Starter
+Alec Pierce,WR,2025,15,147.3,9.82,25,Starter
+Ladd McConkey,WR,2025,16,144.9,9.06,26,Starter
+Deebo Samuel Sr.,WR,2025,16,144.7,9.04,27,Starter
+DK Metcalf,WR,2025,15,144.0,9.6,28,Starter
+Khalil Shakir,WR,2025,16,143.9,8.99,29,Starter
+Tee Higgins,WR,2025,15,143.6,9.57,30,Starter
+Parker Washington,WR,2025,16,142.7,8.92,31,Starter
+Davante Adams,WR,2025,14,138.9,9.92,32,Starter
+Troy Franklin,WR,2025,17,135.9,7.99,33,Starter
+Rashid Shaheed,WR,2025,18,127.7,7.09,34,Starter
+Romeo Doubs,WR,2025,16,127.4,7.96,35,Starter
+Tre Tucker,WR,2025,17,126.6,7.45,36,Starter
+Quentin Johnston,WR,2025,14,124.5,8.89,37,Bench depth
+Jauan Jennings,WR,2025,15,119.3,7.95,38,Bench depth
+Brian Thomas Jr.,WR,2025,14,118.7,8.48,39,Bench depth
+DJ Moore,WR,2025,17,118.2,6.95,40,Bench depth
+Josh Downs,WR,2025,16,114.6,7.16,41,Bench depth
+Luther Burden III,WR,2025,15,112.2,7.48,42,Bench depth
+Jerry Jeudy,WR,2025,17,110.2,6.48,43,Bench depth
+Rashee Rice,WR,2025,8,110.1,13.76,44,Bench depth
+Rome Odunze,WR,2025,12,110.1,9.17,45,Bench depth
+Hollywood Brown,WR,2025,16,107.7,6.73,46,Bench depth
+Cooper Kupp,WR,2025,16,106.3,6.64,47,Bench depth
+Jordan Addison,WR,2025,14,103.0,7.36,48,Bench depth
+Marvin Harrison Jr.,WR,2025,12,101.8,8.48,49,Replacement level
+Mack Hollins,WR,2025,15,101.0,6.73,50,Replacement level
+Terry McLaurin,WR,2025,10,96.2,9.62,51,Replacement level
+Christian Watson,WR,2025,10,96.1,9.61,52,Replacement level
+Xavier Worthy,WR,2025,14,95.2,6.8,53,Replacement level
+Jayden Higgins,WR,2025,17,93.5,5.5,54,Replacement level
+Elic Ayomanor,WR,2025,16,92.5,5.78,55,Replacement level
+Kendrick Bourne,WR,2025,16,92.1,5.76,56,Replacement level
+Darius Slayton,WR,2025,14,90.8,6.49,57,Replacement level
+Chimere Dike,WR,2025,17,90.3,5.31,58,Replacement level
+Ricky Pearsall,WR,2025,10,88.8,8.88,59,Replacement level
+Kayshon Boutte,WR,2025,14,88.1,6.29,60,Replacement level
+Ryan Flournoy,WR,2025,15,87.5,5.83,61,Replacement level
+Keon Coleman,WR,2025,13,78.4,6.03,62,Replacement level
+Adonai Mitchell,WR,2025,16,78.3,4.89,63,Replacement level
+Xavier Hutchinson,WR,2025,17,77.8,4.58,64,Replacement level
+Malik Washington,WR,2025,17,77.7,4.57,65,Replacement level
+Andrei Iosivas,WR,2025,17,76.5,4.5,66,Replacement level
+Darnell Mooney,WR,2025,15,76.3,5.09,67,Replacement level
+Sterling Shepard,WR,2025,13,76.1,5.85,68,Replacement level
+DeMario Douglas,WR,2025,17,75.7,4.45,69,Replacement level
+Garrett Wilson,WR,2025,7,75.5,10.79,70,Replacement level
+Jalen Nailor,WR,2025,17,73.4,4.32,71,Replacement level
+Jalen Coker,WR,2025,11,72.4,6.58,72,Replacement level
+Xavier Legette,WR,2025,15,71.3,4.75,73,Replacement level
+Olamide Zaccheaus,WR,2025,16,70.3,4.39,74,Replacement level
+Marvin Mims Jr.,WR,2025,16,69.2,4.33,75,Replacement level
+Chris Godwin Jr.,WR,2025,9,69.0,7.67,76,Replacement level
+Pat Bryant,WR,2025,15,68.8,4.59,77,Replacement level
+Calvin Austin III,WR,2025,14,68.2,4.87,78,Replacement level
+JuJu Smith-Schuster,WR,2025,17,67.5,3.97,79,Replacement level
+Mike Evans,WR,2025,8,66.8,8.35,80,Replacement level
+KaVontae Turpin,WR,2025,15,65.6,4.37,81,Replacement level
+Matthew Golden,WR,2025,14,65.1,4.65,82,Replacement level
+Van Jefferson,WR,2025,16,64.0,4.0,83,Replacement level
+Dontayvion Wicks,WR,2025,14,63.2,4.51,84,Replacement level
+Tyquan Thornton,WR,2025,14,62.8,4.49,85,Replacement level
+Tre Harris,WR,2025,17,62.4,3.67,86,Replacement level
+Tyler Lockett,WR,2025,17,61.1,3.59,87,Replacement level
+John Metchie III,WR,2025,16,60.4,3.77,88,Replacement level
+Tez Johnson,WR,2025,16,60.2,3.76,89,Replacement level
+Travis Hunter,WR,2025,7,57.8,8.26,90,Replacement level
+Jaylin Noel,WR,2025,17,55.2,3.25,91,Replacement level
+DeAndre Hopkins,WR,2025,17,55.0,3.24,92,Replacement level
+Devaughn Vele,WR,2025,13,54.3,4.18,93,Replacement level
+Kalif Raymond,WR,2025,15,52.9,3.53,94,Replacement level
+Joshua Palmer,WR,2025,12,52.3,4.36,95,Replacement level
+Brandin Cooks,WR,2025,15,51.9,3.46,96,Replacement level
+Christian Kirk,WR,2025,13,51.9,3.99,97,Replacement level
+Isaiah Bond,WR,2025,16,51.8,3.24,98,Replacement level
+Demarcus Robinson,WR,2025,14,49.6,3.54,99,Replacement level
+Greg Dortch,WR,2025,12,49.6,4.13,100,Replacement level
+Xavier Smith,WR,2025,16,48.3,3.02,101,Replacement level
+Cedric Tillman,WR,2025,13,48.0,3.69,102,Replacement level
+Tyreek Hill,WR,2025,4,47.5,11.88,103,Replacement level
+Calvin Ridley,WR,2025,7,47.3,6.76,104,Replacement level
+Isaiah Williams,WR,2025,15,45.3,3.02,105,Replacement level
+Malik Nabers,WR,2025,4,45.1,11.28,106,Replacement level
+Jahan Dotson,WR,2025,17,44.2,2.6,107,Replacement level
+Dyami Brown,WR,2025,15,42.7,2.85,108,Replacement level
+Jack Bech,WR,2025,16,42.4,2.65,109,Replacement level
+Rashod Bateman,WR,2025,13,41.4,3.18,110,Replacement level
+Isaac TeSlaa,WR,2025,17,39.9,2.35,111,Replacement level
+Jayden Reed,WR,2025,7,39.7,5.67,112,Replacement level
+Tyrell Shavers,WR,2025,17,39.5,2.32,113,Replacement level
+Jaylin Lane,WR,2025,15,38.5,2.57,114,Replacement level
+Jalen Tolbert,WR,2025,13,38.3,2.95,115,Replacement level
+Adam Thielen,WR,2025,16,37.6,2.35,116,Replacement level
+David Sills V,WR,2025,17,37.1,2.18,117,Replacement level
+Jordan Whittington,WR,2025,17,35.1,2.06,118,Replacement level
+Tim Patrick,WR,2025,16,33.7,2.11,119,Replacement level
+Chris Moore,WR,2025,14,31.7,2.26,120,Replacement level
+Tyler Johnson,WR,2025,12,31.7,2.64,121,Replacement level
+Luke McCaffrey,WR,2025,9,31.3,3.48,122,Replacement level
+Kyle Williams,WR,2025,17,30.9,1.82,123,Replacement level
+Zay Jones,WR,2025,8,30.3,3.79,124,Replacement level
+Brycen Tremayne,WR,2025,16,30.0,1.88,125,Replacement level
+Jalen McMillan,WR,2025,4,29.8,7.45,126,Replacement level
+Tory Horton,WR,2025,8,29.1,3.64,127,Replacement level
+Lil'Jordan Humphrey,WR,2025,10,28.6,2.86,128,Replacement level
+Roman Wilson,WR,2025,14,28.6,2.04,129,Replacement level
+Kevin Austin Jr.,WR,2025,8,27.0,3.38,130,Replacement level
+Marquez Valdes-Scantling,WR,2025,10,26.0,2.6,131,Replacement level
+Tutu Atwell,WR,2025,10,25.2,2.52,132,Replacement level
+Gabe Davis,WR,2025,6,24.9,4.15,133,Replacement level
+Gunner Olszewski,WR,2025,16,24.5,1.53,134,Replacement level
+Hunter Renfrow,WR,2025,6,23.9,3.98,135,Replacement level
+Dont'e Thornton Jr.,WR,2025,15,23.5,1.57,136,Replacement level
+Treylon Burks,WR,2025,8,23.0,2.88,137,Replacement level
+Jimmy Horn Jr.,WR,2025,13,21.8,1.68,138,Replacement level
+Dante Pettis,WR,2025,8,21.7,2.71,139,Replacement level
+Isaiah Hodgins,WR,2025,7,21.5,3.07,140,Replacement level
+Josh Reynolds,WR,2025,5,21.1,4.22,141,Replacement level
+Jamari Thrash,WR,2025,9,20.7,2.3,142,Replacement level
+Elijah Moore,WR,2025,9,20.2,2.24,143,Replacement level
+Nick Westbrook-Ikhine,WR,2025,15,19.9,1.33,144,Replacement level
+Theo Wease Jr.,WR,2025,3,19.9,6.63,145,Replacement level
+Devontez Walker,WR,2025,11,19.6,1.78,146,Replacement level
+Mitch Tinsley,WR,2025,17,19.6,1.15,147,Replacement level
+Konata Mumpfield,WR,2025,17,19.2,1.13,148,Replacement level
+Malachi Corley,WR,2025,13,18.9,1.45,149,Replacement level
+Mason Tipton,WR,2025,13,18.6,1.43,150,Replacement level
+Darius Cooper,WR,2025,13,18.2,1.4,151,Replacement level
+Savion Williams,WR,2025,12,17.8,1.48,152,Replacement level
+Allen Lazard,WR,2025,10,17.0,1.7,153,Replacement level
+Ashton Dulin,WR,2025,12,15.6,1.3,154,Replacement level
+Casey Washington,WR,2025,7,15.4,2.2,155,Replacement level
+Scotty Miller,WR,2025,13,15.2,1.17,156,Replacement level
+Curtis Samuel,WR,2025,6,15.1,2.52,157,Replacement level
+Bo Melton,WR,2025,16,14.7,0.92,158,Replacement level
+Jahdae Walker,WR,2025,7,14.7,2.1,159,Replacement level
+Malik Heath,WR,2025,11,14.6,1.33,160,Replacement level
+Gage Larvadain,WR,2025,13,14.1,1.08,161,Replacement level
+Ray-Ray McCloud III,WR,2025,6,13.9,2.32,162,Replacement level
+Skyy Moore,WR,2025,17,13.7,0.81,163,Replacement level
+Xavier Weaver,WR,2025,9,13.7,1.52,164,Replacement level
+Noah Brown,WR,2025,4,13.3,3.33,165,Replacement level
+James Proche II,WR,2025,9,12.5,1.39,166,Replacement level
+Arian Smith,WR,2025,16,12.2,0.76,167,Replacement level
+Cody White,WR,2025,9,12.0,1.33,168,Replacement level
+Dylan Drummond,WR,2025,9,11.2,1.24,169,Replacement level
+Ben Skowronek,WR,2025,16,10.9,0.68,170,Replacement level
+Efton Chism III,WR,2025,8,10.5,1.31,171,Replacement level
+Kameron Johnson,WR,2025,17,10.4,0.61,172,Replacement level
+Robbie Chosen,WR,2025,3,10.3,3.43,173,Replacement level
+Dee Eskridge,WR,2025,13,10.2,0.78,174,Replacement level
+KeAndre Lambert-Smith,WR,2025,10,10.1,1.01,175,Replacement level
+Braxton Berrios,WR,2025,4,9.7,2.42,176,Replacement level
+Shedrick Jackson,WR,2025,5,9.6,1.92,177,Replacement level
+Cedrick Wilson Jr.,WR,2025,10,9.4,0.94,178,Replacement level
+Michael Bandy,WR,2025,4,9.0,2.25,179,Replacement level
+Jalin Hyatt,WR,2025,8,8.5,1.06,180,Replacement level
+Tylan Wallace,WR,2025,14,8.5,0.61,181,Replacement level
+Jalen Brooks,WR,2025,6,8.1,1.35,182,Replacement level
+Austin Trammell,WR,2025,6,7.6,1.27,183,Replacement level
+Tom Kennedy,WR,2025,6,7.6,1.27,184,Replacement level
+Xavier Restrepo,WR,2025,2,7.1,3.55,185,Replacement level
+Mason Kinsey,WR,2025,10,6.8,0.68,186,Replacement level
+Tahj Washington,WR,2025,6,6.7,1.12,187,Replacement level
+KhaDarel Hodge,WR,2025,12,6.1,0.51,188,Replacement level
+Justin Watson,WR,2025,3,6.0,2.0,189,Replacement level
+Deven Thompkins,WR,2025,7,5.7,0.81,190,Replacement level
+Tai Felton,WR,2025,14,5.5,0.39,191,Replacement level
+Ryan Miller,WR,2025,13,5.4,0.42,192,Replacement level
+Trent Sherfield Sr.,WR,2025,12,5.1,0.42,193,Replacement level
+Devin Duvernay,WR,2025,17,4.6,0.27,194,Replacement level
+Beaux Collins,WR,2025,9,4.5,0.5,195,Replacement level
+Ronnie Bell,WR,2025,2,4.3,2.15,196,Replacement level
+Britain Covey,WR,2025,6,4.0,0.67,197,Replacement level
+Jonathan Mingo,WR,2025,6,3.5,0.58,198,Replacement level
+Andre Baccellia,WR,2025,5,2.8,0.56,199,Replacement level

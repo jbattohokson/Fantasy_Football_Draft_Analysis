@@ -1,430 +1,355 @@
 USE Fantasy_Football_MYSQ;
 
--- FIX 2: CREATE TABLE IF NOT EXISTS instead of DROP + CREATE.
--- DROP wiped all data on every run. Now the table persists across runs.
--- TRUNCATE below clears rows intentionally before reloading.
-CREATE TABLE IF NOT EXISTS fantasy_football_combined (
-  `draft_rank`    INT,
+-- =============================================================================
+-- Fantasy_Football_MYSQL.sql
+--
+-- Combines the 20 raw FantasyPros tables (loaded by load_raw_tables.py) into
+-- one player-season table, then runs the analysis queries. Result<N>.csv in
+-- this folder is the output of Query <N>. run_sqlite.py runs this same file
+-- against SQLite and writes those CSVs, so no MySQL server is needed.
+--
+-- SCORING (AUDITED 2026-10-21)
+-- The source files are FantasyPros *advanced* stat exports: no touchdowns, no
+-- QB rushing, no RB receiving yards. Every position is now scored on the same
+-- PPR scale from the columns that exist ("PPR without touchdowns"):
+--   QB      passing yards * 0.04
+--   RB      rushing yards * 0.1 + receptions
+--   WR/TE   receiving yards * 0.1 + receptions
+-- Previously RB points were the YACON_2 column, which is not a points column
+-- (Saquon Barkley 2024 = 130, against ~355 real PPR points), and QB points
+-- added passer rating * 0.1, which no league scores.
+-- Totals are still well below real PPR, and QB and RB are missing a scoring
+-- component each, so compare players WITHIN a position, not across positions.
+--
+-- season_rank is the row order of the FantasyPros export (sorted by yards). It
+-- is NOT draft position; the old column name draft_rank implied it was.
+-- =============================================================================
+
+DROP TABLE IF EXISTS fantasy_football_combined;
+
+CREATE TABLE fantasy_football_combined (
+  `season_rank`   INT,
   `player_name`   VARCHAR(255),
+  `team`          VARCHAR(10),
   `games_played`  INT,
-  `passing_yards` DECIMAL(10,2),
+  `yards`         DECIMAL(10,2),
   `rec_count`     INT,
   `target_count`  INT,
+  `target_share`  DECIMAL(5,2),
   `pts`           DECIMAL(10,2),
+  `ppg`           DECIMAL(10,2),
   `pos`           VARCHAR(10),
   `yr`            INT,
   INDEX idx_pos (`pos`),
   INDEX idx_yr  (`yr`),
-  INDEX idx_pts (`pts`)
+  INDEX idx_player (`player_name`)
 );
 
--- FIX 2 (continued): TRUNCATE clears rows before reload without destroying
--- the table structure. Comment this out if you want to append instead of reload.
-TRUNCATE TABLE fantasy_football_combined;
-
--- FIX: Transaction wraps all inserts. If any INSERT fails mid-run,
--- ROLLBACK undoes everything so you never end up with partial data.
+-- One transaction for all 20 inserts, so a failure leaves no partial table.
 START TRANSACTION;
-
--- NOTE on scoring formulas (FIX 3 documentation):
--- QB:    YDS * 0.04 + RTG * 0.1  — approximation, no TD data in source
--- WR/TE: YDS * 0.1 + REC         — approximation, no TD data in source
--- RB:    YACON_2                  — pre-calculated PPR column from FantasyPros
--- QB/WR/TE pts are not directly comparable to RB pts until TD columns are added.
 
 -- QB 2021
 INSERT INTO fantasy_football_combined
-SELECT `Rank`, `Player`, `G`,
+SELECT `Rank`, `player_name`, `team`, `G`,
   CAST(REPLACE(`YDS`, ',', '') AS DECIMAL(10,2)),
-  NULL, NULL,
-  ROUND(CAST(REPLACE(`YDS`, ',', '') AS DECIMAL(10,2)) * 0.04 + COALESCE(CAST(`RTG` AS DECIMAL(5,2)), 0) * 0.1, 2),
+  NULL, NULL, NULL,
+  ROUND(CAST(REPLACE(`YDS`, ',', '') AS DECIMAL(10,2)) * 0.04, 2),
+  ROUND(ROUND(CAST(REPLACE(`YDS`, ',', '') AS DECIMAL(10,2)) * 0.04, 2) / NULLIF(`G`, 0), 2),
   'QB', 2021
 FROM fantasypros_qb_2021 WHERE `YDS` IS NOT NULL;
 
 -- QB 2022
 INSERT INTO fantasy_football_combined
-SELECT `Rank`, `Player`, `G`,
+SELECT `Rank`, `player_name`, `team`, `G`,
   CAST(REPLACE(`YDS`, ',', '') AS DECIMAL(10,2)),
-  NULL, NULL,
-  ROUND(CAST(REPLACE(`YDS`, ',', '') AS DECIMAL(10,2)) * 0.04 + COALESCE(CAST(`RTG` AS DECIMAL(5,2)), 0) * 0.1, 2),
+  NULL, NULL, NULL,
+  ROUND(CAST(REPLACE(`YDS`, ',', '') AS DECIMAL(10,2)) * 0.04, 2),
+  ROUND(ROUND(CAST(REPLACE(`YDS`, ',', '') AS DECIMAL(10,2)) * 0.04, 2) / NULLIF(`G`, 0), 2),
   'QB', 2022
 FROM fantasypros_qb_2022 WHERE `YDS` IS NOT NULL;
 
 -- QB 2023
 INSERT INTO fantasy_football_combined
-SELECT `Rank`, `Player`, `G`,
+SELECT `Rank`, `player_name`, `team`, `G`,
   CAST(REPLACE(`YDS`, ',', '') AS DECIMAL(10,2)),
-  NULL, NULL,
-  ROUND(CAST(REPLACE(`YDS`, ',', '') AS DECIMAL(10,2)) * 0.04 + COALESCE(CAST(`RTG` AS DECIMAL(5,2)), 0) * 0.1, 2),
+  NULL, NULL, NULL,
+  ROUND(CAST(REPLACE(`YDS`, ',', '') AS DECIMAL(10,2)) * 0.04, 2),
+  ROUND(ROUND(CAST(REPLACE(`YDS`, ',', '') AS DECIMAL(10,2)) * 0.04, 2) / NULLIF(`G`, 0), 2),
   'QB', 2023
 FROM fantasypros_qb_2023 WHERE `YDS` IS NOT NULL;
 
 -- QB 2024
 INSERT INTO fantasy_football_combined
-SELECT `Rank`, `Player`, `G`,
+SELECT `Rank`, `player_name`, `team`, `G`,
   CAST(REPLACE(`YDS`, ',', '') AS DECIMAL(10,2)),
-  NULL, NULL,
-  ROUND(CAST(REPLACE(`YDS`, ',', '') AS DECIMAL(10,2)) * 0.04 + COALESCE(CAST(`RTG` AS DECIMAL(5,2)), 0) * 0.1, 2),
+  NULL, NULL, NULL,
+  ROUND(CAST(REPLACE(`YDS`, ',', '') AS DECIMAL(10,2)) * 0.04, 2),
+  ROUND(ROUND(CAST(REPLACE(`YDS`, ',', '') AS DECIMAL(10,2)) * 0.04, 2) / NULLIF(`G`, 0), 2),
   'QB', 2024
 FROM fantasypros_qb_2024 WHERE `YDS` IS NOT NULL;
 
 -- QB 2025
 INSERT INTO fantasy_football_combined
-SELECT `Rank`, `Player`, `G`,
+SELECT `Rank`, `player_name`, `team`, `G`,
   CAST(REPLACE(`YDS`, ',', '') AS DECIMAL(10,2)),
-  NULL, NULL,
-  ROUND(CAST(REPLACE(`YDS`, ',', '') AS DECIMAL(10,2)) * 0.04 + COALESCE(CAST(`RTG` AS DECIMAL(5,2)), 0) * 0.1, 2),
+  NULL, NULL, NULL,
+  ROUND(CAST(REPLACE(`YDS`, ',', '') AS DECIMAL(10,2)) * 0.04, 2),
+  ROUND(ROUND(CAST(REPLACE(`YDS`, ',', '') AS DECIMAL(10,2)) * 0.04, 2) / NULLIF(`G`, 0), 2),
   'QB', 2025
 FROM fantasypros_qb_2025 WHERE `YDS` IS NOT NULL;
 
 -- RB 2021
 INSERT INTO fantasy_football_combined
-SELECT `Rank`, `Player`, `G`,
+SELECT `Rank`, `player_name`, `team`, `G`,
   CAST(REPLACE(`YDS`, ',', '') AS DECIMAL(10,2)),
-  `REC`, `TGT`,
-  COALESCE(CAST(`YACON_2` AS DECIMAL(10,2)), 0),
+  `REC`, `TGT`, NULL,
+  ROUND(CAST(REPLACE(`YDS`, ',', '') AS DECIMAL(10,2)) * 0.1 + COALESCE(`REC`, 0), 2),
+  ROUND(ROUND(CAST(REPLACE(`YDS`, ',', '') AS DECIMAL(10,2)) * 0.1 + COALESCE(`REC`, 0), 2) / NULLIF(`G`, 0), 2),
   'RB', 2021
-FROM fantasypros_rb_2021 WHERE `YACON_2` IS NOT NULL;
+FROM fantasypros_rb_2021 WHERE `YDS` IS NOT NULL;
 
 -- RB 2022
 INSERT INTO fantasy_football_combined
-SELECT `Rank`, `Player`, `G`,
+SELECT `Rank`, `player_name`, `team`, `G`,
   CAST(REPLACE(`YDS`, ',', '') AS DECIMAL(10,2)),
-  `REC`, `TGT`,
-  COALESCE(CAST(`YACON_2` AS DECIMAL(10,2)), 0),
+  `REC`, `TGT`, NULL,
+  ROUND(CAST(REPLACE(`YDS`, ',', '') AS DECIMAL(10,2)) * 0.1 + COALESCE(`REC`, 0), 2),
+  ROUND(ROUND(CAST(REPLACE(`YDS`, ',', '') AS DECIMAL(10,2)) * 0.1 + COALESCE(`REC`, 0), 2) / NULLIF(`G`, 0), 2),
   'RB', 2022
-FROM fantasypros_rb_2022 WHERE `YACON_2` IS NOT NULL;
+FROM fantasypros_rb_2022 WHERE `YDS` IS NOT NULL;
 
 -- RB 2023
 INSERT INTO fantasy_football_combined
-SELECT `Rank`, `Player`, `G`,
+SELECT `Rank`, `player_name`, `team`, `G`,
   CAST(REPLACE(`YDS`, ',', '') AS DECIMAL(10,2)),
-  `REC`, `TGT`,
-  COALESCE(CAST(`YACON_2` AS DECIMAL(10,2)), 0),
+  `REC`, `TGT`, NULL,
+  ROUND(CAST(REPLACE(`YDS`, ',', '') AS DECIMAL(10,2)) * 0.1 + COALESCE(`REC`, 0), 2),
+  ROUND(ROUND(CAST(REPLACE(`YDS`, ',', '') AS DECIMAL(10,2)) * 0.1 + COALESCE(`REC`, 0), 2) / NULLIF(`G`, 0), 2),
   'RB', 2023
-FROM fantasypros_rb_2023 WHERE `YACON_2` IS NOT NULL;
+FROM fantasypros_rb_2023 WHERE `YDS` IS NOT NULL;
 
 -- RB 2024
 INSERT INTO fantasy_football_combined
-SELECT `Rank`, `Player`, `G`,
+SELECT `Rank`, `player_name`, `team`, `G`,
   CAST(REPLACE(`YDS`, ',', '') AS DECIMAL(10,2)),
-  `REC`, `TGT`,
-  COALESCE(CAST(`YACON_2` AS DECIMAL(10,2)), 0),
+  `REC`, `TGT`, NULL,
+  ROUND(CAST(REPLACE(`YDS`, ',', '') AS DECIMAL(10,2)) * 0.1 + COALESCE(`REC`, 0), 2),
+  ROUND(ROUND(CAST(REPLACE(`YDS`, ',', '') AS DECIMAL(10,2)) * 0.1 + COALESCE(`REC`, 0), 2) / NULLIF(`G`, 0), 2),
   'RB', 2024
-FROM fantasypros_rb_2024 WHERE `YACON_2` IS NOT NULL;
+FROM fantasypros_rb_2024 WHERE `YDS` IS NOT NULL;
 
 -- RB 2025
 INSERT INTO fantasy_football_combined
-SELECT `Rank`, `Player`, `G`,
+SELECT `Rank`, `player_name`, `team`, `G`,
   CAST(REPLACE(`YDS`, ',', '') AS DECIMAL(10,2)),
-  `REC`, `TGT`,
-  COALESCE(CAST(`YACON_2` AS DECIMAL(10,2)), 0),
+  `REC`, `TGT`, NULL,
+  ROUND(CAST(REPLACE(`YDS`, ',', '') AS DECIMAL(10,2)) * 0.1 + COALESCE(`REC`, 0), 2),
+  ROUND(ROUND(CAST(REPLACE(`YDS`, ',', '') AS DECIMAL(10,2)) * 0.1 + COALESCE(`REC`, 0), 2) / NULLIF(`G`, 0), 2),
   'RB', 2025
-FROM fantasypros_rb_2025 WHERE `YACON_2` IS NOT NULL;
+FROM fantasypros_rb_2025 WHERE `YDS` IS NOT NULL;
 
 -- WR 2021
 INSERT INTO fantasy_football_combined
-SELECT `Rank`, `Player`, `G`,
+SELECT `Rank`, `player_name`, `team`, `G`,
   CAST(REPLACE(`YDS`, ',', '') AS DECIMAL(10,2)),
-  `REC`, `TGT`,
+  `REC`, `TGT`, CAST(REPLACE(`PCT__TM`, '%', '') AS DECIMAL(5,2)),
   ROUND(CAST(REPLACE(`YDS`, ',', '') AS DECIMAL(10,2)) * 0.1 + COALESCE(`REC`, 0), 2),
+  ROUND(ROUND(CAST(REPLACE(`YDS`, ',', '') AS DECIMAL(10,2)) * 0.1 + COALESCE(`REC`, 0), 2) / NULLIF(`G`, 0), 2),
   'WR', 2021
-FROM fantasypros_wr_2021 WHERE `YDS` IS NOT NULL AND `REC` IS NOT NULL;
+FROM fantasypros_wr_2021 WHERE `YDS` IS NOT NULL;
 
 -- WR 2022
 INSERT INTO fantasy_football_combined
-SELECT `Rank`, `Player`, `G`,
+SELECT `Rank`, `player_name`, `team`, `G`,
   CAST(REPLACE(`YDS`, ',', '') AS DECIMAL(10,2)),
-  `REC`, `TGT`,
+  `REC`, `TGT`, CAST(REPLACE(`PCT__TM`, '%', '') AS DECIMAL(5,2)),
   ROUND(CAST(REPLACE(`YDS`, ',', '') AS DECIMAL(10,2)) * 0.1 + COALESCE(`REC`, 0), 2),
+  ROUND(ROUND(CAST(REPLACE(`YDS`, ',', '') AS DECIMAL(10,2)) * 0.1 + COALESCE(`REC`, 0), 2) / NULLIF(`G`, 0), 2),
   'WR', 2022
-FROM fantasypros_wr_2022 WHERE `YDS` IS NOT NULL AND `REC` IS NOT NULL;
+FROM fantasypros_wr_2022 WHERE `YDS` IS NOT NULL;
 
 -- WR 2023
 INSERT INTO fantasy_football_combined
-SELECT `Rank`, `Player`, `G`,
+SELECT `Rank`, `player_name`, `team`, `G`,
   CAST(REPLACE(`YDS`, ',', '') AS DECIMAL(10,2)),
-  `REC`, `TGT`,
+  `REC`, `TGT`, CAST(REPLACE(`PCT__TM`, '%', '') AS DECIMAL(5,2)),
   ROUND(CAST(REPLACE(`YDS`, ',', '') AS DECIMAL(10,2)) * 0.1 + COALESCE(`REC`, 0), 2),
+  ROUND(ROUND(CAST(REPLACE(`YDS`, ',', '') AS DECIMAL(10,2)) * 0.1 + COALESCE(`REC`, 0), 2) / NULLIF(`G`, 0), 2),
   'WR', 2023
-FROM fantasypros_wr_2023 WHERE `YDS` IS NOT NULL AND `REC` IS NOT NULL;
+FROM fantasypros_wr_2023 WHERE `YDS` IS NOT NULL;
 
 -- WR 2024
 INSERT INTO fantasy_football_combined
-SELECT `Rank`, `Player`, `G`,
+SELECT `Rank`, `player_name`, `team`, `G`,
   CAST(REPLACE(`YDS`, ',', '') AS DECIMAL(10,2)),
-  `REC`, `TGT`,
+  `REC`, `TGT`, CAST(REPLACE(`PCT__TM`, '%', '') AS DECIMAL(5,2)),
   ROUND(CAST(REPLACE(`YDS`, ',', '') AS DECIMAL(10,2)) * 0.1 + COALESCE(`REC`, 0), 2),
+  ROUND(ROUND(CAST(REPLACE(`YDS`, ',', '') AS DECIMAL(10,2)) * 0.1 + COALESCE(`REC`, 0), 2) / NULLIF(`G`, 0), 2),
   'WR', 2024
-FROM fantasypros_wr_2024 WHERE `YDS` IS NOT NULL AND `REC` IS NOT NULL;
+FROM fantasypros_wr_2024 WHERE `YDS` IS NOT NULL;
 
 -- WR 2025
 INSERT INTO fantasy_football_combined
-SELECT `Rank`, `Player`, `G`,
+SELECT `Rank`, `player_name`, `team`, `G`,
   CAST(REPLACE(`YDS`, ',', '') AS DECIMAL(10,2)),
-  `REC`, `TGT`,
+  `REC`, `TGT`, CAST(REPLACE(`PCT__TM`, '%', '') AS DECIMAL(5,2)),
   ROUND(CAST(REPLACE(`YDS`, ',', '') AS DECIMAL(10,2)) * 0.1 + COALESCE(`REC`, 0), 2),
+  ROUND(ROUND(CAST(REPLACE(`YDS`, ',', '') AS DECIMAL(10,2)) * 0.1 + COALESCE(`REC`, 0), 2) / NULLIF(`G`, 0), 2),
   'WR', 2025
-FROM fantasypros_wr_2025 WHERE `YDS` IS NOT NULL AND `REC` IS NOT NULL;
+FROM fantasypros_wr_2025 WHERE `YDS` IS NOT NULL;
 
 -- TE 2021
 INSERT INTO fantasy_football_combined
-SELECT `Rank`, `Player`, `G`,
+SELECT `Rank`, `player_name`, `team`, `G`,
   CAST(REPLACE(`YDS`, ',', '') AS DECIMAL(10,2)),
-  `REC`, `TGT`,
+  `REC`, `TGT`, CAST(REPLACE(`PCT__TM`, '%', '') AS DECIMAL(5,2)),
   ROUND(CAST(REPLACE(`YDS`, ',', '') AS DECIMAL(10,2)) * 0.1 + COALESCE(`REC`, 0), 2),
+  ROUND(ROUND(CAST(REPLACE(`YDS`, ',', '') AS DECIMAL(10,2)) * 0.1 + COALESCE(`REC`, 0), 2) / NULLIF(`G`, 0), 2),
   'TE', 2021
--- TESTED 2026-09-16: this table name had a typo (fantasypross_te_2021, double 's') left in from an earlier debugging pass. In MySQL this INSERT would fail with 'Table doesn't exist' -- and because it sits inside the START TRANSACTION / COMMIT block below, if the SQL client ran statements individually and continued past errors, this would leave TE completely missing from fantasy_football_combined with no crash to flag it. Verified against a SQLite-equivalent run of the corrected table name: TE now loads for all 5 seasons (516 player-season rows, matching the other three positions' pattern). Fixed below; same typo also existed uncommented in the four INSERT blocks that follow for TE 2022-2025.
-FROM fantasypros_te_2021 WHERE `YDS` IS NOT NULL AND `REC` IS NOT NULL;
+FROM fantasypros_te_2021 WHERE `YDS` IS NOT NULL;
 
 -- TE 2022
 INSERT INTO fantasy_football_combined
-SELECT `Rank`, `Player`, `G`,
+SELECT `Rank`, `player_name`, `team`, `G`,
   CAST(REPLACE(`YDS`, ',', '') AS DECIMAL(10,2)),
-  `REC`, `TGT`,
+  `REC`, `TGT`, CAST(REPLACE(`PCT__TM`, '%', '') AS DECIMAL(5,2)),
   ROUND(CAST(REPLACE(`YDS`, ',', '') AS DECIMAL(10,2)) * 0.1 + COALESCE(`REC`, 0), 2),
+  ROUND(ROUND(CAST(REPLACE(`YDS`, ',', '') AS DECIMAL(10,2)) * 0.1 + COALESCE(`REC`, 0), 2) / NULLIF(`G`, 0), 2),
   'TE', 2022
-FROM fantasypros_te_2022 WHERE `YDS` IS NOT NULL AND `REC` IS NOT NULL;
+FROM fantasypros_te_2022 WHERE `YDS` IS NOT NULL;
 
 -- TE 2023
 INSERT INTO fantasy_football_combined
-SELECT `Rank`, `Player`, `G`,
+SELECT `Rank`, `player_name`, `team`, `G`,
   CAST(REPLACE(`YDS`, ',', '') AS DECIMAL(10,2)),
-  `REC`, `TGT`,
+  `REC`, `TGT`, CAST(REPLACE(`PCT__TM`, '%', '') AS DECIMAL(5,2)),
   ROUND(CAST(REPLACE(`YDS`, ',', '') AS DECIMAL(10,2)) * 0.1 + COALESCE(`REC`, 0), 2),
+  ROUND(ROUND(CAST(REPLACE(`YDS`, ',', '') AS DECIMAL(10,2)) * 0.1 + COALESCE(`REC`, 0), 2) / NULLIF(`G`, 0), 2),
   'TE', 2023
-FROM fantasypros_te_2023 WHERE `YDS` IS NOT NULL AND `REC` IS NOT NULL;
+FROM fantasypros_te_2023 WHERE `YDS` IS NOT NULL;
 
 -- TE 2024
 INSERT INTO fantasy_football_combined
-SELECT `Rank`, `Player`, `G`,
+SELECT `Rank`, `player_name`, `team`, `G`,
   CAST(REPLACE(`YDS`, ',', '') AS DECIMAL(10,2)),
-  `REC`, `TGT`,
+  `REC`, `TGT`, CAST(REPLACE(`PCT__TM`, '%', '') AS DECIMAL(5,2)),
   ROUND(CAST(REPLACE(`YDS`, ',', '') AS DECIMAL(10,2)) * 0.1 + COALESCE(`REC`, 0), 2),
+  ROUND(ROUND(CAST(REPLACE(`YDS`, ',', '') AS DECIMAL(10,2)) * 0.1 + COALESCE(`REC`, 0), 2) / NULLIF(`G`, 0), 2),
   'TE', 2024
-FROM fantasypros_te_2024 WHERE `YDS` IS NOT NULL AND `REC` IS NOT NULL;
+FROM fantasypros_te_2024 WHERE `YDS` IS NOT NULL;
 
 -- TE 2025
 INSERT INTO fantasy_football_combined
-SELECT `Rank`, `Player`, `G`,
+SELECT `Rank`, `player_name`, `team`, `G`,
   CAST(REPLACE(`YDS`, ',', '') AS DECIMAL(10,2)),
-  `REC`, `TGT`,
+  `REC`, `TGT`, CAST(REPLACE(`PCT__TM`, '%', '') AS DECIMAL(5,2)),
   ROUND(CAST(REPLACE(`YDS`, ',', '') AS DECIMAL(10,2)) * 0.1 + COALESCE(`REC`, 0), 2),
+  ROUND(ROUND(CAST(REPLACE(`YDS`, ',', '') AS DECIMAL(10,2)) * 0.1 + COALESCE(`REC`, 0), 2) / NULLIF(`G`, 0), 2),
   'TE', 2025
-FROM fantasypros_te_2025 WHERE `YDS` IS NOT NULL AND `REC` IS NOT NULL;
+FROM fantasypros_te_2025 WHERE `YDS` IS NOT NULL;
 
 COMMIT;
 
--- VERIFICATION
-SELECT `pos`, `yr`, COUNT(*) AS record_count
-FROM fantasy_football_combined
-GROUP BY `pos`, `yr`
-ORDER BY `yr`, `pos`;
+-- Qualifying season: enough games that per-game numbers mean something.
+-- 8 games = about half a 17-game season.
 
--- Query 1: Fantasy Points by Position
-SELECT
-  `pos` AS position,
-  COUNT(*) AS player_count,
-  ROUND(AVG(`pts`), 2) AS avg_points,
-  ROUND(MIN(`pts`), 2) AS min_points,
-  ROUND(MAX(`pts`), 2) AS max_points,
-  ROUND(STDDEV(`pts`), 2) AS std_dev
-FROM fantasy_football_combined
-GROUP BY `pos`
-ORDER BY avg_points DESC;
-
--- Query 2: Year-Over-Year Consistency
-SELECT
-  `pos`, `yr`,
-  COUNT(*) AS player_count,
-  ROUND(AVG(`pts`), 2) AS avg_points,
-  ROUND(STDDEV(`pts`), 2) AS std_dev
-FROM fantasy_football_combined
-GROUP BY `pos`, `yr`
-ORDER BY `pos`, `yr`;
-
--- Query 3: Top Performers (Multi-Year)
-SELECT
-  `player_name`, `pos`,
-  COUNT(*) AS seasons,
-  ROUND(AVG(`pts`), 2) AS avg_pts,
-  ROUND(STDDEV(`pts`), 2) AS std_dev,
-  ROUND(MAX(`pts`), 2) AS peak,
-  ROUND(MIN(`pts`), 2) AS worst
-FROM fantasy_football_combined
-GROUP BY `player_name`, `pos`
-HAVING seasons >= 2
-ORDER BY `pos`, avg_pts DESC;
-
--- Query 4: Top 5 QBs
-SELECT
-  'QB' AS position, `player_name`,
-  ROUND(AVG(`passing_yards`), 0) AS avg_yards,
-  ROUND(AVG(`pts`), 2) AS avg_points,
-  COUNT(*) AS seasons
-FROM fantasy_football_combined
-WHERE `pos` = 'QB'
-GROUP BY `player_name`
-ORDER BY avg_points DESC
-LIMIT 5;
-
--- Query 5: Top 5 RBs
-SELECT
-  'RB' AS position, `player_name`,
-  ROUND(AVG(`passing_yards`), 0) AS avg_yards,
-  ROUND(AVG(`rec_count`), 1) AS avg_rec,
-  ROUND(AVG(`pts`), 2) AS avg_points,
-  COUNT(*) AS seasons
-FROM fantasy_football_combined
-WHERE `pos` = 'RB'
-GROUP BY `player_name`
-ORDER BY avg_points DESC
-LIMIT 5;
-
--- Query 6: Top 5 WRs
-SELECT
-  'WR' AS position, `player_name`,
-  ROUND(AVG(`rec_count`), 1) AS avg_rec,
-  ROUND(AVG(`passing_yards`), 0) AS avg_yards,
-  ROUND(AVG(`pts`), 2) AS avg_points,
-  COUNT(*) AS seasons
-FROM fantasy_football_combined
-WHERE `pos` = 'WR'
-GROUP BY `player_name`
-ORDER BY avg_points DESC
-LIMIT 5;
-
--- Query 7: Top 5 TEs
-SELECT
-  'TE' AS position, `player_name`,
-  ROUND(AVG(`rec_count`), 1) AS avg_rec,
-  ROUND(AVG(`target_count`), 1) AS avg_tgt,
-  ROUND(AVG(`pts`), 2) AS avg_points,
-  COUNT(*) AS seasons
-FROM fantasy_football_combined
-WHERE `pos` = 'TE'
-GROUP BY `player_name`
-ORDER BY avg_points DESC
-LIMIT 5;
-
--- Query 8: Position Predictability
+-- Query 1: Position summary
 SELECT
   `pos`,
-  ROUND(AVG(`pts`), 2) AS mean_pts,
-  ROUND(STDDEV(`pts`), 2) AS std_dev,
-  ROUND((STDDEV(`pts`) / AVG(`pts`)) * 100, 2) AS cv,
-  CASE
-    WHEN (STDDEV(`pts`) / AVG(`pts`)) < 0.35 THEN 'High Predictability'
-    WHEN (STDDEV(`pts`) / AVG(`pts`)) < 0.45 THEN 'Good Predictability'
-    WHEN (STDDEV(`pts`) / AVG(`pts`)) < 0.55 THEN 'Moderate Predictability'
-    ELSE 'Low Predictability'
-  END AS predictability
+  COUNT(*)                                        AS player_seasons,
+  COUNT(DISTINCT `player_name`)                   AS players,
+  SUM(CASE WHEN `games_played` >= 8 THEN 1 ELSE 0 END) AS qualifying_seasons,
+  ROUND(AVG(`pts`), 2)                            AS avg_pts,
+  ROUND(AVG(CASE WHEN `games_played` >= 8 THEN `ppg` END), 2) AS avg_ppg_qualifying,
+  ROUND(MAX(`pts`), 2)                            AS max_pts,
+  ROUND(STDDEV(`pts`), 2)                         AS std_pts
 FROM fantasy_football_combined
 GROUP BY `pos`
-ORDER BY cv ASC;
-
--- Query 9: Player Consistency
-SELECT
-  `player_name`, `pos`,
-  ROUND(AVG(`pts`), 2) AS avg_pts,
-  ROUND(STDDEV(`pts`), 2) AS std_dev,
-  COUNT(*) AS seasons,
-  CASE
-    WHEN STDDEV(`pts`) <= 15 THEN 'Highly Consistent'
-    WHEN STDDEV(`pts`) <= 30 THEN 'Consistent'
-    WHEN STDDEV(`pts`) <= 50 THEN 'Variable'
-    ELSE 'Highly Variable'
-  END AS consistency
-FROM fantasy_football_combined
-GROUP BY `player_name`, `pos`
-HAVING seasons >= 2
-ORDER BY `pos`, std_dev ASC;
-
--- Query 10: Draft Value Analysis
-SELECT
-  `pos`,
-  CASE
-    WHEN `draft_rank` <= 10 THEN 'Round 1'
-    WHEN `draft_rank` <= 20 THEN 'Round 2'
-    WHEN `draft_rank` <= 32 THEN 'Round 3'
-    WHEN `draft_rank` <= 50 THEN 'Rounds 4-5'
-    WHEN `draft_rank` <= 75 THEN 'Rounds 6-7'
-    ELSE 'Rounds 8+'
-  END AS draft_round,
-  COUNT(*) AS player_count,
-  ROUND(AVG(`pts`), 2) AS avg_pts,
-  ROUND(STDDEV(`pts`), 2) AS std_dev
-FROM fantasy_football_combined
-GROUP BY `pos`, draft_round
 ORDER BY `pos`;
 
--- Query 11: Tier Classification
-SELECT
-  `pos`, `player_name`,
-  ROUND(`pts`, 2) AS pts,
-  `draft_rank`, `yr`,
-  ROW_NUMBER() OVER (PARTITION BY `pos` ORDER BY `pts` DESC) AS tier_rank,
-  CASE
-    WHEN ROW_NUMBER() OVER (PARTITION BY `pos` ORDER BY `pts` DESC) <= 3  THEN 'Elite (Top 3)'
-    WHEN ROW_NUMBER() OVER (PARTITION BY `pos` ORDER BY `pts` DESC) <= 10 THEN 'High Tier (4-10)'
-    WHEN ROW_NUMBER() OVER (PARTITION BY `pos` ORDER BY `pts` DESC) <= 20 THEN 'Mid Tier (11-20)'
-    WHEN ROW_NUMBER() OVER (PARTITION BY `pos` ORDER BY `pts` DESC) <= 30 THEN 'Low Tier (21-30)'
-    ELSE 'Bench/Flex'
-  END AS tier
-FROM fantasy_football_combined
-ORDER BY `pos`, `pts` DESC;
-
--- Query 12: Summary by Position
-SELECT
-  `pos`,
-  COUNT(DISTINCT `player_name`) AS total_players,
-  COUNT(*) AS total_records,
-  ROUND(AVG(`pts`), 2) AS mean_pts,
-  ROUND(STDDEV(`pts`), 2) AS std_dev,
-  ROUND(MIN(`pts`), 2) AS min_pts,
-  ROUND(MAX(`pts`), 2) AS max_pts
-FROM fantasy_football_combined
-GROUP BY `pos`;
-
--- Query 13: Season Trends
+-- Query 2: Season trends (qualifying seasons only)
 SELECT
   `yr`, `pos`,
-  ROUND(AVG(`pts`), 2) AS avg_pts,
-  ROUND(STDDEV(`pts`), 2) AS std_dev,
-  COUNT(DISTINCT `player_name`) AS unique_players,
-  COUNT(*) AS total_obs
+  COUNT(*)                 AS qualifying_seasons,
+  ROUND(AVG(`ppg`), 2)     AS avg_ppg,
+  ROUND(STDDEV(`ppg`), 2)  AS std_ppg
 FROM fantasy_football_combined
+WHERE `games_played` >= 8
 GROUP BY `yr`, `pos`
-ORDER BY `yr` DESC, `pos`;
+ORDER BY `pos`, `yr`;
 
--- Query 14: Complete Export Dataset (for Python)
+-- Query 3: Multi-season players (2+ qualifying seasons), per-game production
+-- and spread. Replaces the old "consistency" ranking, which used raw season
+-- totals and ranked players who scored 0 every year as the most consistent.
 SELECT
-  `player_name`, `pos`, `yr`, `draft_rank`,
-  `games_played`, `target_count`, `rec_count`,
-  `passing_yards`, `pts`
+  `player_name`, `pos`,
+  COUNT(*)                                   AS seasons,
+  ROUND(AVG(`ppg`), 2)                       AS avg_ppg,
+  ROUND(STDDEV(`ppg`), 2)                    AS std_ppg,
+  ROUND(STDDEV(`ppg`) / NULLIF(AVG(`ppg`), 0), 3) AS cv_ppg,
+  ROUND(MAX(`ppg`), 2)                       AS best_ppg,
+  ROUND(MIN(`ppg`), 2)                       AS worst_ppg
 FROM fantasy_football_combined
-WHERE `pts` IS NOT NULL
-ORDER BY `pos`, `yr` DESC, `player_name`;
+WHERE `games_played` >= 8
+GROUP BY `player_name`, `pos`
+HAVING seasons >= 2
+ORDER BY `pos`, avg_ppg DESC;
 
--- Query 15: Draft Value Scoring Model
-WITH pos_avg AS (
-  SELECT
-    `pos`,
-    AVG(`pts`) AS avg_pts,
-    STDDEV(`pts`) AS std_dev_pts
-  FROM fantasy_football_combined
-  GROUP BY `pos`
+-- Query 4: Positional finish each season (QB1, RB12, ...) and the standard
+-- 12-team starter tiers: QB/TE top 12, RB top 24, WR top 36 (incl. flex).
+WITH ranked AS (
+  SELECT c.*,
+    ROW_NUMBER() OVER (PARTITION BY `pos`, `yr` ORDER BY `pts` DESC, `player_name`) AS pos_finish
+  FROM fantasy_football_combined c
 )
 SELECT
-  c.`player_name`, c.`pos`, c.`yr`, c.`draft_rank`, c.`pts`,
-  ROUND(p.avg_pts, 2) AS pos_avg,
-  ROUND(c.`pts` - p.avg_pts, 2) AS value_gained,
+  `player_name`, `pos`, `yr`, `games_played`, `pts`, `ppg`, pos_finish,
   CASE
-    WHEN c.`pts` > p.avg_pts + p.std_dev_pts        THEN 'Elite Steal'
-    WHEN c.`pts` > p.avg_pts                        THEN 'Good Value'
-    WHEN c.`pts` > p.avg_pts - (p.std_dev_pts / 2)  THEN 'Fair Value'
-    ELSE 'Bust'
-  END AS valuation
-FROM fantasy_football_combined c
-LEFT JOIN pos_avg p ON c.`pos` = p.`pos`
-ORDER BY c.`pos`, c.`pts` DESC;
+    WHEN pos_finish <= CASE `pos` WHEN 'RB' THEN 12 WHEN 'WR' THEN 12 ELSE 6 END THEN 'Elite starter'
+    WHEN pos_finish <= CASE `pos` WHEN 'RB' THEN 24 WHEN 'WR' THEN 36 ELSE 12 END THEN 'Starter'
+    WHEN pos_finish <= CASE `pos` WHEN 'RB' THEN 36 WHEN 'WR' THEN 48 ELSE 18 END THEN 'Bench depth'
+    ELSE 'Replacement level'
+  END AS tier
+FROM ranked
+ORDER BY `pos`, `yr`, pos_finish;
+
+-- Query 5: Value over replacement (VOR) per season. Replacement = the last
+-- starter at each position in a 12-team league (QB12, RB24, WR36, TE12).
+WITH ranked AS (
+  SELECT c.*,
+    ROW_NUMBER() OVER (PARTITION BY `pos`, `yr` ORDER BY `pts` DESC, `player_name`) AS pos_finish
+  FROM fantasy_football_combined c
+),
+replacement AS (
+  SELECT `pos`, `yr`, `pts` AS replacement_pts
+  FROM ranked
+  WHERE pos_finish = CASE `pos` WHEN 'RB' THEN 24 WHEN 'WR' THEN 36 ELSE 12 END
+)
+SELECT
+  r.`player_name`, r.`pos`, r.`yr`, r.pos_finish, r.`pts`,
+  p.replacement_pts,
+  ROUND(r.`pts` - p.replacement_pts, 2) AS vor
+FROM ranked r
+JOIN replacement p ON r.`pos` = p.`pos` AND r.`yr` = p.`yr`
+ORDER BY r.`pos`, r.`yr`, r.pos_finish;
+
+-- Query 6: Season-to-season pairs. One row per player with qualifying seasons
+-- in consecutive years. The Python model turns these into year-over-year
+-- correlations by position ("how predictable is this position?").
+SELECT
+  a.`player_name`, a.`pos`, a.`yr` AS yr, b.`yr` AS next_yr,
+  a.`ppg` AS ppg, b.`ppg` AS next_ppg,
+  a.`target_share` AS target_share, b.`target_share` AS next_target_share,
+  a.`target_count` AS targets, a.`games_played` AS games, b.`games_played` AS next_games
+FROM fantasy_football_combined a
+JOIN fantasy_football_combined b
+  ON a.`player_name` = b.`player_name` AND a.`pos` = b.`pos` AND b.`yr` = a.`yr` + 1
+WHERE a.`games_played` >= 8 AND b.`games_played` >= 8
+ORDER BY a.`pos`, a.`player_name`, a.`yr`;
+
+-- Query 7: Complete export (every player-season, no row limit)
+SELECT
+  `player_name`, `team`, `pos`, `yr`, `season_rank`, `games_played`,
+  `yards`, `rec_count`, `target_count`, `target_share`, `pts`, `ppg`
+FROM fantasy_football_combined
+ORDER BY `pos`, `yr`, `season_rank`;
