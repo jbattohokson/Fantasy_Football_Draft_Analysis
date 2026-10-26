@@ -9,7 +9,7 @@ Across 2,662 player-season observations (2021-2025), the pipeline ranks each pla
 ## Pipeline
 
 1. **`load_raw_tables.py`** *(new — see Known limitation below)* — loads the 20 raw FantasyPros CSVs (`data/`) into MySQL under the exact table names `Fantasy_Football_MYSQL.sql` expects.
-2. **`Fantasy_Football_MYSQL.sql`** — combines all 20 raw tables into one `fantasy_football_combined` table with position-specific fantasy point approximations, then runs 16 analysis queries (draft value scoring, season trends, tier classification, etc.), exporting `Result1.csv`-`Result16.csv`.
+2. **`Fantasy_Football_MYSQL.sql`** — combines all 20 raw tables into one `fantasy_football_combined` table with position-specific fantasy point approximations, then runs 15 analysis queries (draft value scoring, season trends, tier classification, etc.), exporting `Result1.csv`-`Result16.csv`. `Result1.csv` and `Result16.csv` are identical exports of Query 15, the draft value scoring model.
 3. **`Fantasy_Football_Model.py`** — reads the 16 result CSVs, classifies players into PPR performance tiers, and produces the charts and analysis CSVs in `python/Outputs/`.
 
 ```bash
@@ -30,7 +30,7 @@ MySQL, Python (pandas, NumPy, SciPy, matplotlib, seaborn), Tableau Public.
 ## Bugs found and fixed while testing this pipeline (2026-09-16)
 
 1. **The pipeline was not actually reproducible from a fresh clone.** Nothing in the repo created the 20 raw `fantasypros_<pos>_<year>` tables that `Fantasy_Football_MYSQL.sql` assumes already exist — they had only ever been imported by hand. Added `load_raw_tables.py` to close that gap.
-2. **All five years of tight end data referenced a misspelled table name** (`fantasypross_te_2021` through `_2025` — double "s"), left over from an earlier debugging pass with only the first occurrence flagged as "intentional error, please rename" and never actually fixed. In MySQL this would fail with "table doesn't exist" for every TE insert; since it sits inside a `START TRANSACTION`/`COMMIT` block, depending on how the SQL client handles a failed statement mid-transaction, this could mean tight ends never load at all. Fixed all 5 occurrences and verified against a SQLite-equivalent run of the corrected logic, 3 times, with identical row counts each run (431 QB, 739 RB, 517 TE, 976 WR — 2,663 total).
+2. **All five years of tight end data referenced a misspelled table name** (`fantasypross_te_2021` through `_2025` — double "s"), left over from an earlier debugging pass with only the first occurrence flagged as "intentional error, please rename" and never actually fixed. In MySQL this would fail with "table doesn't exist" for every TE insert; since it sits inside a `START TRANSACTION`/`COMMIT` block, depending on how the SQL client handles a failed statement mid-transaction, this could mean tight ends never load at all. Fixed all 5 occurrences and verified against a SQLite-equivalent run of the corrected logic, 3 times, with identical row counts each run (431 QB, 739 RB, 516 TE, 976 WR, 2,662 total).
 
 ## Known limitation — disclose this, don't bury it
 
